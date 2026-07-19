@@ -43,9 +43,15 @@ export async function POST(request: Request) {
   const outPdf = await PDFDocument.create();
 
   for await (const pageBuffer of doc) {
-    const jpegBuffer = await sharp(pageBuffer).jpeg({ quality }).toBuffer();
-    const { width: pixelWidth, height: pixelHeight } =
-      await sharp(jpegBuffer).metadata();
+    // Read dimensions from the same encode pass (info) instead of a second
+    // sharp(jpegBuffer).metadata() decode - that redundant re-decode of a
+    // freshly-produced low-quality JPEG was crashing with "SOI not found in
+    // JPEG" on Railway's Linux container (never reproduced on Windows).
+    const { data: jpegBuffer, info } = await sharp(pageBuffer)
+      .jpeg({ quality })
+      .toBuffer({ resolveWithObject: true });
+    const pixelWidth = info.width;
+    const pixelHeight = info.height;
     if (!pixelWidth || !pixelHeight) {
       return NextResponse.json(
         { error: "페이지를 압축하는 중 오류가 발생했습니다." },
