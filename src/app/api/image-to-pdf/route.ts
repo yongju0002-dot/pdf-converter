@@ -1,6 +1,7 @@
 import { PDFDocument } from "pdf-lib";
 import { NextResponse } from "next/server";
 import sharp from "sharp";
+import { toEmbedJpgSafeBuffer } from "@/lib/toEmbedJpgSafeBuffer";
 
 export const runtime = "nodejs";
 
@@ -32,7 +33,7 @@ export async function POST(request: Request) {
       if (isPng) {
         embeddedImage = await pdfDoc.embedPng(bytes);
       } else if (isJpg) {
-        embeddedImage = await pdfDoc.embedJpg(bytes);
+        embeddedImage = await pdfDoc.embedJpg(toEmbedJpgSafeBuffer(bytes));
       } else {
         // Convert unsupported formats (webp, gif, etc.) to PNG first.
         bytes = await sharp(bytes).png().toBuffer();

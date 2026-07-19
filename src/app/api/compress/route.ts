@@ -2,6 +2,7 @@ import { PDFDocument } from "pdf-lib";
 import { NextResponse } from "next/server";
 import sharp from "sharp";
 import { configurePdfWorker } from "@/lib/configurePdfWorker";
+import { toEmbedJpgSafeBuffer } from "@/lib/toEmbedJpgSafeBuffer";
 
 export const runtime = "nodejs";
 
@@ -43,18 +44,6 @@ export async function POST(request: Request) {
   const outPdf = await PDFDocument.create();
 
   for await (const pageBuffer of doc) {
-    // Two independent sharp reads of the original (source) buffer - one for
-    // the JPEG encode, one for dimensions - mirroring the exact plain
-    // `sharp(pageBuffer).jpeg({quality}).toBuffer()` pattern that already
-    // works reliably in /api/pdf-to-image. Earlier versions here used
-    // `.toBuffer({ resolveWithObject: true })` and, separately, a second
-    // `sharp(jpegBuffer).metadata()` re-decode of the derived JPEG - both
-    // crashed with an uncatchable "SOI not found in JPEG" specifically on
-    // Railway's Linux container (never reproduced locally on Windows, and
-    // never caught by try/catch/unhandledRejection/uncaughtException
-    // handlers, implying a native-level failure in that specific call
-    // shape). Reading metadata from the *source* PNG buffer instead of the
-    // derived JPEG avoids the failing code path entirely.
     const [jpegBuffer, metadata] = await Promise.all([
       sharp(pageBuffer).jpeg({ quality }).toBuffer(),
       sharp(pageBuffer).metadata(),
@@ -68,18 +57,9 @@ export async function POST(request: Request) {
       );
     }
 
-    // TEMPORARY diagnostic short-circuit: bypass pdf-lib's embedJpg entirely
-    // to isolate whether the Railway-only "SOI not found in JPEG" crash is
-    // in sharp's encode (already ruled out - this line is only reached if
-    // that succeeded) or in pdf-lib's own JPEG parsing inside embedJpg.
-    if (formData.get("debugRaw") === "1") {
-      return new NextResponse(new Uint8Array(jpegBuffer), {
-        status: 200,
-        headers: { "Content-Type": "image/jpeg" },
-      });
-    }
-
-    const embeddedImage = await outPdf.embedJpg(jpegBuffer);
+    const embeddedImage = await outPdf.embedJpg(
+      toEmbedJpgSafeBuffer(jpegBuffer),
+    );
     const pageWidth = pixelWidth / scale;
     const pageHeight = pixelHeight / scale;
     const page = outPdf.addPage([pageWidth, pageHeight]);
