@@ -42,35 +42,25 @@ export async function POST(request: Request) {
 
   const outPdf = await PDFDocument.create();
 
-  let pageIndex = 0;
   for await (const pageBuffer of doc) {
-    pageIndex += 1;
-    // Read dimensions from the same encode pass (info) instead of a second
-    // sharp(jpegBuffer).metadata() decode - that redundant re-decode of a
-    // freshly-produced low-quality JPEG was crashing with "SOI not found in
-    // JPEG" on Railway's Linux container (never reproduced on Windows).
-    let jpegBuffer: Buffer;
-    let pixelWidth: number | undefined;
-    let pixelHeight: number | undefined;
-    try {
-      const result = await sharp(pageBuffer)
-        .jpeg({ quality })
-        .toBuffer({ resolveWithObject: true });
-      jpegBuffer = result.data;
-      pixelWidth = result.info.width;
-      pixelHeight = result.info.height;
-    } catch (e) {
-      console.error("compress: sharp jpeg encode failed", {
-        page: pageIndex,
-        pageBufferLength: pageBuffer.length,
-        pageBufferHeader: Buffer.from(pageBuffer.subarray(0, 16)).toString("hex"),
-        error: e,
-      });
-      return NextResponse.json(
-        { error: "페이지를 압축하는 중 오류가 발생했습니다." },
-        { status: 500 },
-      );
-    }
+    // Two independent sharp reads of the original (source) buffer - one for
+    // the JPEG encode, one for dimensions - mirroring the exact plain
+    // `sharp(pageBuffer).jpeg({quality}).toBuffer()` pattern that already
+    // works reliably in /api/pdf-to-image. Earlier versions here used
+    // `.toBuffer({ resolveWithObject: true })` and, separately, a second
+    // `sharp(jpegBuffer).metadata()` re-decode of the derived JPEG - both
+    // crashed with an uncatchable "SOI not found in JPEG" specifically on
+    // Railway's Linux container (never reproduced locally on Windows, and
+    // never caught by try/catch/unhandledRejection/uncaughtException
+    // handlers, implying a native-level failure in that specific call
+    // shape). Reading metadata from the *source* PNG buffer instead of the
+    // derived JPEG avoids the failing code path entirely.
+    const [jpegBuffer, metadata] = await Promise.all([
+      sharp(pageBuffer).jpeg({ quality }).toBuffer(),
+      sharp(pageBuffer).metadata(),
+    ]);
+    const pixelWidth = metadata.width;
+    const pixelHeight = metadata.height;
     if (!pixelWidth || !pixelHeight) {
       return NextResponse.json(
         { error: "페이지를 압축하는 중 오류가 발생했습니다." },
