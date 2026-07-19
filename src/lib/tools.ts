@@ -159,6 +159,14 @@ export const tools: Tool[] = [
     category: "office",
   },
   {
+    slug: "pdf-to-excel",
+    name: "PDF → Excel",
+    description: "PDF의 표 형태 데이터를 Excel로 변환합니다",
+    icon: FileSpreadsheet,
+    available: true,
+    category: "office",
+  },
+  {
     slug: "excel-to-pdf",
     name: "Excel → PDF",
     description: "Excel 파일을 PDF로 변환합니다",
