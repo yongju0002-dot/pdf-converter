@@ -42,16 +42,35 @@ export async function POST(request: Request) {
 
   const outPdf = await PDFDocument.create();
 
+  let pageIndex = 0;
   for await (const pageBuffer of doc) {
+    pageIndex += 1;
     // Read dimensions from the same encode pass (info) instead of a second
     // sharp(jpegBuffer).metadata() decode - that redundant re-decode of a
     // freshly-produced low-quality JPEG was crashing with "SOI not found in
     // JPEG" on Railway's Linux container (never reproduced on Windows).
-    const { data: jpegBuffer, info } = await sharp(pageBuffer)
-      .jpeg({ quality })
-      .toBuffer({ resolveWithObject: true });
-    const pixelWidth = info.width;
-    const pixelHeight = info.height;
+    let jpegBuffer: Buffer;
+    let pixelWidth: number | undefined;
+    let pixelHeight: number | undefined;
+    try {
+      const result = await sharp(pageBuffer)
+        .jpeg({ quality })
+        .toBuffer({ resolveWithObject: true });
+      jpegBuffer = result.data;
+      pixelWidth = result.info.width;
+      pixelHeight = result.info.height;
+    } catch (e) {
+      console.error("compress: sharp jpeg encode failed", {
+        page: pageIndex,
+        pageBufferLength: pageBuffer.length,
+        pageBufferHeader: Buffer.from(pageBuffer.subarray(0, 16)).toString("hex"),
+        error: e,
+      });
+      return NextResponse.json(
+        { error: "페이지를 압축하는 중 오류가 발생했습니다." },
+        { status: 500 },
+      );
+    }
     if (!pixelWidth || !pixelHeight) {
       return NextResponse.json(
         { error: "페이지를 압축하는 중 오류가 발생했습니다." },
