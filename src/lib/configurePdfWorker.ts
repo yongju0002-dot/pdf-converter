@@ -15,6 +15,18 @@ function installUnhandledRejectionLogger() {
   process.on("unhandledRejection", (reason) => {
     console.error("DIAGNOSTIC unhandledRejection:", reason);
   });
+  // Neither our try/catch nor unhandledRejection caught the "SOI not found
+  // in JPEG" crash on Railway, which points at a synchronous throw from a
+  // native binding's callback (sharp/libvips or @napi-rs/canvas running on
+  // libuv's thread pool) landing as an uncaughtException instead of a
+  // rejected promise. Node's default behavior for that is to crash the
+  // whole process (which would show up as a container restart on Railway) -
+  // this handler exists first to actually see the real stack, and second to
+  // stop that crash-and-restart cycle so the request can at least fail
+  // cleanly instead of taking the container down.
+  process.on("uncaughtException", (err) => {
+    console.error("DIAGNOSTIC uncaughtException:", err);
+  });
   unhandledRejectionLoggerInstalled = true;
 }
 
