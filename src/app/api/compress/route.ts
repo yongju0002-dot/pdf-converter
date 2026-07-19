@@ -68,6 +68,17 @@ export async function POST(request: Request) {
       );
     }
 
+    // TEMPORARY diagnostic short-circuit: bypass pdf-lib's embedJpg entirely
+    // to isolate whether the Railway-only "SOI not found in JPEG" crash is
+    // in sharp's encode (already ruled out - this line is only reached if
+    // that succeeded) or in pdf-lib's own JPEG parsing inside embedJpg.
+    if (formData.get("debugRaw") === "1") {
+      return new NextResponse(new Uint8Array(jpegBuffer), {
+        status: 200,
+        headers: { "Content-Type": "image/jpeg" },
+      });
+    }
+
     const embeddedImage = await outPdf.embedJpg(jpegBuffer);
     const pageWidth = pixelWidth / scale;
     const pageHeight = pixelHeight / scale;
