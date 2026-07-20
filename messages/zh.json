@@ -40,11 +40,11 @@
     "selectFile": "请选择要转换的文件。"
   },
   "Tools": {
-    "merge": { "name": "合并PDF", "description": "将多个PDF文件合并为一个" },
-    "split": { "name": "拆分PDF", "description": "按页拆分PDF，或提取指定页面范围" },
-    "compress": { "name": "压缩PDF", "description": "在保持画质的同时减小文件大小" },
-    "watermark": { "name": "添加水印", "description": "插入文字或图片水印" },
-    "protect": { "name": "加密/解密PDF", "description": "为PDF设置或移除密码" },
+    "merge-pdf": { "name": "合并PDF", "description": "将多个PDF文件合并为一个" },
+    "split-pdf": { "name": "拆分PDF", "description": "按页拆分PDF，或提取指定页面范围" },
+    "compress-pdf": { "name": "压缩PDF", "description": "在保持画质的同时减小文件大小" },
+    "watermark-pdf": { "name": "添加水印", "description": "插入文字或图片水印" },
+    "protect-pdf": { "name": "加密/解密PDF", "description": "为PDF设置或移除密码" },
     "pdf-to-image": { "name": "PDF转图片", "description": "将PDF每一页转换为PNG/JPG图片" },
     "image-to-pdf": { "name": "图片转PDF", "description": "按顺序将JPG、PNG图片合并为PDF" },
     "pdf-to-word": { "name": "PDF转Word", "description": "将PDF转换为可编辑的Word文档" },

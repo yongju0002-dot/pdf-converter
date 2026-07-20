@@ -40,11 +40,11 @@
     "selectFile": "변환할 파일을 선택해주세요."
   },
   "Tools": {
-    "merge": { "name": "PDF 병합", "description": "여러 개의 PDF 파일을 하나로 합칩니다" },
-    "split": { "name": "PDF 분할", "description": "PDF를 페이지별로 분리하거나 원하는 범위만 추출합니다" },
-    "compress": { "name": "PDF 압축", "description": "화질은 유지하면서 파일 크기를 줄입니다" },
-    "watermark": { "name": "워터마크 추가", "description": "텍스트나 이미지로 워터마크를 삽입합니다" },
-    "protect": { "name": "암호 설정/해제", "description": "PDF에 비밀번호를 걸거나 제거합니다" },
+    "merge-pdf": { "name": "PDF 병합", "description": "여러 개의 PDF 파일을 하나로 합칩니다" },
+    "split-pdf": { "name": "PDF 분할", "description": "PDF를 페이지별로 분리하거나 원하는 범위만 추출합니다" },
+    "compress-pdf": { "name": "PDF 압축", "description": "화질은 유지하면서 파일 크기를 줄입니다" },
+    "watermark-pdf": { "name": "워터마크 추가", "description": "텍스트나 이미지로 워터마크를 삽입합니다" },
+    "protect-pdf": { "name": "암호 설정/해제", "description": "PDF에 비밀번호를 걸거나 제거합니다" },
     "pdf-to-image": { "name": "PDF → 이미지", "description": "PDF 각 페이지를 PNG/JPG 이미지로 변환합니다" },
     "image-to-pdf": { "name": "이미지 → PDF", "description": "JPG, PNG 이미지를 순서대로 모아 PDF로 만듭니다" },
     "pdf-to-word": { "name": "PDF → Word", "description": "PDF를 편집 가능한 Word 문서로 변환합니다" },

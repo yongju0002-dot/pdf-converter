@@ -40,11 +40,11 @@
     "selectFile": "変換するファイルを選択してください。"
   },
   "Tools": {
-    "merge": { "name": "PDF結合", "description": "複数のPDFファイルを1つに結合します" },
-    "split": { "name": "PDF分割", "description": "PDFをページ単位で分割したり、必要な範囲だけ抽出します" },
-    "compress": { "name": "PDF圧縮", "description": "画質を保ちながらファイルサイズを縮小します" },
-    "watermark": { "name": "透かしを追加", "description": "テキストや画像の透かしを挿入します" },
-    "protect": { "name": "パスワード設定/解除", "description": "PDFにパスワードを設定または解除します" },
+    "merge-pdf": { "name": "PDF結合", "description": "複数のPDFファイルを1つに結合します" },
+    "split-pdf": { "name": "PDF分割", "description": "PDFをページ単位で分割したり、必要な範囲だけ抽出します" },
+    "compress-pdf": { "name": "PDF圧縮", "description": "画質を保ちながらファイルサイズを縮小します" },
+    "watermark-pdf": { "name": "透かしを追加", "description": "テキストや画像の透かしを挿入します" },
+    "protect-pdf": { "name": "パスワード設定/解除", "description": "PDFにパスワードを設定または解除します" },
     "pdf-to-image": { "name": "PDF → 画像", "description": "PDFの各ページをPNG/JPG画像に変換します" },
     "image-to-pdf": { "name": "画像 → PDF", "description": "JPG・PNG画像を順番にまとめてPDFにします" },
     "pdf-to-word": { "name": "PDF → Word", "description": "PDFを編集可能なWord文書に変換します" },

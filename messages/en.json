@@ -40,11 +40,11 @@
     "selectFile": "Please select a file to convert."
   },
   "Tools": {
-    "merge": { "name": "Merge PDF", "description": "Combine multiple PDF files into one" },
-    "split": { "name": "Split PDF", "description": "Split a PDF by page or extract a page range" },
-    "compress": { "name": "Compress PDF", "description": "Reduce file size while keeping quality" },
-    "watermark": { "name": "Add Watermark", "description": "Insert a text or image watermark" },
-    "protect": { "name": "Protect / Unlock PDF", "description": "Add or remove a password on a PDF" },
+    "merge-pdf": { "name": "Merge PDF", "description": "Combine multiple PDF files into one" },
+    "split-pdf": { "name": "Split PDF", "description": "Split a PDF by page or extract a page range" },
+    "compress-pdf": { "name": "Compress PDF", "description": "Reduce file size while keeping quality" },
+    "watermark-pdf": { "name": "Add Watermark", "description": "Insert a text or image watermark" },
+    "protect-pdf": { "name": "Protect / Unlock PDF", "description": "Add or remove a password on a PDF" },
     "pdf-to-image": { "name": "PDF to Image", "description": "Convert each PDF page to a PNG/JPG image" },
     "image-to-pdf": { "name": "Image to PDF", "description": "Combine JPG or PNG images into a single PDF" },
     "pdf-to-word": { "name": "PDF to Word", "description": "Convert a PDF into an editable Word document" },

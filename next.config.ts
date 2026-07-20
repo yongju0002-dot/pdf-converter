@@ -17,6 +17,23 @@ const nextConfig: NextConfig = {
     "/api/compress": ["./node_modules/pdfjs-dist/**/*"],
     "/api/pdf-to-excel": ["./node_modules/pdfjs-dist/**/*"],
   },
+  async redirects() {
+    // Old slugs (merge/split/compress/watermark/protect) didn't contain
+    // "pdf" - renamed for SEO, but redirect in case they were indexed.
+    const renamed = ["merge", "split", "compress", "watermark", "protect"];
+    return renamed.flatMap((slug) => [
+      {
+        source: `/${slug}`,
+        destination: `/${slug}-pdf`,
+        permanent: true,
+      },
+      {
+        source: `/:locale(ko|en|ja|zh)/${slug}`,
+        destination: `/:locale/${slug}-pdf`,
+        permanent: true,
+      },
+    ]);
+  },
 };
 
 const withNextIntl = createNextIntlPlugin();

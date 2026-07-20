@@ -57,9 +57,9 @@ export default async function RootLayout({
   const tFooter = await getTranslations("Footer");
 
   const quickLinks = [
-    { href: "/merge", label: t("quickMerge") },
-    { href: "/split", label: t("quickSplit") },
-    { href: "/compress", label: t("quickCompress") },
+    { href: "/merge-pdf", label: t("quickMerge") },
+    { href: "/split-pdf", label: t("quickSplit") },
+    { href: "/compress-pdf", label: t("quickCompress") },
   ];
 
   return (

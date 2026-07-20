@@ -63,11 +63,11 @@ export const categoryMeta: Record<ToolCategory, CategoryMeta> = {
 };
 
 export const tools: Tool[] = [
-  { slug: "merge", icon: Combine, available: true, category: "edit" },
-  { slug: "split", icon: Scissors, available: true, category: "edit" },
-  { slug: "compress", icon: Shrink, available: true, category: "edit" },
-  { slug: "watermark", icon: Droplets, available: true, category: "edit" },
-  { slug: "protect", icon: Lock, available: true, category: "edit" },
+  { slug: "merge-pdf", icon: Combine, available: true, category: "edit" },
+  { slug: "split-pdf", icon: Scissors, available: true, category: "edit" },
+  { slug: "compress-pdf", icon: Shrink, available: true, category: "edit" },
+  { slug: "watermark-pdf", icon: Droplets, available: true, category: "edit" },
+  { slug: "protect-pdf", icon: Lock, available: true, category: "edit" },
   {
     slug: "pdf-to-image",
     icon: FileImage,
