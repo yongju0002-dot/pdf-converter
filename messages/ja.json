@@ -1,0 +1,186 @@
+{
+  "Metadata": {
+    "title": "PDFツール集 | 無料でPDFを結合・分割・圧縮",
+    "description": "登録不要、無料でPDFを結合・分割・圧縮・変換できます。"
+  },
+  "Header": {
+    "brand": "PDFツール",
+    "allTools": "すべてのツール",
+    "pdfConvert": "PDF変換",
+    "freeBadge": "登録不要・無料で利用",
+    "quickMerge": "PDF結合",
+    "quickSplit": "PDF分割",
+    "quickCompress": "PDF圧縮"
+  },
+  "Footer": {
+    "notice": "アップロードされたファイルは処理後、自動的に削除されます。"
+  },
+  "Categories": {
+    "edit": "編集・セキュリティ",
+    "image": "画像変換",
+    "office": "オフィス文書変換",
+    "web": "ウェブ変換",
+    "fromPdf": "PDFから変換",
+    "toPdf": "PDFへ変換"
+  },
+  "Home": {
+    "badge": "✨ {count}個のツール、すべて無料",
+    "title": "PDF作業をこれ一つで",
+    "subtitle": "結合、分割、圧縮、変換まで — 登録不要、無料でご利用いただけます。"
+  },
+  "Common": {
+    "dropzonePlaceholder": "ここにファイルをドラッグ&ドロップ、またはクリックして選択",
+    "dropzoneChangeHint": "クリックすると別のファイルを選択できます",
+    "comingSoon": "準備中",
+    "moveUp": "上へ移動",
+    "moveDown": "下へ移動",
+    "remove": "削除",
+    "converting": "変換中...",
+    "genericError": "変換中にエラーが発生しました。",
+    "selectFile": "変換するファイルを選択してください。"
+  },
+  "Tools": {
+    "merge": { "name": "PDF結合", "description": "複数のPDFファイルを1つに結合します" },
+    "split": { "name": "PDF分割", "description": "PDFをページ単位で分割したり、必要な範囲だけ抽出します" },
+    "compress": { "name": "PDF圧縮", "description": "画質を保ちながらファイルサイズを縮小します" },
+    "watermark": { "name": "透かしを追加", "description": "テキストや画像の透かしを挿入します" },
+    "protect": { "name": "パスワード設定/解除", "description": "PDFにパスワードを設定または解除します" },
+    "pdf-to-image": { "name": "PDF → 画像", "description": "PDFの各ページをPNG/JPG画像に変換します" },
+    "image-to-pdf": { "name": "画像 → PDF", "description": "JPG・PNG画像を順番にまとめてPDFにします" },
+    "pdf-to-word": { "name": "PDF → Word", "description": "PDFを編集可能なWord文書に変換します" },
+    "word-to-pdf": { "name": "Word → PDF", "description": "Word文書をPDFに変換します" },
+    "pdf-to-ppt": { "name": "PDF → PowerPoint", "description": "PDFの各ページをPowerPointスライドに変換します" },
+    "ppt-to-pdf": { "name": "PowerPoint → PDF", "description": "PowerPoint文書をPDFに変換します" },
+    "pdf-to-excel": { "name": "PDF → Excel", "description": "PDF内の表データをExcelに変換します" },
+    "excel-to-pdf": { "name": "Excel → PDF", "description": "ExcelファイルをPDFに変換します" },
+    "pdf-to-html": { "name": "PDF → HTML", "description": "PDFをHTMLウェブページに変換します" },
+    "html-to-pdf": { "name": "HTML → PDF", "description": "HTMLファイルをPDFに変換します" }
+  },
+  "MergePage": {
+    "title": "PDF結合",
+    "description": "複数のPDFファイルを好きな順序に並べて1つに結合します。",
+    "dropzonePlaceholder": "ここにPDFファイルをドラッグ&ドロップ、またはクリックして選択",
+    "needTwoFiles": "結合するにはPDFファイルが2つ以上必要です。",
+    "error": "結合中にエラーが発生しました。",
+    "merging": "結合中...",
+    "submit": "PDF {count}個を結合する"
+  },
+  "SplitPage": {
+    "title": "PDF分割",
+    "description": "PDFをページごとに分けたり、必要なページだけ抽出します。",
+    "selectFile": "分割するPDFファイルを選択してください。",
+    "enterRange": "抽出するページ範囲を入力してください。例: 1-3, 5, 8-10",
+    "error": "分割中にエラーが発生しました。",
+    "splitting": "分割中...",
+    "submit": "PDFを分割する",
+    "modeAll": "すべてのページを個別に分割",
+    "modeRange": "必要なページのみ抽出",
+    "rangePlaceholder": "例: 1-3, 5, 8-10",
+    "rangeHint": "カンマ区切りでページ番号や範囲を入力してください。"
+  },
+  "WatermarkPage": {
+    "title": "透かしを追加",
+    "description": "すべてのページに斜めのテキスト透かしを挿入します。",
+    "selectFile": "透かしを追加するPDFファイルを選択してください。",
+    "enterText": "透かしのテキストを入力してください。",
+    "error": "透かしの追加中にエラーが発生しました。",
+    "applying": "適用中...",
+    "submit": "透かしを追加する",
+    "textLabel": "透かしテキスト",
+    "opacityLabel": "不透明度",
+    "fontSizeLabel": "文字サイズ"
+  },
+  "ProtectPage": {
+    "title": "パスワード設定/解除",
+    "description": "PDFにパスワードを設定したり、設定済みのパスワードを解除します。",
+    "selectFile": "PDFファイルを選択してください。",
+    "enterPassword": "パスワードを入力してください。",
+    "error": "処理中にエラーが発生しました。",
+    "processing": "処理中...",
+    "actionAdd": "パスワード設定",
+    "actionRemove": "パスワード解除",
+    "submitAdd": "パスワードを設定する",
+    "submitRemove": "パスワードを解除する",
+    "passwordLabelAdd": "設定するパスワード",
+    "passwordLabelRemove": "現在のパスワード",
+    "passwordPlaceholder": "パスワードを入力"
+  },
+  "CompressPage": {
+    "title": "PDF圧縮",
+    "description": "各ページを画像として再圧縮し、ファイルサイズを縮小します。",
+    "warning": "スキャンした文書や画像が多いPDFに効果的です。圧縮後はテキストの選択やコピーができなくなります。",
+    "selectFile": "圧縮するPDFファイルを選択してください。",
+    "error": "圧縮中にエラーが発生しました。",
+    "compressing": "圧縮中...",
+    "submit": "PDFを圧縮する",
+    "qualityLabel": "圧縮品質",
+    "qualityHint": "数値が低いほどファイルは小さくなりますが、画質が低下します。",
+    "result": "{originalSize} MB → {compressedSize} MB ({percent}% 削減)"
+  },
+  "ImageToPdfPage": {
+    "title": "画像 → PDF",
+    "description": "JPG・PNG画像を好きな順序に並べて1つのPDFにまとめます。",
+    "dropzonePlaceholder": "ここに画像をドラッグ&ドロップ、またはクリックして選択",
+    "selectAtLeastOne": "画像ファイルを1つ以上選択してください。",
+    "error": "変換中にエラーが発生しました。",
+    "converting": "変換中...",
+    "submit": "PDFを作成する（{count}枚）",
+    "summary": "画像{count}枚・合計{size} MB"
+  },
+  "PdfToImagePage": {
+    "title": "PDF → 画像",
+    "description": "PDFの各ページを画像に変換します。複数ページの場合はZIPにまとめてダウンロードされます。",
+    "selectFile": "変換するPDFファイルを選択してください。",
+    "error": "変換中にエラーが発生しました。",
+    "converting": "変換中...",
+    "submit": "画像に変換する",
+    "formatLabel": "出力形式"
+  },
+  "PdfToWordPage": {
+    "title": "PDF → Word",
+    "description": "PDFを編集可能なWord（.docx）文書に変換します。",
+    "warning": "レイアウトが複雑なPDFは、変換後に書式が多少変わることがあります。",
+    "submit": "Wordに変換する"
+  },
+  "WordToPdfPage": {
+    "title": "Word → PDF",
+    "description": "Word（.docx, .doc）文書をPDFに変換します。",
+    "submit": "PDFに変換する"
+  },
+  "PdfToPptPage": {
+    "title": "PDF → PowerPoint",
+    "description": "PDFの各ページをPowerPoint（.pptx）スライドに変換します。",
+    "warning": "元のPDFのテキストや画像の配置によって、スライドの構成が変わることがあります。",
+    "submit": "PowerPointに変換する"
+  },
+  "PptToPdfPage": {
+    "title": "PowerPoint → PDF",
+    "description": "PowerPoint（.pptx, .ppt）文書をPDFに変換します。",
+    "submit": "PDFに変換する"
+  },
+  "PdfToExcelPage": {
+    "title": "PDF → Excel",
+    "description": "PDF内の表形式データを認識してExcel（.xlsx）ファイルに変換します。",
+    "warning": "テキストベースPDFの単純な表で最も正確に変換されます。スキャン文書やレイアウトが複雑な表はセルがずれることがあります。",
+    "submit": "Excelに変換する"
+  },
+  "ExcelToPdfPage": {
+    "title": "Excel → PDF",
+    "description": "Excel（.xlsx, .xls, .csv）ファイルをPDFに変換します。",
+    "submit": "PDFに変換する"
+  },
+  "PdfToHtmlPage": {
+    "title": "PDF → HTML",
+    "description": "PDFをHTMLウェブページに変換します。",
+    "warning": "画像を含むPDFは、結果がZIPファイル（HTML＋画像）として提供されます。",
+    "submit": "HTMLに変換する"
+  },
+  "HtmlToPdfPage": {
+    "title": "HTML → PDF",
+    "description": "HTMLファイルをPDFに変換します。",
+    "submit": "PDFに変換する"
+  },
+  "LanguageSwitcher": {
+    "label": "言語"
+  }
+}

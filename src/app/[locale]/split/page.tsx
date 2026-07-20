@@ -1,43 +1,23 @@
 "use client";
 
 import { useCallback, useState } from "react";
-import { useDropzone, type Accept } from "react-dropzone";
-import type { LucideIcon } from "lucide-react";
+import { useDropzone } from "react-dropzone";
+import { Scissors } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Callout } from "@/components/ui/Callout";
 import { FileDropzone } from "@/components/ui/FileDropzone";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { SubmitButton } from "@/components/ui/SubmitButton";
+import { TextField } from "@/components/ui/TextField";
+import { ToggleGroup } from "@/components/ui/ToggleGroup";
 import { ToolPageShell } from "@/components/ui/ToolPageShell";
 
-type Props = {
-  icon: LucideIcon;
-  iconBg?: string;
-  iconText?: string;
-  title: string;
-  description: string;
-  warning?: string;
-  accept: Accept;
-  apiEndpoint: string;
-  buttonLabel: string;
-  fallbackFilename: string;
-};
-
-export function ConversionTool({
-  icon,
-  iconBg,
-  iconText,
-  title,
-  description,
-  warning,
-  accept,
-  apiEndpoint,
-  buttonLabel,
-  fallbackFilename,
-}: Props) {
-  const t = useTranslations("Common");
+export default function SplitPage() {
+  const t = useTranslations("SplitPage");
   const [file, setFile] = useState<File | null>(null);
-  const [isConverting, setIsConverting] = useState(false);
+  const [mode, setMode] = useState<"all" | "range">("all");
+  const [ranges, setRanges] = useState("");
+  const [isSplitting, setIsSplitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   const onDrop = useCallback((acceptedFiles: File[]) => {
@@ -47,35 +27,41 @@ export function ConversionTool({
 
   const { getRootProps, getInputProps, isDragActive } = useDropzone({
     onDrop,
-    accept,
+    accept: { "application/pdf": [".pdf"] },
     multiple: false,
   });
 
-  const handleConvert = async () => {
+  const handleSplit = async () => {
     if (!file) {
       setError(t("selectFile"));
       return;
     }
+    if (mode === "range" && ranges.trim() === "") {
+      setError(t("enterRange"));
+      return;
+    }
     setError(null);
-    setIsConverting(true);
+    setIsSplitting(true);
 
     try {
       const formData = new FormData();
       formData.append("file", file);
+      formData.append("mode", mode);
+      if (mode === "range") formData.append("ranges", ranges);
 
-      const res = await fetch(apiEndpoint, {
+      const res = await fetch("/api/split", {
         method: "POST",
         body: formData,
       });
 
       if (!res.ok) {
         const data = await res.json().catch(() => null);
-        throw new Error(data?.error ?? t("genericError"));
+        throw new Error(data?.error ?? t("error"));
       }
 
       const disposition = res.headers.get("Content-Disposition") ?? "";
       const match = disposition.match(/filename="(.+)"/);
-      const filename = match?.[1] ?? fallbackFilename;
+      const filename = match?.[1] ?? "split.pdf";
 
       const blob = await res.blob();
       const url = URL.createObjectURL(blob);
@@ -87,21 +73,18 @@ export function ConversionTool({
       a.remove();
       URL.revokeObjectURL(url);
     } catch (e) {
-      setError(e instanceof Error ? e.message : t("genericError"));
+      setError(e instanceof Error ? e.message : t("error"));
     } finally {
-      setIsConverting(false);
+      setIsSplitting(false);
     }
   };
 
   return (
     <ToolPageShell>
       <PageHeader
-        icon={icon}
-        iconBg={iconBg}
-        iconText={iconText}
-        title={title}
-        description={description}
-        warning={warning}
+        icon={Scissors}
+        title={t("title")}
+        description={t("description")}
       />
 
       <FileDropzone
@@ -111,14 +94,36 @@ export function ConversionTool({
         fileName={file?.name}
       />
 
+      <div className="mt-6">
+        <ToggleGroup
+          value={mode}
+          onChange={setMode}
+          options={[
+            { value: "all", label: t("modeAll") },
+            { value: "range", label: t("modeRange") },
+          ]}
+        />
+      </div>
+
+      {mode === "range" && (
+        <div className="mt-4">
+          <TextField
+            value={ranges}
+            onChange={setRanges}
+            placeholder={t("rangePlaceholder")}
+            hint={t("rangeHint")}
+          />
+        </div>
+      )}
+
       {error && (
         <div className="mt-4">
           <Callout variant="error">{error}</Callout>
         </div>
       )}
 
-      <SubmitButton onClick={handleConvert} disabled={!file || isConverting}>
-        {isConverting ? t("converting") : buttonLabel}
+      <SubmitButton onClick={handleSplit} disabled={!file || isSplitting}>
+        {isSplitting ? t("splitting") : t("submit")}
       </SubmitButton>
     </ToolPageShell>
   );

@@ -1,0 +1,186 @@
+{
+  "Metadata": {
+    "title": "PDF工具集 | 免费合并、拆分、压缩PDF",
+    "description": "无需注册，免费合并、拆分、压缩和转换PDF文件。"
+  },
+  "Header": {
+    "brand": "PDF工具",
+    "allTools": "所有工具",
+    "pdfConvert": "PDF转换",
+    "freeBadge": "免注册，免费使用",
+    "quickMerge": "合并PDF",
+    "quickSplit": "拆分PDF",
+    "quickCompress": "压缩PDF"
+  },
+  "Footer": {
+    "notice": "上传的文件会在处理完成后自动删除。"
+  },
+  "Categories": {
+    "edit": "编辑与安全",
+    "image": "图片转换",
+    "office": "办公文档转换",
+    "web": "网页转换",
+    "fromPdf": "从PDF转换",
+    "toPdf": "转换为PDF"
+  },
+  "Home": {
+    "badge": "✨ {count}款工具，全部免费",
+    "title": "所有PDF操作，一站搞定",
+    "subtitle": "合并、拆分、压缩、转换 — 无需注册，免费使用。"
+  },
+  "Common": {
+    "dropzonePlaceholder": "将文件拖放到此处，或点击选择",
+    "dropzoneChangeHint": "点击可选择其他文件",
+    "comingSoon": "即将推出",
+    "moveUp": "上移",
+    "moveDown": "下移",
+    "remove": "删除",
+    "converting": "转换中...",
+    "genericError": "转换过程中发生错误。",
+    "selectFile": "请选择要转换的文件。"
+  },
+  "Tools": {
+    "merge": { "name": "合并PDF", "description": "将多个PDF文件合并为一个" },
+    "split": { "name": "拆分PDF", "description": "按页拆分PDF，或提取指定页面范围" },
+    "compress": { "name": "压缩PDF", "description": "在保持画质的同时减小文件大小" },
+    "watermark": { "name": "添加水印", "description": "插入文字或图片水印" },
+    "protect": { "name": "加密/解密PDF", "description": "为PDF设置或移除密码" },
+    "pdf-to-image": { "name": "PDF转图片", "description": "将PDF每一页转换为PNG/JPG图片" },
+    "image-to-pdf": { "name": "图片转PDF", "description": "按顺序将JPG、PNG图片合并为PDF" },
+    "pdf-to-word": { "name": "PDF转Word", "description": "将PDF转换为可编辑的Word文档" },
+    "word-to-pdf": { "name": "Word转PDF", "description": "将Word文档转换为PDF" },
+    "pdf-to-ppt": { "name": "PDF转PowerPoint", "description": "将PDF每一页转换为PowerPoint幻灯片" },
+    "ppt-to-pdf": { "name": "PowerPoint转PDF", "description": "将PowerPoint文档转换为PDF" },
+    "pdf-to-excel": { "name": "PDF转Excel", "description": "将PDF中的表格数据转换为Excel文件" },
+    "excel-to-pdf": { "name": "Excel转PDF", "description": "将Excel文件转换为PDF" },
+    "pdf-to-html": { "name": "PDF转HTML", "description": "将PDF转换为HTML网页" },
+    "html-to-pdf": { "name": "HTML转PDF", "description": "将HTML文件转换为PDF" }
+  },
+  "MergePage": {
+    "title": "合并PDF",
+    "description": "按您想要的顺序排列多个PDF文件，并合并为一个。",
+    "dropzonePlaceholder": "将PDF文件拖放到此处，或点击选择",
+    "needTwoFiles": "合并至少需要2个PDF文件。",
+    "error": "合并过程中发生错误。",
+    "merging": "合并中...",
+    "submit": "合并 {count} 个PDF"
+  },
+  "SplitPage": {
+    "title": "拆分PDF",
+    "description": "按页拆分PDF，或仅提取您需要的页面。",
+    "selectFile": "请选择要拆分的PDF文件。",
+    "enterRange": "请输入要提取的页面范围。例如：1-3, 5, 8-10",
+    "error": "拆分过程中发生错误。",
+    "splitting": "拆分中...",
+    "submit": "拆分PDF",
+    "modeAll": "将每一页单独拆分",
+    "modeRange": "仅提取指定页面",
+    "rangePlaceholder": "例如：1-3, 5, 8-10",
+    "rangeHint": "请输入以逗号分隔的页码或页面范围。"
+  },
+  "WatermarkPage": {
+    "title": "添加水印",
+    "description": "在每一页插入斜向文字水印。",
+    "selectFile": "请选择要添加水印的PDF文件。",
+    "enterText": "请输入水印文字。",
+    "error": "添加水印时发生错误。",
+    "applying": "应用中...",
+    "submit": "添加水印",
+    "textLabel": "水印文字",
+    "opacityLabel": "不透明度",
+    "fontSizeLabel": "字体大小"
+  },
+  "ProtectPage": {
+    "title": "加密/解密PDF",
+    "description": "为PDF设置密码，或移除已有的密码。",
+    "selectFile": "请选择PDF文件。",
+    "enterPassword": "请输入密码。",
+    "error": "处理过程中发生错误。",
+    "processing": "处理中...",
+    "actionAdd": "设置密码",
+    "actionRemove": "解除密码",
+    "submitAdd": "设置密码",
+    "submitRemove": "解除密码",
+    "passwordLabelAdd": "要设置的密码",
+    "passwordLabelRemove": "当前密码",
+    "passwordPlaceholder": "输入密码"
+  },
+  "CompressPage": {
+    "title": "压缩PDF",
+    "description": "将每一页重新压缩为图片，以减小文件大小。",
+    "warning": "对扫描件或图片较多的PDF效果最佳。压缩后将无法选择或复制文本。",
+    "selectFile": "请选择要压缩的PDF文件。",
+    "error": "压缩过程中发生错误。",
+    "compressing": "压缩中...",
+    "submit": "压缩PDF",
+    "qualityLabel": "压缩质量",
+    "qualityHint": "数值越低，文件越小，但画质也会下降。",
+    "result": "{originalSize} MB → {compressedSize} MB（减少{percent}%）"
+  },
+  "ImageToPdfPage": {
+    "title": "图片转PDF",
+    "description": "按您想要的顺序排列JPG、PNG图片，并合并为一个PDF。",
+    "dropzonePlaceholder": "将图片拖放到此处，或点击选择",
+    "selectAtLeastOne": "请至少选择一张图片。",
+    "error": "转换过程中发生错误。",
+    "converting": "转换中...",
+    "submit": "生成PDF（{count}页）",
+    "summary": "{count}张图片 · 共{size} MB"
+  },
+  "PdfToImagePage": {
+    "title": "PDF转图片",
+    "description": "将PDF的每一页转换为图片。如果有多页，结果将打包为ZIP下载。",
+    "selectFile": "请选择要转换的PDF文件。",
+    "error": "转换过程中发生错误。",
+    "converting": "转换中...",
+    "submit": "转换为图片",
+    "formatLabel": "输出格式"
+  },
+  "PdfToWordPage": {
+    "title": "PDF转Word",
+    "description": "将PDF转换为可编辑的Word（.docx）文档。",
+    "warning": "版式复杂的PDF转换后格式可能会略有变化。",
+    "submit": "转换为Word"
+  },
+  "WordToPdfPage": {
+    "title": "Word转PDF",
+    "description": "将Word（.docx、.doc）文档转换为PDF。",
+    "submit": "转换为PDF"
+  },
+  "PdfToPptPage": {
+    "title": "PDF转PowerPoint",
+    "description": "将PDF的每一页转换为PowerPoint（.pptx）幻灯片。",
+    "warning": "幻灯片的排版可能会因原PDF中文字/图片的位置而有所不同。",
+    "submit": "转换为PowerPoint"
+  },
+  "PptToPdfPage": {
+    "title": "PowerPoint转PDF",
+    "description": "将PowerPoint（.pptx、.ppt）文档转换为PDF。",
+    "submit": "转换为PDF"
+  },
+  "PdfToExcelPage": {
+    "title": "PDF转Excel",
+    "description": "识别PDF中的表格数据，并转换为Excel（.xlsx）文件。",
+    "warning": "对基于文本的PDF中的简单表格最为准确。扫描件或版式复杂的表格可能出现单元格错位。",
+    "submit": "转换为Excel"
+  },
+  "ExcelToPdfPage": {
+    "title": "Excel转PDF",
+    "description": "将Excel（.xlsx、.xls、.csv）文件转换为PDF。",
+    "submit": "转换为PDF"
+  },
+  "PdfToHtmlPage": {
+    "title": "PDF转HTML",
+    "description": "将PDF转换为HTML网页。",
+    "warning": "包含图片的PDF转换结果将以ZIP文件（HTML+图片）形式提供。",
+    "submit": "转换为HTML"
+  },
+  "HtmlToPdfPage": {
+    "title": "HTML转PDF",
+    "description": "将HTML文件转换为PDF。",
+    "submit": "转换为PDF"
+  },
+  "LanguageSwitcher": {
+    "label": "语言"
+  }
+}

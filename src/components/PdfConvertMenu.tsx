@@ -1,6 +1,7 @@
 "use client";
 
 import { ArrowLeftRight } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { HoverDropdown } from "@/components/HoverDropdown";
 import { ToolLink } from "@/components/ToolLink";
 import { tools } from "@/lib/tools";
@@ -14,9 +15,12 @@ const toPdfTools = tools.filter(
 );
 
 export function PdfConvertMenu() {
+  const t = useTranslations("Header");
+  const tCategories = useTranslations("Categories");
+
   return (
     <HoverDropdown
-      label="PDF 변환"
+      label={t("pdfConvert")}
       icon={<ArrowLeftRight className="h-4 w-4" strokeWidth={1.75} />}
       panelClassName="sm:w-[480px]"
     >
@@ -24,7 +28,7 @@ export function PdfConvertMenu() {
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
             <h3 className="mb-3 text-xs font-semibold tracking-wide text-zinc-400 uppercase dark:text-zinc-500">
-              PDF에서 변환
+              {tCategories("fromPdf")}
             </h3>
             <ul className="space-y-0.5">
               {fromPdfTools.map((tool) => (
@@ -35,7 +39,7 @@ export function PdfConvertMenu() {
 
           <div>
             <h3 className="mb-3 text-xs font-semibold tracking-wide text-zinc-400 uppercase dark:text-zinc-500">
-              PDF로 변환
+              {tCategories("toPdf")}
             </h3>
             <ul className="space-y-0.5">
               {toPdfTools.map((tool) => (

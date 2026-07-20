@@ -1,0 +1,186 @@
+{
+  "Metadata": {
+    "title": "PDF 도구 모음 | 무료 PDF 병합, 분할, 압축",
+    "description": "가입 없이 무료로 PDF를 병합, 분할, 압축, 변환하세요."
+  },
+  "Header": {
+    "brand": "PDF도구",
+    "allTools": "모든 도구",
+    "pdfConvert": "PDF 변환",
+    "freeBadge": "가입 없이 무료로 사용",
+    "quickMerge": "PDF 병합",
+    "quickSplit": "PDF 분할",
+    "quickCompress": "PDF 압축"
+  },
+  "Footer": {
+    "notice": "업로드된 파일은 처리 후 자동으로 삭제됩니다."
+  },
+  "Categories": {
+    "edit": "PDF 편집 & 보안",
+    "image": "이미지 변환",
+    "office": "오피스 문서 변환",
+    "web": "웹 변환",
+    "fromPdf": "PDF에서 변환",
+    "toPdf": "PDF로 변환"
+  },
+  "Home": {
+    "badge": "✨ {count}개 도구, 전부 무료",
+    "title": "모든 PDF 작업을 한곳에서",
+    "subtitle": "병합, 분할, 압축, 변환까지 — 가입 없이 무료로 이용하세요."
+  },
+  "Common": {
+    "dropzonePlaceholder": "여기에 파일을 끌어다 놓거나 클릭해서 선택하세요",
+    "dropzoneChangeHint": "다른 파일을 선택하려면 클릭하세요",
+    "comingSoon": "준비중",
+    "moveUp": "위로 이동",
+    "moveDown": "아래로 이동",
+    "remove": "삭제",
+    "converting": "변환 중...",
+    "genericError": "변환 중 오류가 발생했습니다.",
+    "selectFile": "변환할 파일을 선택해주세요."
+  },
+  "Tools": {
+    "merge": { "name": "PDF 병합", "description": "여러 개의 PDF 파일을 하나로 합칩니다" },
+    "split": { "name": "PDF 분할", "description": "PDF를 페이지별로 분리하거나 원하는 범위만 추출합니다" },
+    "compress": { "name": "PDF 압축", "description": "화질은 유지하면서 파일 크기를 줄입니다" },
+    "watermark": { "name": "워터마크 추가", "description": "텍스트나 이미지로 워터마크를 삽입합니다" },
+    "protect": { "name": "암호 설정/해제", "description": "PDF에 비밀번호를 걸거나 제거합니다" },
+    "pdf-to-image": { "name": "PDF → 이미지", "description": "PDF 각 페이지를 PNG/JPG 이미지로 변환합니다" },
+    "image-to-pdf": { "name": "이미지 → PDF", "description": "JPG, PNG 이미지를 순서대로 모아 PDF로 만듭니다" },
+    "pdf-to-word": { "name": "PDF → Word", "description": "PDF를 편집 가능한 Word 문서로 변환합니다" },
+    "word-to-pdf": { "name": "Word → PDF", "description": "Word 문서를 PDF로 변환합니다" },
+    "pdf-to-ppt": { "name": "PDF → PowerPoint", "description": "PDF 각 페이지를 PowerPoint 슬라이드로 변환합니다" },
+    "ppt-to-pdf": { "name": "PowerPoint → PDF", "description": "PowerPoint 문서를 PDF로 변환합니다" },
+    "pdf-to-excel": { "name": "PDF → Excel", "description": "PDF의 표 형태 데이터를 Excel로 변환합니다" },
+    "excel-to-pdf": { "name": "Excel → PDF", "description": "Excel 파일을 PDF로 변환합니다" },
+    "pdf-to-html": { "name": "PDF → HTML", "description": "PDF를 HTML 웹페이지로 변환합니다" },
+    "html-to-pdf": { "name": "HTML → PDF", "description": "HTML 파일을 PDF로 변환합니다" }
+  },
+  "MergePage": {
+    "title": "PDF 병합",
+    "description": "여러 PDF 파일을 원하는 순서로 정렬해 하나로 합칩니다.",
+    "dropzonePlaceholder": "여기에 PDF 파일을 끌어다 놓거나 클릭해서 선택하세요",
+    "needTwoFiles": "병합하려면 PDF 파일이 2개 이상 필요합니다.",
+    "error": "병합 중 오류가 발생했습니다.",
+    "merging": "병합 중...",
+    "submit": "PDF {count}개 병합하기"
+  },
+  "SplitPage": {
+    "title": "PDF 분할",
+    "description": "PDF를 페이지별로 나누거나 원하는 페이지만 추출합니다.",
+    "selectFile": "분할할 PDF 파일을 선택해주세요.",
+    "enterRange": "추출할 페이지 범위를 입력해주세요. 예: 1-3, 5, 8-10",
+    "error": "분할 중 오류가 발생했습니다.",
+    "splitting": "분할 중...",
+    "submit": "PDF 분할하기",
+    "modeAll": "모든 페이지 개별 분리",
+    "modeRange": "원하는 페이지만 추출",
+    "rangePlaceholder": "예: 1-3, 5, 8-10",
+    "rangeHint": "쉼표로 구분해서 페이지 번호나 범위를 입력하세요."
+  },
+  "WatermarkPage": {
+    "title": "워터마크 추가",
+    "description": "모든 페이지에 대각선 텍스트 워터마크를 삽입합니다.",
+    "selectFile": "워터마크를 추가할 PDF 파일을 선택해주세요.",
+    "enterText": "워터마크 텍스트를 입력해주세요.",
+    "error": "워터마크 추가 중 오류가 발생했습니다.",
+    "applying": "적용 중...",
+    "submit": "워터마크 추가하기",
+    "textLabel": "워터마크 텍스트",
+    "opacityLabel": "투명도",
+    "fontSizeLabel": "글자 크기"
+  },
+  "ProtectPage": {
+    "title": "암호 설정/해제",
+    "description": "PDF에 비밀번호를 걸거나, 걸려 있는 비밀번호를 제거합니다.",
+    "selectFile": "PDF 파일을 선택해주세요.",
+    "enterPassword": "비밀번호를 입력해주세요.",
+    "error": "처리 중 오류가 발생했습니다.",
+    "processing": "처리 중...",
+    "actionAdd": "암호 설정",
+    "actionRemove": "암호 해제",
+    "submitAdd": "암호 설정하기",
+    "submitRemove": "암호 해제하기",
+    "passwordLabelAdd": "설정할 비밀번호",
+    "passwordLabelRemove": "현재 비밀번호",
+    "passwordPlaceholder": "비밀번호 입력"
+  },
+  "CompressPage": {
+    "title": "PDF 압축",
+    "description": "각 페이지를 이미지로 다시 압축해 파일 크기를 줄입니다.",
+    "warning": "스캔본이나 이미지가 많은 PDF에 효과적입니다. 압축 후에는 텍스트를 선택하거나 복사할 수 없게 됩니다.",
+    "selectFile": "압축할 PDF 파일을 선택해주세요.",
+    "error": "압축 중 오류가 발생했습니다.",
+    "compressing": "압축 중...",
+    "submit": "PDF 압축하기",
+    "qualityLabel": "압축 품질",
+    "qualityHint": "낮을수록 파일이 작아지지만 화질이 떨어집니다.",
+    "result": "{originalSize} MB → {compressedSize} MB ({percent}% 감소)"
+  },
+  "ImageToPdfPage": {
+    "title": "이미지 → PDF",
+    "description": "JPG, PNG 이미지를 원하는 순서로 정렬해 하나의 PDF로 만듭니다.",
+    "dropzonePlaceholder": "여기에 이미지를 끌어다 놓거나 클릭해서 선택하세요",
+    "selectAtLeastOne": "이미지 파일을 1개 이상 선택해주세요.",
+    "error": "변환 중 오류가 발생했습니다.",
+    "converting": "변환 중...",
+    "submit": "PDF로 만들기 ({count}장)",
+    "summary": "이미지 {count}개 · 총 {size} MB"
+  },
+  "PdfToImagePage": {
+    "title": "PDF → 이미지",
+    "description": "PDF의 각 페이지를 이미지로 변환합니다. 페이지가 여러 장이면 ZIP으로 묶어 다운로드됩니다.",
+    "selectFile": "변환할 PDF 파일을 선택해주세요.",
+    "error": "변환 중 오류가 발생했습니다.",
+    "converting": "변환 중...",
+    "submit": "이미지로 변환하기",
+    "formatLabel": "출력 형식"
+  },
+  "PdfToWordPage": {
+    "title": "PDF → Word",
+    "description": "PDF를 편집 가능한 Word(.docx) 문서로 변환합니다.",
+    "warning": "레이아웃이 복잡한 PDF는 변환 후 서식이 다소 달라질 수 있습니다.",
+    "submit": "Word로 변환하기"
+  },
+  "WordToPdfPage": {
+    "title": "Word → PDF",
+    "description": "Word(.docx, .doc) 문서를 PDF로 변환합니다.",
+    "submit": "PDF로 변환하기"
+  },
+  "PdfToPptPage": {
+    "title": "PDF → PowerPoint",
+    "description": "PDF의 각 페이지를 PowerPoint(.pptx) 슬라이드로 변환합니다.",
+    "warning": "원본 PDF의 텍스트/이미지 배치에 따라 슬라이드 구성이 달라질 수 있습니다.",
+    "submit": "PowerPoint로 변환하기"
+  },
+  "PptToPdfPage": {
+    "title": "PowerPoint → PDF",
+    "description": "PowerPoint(.pptx, .ppt) 문서를 PDF로 변환합니다.",
+    "submit": "PDF로 변환하기"
+  },
+  "PdfToExcelPage": {
+    "title": "PDF → Excel",
+    "description": "PDF 안의 표 형태 데이터를 인식해 Excel(.xlsx) 파일로 변환합니다.",
+    "warning": "텍스트 기반 PDF의 단순한 표에서 가장 정확합니다. 스캔본이거나 레이아웃이 복잡한 표는 셀 정렬이 어긋날 수 있습니다.",
+    "submit": "Excel로 변환하기"
+  },
+  "ExcelToPdfPage": {
+    "title": "Excel → PDF",
+    "description": "Excel(.xlsx, .xls, .csv) 파일을 PDF로 변환합니다.",
+    "submit": "PDF로 변환하기"
+  },
+  "PdfToHtmlPage": {
+    "title": "PDF → HTML",
+    "description": "PDF를 HTML 웹페이지로 변환합니다.",
+    "warning": "이미지가 포함된 PDF는 결과가 ZIP 파일(HTML + 이미지)로 제공됩니다.",
+    "submit": "HTML로 변환하기"
+  },
+  "HtmlToPdfPage": {
+    "title": "HTML → PDF",
+    "description": "HTML 파일을 PDF로 변환합니다.",
+    "submit": "PDF로 변환하기"
+  },
+  "LanguageSwitcher": {
+    "label": "언어"
+  }
+}

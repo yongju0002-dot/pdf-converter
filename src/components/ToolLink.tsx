@@ -1,4 +1,5 @@
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { categoryMeta, type Tool } from "@/lib/tools";
 
 export function ToolLink({
@@ -8,6 +9,7 @@ export function ToolLink({
   tool: Tool;
   onNavigate: () => void;
 }) {
+  const t = useTranslations("Tools");
   const Icon = tool.icon;
   const meta = categoryMeta[tool.category];
 
@@ -26,7 +28,7 @@ export function ToolLink({
             strokeWidth={1.75}
           />
         </span>
-        {tool.name}
+        {t(`${tool.slug}.name`)}
       </Link>
     </li>
   );

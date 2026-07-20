@@ -1,8 +1,13 @@
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import type { CategoryMeta, Tool } from "@/lib/tools";
 
 export function ToolCard({ tool, accent }: { tool: Tool; accent: CategoryMeta }) {
+  const t = useTranslations("Tools");
+  const tCommon = useTranslations("Common");
   const Icon = tool.icon;
+  const name = t(`${tool.slug}.name`);
+  const description = t(`${tool.slug}.description`);
 
   if (!tool.available) {
     return (
@@ -16,13 +21,13 @@ export function ToolCard({ tool, accent }: { tool: Tool; accent: CategoryMeta })
           />
         </div>
         <h3 className="mt-3 font-semibold text-zinc-700 dark:text-zinc-300">
-          {tool.name}
+          {name}
         </h3>
         <p className="mt-1 text-sm text-zinc-500 dark:text-zinc-500">
-          {tool.description}
+          {description}
         </p>
         <span className="mt-3 inline-block rounded-full bg-zinc-200 px-2 py-0.5 text-xs text-zinc-600 dark:bg-zinc-800 dark:text-zinc-400">
-          준비중
+          {tCommon("comingSoon")}
         </span>
       </div>
     );
@@ -42,10 +47,10 @@ export function ToolCard({ tool, accent }: { tool: Tool; accent: CategoryMeta })
         />
       </div>
       <h3 className="mt-3 font-semibold text-zinc-900 dark:text-zinc-50">
-        {tool.name}
+        {name}
       </h3>
       <p className="mt-1 text-sm text-zinc-500 dark:text-zinc-400">
-        {tool.description}
+        {description}
       </p>
     </Link>
   );

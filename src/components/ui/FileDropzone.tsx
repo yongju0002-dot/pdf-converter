@@ -1,4 +1,5 @@
 import { File as FileIcon, UploadCloud } from "lucide-react";
+import { useTranslations } from "next-intl";
 import type { DropzoneInputProps, DropzoneRootProps } from "react-dropzone";
 
 type Props = {
@@ -14,8 +15,11 @@ export function FileDropzone({
   inputProps,
   isDragActive,
   fileName,
-  placeholder = "여기에 파일을 끌어다 놓거나 클릭해서 선택하세요",
+  placeholder,
 }: Props) {
+  const t = useTranslations("Common");
+  const resolvedPlaceholder = placeholder ?? t("dropzonePlaceholder");
+
   return (
     <div
       {...rootProps}
@@ -45,12 +49,12 @@ export function FileDropzone({
             {fileName}
           </p>
           <p className="text-xs text-zinc-400 dark:text-zinc-500">
-            다른 파일을 선택하려면 클릭하세요
+            {t("dropzoneChangeHint")}
           </p>
         </>
       ) : (
         <p className="text-sm text-zinc-600 dark:text-zinc-300">
-          {placeholder}
+          {resolvedPlaceholder}
         </p>
       )}
     </div>

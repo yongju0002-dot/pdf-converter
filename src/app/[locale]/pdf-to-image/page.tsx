@@ -1,42 +1,21 @@
 "use client";
 
 import { useCallback, useState } from "react";
-import { useDropzone, type Accept } from "react-dropzone";
-import type { LucideIcon } from "lucide-react";
+import { useDropzone } from "react-dropzone";
+import { FileImage } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Callout } from "@/components/ui/Callout";
 import { FileDropzone } from "@/components/ui/FileDropzone";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { SubmitButton } from "@/components/ui/SubmitButton";
+import { ToggleGroup } from "@/components/ui/ToggleGroup";
 import { ToolPageShell } from "@/components/ui/ToolPageShell";
+import { categoryMeta } from "@/lib/tools";
 
-type Props = {
-  icon: LucideIcon;
-  iconBg?: string;
-  iconText?: string;
-  title: string;
-  description: string;
-  warning?: string;
-  accept: Accept;
-  apiEndpoint: string;
-  buttonLabel: string;
-  fallbackFilename: string;
-};
-
-export function ConversionTool({
-  icon,
-  iconBg,
-  iconText,
-  title,
-  description,
-  warning,
-  accept,
-  apiEndpoint,
-  buttonLabel,
-  fallbackFilename,
-}: Props) {
-  const t = useTranslations("Common");
+export default function PdfToImagePage() {
+  const t = useTranslations("PdfToImagePage");
   const [file, setFile] = useState<File | null>(null);
+  const [format, setFormat] = useState<"png" | "jpg">("png");
   const [isConverting, setIsConverting] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -47,7 +26,7 @@ export function ConversionTool({
 
   const { getRootProps, getInputProps, isDragActive } = useDropzone({
     onDrop,
-    accept,
+    accept: { "application/pdf": [".pdf"] },
     multiple: false,
   });
 
@@ -62,20 +41,21 @@ export function ConversionTool({
     try {
       const formData = new FormData();
       formData.append("file", file);
+      formData.append("format", format);
 
-      const res = await fetch(apiEndpoint, {
+      const res = await fetch("/api/pdf-to-image", {
         method: "POST",
         body: formData,
       });
 
       if (!res.ok) {
         const data = await res.json().catch(() => null);
-        throw new Error(data?.error ?? t("genericError"));
+        throw new Error(data?.error ?? t("error"));
       }
 
       const disposition = res.headers.get("Content-Disposition") ?? "";
       const match = disposition.match(/filename="(.+)"/);
-      const filename = match?.[1] ?? fallbackFilename;
+      const filename = match?.[1] ?? `converted.${format}`;
 
       const blob = await res.blob();
       const url = URL.createObjectURL(blob);
@@ -87,7 +67,7 @@ export function ConversionTool({
       a.remove();
       URL.revokeObjectURL(url);
     } catch (e) {
-      setError(e instanceof Error ? e.message : t("genericError"));
+      setError(e instanceof Error ? e.message : t("error"));
     } finally {
       setIsConverting(false);
     }
@@ -96,12 +76,11 @@ export function ConversionTool({
   return (
     <ToolPageShell>
       <PageHeader
-        icon={icon}
-        iconBg={iconBg}
-        iconText={iconText}
-        title={title}
-        description={description}
-        warning={warning}
+        icon={FileImage}
+        iconBg={`${categoryMeta.image.iconBg} ${categoryMeta.image.iconBgDark}`}
+        iconText={`${categoryMeta.image.iconText} ${categoryMeta.image.iconTextDark}`}
+        title={t("title")}
+        description={t("description")}
       />
 
       <FileDropzone
@@ -111,6 +90,22 @@ export function ConversionTool({
         fileName={file?.name}
       />
 
+      <div className="mt-6">
+        <label className="text-sm font-medium text-zinc-700 dark:text-zinc-300">
+          {t("formatLabel")}
+        </label>
+        <div className="mt-1.5">
+          <ToggleGroup
+            value={format}
+            onChange={setFormat}
+            options={[
+              { value: "png", label: "PNG" },
+              { value: "jpg", label: "JPG" },
+            ]}
+          />
+        </div>
+      </div>
+
       {error && (
         <div className="mt-4">
           <Callout variant="error">{error}</Callout>
@@ -118,7 +113,7 @@ export function ConversionTool({
       )}
 
       <SubmitButton onClick={handleConvert} disabled={!file || isConverting}>
-        {isConverting ? t("converting") : buttonLabel}
+        {isConverting ? t("converting") : t("submit")}
       </SubmitButton>
     </ToolPageShell>
   );

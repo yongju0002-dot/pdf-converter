@@ -1,9 +1,10 @@
 "use client";
 
 import { LayoutGrid } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { HoverDropdown } from "@/components/HoverDropdown";
 import { ToolLink } from "@/components/ToolLink";
-import { categoryMeta, tools } from "@/lib/tools";
+import { tools } from "@/lib/tools";
 
 const editTools = tools.filter((tool) => tool.available && tool.category === "edit");
 const fromPdfTools = tools.filter(
@@ -15,9 +16,12 @@ const toPdfTools = tools.filter(
 );
 
 export function NavMenu() {
+  const t = useTranslations("Header");
+  const tCategories = useTranslations("Categories");
+
   return (
     <HoverDropdown
-      label="모든 도구"
+      label={t("allTools")}
       icon={<LayoutGrid className="h-4 w-4" strokeWidth={1.75} />}
       panelClassName="sm:w-[720px]"
     >
@@ -25,7 +29,7 @@ export function NavMenu() {
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-3">
           <div>
             <h3 className="mb-3 text-xs font-semibold tracking-wide text-zinc-400 uppercase dark:text-zinc-500">
-              {categoryMeta.edit.label}
+              {tCategories("edit")}
             </h3>
             <ul className="space-y-0.5">
               {editTools.map((tool) => (
@@ -36,7 +40,7 @@ export function NavMenu() {
 
           <div>
             <h3 className="mb-3 text-xs font-semibold tracking-wide text-zinc-400 uppercase dark:text-zinc-500">
-              PDF에서 변환
+              {tCategories("fromPdf")}
             </h3>
             <ul className="space-y-0.5">
               {fromPdfTools.map((tool) => (
@@ -47,7 +51,7 @@ export function NavMenu() {
 
           <div>
             <h3 className="mb-3 text-xs font-semibold tracking-wide text-zinc-400 uppercase dark:text-zinc-500">
-              PDF로 변환
+              {tCategories("toPdf")}
             </h3>
             <ul className="space-y-0.5">
               {toPdfTools.map((tool) => (

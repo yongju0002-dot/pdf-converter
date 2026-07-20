@@ -1,0 +1,186 @@
+{
+  "Metadata": {
+    "title": "PDF Tools | Free PDF Merge, Split, Compress",
+    "description": "Merge, split, compress, and convert PDFs for free — no sign-up required."
+  },
+  "Header": {
+    "brand": "PDF Tools",
+    "allTools": "All Tools",
+    "pdfConvert": "PDF Convert",
+    "freeBadge": "Free, no sign-up",
+    "quickMerge": "Merge PDF",
+    "quickSplit": "Split PDF",
+    "quickCompress": "Compress PDF"
+  },
+  "Footer": {
+    "notice": "Uploaded files are automatically deleted after processing."
+  },
+  "Categories": {
+    "edit": "Edit & Security",
+    "image": "Image Conversion",
+    "office": "Office Document Conversion",
+    "web": "Web Conversion",
+    "fromPdf": "Convert from PDF",
+    "toPdf": "Convert to PDF"
+  },
+  "Home": {
+    "badge": "✨ {count} tools, all free",
+    "title": "Every PDF task in one place",
+    "subtitle": "Merge, split, compress, and convert — free, no sign-up required."
+  },
+  "Common": {
+    "dropzonePlaceholder": "Drag and drop a file here, or click to select",
+    "dropzoneChangeHint": "Click to choose a different file",
+    "comingSoon": "Coming soon",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "remove": "Remove",
+    "converting": "Converting...",
+    "genericError": "An error occurred during conversion.",
+    "selectFile": "Please select a file to convert."
+  },
+  "Tools": {
+    "merge": { "name": "Merge PDF", "description": "Combine multiple PDF files into one" },
+    "split": { "name": "Split PDF", "description": "Split a PDF by page or extract a page range" },
+    "compress": { "name": "Compress PDF", "description": "Reduce file size while keeping quality" },
+    "watermark": { "name": "Add Watermark", "description": "Insert a text or image watermark" },
+    "protect": { "name": "Protect / Unlock PDF", "description": "Add or remove a password on a PDF" },
+    "pdf-to-image": { "name": "PDF to Image", "description": "Convert each PDF page to a PNG/JPG image" },
+    "image-to-pdf": { "name": "Image to PDF", "description": "Combine JPG or PNG images into a single PDF" },
+    "pdf-to-word": { "name": "PDF to Word", "description": "Convert a PDF into an editable Word document" },
+    "word-to-pdf": { "name": "Word to PDF", "description": "Convert a Word document to PDF" },
+    "pdf-to-ppt": { "name": "PDF to PowerPoint", "description": "Convert each PDF page into a PowerPoint slide" },
+    "ppt-to-pdf": { "name": "PowerPoint to PDF", "description": "Convert a PowerPoint document to PDF" },
+    "pdf-to-excel": { "name": "PDF to Excel", "description": "Convert tables in a PDF into an Excel file" },
+    "excel-to-pdf": { "name": "Excel to PDF", "description": "Convert an Excel file to PDF" },
+    "pdf-to-html": { "name": "PDF to HTML", "description": "Convert a PDF into an HTML web page" },
+    "html-to-pdf": { "name": "HTML to PDF", "description": "Convert an HTML file to PDF" }
+  },
+  "MergePage": {
+    "title": "Merge PDF",
+    "description": "Arrange multiple PDF files in any order and combine them into one.",
+    "dropzonePlaceholder": "Drag and drop PDF files here, or click to select",
+    "needTwoFiles": "You need at least 2 PDF files to merge.",
+    "error": "An error occurred while merging.",
+    "merging": "Merging...",
+    "submit": "Merge {count} PDFs"
+  },
+  "SplitPage": {
+    "title": "Split PDF",
+    "description": "Split a PDF into individual pages or extract just the pages you need.",
+    "selectFile": "Please select a PDF file to split.",
+    "enterRange": "Please enter the page range to extract. e.g. 1-3, 5, 8-10",
+    "error": "An error occurred while splitting.",
+    "splitting": "Splitting...",
+    "submit": "Split PDF",
+    "modeAll": "Split every page separately",
+    "modeRange": "Extract specific pages",
+    "rangePlaceholder": "e.g. 1-3, 5, 8-10",
+    "rangeHint": "Enter page numbers or ranges separated by commas."
+  },
+  "WatermarkPage": {
+    "title": "Add Watermark",
+    "description": "Insert a diagonal text watermark on every page.",
+    "selectFile": "Please select a PDF file to add a watermark to.",
+    "enterText": "Please enter the watermark text.",
+    "error": "An error occurred while adding the watermark.",
+    "applying": "Applying...",
+    "submit": "Add Watermark",
+    "textLabel": "Watermark text",
+    "opacityLabel": "Opacity",
+    "fontSizeLabel": "Font size"
+  },
+  "ProtectPage": {
+    "title": "Protect / Unlock PDF",
+    "description": "Add a password to a PDF, or remove an existing one.",
+    "selectFile": "Please select a PDF file.",
+    "enterPassword": "Please enter a password.",
+    "error": "An error occurred while processing.",
+    "processing": "Processing...",
+    "actionAdd": "Add password",
+    "actionRemove": "Remove password",
+    "submitAdd": "Add Password",
+    "submitRemove": "Remove Password",
+    "passwordLabelAdd": "Password to set",
+    "passwordLabelRemove": "Current password",
+    "passwordPlaceholder": "Enter password"
+  },
+  "CompressPage": {
+    "title": "Compress PDF",
+    "description": "Re-compress each page as an image to reduce file size.",
+    "warning": "Most effective on scanned or image-heavy PDFs. After compressing, text can no longer be selected or copied.",
+    "selectFile": "Please select a PDF file to compress.",
+    "error": "An error occurred while compressing.",
+    "compressing": "Compressing...",
+    "submit": "Compress PDF",
+    "qualityLabel": "Compression quality",
+    "qualityHint": "Lower values produce smaller files but lower quality.",
+    "result": "{originalSize} MB → {compressedSize} MB ({percent}% smaller)"
+  },
+  "ImageToPdfPage": {
+    "title": "Image to PDF",
+    "description": "Arrange JPG or PNG images in any order and combine them into one PDF.",
+    "dropzonePlaceholder": "Drag and drop images here, or click to select",
+    "selectAtLeastOne": "Please select at least one image file.",
+    "error": "An error occurred during conversion.",
+    "converting": "Converting...",
+    "submit": "Create PDF ({count} pages)",
+    "summary": "{count} images · {size} MB total"
+  },
+  "PdfToImagePage": {
+    "title": "PDF to Image",
+    "description": "Convert each PDF page into an image. If there are multiple pages, the result is downloaded as a ZIP.",
+    "selectFile": "Please select a PDF file to convert.",
+    "error": "An error occurred during conversion.",
+    "converting": "Converting...",
+    "submit": "Convert to Image",
+    "formatLabel": "Output format"
+  },
+  "PdfToWordPage": {
+    "title": "PDF to Word",
+    "description": "Convert a PDF into an editable Word (.docx) document.",
+    "warning": "PDFs with complex layouts may have slightly different formatting after conversion.",
+    "submit": "Convert to Word"
+  },
+  "WordToPdfPage": {
+    "title": "Word to PDF",
+    "description": "Convert a Word (.docx, .doc) document to PDF.",
+    "submit": "Convert to PDF"
+  },
+  "PdfToPptPage": {
+    "title": "PDF to PowerPoint",
+    "description": "Convert each PDF page into a PowerPoint (.pptx) slide.",
+    "warning": "Slide layout may vary depending on the text/image placement in the original PDF.",
+    "submit": "Convert to PowerPoint"
+  },
+  "PptToPdfPage": {
+    "title": "PowerPoint to PDF",
+    "description": "Convert a PowerPoint (.pptx, .ppt) document to PDF.",
+    "submit": "Convert to PDF"
+  },
+  "PdfToExcelPage": {
+    "title": "PDF to Excel",
+    "description": "Detect table data inside a PDF and convert it to an Excel (.xlsx) file.",
+    "warning": "Most accurate on simple tables in text-based PDFs. Scanned or complex-layout tables may have misaligned cells.",
+    "submit": "Convert to Excel"
+  },
+  "ExcelToPdfPage": {
+    "title": "Excel to PDF",
+    "description": "Convert an Excel (.xlsx, .xls, .csv) file to PDF.",
+    "submit": "Convert to PDF"
+  },
+  "PdfToHtmlPage": {
+    "title": "PDF to HTML",
+    "description": "Convert a PDF into an HTML web page.",
+    "warning": "PDFs with images are provided as a ZIP file (HTML + images).",
+    "submit": "Convert to HTML"
+  },
+  "HtmlToPdfPage": {
+    "title": "HTML to PDF",
+    "description": "Convert an HTML file to PDF.",
+    "submit": "Convert to PDF"
+  },
+  "LanguageSwitcher": {
+    "label": "Language"
+  }
+}

@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import createNextIntlPlugin from "next-intl/plugin";
 
 const nextConfig: NextConfig = {
   // Produces a self-contained .next/standalone build for the Docker image.
@@ -14,7 +15,10 @@ const nextConfig: NextConfig = {
     // file tracer can't discover them on its own even as an external.
     "/api/pdf-to-image": ["./node_modules/pdfjs-dist/**/*"],
     "/api/compress": ["./node_modules/pdfjs-dist/**/*"],
+    "/api/pdf-to-excel": ["./node_modules/pdfjs-dist/**/*"],
   },
 };
 
-export default nextConfig;
+const withNextIntl = createNextIntlPlugin();
+
+export default withNextIntl(nextConfig);
