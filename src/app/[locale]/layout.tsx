@@ -10,6 +10,7 @@ import { routing } from "@/i18n/routing";
 import { NavMenu } from "@/components/NavMenu";
 import { PdfConvertMenu } from "@/components/PdfConvertMenu";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { siteUrl } from "@/lib/seo";
 import "../globals.css";
 
 const geistSans = Geist({
@@ -26,6 +27,13 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
+const ogLocales: Record<string, string> = {
+  ko: "ko_KR",
+  en: "en_US",
+  ja: "ja_JP",
+  zh: "zh_CN",
+};
+
 export async function generateMetadata({
   params,
 }: {
@@ -33,10 +41,23 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Metadata" });
+  const tHeader = await getTranslations({ locale, namespace: "Header" });
 
   return {
-    title: t("title"),
+    metadataBase: new URL(siteUrl),
+    title: {
+      default: t("title"),
+      template: `%s | ${tHeader("brand")}`,
+    },
     description: t("description"),
+    openGraph: {
+      siteName: tHeader("brand"),
+      type: "website",
+      locale: ogLocales[locale],
+    },
+    twitter: {
+      card: "summary",
+    },
   };
 }
 

@@ -1,25 +1,24 @@
-"use client";
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
+import { localizedAlternates } from "@/lib/seo";
+import Client from "./Client";
 
-import { MonitorPlay } from "lucide-react";
-import { useTranslations } from "next-intl";
-import { ConversionTool } from "@/components/ConversionTool";
-import { categoryMeta } from "@/lib/tools";
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "PdfToPptPage" });
 
-export default function PdfToPptPage() {
-  const t = useTranslations("PdfToPptPage");
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: localizedAlternates(locale, "/pdf_to_ppt"),
+    openGraph: { title: t("title"), description: t("description") },
+  };
+}
 
-  return (
-    <ConversionTool
-      icon={MonitorPlay}
-      iconBg={`${categoryMeta.office.iconBg} ${categoryMeta.office.iconBgDark}`}
-      iconText={`${categoryMeta.office.iconText} ${categoryMeta.office.iconTextDark}`}
-      title={t("title")}
-      description={t("description")}
-      warning={t("warning")}
-      accept={{ "application/pdf": [".pdf"] }}
-      apiEndpoint="/api/pdf-to-ppt"
-      buttonLabel={t("submit")}
-      fallbackFilename="converted.pptx"
-    />
-  );
+export default function Page() {
+  return <Client />;
 }

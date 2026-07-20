@@ -1,29 +1,24 @@
-"use client";
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
+import { localizedAlternates } from "@/lib/seo";
+import Client from "./Client";
 
-import { FileOutput } from "lucide-react";
-import { useTranslations } from "next-intl";
-import { ConversionTool } from "@/components/ConversionTool";
-import { categoryMeta } from "@/lib/tools";
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "WordToPdfPage" });
 
-export default function WordToPdfPage() {
-  const t = useTranslations("WordToPdfPage");
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: localizedAlternates(locale, "/word_to_pdf"),
+    openGraph: { title: t("title"), description: t("description") },
+  };
+}
 
-  return (
-    <ConversionTool
-      icon={FileOutput}
-      iconBg={`${categoryMeta.office.iconBg} ${categoryMeta.office.iconBgDark}`}
-      iconText={`${categoryMeta.office.iconText} ${categoryMeta.office.iconTextDark}`}
-      title={t("title")}
-      description={t("description")}
-      accept={{
-        "application/vnd.openxmlformats-officedocument.wordprocessingml.document":
-          [".docx"],
-        "application/msword": [".doc"],
-        "application/vnd.oasis.opendocument.text": [".odt"],
-      }}
-      apiEndpoint="/api/word-to-pdf"
-      buttonLabel={t("submit")}
-      fallbackFilename="converted.pdf"
-    />
-  );
+export default function Page() {
+  return <Client />;
 }
