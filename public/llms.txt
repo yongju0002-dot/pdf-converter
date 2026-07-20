@@ -1,0 +1,27 @@
+# PDF Tools (mylifepdf.com)
+
+> Free online PDF tools: merge, split, compress, and convert PDFs. No sign-up or account required. Uploaded files are processed on the server and deleted automatically afterward. Available in Korean (ko), English (en), Japanese (ja), and Simplified Chinese (zh).
+
+## Tools
+
+- Merge PDF — https://mylifepdf.com/en/merge_pdf — Combine multiple PDF files into one, in any order.
+- Split PDF — https://mylifepdf.com/en/split_pdf — Split a PDF into individual pages or extract a page range.
+- Compress PDF — https://mylifepdf.com/en/compress_pdf — Reduce PDF file size.
+- Add Watermark — https://mylifepdf.com/en/watermark_pdf — Add a text watermark to every page of a PDF.
+- Protect / Unlock PDF — https://mylifepdf.com/en/protect_pdf — Add or remove a password on a PDF.
+- PDF to Image — https://mylifepdf.com/en/pdf_to_image — Convert each PDF page to a PNG or JPG image.
+- Image to PDF — https://mylifepdf.com/en/image_to_pdf — Combine JPG or PNG images into a single PDF.
+- PDF to Word — https://mylifepdf.com/en/pdf_to_word — Convert a PDF into an editable Word (.docx) document.
+- Word to PDF — https://mylifepdf.com/en/word_to_pdf — Convert a Word document to PDF.
+- PDF to PowerPoint — https://mylifepdf.com/en/pdf_to_ppt — Convert each PDF page into a PowerPoint slide.
+- PowerPoint to PDF — https://mylifepdf.com/en/ppt_to_pdf — Convert a PowerPoint document to PDF.
+- PDF to Excel — https://mylifepdf.com/en/pdf_to_excel — Convert tables in a PDF into an Excel (.xlsx) file.
+- Excel to PDF — https://mylifepdf.com/en/excel_to_pdf — Convert an Excel file to PDF.
+- PDF to HTML — https://mylifepdf.com/en/pdf_to_html — Convert a PDF into an HTML web page.
+- HTML to PDF — https://mylifepdf.com/en/html_to_pdf — Convert an HTML file to PDF.
+
+## Notes
+
+- All 15 tools are free, with no usage account or sign-up required.
+- Every tool is available under all four locale prefixes: /ko, /en, /ja, /zh (e.g. https://mylifepdf.com/ko/merge_pdf).
+- Sitemap: https://mylifepdf.com/sitemap.xml
