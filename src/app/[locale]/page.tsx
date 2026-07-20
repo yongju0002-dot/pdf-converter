@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { ToolCard } from "@/components/ToolCard";
+import { FaqAccordion } from "@/components/FaqAccordion";
 import { categoryMeta, tools } from "@/lib/tools";
 import { localizedAlternates, siteUrl } from "@/lib/seo";
 
@@ -97,28 +98,16 @@ export default function Home() {
       </div>
 
       <div className="mx-auto mt-24 max-w-2xl">
-        <h2 className="text-center text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">
-          {tFaq("heading")}
-        </h2>
-        <div className="mt-8 space-y-3">
-          {faqItems.map((item) => (
-            <details
-              key={item.q}
-              className="group rounded-xl border border-zinc-200 bg-white px-4 py-3 dark:border-zinc-800 dark:bg-zinc-900"
-            >
-              <summary className="cursor-pointer list-none font-medium text-zinc-800 marker:content-none dark:text-zinc-100">
-                <span className="flex items-center justify-between gap-2">
-                  {item.q}
-                  <span className="shrink-0 text-zinc-400 transition-transform group-open:rotate-45">
-                    +
-                  </span>
-                </span>
-              </summary>
-              <p className="mt-2 text-sm text-zinc-500 dark:text-zinc-400">
-                {item.a}
-              </p>
-            </details>
-          ))}
+        <div className="text-center">
+          <span className="inline-flex items-center gap-1.5 rounded-full border border-indigo-100 bg-indigo-50 px-3 py-1 text-xs font-medium text-indigo-600 dark:border-indigo-500/20 dark:bg-indigo-500/10 dark:text-indigo-400">
+            FAQ
+          </span>
+          <h2 className="mt-4 text-2xl font-bold tracking-tight text-zinc-900 sm:text-3xl dark:text-zinc-50">
+            {tFaq("heading")}
+          </h2>
+        </div>
+        <div className="mt-8">
+          <FaqAccordion items={faqItems} />
         </div>
       </div>
     </div>
