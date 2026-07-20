@@ -18,18 +18,40 @@ const nextConfig: NextConfig = {
     "/api/pdf-to-excel": ["./node_modules/pdfjs-dist/**/*"],
   },
   async redirects() {
-    // Old slugs (merge/split/compress/watermark/protect) didn't contain
-    // "pdf" - renamed for SEO, but redirect in case they were indexed.
-    const renamed = ["merge", "split", "compress", "watermark", "protect"];
-    return renamed.flatMap((slug) => [
+    // Tool slugs went through 2 renames for SEO (each old form may have been
+    // indexed already): bare word -> hyphenated "-pdf"/"pdf-to-x" -> final
+    // underscore form ("merge" -> "merge-pdf" -> "merge_pdf", etc).
+    const renames: [string, string][] = [
+      ["merge", "merge_pdf"],
+      ["merge-pdf", "merge_pdf"],
+      ["split", "split_pdf"],
+      ["split-pdf", "split_pdf"],
+      ["compress", "compress_pdf"],
+      ["compress-pdf", "compress_pdf"],
+      ["watermark", "watermark_pdf"],
+      ["watermark-pdf", "watermark_pdf"],
+      ["protect", "protect_pdf"],
+      ["protect-pdf", "protect_pdf"],
+      ["pdf-to-image", "pdf_to_image"],
+      ["image-to-pdf", "image_to_pdf"],
+      ["pdf-to-word", "pdf_to_word"],
+      ["word-to-pdf", "word_to_pdf"],
+      ["pdf-to-ppt", "pdf_to_ppt"],
+      ["ppt-to-pdf", "ppt_to_pdf"],
+      ["pdf-to-excel", "pdf_to_excel"],
+      ["excel-to-pdf", "excel_to_pdf"],
+      ["pdf-to-html", "pdf_to_html"],
+      ["html-to-pdf", "html_to_pdf"],
+    ];
+    return renames.flatMap(([from, to]) => [
       {
-        source: `/${slug}`,
-        destination: `/${slug}-pdf`,
+        source: `/${from}`,
+        destination: `/${to}`,
         permanent: true,
       },
       {
-        source: `/:locale(ko|en|ja|zh)/${slug}`,
-        destination: `/:locale/${slug}-pdf`,
+        source: `/:locale(ko|en|ja|zh)/${from}`,
+        destination: `/:locale/${to}`,
         permanent: true,
       },
     ]);

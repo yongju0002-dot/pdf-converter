@@ -7,11 +7,11 @@ import { ToolLink } from "@/components/ToolLink";
 import { tools } from "@/lib/tools";
 
 const fromPdfTools = tools.filter(
-  (tool) => tool.available && tool.slug.startsWith("pdf-to-"),
+  (tool) => tool.available && tool.slug.startsWith("pdf_to_"),
 );
 const toPdfTools = tools.filter(
   (tool) =>
-    tool.available && tool.category !== "edit" && !tool.slug.startsWith("pdf-to-"),
+    tool.available && tool.category !== "edit" && !tool.slug.startsWith("pdf_to_"),
 );
 
 export function PdfConvertMenu() {
