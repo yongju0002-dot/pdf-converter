@@ -66,7 +66,7 @@ export default function Home() {
   };
 
   return (
-    <div className="mx-auto w-full max-w-6xl flex-1 px-6 py-16 sm:py-20">
+    <div className="mx-auto w-full max-w-7xl flex-1 px-6 py-16 sm:py-20">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -87,7 +87,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="mt-16 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+      <div className="mt-16 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {availableTools.map((tool) => (
           <ToolCard
             key={tool.slug}
