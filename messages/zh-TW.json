@@ -1,0 +1,238 @@
+{
+  "Metadata": {
+    "title": "PDF工具 | 免費合併、分割、壓縮PDF",
+    "description": "免註冊，免費合併、分割、壓縮和轉換PDF檔案。"
+  },
+  "Header": {
+    "brand": "PDF工具",
+    "allTools": "所有工具",
+    "pdfConvert": "PDF轉換",
+    "freeBadge": "免註冊，免費使用",
+    "quickMerge": "合併PDF",
+    "quickSplit": "分割PDF",
+    "quickCompress": "壓縮PDF"
+  },
+  "Footer": {
+    "notice": "上傳的檔案會在處理完成後自動刪除。"
+  },
+  "Categories": {
+    "edit": "編輯與安全",
+    "image": "圖片轉換",
+    "office": "辦公文件轉換",
+    "web": "網頁轉換",
+    "fromPdf": "從PDF轉換",
+    "toPdf": "轉換為PDF"
+  },
+  "Home": {
+    "badge": "✨ {count}款工具，全部免費",
+    "title": "所有PDF操作，一站搞定",
+    "subtitle": "合併、分割、壓縮、轉換 — 免註冊，免費使用。"
+  },
+  "Common": {
+    "dropzonePlaceholder": "將檔案拖放到此處，或點擊選擇",
+    "dropzoneChangeHint": "點擊可選擇其他檔案",
+    "comingSoon": "即將推出",
+    "moveUp": "上移",
+    "moveDown": "下移",
+    "remove": "刪除",
+    "converting": "轉換中...",
+    "genericError": "轉換過程中發生錯誤。",
+    "selectFile": "請選擇要轉換的檔案。"
+  },
+  "Tools": {
+    "merge_pdf": { "name": "合併PDF", "description": "將多個PDF檔案合併為一個" },
+    "split_pdf": { "name": "分割PDF", "description": "按頁分割PDF，或提取指定頁面範圍" },
+    "compress_pdf": { "name": "壓縮PDF", "description": "在保持畫質的同時減小檔案大小" },
+    "watermark_pdf": { "name": "添加浮水印", "description": "插入文字或圖片浮水印" },
+    "protect_pdf": { "name": "加密/解密PDF", "description": "為PDF設定或移除密碼" },
+    "pdf_to_image": { "name": "PDF轉圖片", "description": "將PDF每一頁轉換為PNG/JPG圖片" },
+    "image_to_pdf": { "name": "圖片轉PDF", "description": "按順序將JPG、PNG圖片合併為PDF" },
+    "pdf_to_word": { "name": "PDF轉Word", "description": "將PDF轉換為可編輯的Word文件" },
+    "word_to_pdf": { "name": "Word轉PDF", "description": "將Word文件轉換為PDF" },
+    "pdf_to_ppt": { "name": "PDF轉PowerPoint", "description": "將PDF每一頁轉換為PowerPoint投影片" },
+    "ppt_to_pdf": { "name": "PowerPoint轉PDF", "description": "將PowerPoint文件轉換為PDF" },
+    "pdf_to_excel": { "name": "PDF轉Excel", "description": "將PDF中的表格資料轉換為Excel檔案" },
+    "excel_to_pdf": { "name": "Excel轉PDF", "description": "將Excel檔案轉換為PDF" },
+    "pdf_to_html": { "name": "PDF轉HTML", "description": "將PDF轉換為HTML網頁" },
+    "html_to_pdf": { "name": "HTML轉PDF", "description": "將HTML檔案轉換為PDF" },
+    "rotate_pdf": { "name": "旋轉PDF", "description": "旋轉PDF的所有頁面" },
+    "page_numbers_pdf": { "name": "添加頁碼", "description": "為PDF的所有頁面添加頁碼" },
+    "organize_pdf": { "name": "整理PDF", "description": "調整或刪除PDF中的頁面" }
+  },
+  "MergePage": {
+    "title": "合併PDF",
+    "description": "按您想要的順序排列多個PDF檔案，並合併為一個。",
+    "dropzonePlaceholder": "將PDF檔案拖放到此處，或點擊選擇",
+    "needTwoFiles": "合併至少需要2個PDF檔案。",
+    "error": "合併過程中發生錯誤。",
+    "merging": "合併中...",
+    "submit": "合併 {count} 個PDF"
+  },
+  "SplitPage": {
+    "title": "分割PDF",
+    "description": "按頁分割PDF，或僅提取您需要的頁面。",
+    "selectFile": "請選擇要分割的PDF檔案。",
+    "enterRange": "請輸入要提取的頁面範圍。例如：1-3, 5, 8-10",
+    "error": "分割過程中發生錯誤。",
+    "splitting": "分割中...",
+    "submit": "分割PDF",
+    "modeAll": "將每一頁單獨分割",
+    "modeRange": "僅提取指定頁面",
+    "rangePlaceholder": "例如：1-3, 5, 8-10",
+    "rangeHint": "請輸入以逗號分隔的頁碼或頁面範圍。"
+  },
+  "WatermarkPage": {
+    "title": "添加浮水印",
+    "description": "在每一頁插入斜向文字浮水印。",
+    "selectFile": "請選擇要添加浮水印的PDF檔案。",
+    "enterText": "請輸入浮水印文字。",
+    "error": "添加浮水印時發生錯誤。",
+    "applying": "套用中...",
+    "submit": "添加浮水印",
+    "textLabel": "浮水印文字",
+    "opacityLabel": "不透明度",
+    "fontSizeLabel": "字型大小"
+  },
+  "ProtectPage": {
+    "title": "加密/解密PDF",
+    "description": "為PDF設定密碼，或移除已有的密碼。",
+    "selectFile": "請選擇PDF檔案。",
+    "enterPassword": "請輸入密碼。",
+    "error": "處理過程中發生錯誤。",
+    "processing": "處理中...",
+    "actionAdd": "設定密碼",
+    "actionRemove": "解除密碼",
+    "submitAdd": "設定密碼",
+    "submitRemove": "解除密碼",
+    "passwordLabelAdd": "要設定的密碼",
+    "passwordLabelRemove": "目前密碼",
+    "passwordPlaceholder": "輸入密碼"
+  },
+  "CompressPage": {
+    "title": "壓縮PDF",
+    "description": "將每一頁重新壓縮為圖片，以減小檔案大小。",
+    "warning": "對掃描檔或圖片較多的PDF效果最佳。壓縮後將無法選取或複製文字。",
+    "selectFile": "請選擇要壓縮的PDF檔案。",
+    "error": "壓縮過程中發生錯誤。",
+    "compressing": "壓縮中...",
+    "submit": "壓縮PDF",
+    "qualityLabel": "壓縮品質",
+    "qualityHint": "數值越低，檔案越小，但畫質也會下降。",
+    "result": "{originalSize} MB → {compressedSize} MB（減少{percent}%）"
+  },
+  "ImageToPdfPage": {
+    "title": "圖片轉PDF",
+    "description": "按您想要的順序排列JPG、PNG圖片，並合併為一個PDF。",
+    "dropzonePlaceholder": "將圖片拖放到此處，或點擊選擇",
+    "selectAtLeastOne": "請至少選擇一張圖片。",
+    "error": "轉換過程中發生錯誤。",
+    "converting": "轉換中...",
+    "submit": "產生PDF（{count}頁）",
+    "summary": "{count}張圖片 · 共{size} MB"
+  },
+  "PdfToImagePage": {
+    "title": "PDF轉圖片",
+    "description": "將PDF的每一頁轉換為圖片。如果有多頁，結果將打包為ZIP下載。",
+    "selectFile": "請選擇要轉換的PDF檔案。",
+    "error": "轉換過程中發生錯誤。",
+    "converting": "轉換中...",
+    "submit": "轉換為圖片",
+    "formatLabel": "輸出格式"
+  },
+  "PdfToWordPage": {
+    "title": "PDF轉Word",
+    "description": "將PDF轉換為可編輯的Word（.docx）文件。",
+    "warning": "版面複雜的PDF轉換後格式可能會略有變化。",
+    "submit": "轉換為Word"
+  },
+  "WordToPdfPage": {
+    "title": "Word轉PDF",
+    "description": "將Word（.docx、.doc）文件轉換為PDF。",
+    "submit": "轉換為PDF"
+  },
+  "PdfToPptPage": {
+    "title": "PDF轉PowerPoint",
+    "description": "將PDF的每一頁轉換為PowerPoint（.pptx）投影片。",
+    "warning": "投影片的排版可能會因原PDF中文字/圖片的位置而有所不同。",
+    "submit": "轉換為PowerPoint"
+  },
+  "PptToPdfPage": {
+    "title": "PowerPoint轉PDF",
+    "description": "將PowerPoint（.pptx、.ppt）文件轉換為PDF。",
+    "submit": "轉換為PDF"
+  },
+  "PdfToExcelPage": {
+    "title": "PDF轉Excel",
+    "description": "識別PDF中的表格資料，並轉換為Excel（.xlsx）檔案。",
+    "warning": "對基於文字的PDF中的簡單表格最為準確。掃描檔或版面複雜的表格可能出現儲存格錯位。",
+    "submit": "轉換為Excel"
+  },
+  "ExcelToPdfPage": {
+    "title": "Excel轉PDF",
+    "description": "將Excel（.xlsx、.xls、.csv）檔案轉換為PDF。",
+    "submit": "轉換為PDF"
+  },
+  "PdfToHtmlPage": {
+    "title": "PDF轉HTML",
+    "description": "將PDF轉換為HTML網頁。",
+    "warning": "包含圖片的PDF轉換結果將以ZIP檔案（HTML+圖片）形式提供。",
+    "submit": "轉換為HTML"
+  },
+  "HtmlToPdfPage": {
+    "title": "HTML轉PDF",
+    "description": "將HTML檔案轉換為PDF。",
+    "submit": "轉換為PDF"
+  },
+  "RotatePage": {
+    "title": "旋轉PDF",
+    "description": "順時針或逆時針旋轉PDF的所有頁面。",
+    "selectFile": "請選擇要旋轉的PDF檔案。",
+    "error": "旋轉過程中發生錯誤。",
+    "rotating": "旋轉中...",
+    "submit": "旋轉PDF",
+    "directionLabel": "旋轉方向",
+    "right90": "向右90°",
+    "left90": "向左90°",
+    "rotate180": "180°"
+  },
+  "PageNumbersPage": {
+    "title": "添加頁碼",
+    "description": "為PDF的所有頁面添加頁碼。",
+    "selectFile": "請選擇PDF檔案。",
+    "error": "添加頁碼時發生錯誤。",
+    "applying": "套用中...",
+    "submit": "添加頁碼",
+    "positionLabel": "位置",
+    "positionBottomCenter": "底部置中",
+    "positionBottomRight": "右下角",
+    "positionTopCenter": "頂部置中",
+    "startNumberLabel": "起始頁碼",
+    "fontSizeLabel": "字型大小"
+  },
+  "OrganizePage": {
+    "title": "整理PDF",
+    "description": "調整或刪除頁面後，另存為新的PDF。",
+    "selectFile": "請選擇要整理的PDF檔案。",
+    "loadingThumbnails": "正在載入頁面...",
+    "error": "發生錯誤。",
+    "saving": "儲存中...",
+    "submit": "儲存PDF",
+    "needAtLeastOnePage": "至少需要保留一頁。",
+    "removePage": "刪除頁面",
+    "pageLabel": "第{number}頁"
+  },
+  "LanguageSwitcher": {
+    "label": "語言"
+  },
+  "FAQ": {
+    "heading": "常見問題",
+    "items": [
+      { "q": "PDF工具是免費使用的嗎？", "a": "是的，全部18款工具完全免費，無需註冊。" },
+      { "q": "需要註冊帳號嗎？", "a": "不需要，無需註冊即可立即使用所有功能。" },
+      { "q": "上傳的檔案會怎麼處理？", "a": "檔案在伺服器處理後會立即自動刪除，不會被保存。" },
+      { "q": "支援哪些語言？", "a": "支援韓語、英語、日語、中文（簡體和繁體）、西班牙語、法語、德語、葡萄牙語和俄語。" },
+      { "q": "可以把多個PDF檔案合併成一個嗎？", "a": "可以，在合併PDF頁面按您想要的順序排列後合併為一個。" },
+      { "q": "可以把PDF轉換為Word或Excel嗎？", "a": "可以，支援PDF與Word、Excel、PowerPoint之間的相互轉換。" }
+    ]
+  }
+}

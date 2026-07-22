@@ -32,6 +32,12 @@ const ogLocales: Record<string, string> = {
   en: "en_US",
   ja: "ja_JP",
   zh: "zh_CN",
+  es: "es_ES",
+  fr: "fr_FR",
+  de: "de_DE",
+  pt: "pt_PT",
+  ru: "ru_RU",
+  "zh-TW": "zh_TW",
 };
 
 export async function generateMetadata({

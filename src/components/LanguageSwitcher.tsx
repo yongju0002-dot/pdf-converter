@@ -10,6 +10,12 @@ const localeLabels: Record<(typeof routing.locales)[number], string> = {
   en: "English",
   ja: "日本語",
   zh: "简体中文",
+  es: "Español",
+  fr: "Français",
+  de: "Deutsch",
+  pt: "Português",
+  ru: "Русский",
+  "zh-TW": "繁體中文",
 };
 
 export function LanguageSwitcher() {

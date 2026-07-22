@@ -1,0 +1,238 @@
+{
+  "Metadata": {
+    "title": "Ferramentas PDF | Unir, Dividir e Comprimir PDF grátis",
+    "description": "Una, divida, comprima e converta PDFs gratuitamente, sem necessidade de cadastro."
+  },
+  "Header": {
+    "brand": "Ferramentas PDF",
+    "allTools": "Todas as ferramentas",
+    "pdfConvert": "Converter PDF",
+    "freeBadge": "Grátis, sem cadastro",
+    "quickMerge": "Unir PDF",
+    "quickSplit": "Dividir PDF",
+    "quickCompress": "Comprimir PDF"
+  },
+  "Footer": {
+    "notice": "Os arquivos enviados são excluídos automaticamente após o processamento."
+  },
+  "Categories": {
+    "edit": "Edição e segurança",
+    "image": "Conversão de imagem",
+    "office": "Conversão de documentos do Office",
+    "web": "Conversão web",
+    "fromPdf": "Converter de PDF",
+    "toPdf": "Converter para PDF"
+  },
+  "Home": {
+    "badge": "✨ {count} ferramentas, todas grátis",
+    "title": "Todas as tarefas de PDF em um só lugar",
+    "subtitle": "Una, divida, comprima e converta — grátis, sem necessidade de cadastro."
+  },
+  "Common": {
+    "dropzonePlaceholder": "Arraste e solte um arquivo aqui, ou clique para selecionar",
+    "dropzoneChangeHint": "Clique para escolher outro arquivo",
+    "comingSoon": "Em breve",
+    "moveUp": "Mover para cima",
+    "moveDown": "Mover para baixo",
+    "remove": "Remover",
+    "converting": "Convertendo...",
+    "genericError": "Ocorreu um erro durante a conversão.",
+    "selectFile": "Selecione um arquivo para converter."
+  },
+  "Tools": {
+    "merge_pdf": { "name": "Unir PDF", "description": "Combine vários arquivos PDF em um só" },
+    "split_pdf": { "name": "Dividir PDF", "description": "Divida um PDF por página ou extraia um intervalo de páginas" },
+    "compress_pdf": { "name": "Comprimir PDF", "description": "Reduza o tamanho do arquivo mantendo a qualidade" },
+    "watermark_pdf": { "name": "Adicionar marca d'água", "description": "Insira uma marca d'água de texto ou imagem" },
+    "protect_pdf": { "name": "Proteger / Desbloquear PDF", "description": "Adicione ou remova uma senha de um PDF" },
+    "pdf_to_image": { "name": "PDF para imagem", "description": "Converta cada página do PDF em uma imagem PNG/JPG" },
+    "image_to_pdf": { "name": "Imagem para PDF", "description": "Combine imagens JPG ou PNG em um único PDF" },
+    "pdf_to_word": { "name": "PDF para Word", "description": "Converta um PDF em um documento Word editável" },
+    "word_to_pdf": { "name": "Word para PDF", "description": "Converta um documento Word em PDF" },
+    "pdf_to_ppt": { "name": "PDF para PowerPoint", "description": "Converta cada página do PDF em um slide do PowerPoint" },
+    "ppt_to_pdf": { "name": "PowerPoint para PDF", "description": "Converta um documento do PowerPoint em PDF" },
+    "pdf_to_excel": { "name": "PDF para Excel", "description": "Converta tabelas de um PDF em um arquivo do Excel" },
+    "excel_to_pdf": { "name": "Excel para PDF", "description": "Converta um arquivo do Excel em PDF" },
+    "pdf_to_html": { "name": "PDF para HTML", "description": "Converta um PDF em uma página web HTML" },
+    "html_to_pdf": { "name": "HTML para PDF", "description": "Converta um arquivo HTML em PDF" },
+    "rotate_pdf": { "name": "Girar PDF", "description": "Gire todas as páginas de um PDF" },
+    "page_numbers_pdf": { "name": "Adicionar números de página", "description": "Adicione números de página a todas as páginas de um PDF" },
+    "organize_pdf": { "name": "Organizar PDF", "description": "Reordene ou remova páginas de um PDF" }
+  },
+  "MergePage": {
+    "title": "Unir PDF",
+    "description": "Organize vários arquivos PDF na ordem desejada e combine-os em um só.",
+    "dropzonePlaceholder": "Arraste e solte arquivos PDF aqui, ou clique para selecionar",
+    "needTwoFiles": "Você precisa de pelo menos 2 arquivos PDF para unir.",
+    "error": "Ocorreu um erro ao unir.",
+    "merging": "Unindo...",
+    "submit": "Unir {count} PDFs"
+  },
+  "SplitPage": {
+    "title": "Dividir PDF",
+    "description": "Divida um PDF em páginas individuais ou extraia apenas as páginas que você precisa.",
+    "selectFile": "Selecione um arquivo PDF para dividir.",
+    "enterRange": "Digite o intervalo de páginas a extrair. Ex: 1-3, 5, 8-10",
+    "error": "Ocorreu um erro ao dividir.",
+    "splitting": "Dividindo...",
+    "submit": "Dividir PDF",
+    "modeAll": "Dividir cada página separadamente",
+    "modeRange": "Extrair páginas específicas",
+    "rangePlaceholder": "Ex: 1-3, 5, 8-10",
+    "rangeHint": "Digite números de página ou intervalos separados por vírgulas."
+  },
+  "WatermarkPage": {
+    "title": "Adicionar marca d'água",
+    "description": "Insira uma marca d'água de texto diagonal em cada página.",
+    "selectFile": "Selecione um arquivo PDF para adicionar uma marca d'água.",
+    "enterText": "Digite o texto da marca d'água.",
+    "error": "Ocorreu um erro ao adicionar a marca d'água.",
+    "applying": "Aplicando...",
+    "submit": "Adicionar marca d'água",
+    "textLabel": "Texto da marca d'água",
+    "opacityLabel": "Opacidade",
+    "fontSizeLabel": "Tamanho da fonte"
+  },
+  "ProtectPage": {
+    "title": "Proteger / Desbloquear PDF",
+    "description": "Adicione uma senha a um PDF ou remova uma existente.",
+    "selectFile": "Selecione um arquivo PDF.",
+    "enterPassword": "Digite uma senha.",
+    "error": "Ocorreu um erro durante o processamento.",
+    "processing": "Processando...",
+    "actionAdd": "Adicionar senha",
+    "actionRemove": "Remover senha",
+    "submitAdd": "Adicionar senha",
+    "submitRemove": "Remover senha",
+    "passwordLabelAdd": "Senha a definir",
+    "passwordLabelRemove": "Senha atual",
+    "passwordPlaceholder": "Digite a senha"
+  },
+  "CompressPage": {
+    "title": "Comprimir PDF",
+    "description": "Recomprime cada página como imagem para reduzir o tamanho do arquivo.",
+    "warning": "Mais eficaz em PDFs escaneados ou com muitas imagens. Após a compressão, o texto não pode mais ser selecionado ou copiado.",
+    "selectFile": "Selecione um arquivo PDF para comprimir.",
+    "error": "Ocorreu um erro ao comprimir.",
+    "compressing": "Comprimindo...",
+    "submit": "Comprimir PDF",
+    "qualityLabel": "Qualidade de compressão",
+    "qualityHint": "Valores mais baixos geram arquivos menores, mas com qualidade inferior.",
+    "result": "{originalSize} MB → {compressedSize} MB ({percent}% menor)"
+  },
+  "ImageToPdfPage": {
+    "title": "Imagem para PDF",
+    "description": "Organize imagens JPG ou PNG na ordem desejada e combine-as em um único PDF.",
+    "dropzonePlaceholder": "Arraste e solte imagens aqui, ou clique para selecionar",
+    "selectAtLeastOne": "Selecione pelo menos um arquivo de imagem.",
+    "error": "Ocorreu um erro durante a conversão.",
+    "converting": "Convertendo...",
+    "submit": "Criar PDF ({count} páginas)",
+    "summary": "{count} imagens · {size} MB no total"
+  },
+  "PdfToImagePage": {
+    "title": "PDF para imagem",
+    "description": "Converte cada página do PDF em uma imagem. Se houver várias páginas, o resultado é baixado como ZIP.",
+    "selectFile": "Selecione um arquivo PDF para converter.",
+    "error": "Ocorreu um erro durante a conversão.",
+    "converting": "Convertendo...",
+    "submit": "Converter para imagem",
+    "formatLabel": "Formato de saída"
+  },
+  "PdfToWordPage": {
+    "title": "PDF para Word",
+    "description": "Converta um PDF em um documento Word (.docx) editável.",
+    "warning": "PDFs com layouts complexos podem ter formatação ligeiramente diferente após a conversão.",
+    "submit": "Converter para Word"
+  },
+  "WordToPdfPage": {
+    "title": "Word para PDF",
+    "description": "Converta um documento Word (.docx, .doc) em PDF.",
+    "submit": "Converter para PDF"
+  },
+  "PdfToPptPage": {
+    "title": "PDF para PowerPoint",
+    "description": "Converta cada página do PDF em um slide do PowerPoint (.pptx).",
+    "warning": "O layout dos slides pode variar de acordo com a disposição de texto/imagens no PDF original.",
+    "submit": "Converter para PowerPoint"
+  },
+  "PptToPdfPage": {
+    "title": "PowerPoint para PDF",
+    "description": "Converta um documento do PowerPoint (.pptx, .ppt) em PDF.",
+    "submit": "Converter para PDF"
+  },
+  "PdfToExcelPage": {
+    "title": "PDF para Excel",
+    "description": "Detecta dados em tabelas dentro de um PDF e os converte em um arquivo do Excel (.xlsx).",
+    "warning": "Mais preciso em tabelas simples de PDFs baseados em texto. Tabelas escaneadas ou com layout complexo podem ter células desalinhadas.",
+    "submit": "Converter para Excel"
+  },
+  "ExcelToPdfPage": {
+    "title": "Excel para PDF",
+    "description": "Converta um arquivo do Excel (.xlsx, .xls, .csv) em PDF.",
+    "submit": "Converter para PDF"
+  },
+  "PdfToHtmlPage": {
+    "title": "PDF para HTML",
+    "description": "Converta um PDF em uma página web HTML.",
+    "warning": "PDFs com imagens são fornecidos como um arquivo ZIP (HTML + imagens).",
+    "submit": "Converter para HTML"
+  },
+  "HtmlToPdfPage": {
+    "title": "HTML para PDF",
+    "description": "Converta um arquivo HTML em PDF.",
+    "submit": "Converter para PDF"
+  },
+  "RotatePage": {
+    "title": "Girar PDF",
+    "description": "Gire todas as páginas de um PDF no sentido horário ou anti-horário.",
+    "selectFile": "Selecione um arquivo PDF para girar.",
+    "error": "Ocorreu um erro ao girar.",
+    "rotating": "Girando...",
+    "submit": "Girar PDF",
+    "directionLabel": "Rotação",
+    "right90": "90° à direita",
+    "left90": "90° à esquerda",
+    "rotate180": "180°"
+  },
+  "PageNumbersPage": {
+    "title": "Adicionar números de página",
+    "description": "Adicione números de página a todas as páginas de um PDF.",
+    "selectFile": "Selecione um arquivo PDF.",
+    "error": "Ocorreu um erro ao adicionar números de página.",
+    "applying": "Aplicando...",
+    "submit": "Adicionar números de página",
+    "positionLabel": "Posição",
+    "positionBottomCenter": "Inferior centro",
+    "positionBottomRight": "Inferior direita",
+    "positionTopCenter": "Superior centro",
+    "startNumberLabel": "Número inicial",
+    "fontSizeLabel": "Tamanho da fonte"
+  },
+  "OrganizePage": {
+    "title": "Organizar PDF",
+    "description": "Reordene ou remova páginas e salve como um novo PDF.",
+    "selectFile": "Selecione um arquivo PDF para organizar.",
+    "loadingThumbnails": "Carregando páginas...",
+    "error": "Ocorreu um erro.",
+    "saving": "Salvando...",
+    "submit": "Salvar PDF",
+    "needAtLeastOnePage": "Mantenha pelo menos uma página.",
+    "removePage": "Remover página",
+    "pageLabel": "Página {number}"
+  },
+  "LanguageSwitcher": {
+    "label": "Idioma"
+  },
+  "FAQ": {
+    "heading": "Perguntas frequentes",
+    "items": [
+      { "q": "As Ferramentas PDF são gratuitas?", "a": "Sim, todas as 18 ferramentas são totalmente gratuitas e não exigem cadastro." },
+      { "q": "Preciso criar uma conta?", "a": "Não, você pode usar todas as ferramentas imediatamente, sem se cadastrar." },
+      { "q": "O que acontece com meus arquivos enviados?", "a": "Os arquivos são processados no servidor e excluídos automaticamente logo depois — nada é armazenado." },
+      { "q": "Quais idiomas são suportados?", "a": "Coreano, inglês, japonês, chinês (simplificado e tradicional), espanhol, francês, alemão, português e russo." },
+      { "q": "Posso combinar vários arquivos PDF em um só?", "a": "Sim, organize seus arquivos na ordem desejada na página Unir PDF e combine-os em um só." },
+      { "q": "Posso converter um PDF para Word ou Excel?", "a": "Sim, as conversões de PDF para Word, PDF para Excel e PDF para PowerPoint (e o inverso) são todas suportadas." }
+    ]
+  }
+}

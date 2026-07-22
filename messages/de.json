@@ -1,0 +1,238 @@
+{
+  "Metadata": {
+    "title": "PDF-Tools | PDF kostenlos zusammenführen, teilen und komprimieren",
+    "description": "Führen Sie PDFs kostenlos zusammen, teilen, komprimieren und konvertieren Sie sie – ohne Anmeldung."
+  },
+  "Header": {
+    "brand": "PDF-Tools",
+    "allTools": "Alle Tools",
+    "pdfConvert": "PDF konvertieren",
+    "freeBadge": "Kostenlos, ohne Anmeldung",
+    "quickMerge": "PDF zusammenführen",
+    "quickSplit": "PDF teilen",
+    "quickCompress": "PDF komprimieren"
+  },
+  "Footer": {
+    "notice": "Hochgeladene Dateien werden nach der Verarbeitung automatisch gelöscht."
+  },
+  "Categories": {
+    "edit": "Bearbeiten & Sicherheit",
+    "image": "Bildkonvertierung",
+    "office": "Office-Dokumentkonvertierung",
+    "web": "Webkonvertierung",
+    "fromPdf": "Von PDF konvertieren",
+    "toPdf": "In PDF konvertieren"
+  },
+  "Home": {
+    "badge": "✨ {count} Tools, alle kostenlos",
+    "title": "Alle PDF-Aufgaben an einem Ort",
+    "subtitle": "Zusammenführen, teilen, komprimieren und konvertieren — kostenlos, ohne Anmeldung."
+  },
+  "Common": {
+    "dropzonePlaceholder": "Datei hierher ziehen oder klicken, um auszuwählen",
+    "dropzoneChangeHint": "Klicken, um eine andere Datei auszuwählen",
+    "comingSoon": "Demnächst verfügbar",
+    "moveUp": "Nach oben",
+    "moveDown": "Nach unten",
+    "remove": "Entfernen",
+    "converting": "Wird konvertiert...",
+    "genericError": "Bei der Konvertierung ist ein Fehler aufgetreten.",
+    "selectFile": "Bitte wählen Sie eine Datei zum Konvertieren aus."
+  },
+  "Tools": {
+    "merge_pdf": { "name": "PDF zusammenführen", "description": "Mehrere PDF-Dateien zu einer zusammenführen" },
+    "split_pdf": { "name": "PDF teilen", "description": "PDF nach Seiten teilen oder einen Seitenbereich extrahieren" },
+    "compress_pdf": { "name": "PDF komprimieren", "description": "Dateigröße reduzieren bei gleichbleibender Qualität" },
+    "watermark_pdf": { "name": "Wasserzeichen hinzufügen", "description": "Text- oder Bild-Wasserzeichen einfügen" },
+    "protect_pdf": { "name": "PDF schützen / entsperren", "description": "Passwort zu einem PDF hinzufügen oder entfernen" },
+    "pdf_to_image": { "name": "PDF in Bild", "description": "Jede PDF-Seite in ein PNG/JPG-Bild umwandeln" },
+    "image_to_pdf": { "name": "Bild in PDF", "description": "JPG- oder PNG-Bilder zu einem einzigen PDF zusammenführen" },
+    "pdf_to_word": { "name": "PDF in Word", "description": "PDF in ein bearbeitbares Word-Dokument umwandeln" },
+    "word_to_pdf": { "name": "Word in PDF", "description": "Word-Dokument in PDF umwandeln" },
+    "pdf_to_ppt": { "name": "PDF in PowerPoint", "description": "Jede PDF-Seite in eine PowerPoint-Folie umwandeln" },
+    "ppt_to_pdf": { "name": "PowerPoint in PDF", "description": "PowerPoint-Dokument in PDF umwandeln" },
+    "pdf_to_excel": { "name": "PDF in Excel", "description": "Tabellen aus einem PDF in eine Excel-Datei umwandeln" },
+    "excel_to_pdf": { "name": "Excel in PDF", "description": "Excel-Datei in PDF umwandeln" },
+    "pdf_to_html": { "name": "PDF in HTML", "description": "PDF in eine HTML-Webseite umwandeln" },
+    "html_to_pdf": { "name": "HTML in PDF", "description": "HTML-Datei in PDF umwandeln" },
+    "rotate_pdf": { "name": "PDF drehen", "description": "Alle Seiten eines PDFs drehen" },
+    "page_numbers_pdf": { "name": "Seitenzahlen hinzufügen", "description": "Seitenzahlen zu allen Seiten eines PDFs hinzufügen" },
+    "organize_pdf": { "name": "PDF organisieren", "description": "Seiten eines PDFs neu anordnen oder entfernen" }
+  },
+  "MergePage": {
+    "title": "PDF zusammenführen",
+    "description": "Ordnen Sie mehrere PDF-Dateien in beliebiger Reihenfolge an und führen Sie sie zu einer zusammen.",
+    "dropzonePlaceholder": "PDF-Dateien hierher ziehen oder klicken, um auszuwählen",
+    "needTwoFiles": "Sie benötigen mindestens 2 PDF-Dateien zum Zusammenführen.",
+    "error": "Beim Zusammenführen ist ein Fehler aufgetreten.",
+    "merging": "Wird zusammengeführt...",
+    "submit": "{count} PDFs zusammenführen"
+  },
+  "SplitPage": {
+    "title": "PDF teilen",
+    "description": "Teilen Sie ein PDF in einzelne Seiten auf oder extrahieren Sie nur die benötigten Seiten.",
+    "selectFile": "Bitte wählen Sie eine PDF-Datei zum Teilen aus.",
+    "enterRange": "Bitte geben Sie den zu extrahierenden Seitenbereich ein. Z. B.: 1-3, 5, 8-10",
+    "error": "Beim Teilen ist ein Fehler aufgetreten.",
+    "splitting": "Wird geteilt...",
+    "submit": "PDF teilen",
+    "modeAll": "Jede Seite einzeln teilen",
+    "modeRange": "Bestimmte Seiten extrahieren",
+    "rangePlaceholder": "Z. B.: 1-3, 5, 8-10",
+    "rangeHint": "Geben Sie Seitenzahlen oder Bereiche durch Kommas getrennt ein."
+  },
+  "WatermarkPage": {
+    "title": "Wasserzeichen hinzufügen",
+    "description": "Fügen Sie auf jeder Seite ein diagonales Text-Wasserzeichen ein.",
+    "selectFile": "Bitte wählen Sie eine PDF-Datei aus, um ein Wasserzeichen hinzuzufügen.",
+    "enterText": "Bitte geben Sie den Wasserzeichentext ein.",
+    "error": "Beim Hinzufügen des Wasserzeichens ist ein Fehler aufgetreten.",
+    "applying": "Wird angewendet...",
+    "submit": "Wasserzeichen hinzufügen",
+    "textLabel": "Wasserzeichentext",
+    "opacityLabel": "Deckkraft",
+    "fontSizeLabel": "Schriftgröße"
+  },
+  "ProtectPage": {
+    "title": "PDF schützen / entsperren",
+    "description": "Fügen Sie einem PDF ein Passwort hinzu oder entfernen Sie ein vorhandenes.",
+    "selectFile": "Bitte wählen Sie eine PDF-Datei aus.",
+    "enterPassword": "Bitte geben Sie ein Passwort ein.",
+    "error": "Bei der Verarbeitung ist ein Fehler aufgetreten.",
+    "processing": "Wird verarbeitet...",
+    "actionAdd": "Passwort hinzufügen",
+    "actionRemove": "Passwort entfernen",
+    "submitAdd": "Passwort hinzufügen",
+    "submitRemove": "Passwort entfernen",
+    "passwordLabelAdd": "Zu setzendes Passwort",
+    "passwordLabelRemove": "Aktuelles Passwort",
+    "passwordPlaceholder": "Passwort eingeben"
+  },
+  "CompressPage": {
+    "title": "PDF komprimieren",
+    "description": "Jede Seite wird als Bild neu komprimiert, um die Dateigröße zu reduzieren.",
+    "warning": "Am effektivsten bei gescannten oder bildlastigen PDFs. Nach der Komprimierung kann Text nicht mehr ausgewählt oder kopiert werden.",
+    "selectFile": "Bitte wählen Sie eine PDF-Datei zum Komprimieren aus.",
+    "error": "Beim Komprimieren ist ein Fehler aufgetreten.",
+    "compressing": "Wird komprimiert...",
+    "submit": "PDF komprimieren",
+    "qualityLabel": "Komprimierungsqualität",
+    "qualityHint": "Niedrigere Werte erzeugen kleinere Dateien, aber geringere Qualität.",
+    "result": "{originalSize} MB → {compressedSize} MB ({percent} % kleiner)"
+  },
+  "ImageToPdfPage": {
+    "title": "Bild in PDF",
+    "description": "Ordnen Sie JPG- oder PNG-Bilder in beliebiger Reihenfolge an und kombinieren Sie sie zu einem PDF.",
+    "dropzonePlaceholder": "Bilder hierher ziehen oder klicken, um auszuwählen",
+    "selectAtLeastOne": "Bitte wählen Sie mindestens eine Bilddatei aus.",
+    "error": "Bei der Konvertierung ist ein Fehler aufgetreten.",
+    "converting": "Wird konvertiert...",
+    "submit": "PDF erstellen ({count} Seiten)",
+    "summary": "{count} Bilder · {size} MB insgesamt"
+  },
+  "PdfToImagePage": {
+    "title": "PDF in Bild",
+    "description": "Wandelt jede PDF-Seite in ein Bild um. Bei mehreren Seiten wird das Ergebnis als ZIP heruntergeladen.",
+    "selectFile": "Bitte wählen Sie eine PDF-Datei zum Konvertieren aus.",
+    "error": "Bei der Konvertierung ist ein Fehler aufgetreten.",
+    "converting": "Wird konvertiert...",
+    "submit": "In Bild umwandeln",
+    "formatLabel": "Ausgabeformat"
+  },
+  "PdfToWordPage": {
+    "title": "PDF in Word",
+    "description": "PDF in ein bearbeitbares Word-Dokument (.docx) umwandeln.",
+    "warning": "PDFs mit komplexem Layout können nach der Konvertierung eine leicht abweichende Formatierung aufweisen.",
+    "submit": "In Word umwandeln"
+  },
+  "WordToPdfPage": {
+    "title": "Word in PDF",
+    "description": "Word-Dokument (.docx, .doc) in PDF umwandeln.",
+    "submit": "In PDF umwandeln"
+  },
+  "PdfToPptPage": {
+    "title": "PDF in PowerPoint",
+    "description": "Jede PDF-Seite in eine PowerPoint-Folie (.pptx) umwandeln.",
+    "warning": "Das Folienlayout kann je nach Text-/Bildanordnung im ursprünglichen PDF variieren.",
+    "submit": "In PowerPoint umwandeln"
+  },
+  "PptToPdfPage": {
+    "title": "PowerPoint in PDF",
+    "description": "PowerPoint-Dokument (.pptx, .ppt) in PDF umwandeln.",
+    "submit": "In PDF umwandeln"
+  },
+  "PdfToExcelPage": {
+    "title": "PDF in Excel",
+    "description": "Erkennt Tabellendaten in einem PDF und wandelt sie in eine Excel-Datei (.xlsx) um.",
+    "warning": "Am genauesten bei einfachen Tabellen in textbasierten PDFs. Gescannte oder komplex formatierte Tabellen können falsch ausgerichtete Zellen aufweisen.",
+    "submit": "In Excel umwandeln"
+  },
+  "ExcelToPdfPage": {
+    "title": "Excel in PDF",
+    "description": "Excel-Datei (.xlsx, .xls, .csv) in PDF umwandeln.",
+    "submit": "In PDF umwandeln"
+  },
+  "PdfToHtmlPage": {
+    "title": "PDF in HTML",
+    "description": "PDF in eine HTML-Webseite umwandeln.",
+    "warning": "PDFs mit Bildern werden als ZIP-Datei (HTML + Bilder) bereitgestellt.",
+    "submit": "In HTML umwandeln"
+  },
+  "HtmlToPdfPage": {
+    "title": "HTML in PDF",
+    "description": "HTML-Datei in PDF umwandeln.",
+    "submit": "In PDF umwandeln"
+  },
+  "RotatePage": {
+    "title": "PDF drehen",
+    "description": "Drehen Sie alle Seiten eines PDFs im Uhrzeigersinn oder gegen den Uhrzeigersinn.",
+    "selectFile": "Bitte wählen Sie eine PDF-Datei zum Drehen aus.",
+    "error": "Beim Drehen ist ein Fehler aufgetreten.",
+    "rotating": "Wird gedreht...",
+    "submit": "PDF drehen",
+    "directionLabel": "Drehung",
+    "right90": "90° rechts",
+    "left90": "90° links",
+    "rotate180": "180°"
+  },
+  "PageNumbersPage": {
+    "title": "Seitenzahlen hinzufügen",
+    "description": "Fügen Sie allen Seiten eines PDFs Seitenzahlen hinzu.",
+    "selectFile": "Bitte wählen Sie eine PDF-Datei aus.",
+    "error": "Beim Hinzufügen der Seitenzahlen ist ein Fehler aufgetreten.",
+    "applying": "Wird angewendet...",
+    "submit": "Seitenzahlen hinzufügen",
+    "positionLabel": "Position",
+    "positionBottomCenter": "Unten Mitte",
+    "positionBottomRight": "Unten rechts",
+    "positionTopCenter": "Oben Mitte",
+    "startNumberLabel": "Startnummer",
+    "fontSizeLabel": "Schriftgröße"
+  },
+  "OrganizePage": {
+    "title": "PDF organisieren",
+    "description": "Seiten neu anordnen oder entfernen und als neues PDF speichern.",
+    "selectFile": "Bitte wählen Sie eine PDF-Datei zum Organisieren aus.",
+    "loadingThumbnails": "Seiten werden geladen...",
+    "error": "Ein Fehler ist aufgetreten.",
+    "saving": "Wird gespeichert...",
+    "submit": "PDF speichern",
+    "needAtLeastOnePage": "Behalten Sie mindestens eine Seite.",
+    "removePage": "Seite entfernen",
+    "pageLabel": "Seite {number}"
+  },
+  "LanguageSwitcher": {
+    "label": "Sprache"
+  },
+  "FAQ": {
+    "heading": "Häufig gestellte Fragen",
+    "items": [
+      { "q": "Ist die Nutzung von PDF Tools kostenlos?", "a": "Ja, alle 18 Tools sind völlig kostenlos und erfordern keine Anmeldung." },
+      { "q": "Muss ich ein Konto erstellen?", "a": "Nein, Sie können alle Tools sofort ohne Anmeldung nutzen." },
+      { "q": "Was passiert mit meinen hochgeladenen Dateien?", "a": "Die Dateien werden auf dem Server verarbeitet und unmittelbar danach automatisch gelöscht — es wird nichts gespeichert." },
+      { "q": "Welche Sprachen werden unterstützt?", "a": "Koreanisch, Englisch, Japanisch, Chinesisch (vereinfacht und traditionell), Spanisch, Französisch, Deutsch, Portugiesisch und Russisch." },
+      { "q": "Kann ich mehrere PDF-Dateien zu einer zusammenführen?", "a": "Ja, ordnen Sie Ihre Dateien auf der Seite „PDF zusammenführen“ in beliebiger Reihenfolge an und führen Sie sie zu einer zusammen." },
+      { "q": "Kann ich ein PDF in Word oder Excel umwandeln?", "a": "Ja, die Konvertierungen von PDF zu Word, PDF zu Excel und PDF zu PowerPoint (und umgekehrt) werden alle unterstützt." }
+    ]
+  }
+}
