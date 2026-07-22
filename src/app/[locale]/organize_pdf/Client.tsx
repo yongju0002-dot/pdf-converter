@@ -1,8 +1,8 @@
 "use client";
 
-import { useCallback, useState } from "react";
+import { useCallback, useState, type DragEvent } from "react";
 import { useDropzone } from "react-dropzone";
-import { ArrowUpDown } from "lucide-react";
+import { ArrowUpDown, GripVertical } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Callout } from "@/components/ui/Callout";
 import { FileDropzone } from "@/components/ui/FileDropzone";
@@ -23,6 +23,8 @@ export default function OrganizePage() {
   const [isLoadingThumbnails, setIsLoadingThumbnails] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [draggedIndex, setDraggedIndex] = useState<number | null>(null);
+  const [dragOverIndex, setDragOverIndex] = useState<number | null>(null);
 
   const loadThumbnails = async (selectedFile: File) => {
     setError(null);
@@ -76,15 +78,37 @@ export default function OrganizePage() {
     );
   };
 
-  const movePage = (index: number, direction: -1 | 1) => {
+  const handleDragStart = (index: number) => (e: DragEvent<HTMLLIElement>) => {
+    setDraggedIndex(index);
+    e.dataTransfer.effectAllowed = "move";
+  };
+
+  const handleDragEnter = (index: number) => (e: DragEvent<HTMLLIElement>) => {
+    e.preventDefault();
+    if (draggedIndex === null || draggedIndex === index) return;
+    setDragOverIndex(index);
+  };
+
+  const handleDragOver = (e: DragEvent<HTMLLIElement>) => {
+    e.preventDefault();
+  };
+
+  const handleDrop = (index: number) => (e: DragEvent<HTMLLIElement>) => {
+    e.preventDefault();
     setPages((prev) => {
-      if (!prev) return prev;
+      if (!prev || draggedIndex === null || draggedIndex === index) return prev;
       const next = [...prev];
-      const target = index + direction;
-      if (target < 0 || target >= next.length) return prev;
-      [next[index], next[target]] = [next[target], next[index]];
+      const [moved] = next.splice(draggedIndex, 1);
+      next.splice(index, 0, moved);
       return next;
     });
+    setDraggedIndex(null);
+    setDragOverIndex(null);
+  };
+
+  const handleDragEnd = () => {
+    setDraggedIndex(null);
+    setDragOverIndex(null);
   };
 
   const handleSave = async () => {
@@ -156,46 +180,42 @@ export default function OrganizePage() {
           {pages.map((page, index) => (
             <li
               key={page.originalIndex}
-              className="relative overflow-hidden rounded-xl border border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900"
+              draggable
+              onDragStart={handleDragStart(index)}
+              onDragEnter={handleDragEnter(index)}
+              onDragOver={handleDragOver}
+              onDrop={handleDrop(index)}
+              onDragEnd={handleDragEnd}
+              className={`relative cursor-grab overflow-hidden rounded-xl border bg-white transition-all active:cursor-grabbing dark:bg-zinc-900 ${
+                draggedIndex === index
+                  ? "opacity-40"
+                  : dragOverIndex === index
+                    ? "border-indigo-400 dark:border-indigo-500"
+                    : "border-zinc-200 dark:border-zinc-800"
+              }`}
             >
+              <span className="absolute top-1.5 left-1.5 flex h-6 w-6 items-center justify-center rounded-md bg-black/40 text-white">
+                <GripVertical className="h-3.5 w-3.5" strokeWidth={2} />
+              </span>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={page.dataUrl}
                 alt={t("pageLabel", { number: page.originalIndex + 1 })}
+                draggable={false}
                 className="h-32 w-full object-cover"
               />
               <div className="flex items-center justify-between gap-1 border-t border-zinc-100 bg-white px-2 py-1.5 dark:border-zinc-800 dark:bg-zinc-900">
                 <span className="truncate text-xs text-zinc-500 dark:text-zinc-400">
                   {index + 1}
                 </span>
-                <div className="flex shrink-0 items-center gap-0.5">
-                  <button
-                    type="button"
-                    onClick={() => movePage(index, -1)}
-                    disabled={index === 0}
-                    className="rounded px-1.5 py-0.5 text-xs text-zinc-500 transition-colors hover:bg-zinc-100 disabled:opacity-30 dark:text-zinc-400 dark:hover:bg-zinc-800"
-                    aria-label={tCommon("moveUp")}
-                  >
-                    ↑
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => movePage(index, 1)}
-                    disabled={index === pages.length - 1}
-                    className="rounded px-1.5 py-0.5 text-xs text-zinc-500 transition-colors hover:bg-zinc-100 disabled:opacity-30 dark:text-zinc-400 dark:hover:bg-zinc-800"
-                    aria-label={tCommon("moveDown")}
-                  >
-                    ↓
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => removePage(page.originalIndex)}
-                    className="rounded px-1.5 py-0.5 text-xs text-red-500 transition-colors hover:bg-red-50 dark:hover:bg-red-500/10"
-                    aria-label={t("removePage")}
-                  >
-                    {tCommon("remove")}
-                  </button>
-                </div>
+                <button
+                  type="button"
+                  onClick={() => removePage(page.originalIndex)}
+                  className="shrink-0 rounded px-1.5 py-0.5 text-xs text-red-500 transition-colors hover:bg-red-50 dark:hover:bg-red-500/10"
+                  aria-label={t("removePage")}
+                >
+                  {tCommon("remove")}
+                </button>
               </div>
             </li>
           ))}
