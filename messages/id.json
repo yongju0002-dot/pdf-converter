@@ -1,0 +1,238 @@
+{
+  "Metadata": {
+    "title": "Alat PDF | Gabung, Pisah, dan Kompres PDF Gratis",
+    "description": "Gabungkan, pisahkan, kompres, dan konversi file PDF secara gratis — tanpa perlu mendaftar."
+  },
+  "Header": {
+    "brand": "Alat PDF",
+    "allTools": "Semua Alat",
+    "pdfConvert": "Konversi PDF",
+    "freeBadge": "Gratis, tanpa pendaftaran",
+    "quickMerge": "Gabung PDF",
+    "quickSplit": "Pisah PDF",
+    "quickCompress": "Kompres PDF"
+  },
+  "Footer": {
+    "notice": "File yang diunggah akan otomatis dihapus setelah diproses."
+  },
+  "Categories": {
+    "edit": "Pengeditan dan Keamanan",
+    "image": "Konversi Gambar",
+    "office": "Konversi Dokumen Office",
+    "web": "Konversi Web",
+    "fromPdf": "Konversi dari PDF",
+    "toPdf": "Konversi ke PDF"
+  },
+  "Home": {
+    "badge": "✨ {count} alat, semuanya gratis",
+    "title": "Semua Tugas PDF dalam Satu Tempat",
+    "subtitle": "Gabung, pisah, kompres, dan konversi — gratis, tanpa pendaftaran."
+  },
+  "Common": {
+    "dropzonePlaceholder": "Seret dan lepas file di sini, atau klik untuk memilih",
+    "dropzoneChangeHint": "Klik untuk memilih file lain",
+    "comingSoon": "Segera hadir",
+    "moveUp": "Pindah ke atas",
+    "moveDown": "Pindah ke bawah",
+    "remove": "Hapus",
+    "converting": "Mengonversi...",
+    "genericError": "Terjadi kesalahan selama konversi.",
+    "selectFile": "Pilih file untuk dikonversi."
+  },
+  "Tools": {
+    "merge_pdf": { "name": "Gabung PDF", "description": "Gabungkan beberapa file PDF menjadi satu" },
+    "split_pdf": { "name": "Pisah PDF", "description": "Pisahkan PDF berdasarkan halaman atau ekstrak rentang halaman" },
+    "compress_pdf": { "name": "Kompres PDF", "description": "Kurangi ukuran file sambil mempertahankan kualitas" },
+    "watermark_pdf": { "name": "Tambah Watermark", "description": "Sisipkan watermark teks atau gambar" },
+    "protect_pdf": { "name": "Lindungi / Buka Kunci PDF", "description": "Tambah atau hapus kata sandi pada PDF" },
+    "pdf_to_image": { "name": "PDF ke Gambar", "description": "Konversi setiap halaman PDF menjadi gambar PNG/JPG" },
+    "image_to_pdf": { "name": "Gambar ke PDF", "description": "Gabungkan gambar JPG atau PNG menjadi satu PDF" },
+    "pdf_to_word": { "name": "PDF ke Word", "description": "Konversi PDF menjadi dokumen Word yang dapat diedit" },
+    "word_to_pdf": { "name": "Word ke PDF", "description": "Konversi dokumen Word menjadi PDF" },
+    "pdf_to_ppt": { "name": "PDF ke PowerPoint", "description": "Konversi setiap halaman PDF menjadi slide PowerPoint" },
+    "ppt_to_pdf": { "name": "PowerPoint ke PDF", "description": "Konversi dokumen PowerPoint menjadi PDF" },
+    "pdf_to_excel": { "name": "PDF ke Excel", "description": "Konversi tabel dari PDF menjadi file Excel" },
+    "excel_to_pdf": { "name": "Excel ke PDF", "description": "Konversi file Excel menjadi PDF" },
+    "pdf_to_html": { "name": "PDF ke HTML", "description": "Konversi PDF menjadi halaman web HTML" },
+    "html_to_pdf": { "name": "HTML ke PDF", "description": "Konversi file HTML menjadi PDF" },
+    "rotate_pdf": { "name": "Putar PDF", "description": "Putar semua halaman dalam PDF" },
+    "page_numbers_pdf": { "name": "Tambah Nomor Halaman", "description": "Tambahkan nomor halaman ke semua halaman PDF" },
+    "organize_pdf": { "name": "Atur PDF", "description": "Susun ulang atau hapus halaman dalam PDF" }
+  },
+  "MergePage": {
+    "title": "Gabung PDF",
+    "description": "Susun beberapa file PDF sesuai urutan yang Anda inginkan dan gabungkan menjadi satu.",
+    "dropzonePlaceholder": "Seret dan lepas file PDF di sini, atau klik untuk memilih",
+    "needTwoFiles": "Anda memerlukan setidaknya 2 file PDF untuk digabungkan.",
+    "error": "Terjadi kesalahan saat menggabungkan.",
+    "merging": "Menggabungkan...",
+    "submit": "Gabungkan {count} File PDF"
+  },
+  "SplitPage": {
+    "title": "Pisah PDF",
+    "description": "Pisahkan PDF menjadi halaman-halaman terpisah atau ekstrak hanya halaman yang Anda butuhkan.",
+    "selectFile": "Pilih file PDF untuk dipisahkan.",
+    "enterRange": "Masukkan rentang halaman yang akan diekstrak. Contoh: 1-3, 5, 8-10",
+    "error": "Terjadi kesalahan saat memisahkan.",
+    "splitting": "Memisahkan...",
+    "submit": "Pisahkan PDF",
+    "modeAll": "Pisahkan setiap halaman secara terpisah",
+    "modeRange": "Ekstrak halaman tertentu",
+    "rangePlaceholder": "Contoh: 1-3, 5, 8-10",
+    "rangeHint": "Masukkan nomor halaman atau rentang, dipisahkan dengan koma."
+  },
+  "WatermarkPage": {
+    "title": "Tambah Watermark",
+    "description": "Sisipkan watermark teks diagonal pada setiap halaman.",
+    "selectFile": "Pilih file PDF untuk ditambahkan watermark.",
+    "enterText": "Masukkan teks watermark.",
+    "error": "Terjadi kesalahan saat menambahkan watermark.",
+    "applying": "Menerapkan...",
+    "submit": "Tambah Watermark",
+    "textLabel": "Teks Watermark",
+    "opacityLabel": "Opasitas",
+    "fontSizeLabel": "Ukuran Font"
+  },
+  "ProtectPage": {
+    "title": "Lindungi / Buka Kunci PDF",
+    "description": "Tambahkan kata sandi ke PDF atau hapus kata sandi yang sudah ada.",
+    "selectFile": "Pilih file PDF.",
+    "enterPassword": "Masukkan kata sandi.",
+    "error": "Terjadi kesalahan saat memproses.",
+    "processing": "Memproses...",
+    "actionAdd": "Tambah Kata Sandi",
+    "actionRemove": "Hapus Kata Sandi",
+    "submitAdd": "Tambah Kata Sandi",
+    "submitRemove": "Hapus Kata Sandi",
+    "passwordLabelAdd": "Kata Sandi yang Akan Ditetapkan",
+    "passwordLabelRemove": "Kata Sandi Saat Ini",
+    "passwordPlaceholder": "Masukkan kata sandi"
+  },
+  "CompressPage": {
+    "title": "Kompres PDF",
+    "description": "Setiap halaman dikompres ulang sebagai gambar untuk mengurangi ukuran file.",
+    "warning": "Paling efektif untuk PDF hasil pindaian atau yang banyak mengandung gambar. Setelah dikompres, teks tidak dapat lagi dipilih atau disalin.",
+    "selectFile": "Pilih file PDF untuk dikompres.",
+    "error": "Terjadi kesalahan saat mengompres.",
+    "compressing": "Mengompres...",
+    "submit": "Kompres PDF",
+    "qualityLabel": "Kualitas Kompresi",
+    "qualityHint": "Nilai yang lebih rendah menghasilkan file yang lebih kecil tetapi kualitas lebih rendah.",
+    "result": "{originalSize} MB → {compressedSize} MB ({percent}% lebih kecil)"
+  },
+  "ImageToPdfPage": {
+    "title": "Gambar ke PDF",
+    "description": "Susun gambar JPG atau PNG sesuai urutan yang Anda inginkan dan gabungkan menjadi satu PDF.",
+    "dropzonePlaceholder": "Seret dan lepas gambar di sini, atau klik untuk memilih",
+    "selectAtLeastOne": "Pilih setidaknya satu file gambar.",
+    "error": "Terjadi kesalahan selama konversi.",
+    "converting": "Mengonversi...",
+    "submit": "Buat PDF ({count} halaman)",
+    "summary": "{count} gambar · total {size} MB"
+  },
+  "PdfToImagePage": {
+    "title": "PDF ke Gambar",
+    "description": "Mengonversi setiap halaman PDF menjadi gambar. Jika ada beberapa halaman, hasilnya akan diunduh sebagai file ZIP.",
+    "selectFile": "Pilih file PDF untuk dikonversi.",
+    "error": "Terjadi kesalahan selama konversi.",
+    "converting": "Mengonversi...",
+    "submit": "Konversi ke Gambar",
+    "formatLabel": "Format Output"
+  },
+  "PdfToWordPage": {
+    "title": "PDF ke Word",
+    "description": "Konversi PDF menjadi dokumen Word yang dapat diedit (.docx).",
+    "warning": "PDF dengan tata letak kompleks mungkin memiliki format yang sedikit berbeda setelah konversi.",
+    "submit": "Konversi ke Word"
+  },
+  "WordToPdfPage": {
+    "title": "Word ke PDF",
+    "description": "Konversi dokumen Word (.docx, .doc) menjadi PDF.",
+    "submit": "Konversi ke PDF"
+  },
+  "PdfToPptPage": {
+    "title": "PDF ke PowerPoint",
+    "description": "Konversi setiap halaman PDF menjadi slide PowerPoint (.pptx).",
+    "warning": "Tata letak slide dapat bervariasi tergantung pada penempatan teks/gambar dalam PDF asli.",
+    "submit": "Konversi ke PowerPoint"
+  },
+  "PptToPdfPage": {
+    "title": "PowerPoint ke PDF",
+    "description": "Konversi dokumen PowerPoint (.pptx, .ppt) menjadi PDF.",
+    "submit": "Konversi ke PDF"
+  },
+  "PdfToExcelPage": {
+    "title": "PDF ke Excel",
+    "description": "Mendeteksi data tabel dalam PDF dan mengonversinya menjadi file Excel (.xlsx).",
+    "warning": "Paling akurat untuk tabel sederhana dalam PDF berbasis teks. Tabel hasil pindaian atau dengan tata letak kompleks mungkin memiliki sel yang tidak sejajar dengan benar.",
+    "submit": "Konversi ke Excel"
+  },
+  "ExcelToPdfPage": {
+    "title": "Excel ke PDF",
+    "description": "Konversi file Excel (.xlsx, .xls, .csv) menjadi PDF.",
+    "submit": "Konversi ke PDF"
+  },
+  "PdfToHtmlPage": {
+    "title": "PDF ke HTML",
+    "description": "Konversi PDF menjadi halaman web HTML.",
+    "warning": "PDF yang berisi gambar akan disediakan sebagai file ZIP (HTML + gambar).",
+    "submit": "Konversi ke HTML"
+  },
+  "HtmlToPdfPage": {
+    "title": "HTML ke PDF",
+    "description": "Konversi file HTML menjadi PDF.",
+    "submit": "Konversi ke PDF"
+  },
+  "RotatePage": {
+    "title": "Putar PDF",
+    "description": "Putar semua halaman dalam PDF searah atau berlawanan arah jarum jam.",
+    "selectFile": "Pilih file PDF untuk diputar.",
+    "error": "Terjadi kesalahan saat memutar.",
+    "rotating": "Memutar...",
+    "submit": "Putar PDF",
+    "directionLabel": "Rotasi",
+    "right90": "90° kanan",
+    "left90": "90° kiri",
+    "rotate180": "180°"
+  },
+  "PageNumbersPage": {
+    "title": "Tambah Nomor Halaman",
+    "description": "Tambahkan nomor halaman ke semua halaman PDF.",
+    "selectFile": "Pilih file PDF.",
+    "error": "Terjadi kesalahan saat menambahkan nomor halaman.",
+    "applying": "Menerapkan...",
+    "submit": "Tambah Nomor Halaman",
+    "positionLabel": "Posisi",
+    "positionBottomCenter": "Bawah Tengah",
+    "positionBottomRight": "Bawah Kanan",
+    "positionTopCenter": "Atas Tengah",
+    "startNumberLabel": "Nomor Awal",
+    "fontSizeLabel": "Ukuran Font"
+  },
+  "OrganizePage": {
+    "title": "Atur PDF",
+    "description": "Susun ulang atau hapus halaman dan simpan sebagai PDF baru.",
+    "selectFile": "Pilih file PDF untuk diatur.",
+    "loadingThumbnails": "Memuat halaman...",
+    "error": "Terjadi kesalahan.",
+    "saving": "Menyimpan...",
+    "submit": "Simpan PDF",
+    "needAtLeastOnePage": "Sisakan setidaknya satu halaman.",
+    "removePage": "Hapus Halaman",
+    "pageLabel": "Halaman {number}"
+  },
+  "LanguageSwitcher": {
+    "label": "Bahasa"
+  },
+  "FAQ": {
+    "heading": "Pertanyaan yang Sering Diajukan",
+    "items": [
+      { "q": "Apakah alat PDF ini gratis digunakan?", "a": "Ya, semua 18 alat sepenuhnya gratis dan tidak memerlukan pendaftaran." },
+      { "q": "Apakah saya perlu membuat akun?", "a": "Tidak, Anda dapat langsung menggunakan semua alat tanpa mendaftar." },
+      { "q": "Apa yang terjadi pada file yang saya unggah?", "a": "File diproses di server dan otomatis dihapus segera setelahnya — tidak ada yang disimpan." },
+      { "q": "Bahasa apa saja yang didukung?", "a": "Korea, Inggris, Jepang, Tionghoa (sederhana dan tradisional), Spanyol, Prancis, Jerman, Portugis, Rusia, Italia, Belanda, Polandia, Swedia, Turki, Ukraina, Vietnam, Thai, Indonesia, Melayu, Hindi, Bulgaria, Katalan, Yunani, Swahili, dan Arab." },
+      { "q": "Bisakah saya menggabungkan beberapa file PDF menjadi satu?", "a": "Ya, susun file Anda sesuai urutan yang diinginkan di halaman Gabung PDF dan gabungkan menjadi satu." },
+      { "q": "Bisakah saya mengonversi PDF ke Word atau Excel?", "a": "Ya, konversi PDF ke Word, PDF ke Excel, dan PDF ke PowerPoint (dan sebaliknya) semuanya didukung." }
+    ]
+  }
+}

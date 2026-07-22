@@ -230,7 +230,7 @@
       { "q": "Is PDF Tools free to use?", "a": "Yes, all 18 tools are completely free with no sign-up required." },
       { "q": "Do I need to create an account?", "a": "No, you can use every tool right away without signing up." },
       { "q": "What happens to my uploaded files?", "a": "Files are processed on the server and deleted automatically right afterward — nothing is stored." },
-      { "q": "What languages are supported?", "a": "Korean, English, Japanese, Chinese (Simplified & Traditional), Spanish, French, German, Portuguese, and Russian." },
+      { "q": "What languages are supported?", "a": "Korean, English, Japanese, Chinese (Simplified & Traditional), Spanish, French, German, Portuguese, Russian, Italian, Dutch, Polish, Swedish, Turkish, Ukrainian, Vietnamese, Thai, Indonesian, Malay, Hindi, Bulgarian, Catalan, Greek, Swahili, and Arabic." },
       { "q": "Can I combine multiple PDF files into one?", "a": "Yes, arrange your files in any order on the Merge PDF page and combine them into one." },
       { "q": "Can I convert a PDF to Word or Excel?", "a": "Yes, PDF-to-Word, PDF-to-Excel, and PDF-to-PowerPoint conversions (and their reverse) are all supported." }
     ]

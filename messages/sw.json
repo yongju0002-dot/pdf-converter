@@ -1,0 +1,238 @@
+{
+  "Metadata": {
+    "title": "Zana za PDF | Unganisha, Gawanya na Bana PDF Bila Malipo",
+    "description": "Unganisha, gawanya, bana na badilisha faili za PDF bila malipo — hakuna usajili unaohitajika."
+  },
+  "Header": {
+    "brand": "Zana za PDF",
+    "allTools": "Zana Zote",
+    "pdfConvert": "Badilisha PDF",
+    "freeBadge": "Bure, hakuna usajili",
+    "quickMerge": "Unganisha PDF",
+    "quickSplit": "Gawanya PDF",
+    "quickCompress": "Bana PDF"
+  },
+  "Footer": {
+    "notice": "Faili zilizopakiwa zitafutwa kiotomatiki baada ya usindikaji."
+  },
+  "Categories": {
+    "edit": "Uhariri na Usalama",
+    "image": "Ubadilishaji wa Picha",
+    "office": "Ubadilishaji wa Hati za Office",
+    "web": "Ubadilishaji wa Wavuti",
+    "fromPdf": "Badilisha kutoka PDF",
+    "toPdf": "Badilisha kuwa PDF"
+  },
+  "Home": {
+    "badge": "✨ zana {count}, zote ni bure",
+    "title": "Kazi Zote za PDF Mahali Pamoja",
+    "subtitle": "Unganisha, gawanya, bana na badilisha — bila malipo, hakuna usajili."
+  },
+  "Common": {
+    "dropzonePlaceholder": "Buruta na uachie faili hapa, au bofya kuchagua",
+    "dropzoneChangeHint": "Bofya kuchagua faili nyingine",
+    "comingSoon": "Inakuja Hivi Karibuni",
+    "moveUp": "Sogeza juu",
+    "moveDown": "Sogeza chini",
+    "remove": "Ondoa",
+    "converting": "Inabadilisha...",
+    "genericError": "Hitilafu ilitokea wakati wa ubadilishaji.",
+    "selectFile": "Chagua faili ya kubadilisha."
+  },
+  "Tools": {
+    "merge_pdf": { "name": "Unganisha PDF", "description": "Unganisha faili nyingi za PDF kuwa moja" },
+    "split_pdf": { "name": "Gawanya PDF", "description": "Gawanya PDF kwa ukurasa au toa masafa ya kurasa" },
+    "compress_pdf": { "name": "Bana PDF", "description": "Punguza ukubwa wa faili huku ukidumisha ubora" },
+    "watermark_pdf": { "name": "Ongeza Alama ya Maji", "description": "Weka alama ya maji ya maandishi au picha" },
+    "protect_pdf": { "name": "Linda / Fungua PDF", "description": "Ongeza au ondoa nenosiri kwenye PDF" },
+    "pdf_to_image": { "name": "PDF kwenda Picha", "description": "Badilisha kila ukurasa wa PDF kuwa picha ya PNG/JPG" },
+    "image_to_pdf": { "name": "Picha kwenda PDF", "description": "Unganisha picha za JPG au PNG kuwa PDF moja" },
+    "pdf_to_word": { "name": "PDF kwenda Word", "description": "Badilisha PDF kuwa hati ya Word inayoweza kuhaririwa" },
+    "word_to_pdf": { "name": "Word kwenda PDF", "description": "Badilisha hati ya Word kuwa PDF" },
+    "pdf_to_ppt": { "name": "PDF kwenda PowerPoint", "description": "Badilisha kila ukurasa wa PDF kuwa slaidi ya PowerPoint" },
+    "ppt_to_pdf": { "name": "PowerPoint kwenda PDF", "description": "Badilisha hati ya PowerPoint kuwa PDF" },
+    "pdf_to_excel": { "name": "PDF kwenda Excel", "description": "Badilisha majedwali kutoka PDF kuwa faili ya Excel" },
+    "excel_to_pdf": { "name": "Excel kwenda PDF", "description": "Badilisha faili ya Excel kuwa PDF" },
+    "pdf_to_html": { "name": "PDF kwenda HTML", "description": "Badilisha PDF kuwa ukurasa wa wavuti wa HTML" },
+    "html_to_pdf": { "name": "HTML kwenda PDF", "description": "Badilisha faili ya HTML kuwa PDF" },
+    "rotate_pdf": { "name": "Zungusha PDF", "description": "Zungusha kurasa zote za PDF" },
+    "page_numbers_pdf": { "name": "Ongeza Nambari za Ukurasa", "description": "Ongeza nambari za ukurasa kwenye kurasa zote za PDF" },
+    "organize_pdf": { "name": "Panga PDF", "description": "Panga upya au ondoa kurasa kwenye PDF" }
+  },
+  "MergePage": {
+    "title": "Unganisha PDF",
+    "description": "Panga faili nyingi za PDF kwa mpangilio unaotaka na uunganishe kuwa moja.",
+    "dropzonePlaceholder": "Buruta na uachie faili za PDF hapa, au bofya kuchagua",
+    "needTwoFiles": "Unahitaji angalau faili 2 za PDF ili kuunganisha.",
+    "error": "Hitilafu ilitokea wakati wa kuunganisha.",
+    "merging": "Inaunganisha...",
+    "submit": "Unganisha Faili {count} za PDF"
+  },
+  "SplitPage": {
+    "title": "Gawanya PDF",
+    "description": "Gawanya PDF kuwa kurasa binafsi au toa tu kurasa unazohitaji.",
+    "selectFile": "Chagua faili ya PDF ya kugawanya.",
+    "enterRange": "Ingiza masafa ya kurasa za kutoa. Mfano: 1-3, 5, 8-10",
+    "error": "Hitilafu ilitokea wakati wa kugawanya.",
+    "splitting": "Inagawanya...",
+    "submit": "Gawanya PDF",
+    "modeAll": "Gawanya kila ukurasa kando",
+    "modeRange": "Toa kurasa maalum",
+    "rangePlaceholder": "Mfano: 1-3, 5, 8-10",
+    "rangeHint": "Ingiza nambari za kurasa au masafa, ukitenganisha kwa koma."
+  },
+  "WatermarkPage": {
+    "title": "Ongeza Alama ya Maji",
+    "description": "Weka alama ya maji ya maandishi ya mshazari kwenye kila ukurasa.",
+    "selectFile": "Chagua faili ya PDF ya kuongeza alama ya maji.",
+    "enterText": "Ingiza maandishi ya alama ya maji.",
+    "error": "Hitilafu ilitokea wakati wa kuongeza alama ya maji.",
+    "applying": "Inatumia...",
+    "submit": "Ongeza Alama ya Maji",
+    "textLabel": "Maandishi ya Alama ya Maji",
+    "opacityLabel": "Ufifivu",
+    "fontSizeLabel": "Ukubwa wa Fonti"
+  },
+  "ProtectPage": {
+    "title": "Linda / Fungua PDF",
+    "description": "Ongeza nenosiri kwenye PDF au ondoa lililopo.",
+    "selectFile": "Chagua faili ya PDF.",
+    "enterPassword": "Ingiza nenosiri.",
+    "error": "Hitilafu ilitokea wakati wa usindikaji.",
+    "processing": "Inasindika...",
+    "actionAdd": "Ongeza Nenosiri",
+    "actionRemove": "Ondoa Nenosiri",
+    "submitAdd": "Ongeza Nenosiri",
+    "submitRemove": "Ondoa Nenosiri",
+    "passwordLabelAdd": "Nenosiri la Kuweka",
+    "passwordLabelRemove": "Nenosiri la Sasa",
+    "passwordPlaceholder": "Ingiza nenosiri"
+  },
+  "CompressPage": {
+    "title": "Bana PDF",
+    "description": "Kila ukurasa unabanwa upya kama picha ili kupunguza ukubwa wa faili.",
+    "warning": "Ufanisi zaidi kwa PDF zilizochanganuliwa au zenye picha nyingi. Baada ya kubana, maandishi hayataweza tena kuchaguliwa au kunakiliwa.",
+    "selectFile": "Chagua faili ya PDF ya kubana.",
+    "error": "Hitilafu ilitokea wakati wa kubana.",
+    "compressing": "Inabana...",
+    "submit": "Bana PDF",
+    "qualityLabel": "Ubora wa Kubana",
+    "qualityHint": "Thamani za chini hutoa faili ndogo lakini zenye ubora wa chini.",
+    "result": "MB {originalSize} → MB {compressedSize} (ndogo kwa {percent}%)"
+  },
+  "ImageToPdfPage": {
+    "title": "Picha kwenda PDF",
+    "description": "Panga picha za JPG au PNG kwa mpangilio unaotaka na uunganishe kuwa PDF moja.",
+    "dropzonePlaceholder": "Buruta na uachie picha hapa, au bofya kuchagua",
+    "selectAtLeastOne": "Chagua angalau faili moja ya picha.",
+    "error": "Hitilafu ilitokea wakati wa ubadilishaji.",
+    "converting": "Inabadilisha...",
+    "submit": "Unda PDF (kurasa {count})",
+    "summary": "picha {count} · jumla MB {size}"
+  },
+  "PdfToImagePage": {
+    "title": "PDF kwenda Picha",
+    "description": "Inabadilisha kila ukurasa wa PDF kuwa picha. Ikiwa kuna kurasa nyingi, matokeo yatapakuliwa kama faili ya ZIP.",
+    "selectFile": "Chagua faili ya PDF ya kubadilisha.",
+    "error": "Hitilafu ilitokea wakati wa ubadilishaji.",
+    "converting": "Inabadilisha...",
+    "submit": "Badilisha kuwa Picha",
+    "formatLabel": "Muundo wa Matokeo"
+  },
+  "PdfToWordPage": {
+    "title": "PDF kwenda Word",
+    "description": "Badilisha PDF kuwa hati ya Word inayoweza kuhaririwa (.docx).",
+    "warning": "PDF zenye mipangilio changamano zinaweza kuwa na uumbizo tofauti kidogo baada ya ubadilishaji.",
+    "submit": "Badilisha kuwa Word"
+  },
+  "WordToPdfPage": {
+    "title": "Word kwenda PDF",
+    "description": "Badilisha hati ya Word (.docx, .doc) kuwa PDF.",
+    "submit": "Badilisha kuwa PDF"
+  },
+  "PdfToPptPage": {
+    "title": "PDF kwenda PowerPoint",
+    "description": "Badilisha kila ukurasa wa PDF kuwa slaidi ya PowerPoint (.pptx).",
+    "warning": "Mpangilio wa slaidi unaweza kutofautiana kulingana na uwekaji wa maandishi/picha katika PDF asili.",
+    "submit": "Badilisha kuwa PowerPoint"
+  },
+  "PptToPdfPage": {
+    "title": "PowerPoint kwenda PDF",
+    "description": "Badilisha hati ya PowerPoint (.pptx, .ppt) kuwa PDF.",
+    "submit": "Badilisha kuwa PDF"
+  },
+  "PdfToExcelPage": {
+    "title": "PDF kwenda Excel",
+    "description": "Hutambua data ya majedwali katika PDF na kuibadilisha kuwa faili ya Excel (.xlsx).",
+    "warning": "Sahihi zaidi kwa majedwali rahisi katika PDF za maandishi. Majedwali yaliyochanganuliwa au yenye mipangilio changamano yanaweza kuwa na seli zisizopangiliwa vizuri.",
+    "submit": "Badilisha kuwa Excel"
+  },
+  "ExcelToPdfPage": {
+    "title": "Excel kwenda PDF",
+    "description": "Badilisha faili ya Excel (.xlsx, .xls, .csv) kuwa PDF.",
+    "submit": "Badilisha kuwa PDF"
+  },
+  "PdfToHtmlPage": {
+    "title": "PDF kwenda HTML",
+    "description": "Badilisha PDF kuwa ukurasa wa wavuti wa HTML.",
+    "warning": "PDF zenye picha zitatolewa kama faili ya ZIP (HTML + picha).",
+    "submit": "Badilisha kuwa HTML"
+  },
+  "HtmlToPdfPage": {
+    "title": "HTML kwenda PDF",
+    "description": "Badilisha faili ya HTML kuwa PDF.",
+    "submit": "Badilisha kuwa PDF"
+  },
+  "RotatePage": {
+    "title": "Zungusha PDF",
+    "description": "Zungusha kurasa zote za PDF kwa mwelekeo wa saa au kinyume cha saa.",
+    "selectFile": "Chagua faili ya PDF ya kuzungusha.",
+    "error": "Hitilafu ilitokea wakati wa kuzungusha.",
+    "rotating": "Inazungusha...",
+    "submit": "Zungusha PDF",
+    "directionLabel": "Mzunguko",
+    "right90": "90° kulia",
+    "left90": "90° kushoto",
+    "rotate180": "180°"
+  },
+  "PageNumbersPage": {
+    "title": "Ongeza Nambari za Ukurasa",
+    "description": "Ongeza nambari za ukurasa kwenye kurasa zote za PDF.",
+    "selectFile": "Chagua faili ya PDF.",
+    "error": "Hitilafu ilitokea wakati wa kuongeza nambari za ukurasa.",
+    "applying": "Inatumia...",
+    "submit": "Ongeza Nambari za Ukurasa",
+    "positionLabel": "Nafasi",
+    "positionBottomCenter": "Chini Katikati",
+    "positionBottomRight": "Chini Kulia",
+    "positionTopCenter": "Juu Katikati",
+    "startNumberLabel": "Nambari ya Kuanzia",
+    "fontSizeLabel": "Ukubwa wa Fonti"
+  },
+  "OrganizePage": {
+    "title": "Panga PDF",
+    "description": "Panga upya au ondoa kurasa na uhifadhi kama PDF mpya.",
+    "selectFile": "Chagua faili ya PDF ya kupanga.",
+    "loadingThumbnails": "Inapakia kurasa...",
+    "error": "Hitilafu ilitokea.",
+    "saving": "Inahifadhi...",
+    "submit": "Hifadhi PDF",
+    "needAtLeastOnePage": "Acha angalau ukurasa mmoja.",
+    "removePage": "Ondoa Ukurasa",
+    "pageLabel": "Ukurasa {number}"
+  },
+  "LanguageSwitcher": {
+    "label": "Lugha"
+  },
+  "FAQ": {
+    "heading": "Maswali Yanayoulizwa Mara kwa Mara",
+    "items": [
+      { "q": "Je, zana za PDF ni bure kutumia?", "a": "Ndiyo, zana zote 18 ni bure kabisa na hazihitaji usajili." },
+      { "q": "Je, ninahitaji kuunda akaunti?", "a": "Hapana, unaweza kutumia zana zote moja kwa moja bila kujisajili." },
+      { "q": "Nini kinatokea kwa faili nilizopakia?", "a": "Faili zinasindikwa kwenye seva na kufutwa kiotomatiki mara baada ya hapo — hakuna kinachohifadhiwa." },
+      { "q": "Ni lugha zipi zinazotumika?", "a": "Kikorea, Kiingereza, Kijapani, Kichina (rahisi na cha jadi), Kihispania, Kifaransa, Kijerumani, Kireno, Kirusi, Kiitaliano, Kiholanzi, Kipolandi, Kiswidi, Kituruki, Kiukreni, Kivietinamu, Kithai, Kiindonesia, Kimalesia, Kihindi, Kibulgaria, Kikatalani, Kigiriki, Kiswahili na Kiarabu." },
+      { "q": "Je, ninaweza kuunganisha faili nyingi za PDF kuwa moja?", "a": "Ndiyo, panga faili zako kwa mpangilio unaotaka kwenye ukurasa wa Unganisha PDF kisha uziunganishe kuwa moja." },
+      { "q": "Je, ninaweza kubadilisha PDF kuwa Word au Excel?", "a": "Ndiyo, ubadilishaji wa PDF kwenda Word, PDF kwenda Excel na PDF kwenda PowerPoint (na kinyume chake) vyote vinatumika." }
+    ]
+  }
+}

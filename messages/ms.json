@@ -1,0 +1,238 @@
+{
+  "Metadata": {
+    "title": "Alat PDF | Gabung, Pisah dan Mampatkan PDF Percuma",
+    "description": "Gabungkan, pisahkan, mampatkan dan tukar fail PDF secara percuma — tanpa pendaftaran."
+  },
+  "Header": {
+    "brand": "Alat PDF",
+    "allTools": "Semua Alat",
+    "pdfConvert": "Tukar PDF",
+    "freeBadge": "Percuma, tiada pendaftaran",
+    "quickMerge": "Gabung PDF",
+    "quickSplit": "Pisah PDF",
+    "quickCompress": "Mampatkan PDF"
+  },
+  "Footer": {
+    "notice": "Fail yang dimuat naik akan dipadam secara automatik selepas diproses."
+  },
+  "Categories": {
+    "edit": "Penyuntingan dan Keselamatan",
+    "image": "Penukaran Imej",
+    "office": "Penukaran Dokumen Office",
+    "web": "Penukaran Web",
+    "fromPdf": "Tukar daripada PDF",
+    "toPdf": "Tukar kepada PDF"
+  },
+  "Home": {
+    "badge": "✨ {count} alat, semuanya percuma",
+    "title": "Semua Tugas PDF di Satu Tempat",
+    "subtitle": "Gabung, pisah, mampatkan dan tukar — percuma, tanpa pendaftaran."
+  },
+  "Common": {
+    "dropzonePlaceholder": "Seret dan lepaskan fail di sini, atau klik untuk memilih",
+    "dropzoneChangeHint": "Klik untuk memilih fail lain",
+    "comingSoon": "Akan datang",
+    "moveUp": "Alih ke atas",
+    "moveDown": "Alih ke bawah",
+    "remove": "Buang",
+    "converting": "Menukar...",
+    "genericError": "Ralat berlaku semasa penukaran.",
+    "selectFile": "Pilih fail untuk ditukar."
+  },
+  "Tools": {
+    "merge_pdf": { "name": "Gabung PDF", "description": "Gabungkan beberapa fail PDF menjadi satu" },
+    "split_pdf": { "name": "Pisah PDF", "description": "Pisahkan PDF mengikut halaman atau ekstrak julat halaman" },
+    "compress_pdf": { "name": "Mampatkan PDF", "description": "Kurangkan saiz fail sambil mengekalkan kualiti" },
+    "watermark_pdf": { "name": "Tambah Tera Air", "description": "Sisipkan tera air teks atau imej" },
+    "protect_pdf": { "name": "Lindungi / Buka Kunci PDF", "description": "Tambah atau buang kata laluan pada PDF" },
+    "pdf_to_image": { "name": "PDF kepada Imej", "description": "Tukar setiap halaman PDF menjadi imej PNG/JPG" },
+    "image_to_pdf": { "name": "Imej kepada PDF", "description": "Gabungkan imej JPG atau PNG menjadi satu PDF" },
+    "pdf_to_word": { "name": "PDF kepada Word", "description": "Tukar PDF menjadi dokumen Word yang boleh disunting" },
+    "word_to_pdf": { "name": "Word kepada PDF", "description": "Tukar dokumen Word menjadi PDF" },
+    "pdf_to_ppt": { "name": "PDF kepada PowerPoint", "description": "Tukar setiap halaman PDF menjadi slaid PowerPoint" },
+    "ppt_to_pdf": { "name": "PowerPoint kepada PDF", "description": "Tukar dokumen PowerPoint menjadi PDF" },
+    "pdf_to_excel": { "name": "PDF kepada Excel", "description": "Tukar jadual daripada PDF menjadi fail Excel" },
+    "excel_to_pdf": { "name": "Excel kepada PDF", "description": "Tukar fail Excel menjadi PDF" },
+    "pdf_to_html": { "name": "PDF kepada HTML", "description": "Tukar PDF menjadi halaman web HTML" },
+    "html_to_pdf": { "name": "HTML kepada PDF", "description": "Tukar fail HTML menjadi PDF" },
+    "rotate_pdf": { "name": "Putar PDF", "description": "Putar semua halaman dalam PDF" },
+    "page_numbers_pdf": { "name": "Tambah Nombor Halaman", "description": "Tambah nombor halaman pada semua halaman PDF" },
+    "organize_pdf": { "name": "Susun PDF", "description": "Susun semula atau buang halaman dalam PDF" }
+  },
+  "MergePage": {
+    "title": "Gabung PDF",
+    "description": "Susun beberapa fail PDF mengikut susunan yang anda mahu dan gabungkan menjadi satu.",
+    "dropzonePlaceholder": "Seret dan lepaskan fail PDF di sini, atau klik untuk memilih",
+    "needTwoFiles": "Anda memerlukan sekurang-kurangnya 2 fail PDF untuk digabungkan.",
+    "error": "Ralat berlaku semasa menggabungkan.",
+    "merging": "Menggabungkan...",
+    "submit": "Gabungkan {count} Fail PDF"
+  },
+  "SplitPage": {
+    "title": "Pisah PDF",
+    "description": "Pisahkan PDF kepada halaman individu atau ekstrak hanya halaman yang anda perlukan.",
+    "selectFile": "Pilih fail PDF untuk dipisahkan.",
+    "enterRange": "Masukkan julat halaman untuk diekstrak. Cth: 1-3, 5, 8-10",
+    "error": "Ralat berlaku semasa memisahkan.",
+    "splitting": "Memisahkan...",
+    "submit": "Pisah PDF",
+    "modeAll": "Pisahkan setiap halaman secara berasingan",
+    "modeRange": "Ekstrak halaman tertentu",
+    "rangePlaceholder": "Cth: 1-3, 5, 8-10",
+    "rangeHint": "Masukkan nombor halaman atau julat, dipisahkan dengan koma."
+  },
+  "WatermarkPage": {
+    "title": "Tambah Tera Air",
+    "description": "Sisipkan tera air teks pepenjuru pada setiap halaman.",
+    "selectFile": "Pilih fail PDF untuk ditambah tera air.",
+    "enterText": "Masukkan teks tera air.",
+    "error": "Ralat berlaku semasa menambah tera air.",
+    "applying": "Menerapkan...",
+    "submit": "Tambah Tera Air",
+    "textLabel": "Teks Tera Air",
+    "opacityLabel": "Kelegapan",
+    "fontSizeLabel": "Saiz Fon"
+  },
+  "ProtectPage": {
+    "title": "Lindungi / Buka Kunci PDF",
+    "description": "Tambah kata laluan pada PDF atau buang kata laluan sedia ada.",
+    "selectFile": "Pilih fail PDF.",
+    "enterPassword": "Masukkan kata laluan.",
+    "error": "Ralat berlaku semasa memproses.",
+    "processing": "Memproses...",
+    "actionAdd": "Tambah Kata Laluan",
+    "actionRemove": "Buang Kata Laluan",
+    "submitAdd": "Tambah Kata Laluan",
+    "submitRemove": "Buang Kata Laluan",
+    "passwordLabelAdd": "Kata Laluan untuk Ditetapkan",
+    "passwordLabelRemove": "Kata Laluan Semasa",
+    "passwordPlaceholder": "Masukkan kata laluan"
+  },
+  "CompressPage": {
+    "title": "Mampatkan PDF",
+    "description": "Setiap halaman dimampatkan semula sebagai imej untuk mengurangkan saiz fail.",
+    "warning": "Paling berkesan untuk PDF yang diimbas atau banyak mengandungi imej. Selepas dimampatkan, teks tidak boleh dipilih atau disalin lagi.",
+    "selectFile": "Pilih fail PDF untuk dimampatkan.",
+    "error": "Ralat berlaku semasa memampatkan.",
+    "compressing": "Memampatkan...",
+    "submit": "Mampatkan PDF",
+    "qualityLabel": "Kualiti Mampatan",
+    "qualityHint": "Nilai yang lebih rendah menghasilkan fail yang lebih kecil tetapi kualiti lebih rendah.",
+    "result": "{originalSize} MB → {compressedSize} MB ({percent}% lebih kecil)"
+  },
+  "ImageToPdfPage": {
+    "title": "Imej kepada PDF",
+    "description": "Susun imej JPG atau PNG mengikut susunan yang anda mahu dan gabungkan menjadi satu PDF.",
+    "dropzonePlaceholder": "Seret dan lepaskan imej di sini, atau klik untuk memilih",
+    "selectAtLeastOne": "Pilih sekurang-kurangnya satu fail imej.",
+    "error": "Ralat berlaku semasa penukaran.",
+    "converting": "Menukar...",
+    "submit": "Cipta PDF ({count} halaman)",
+    "summary": "{count} imej · jumlah {size} MB"
+  },
+  "PdfToImagePage": {
+    "title": "PDF kepada Imej",
+    "description": "Menukar setiap halaman PDF menjadi imej. Jika terdapat beberapa halaman, hasilnya akan dimuat turun sebagai fail ZIP.",
+    "selectFile": "Pilih fail PDF untuk ditukar.",
+    "error": "Ralat berlaku semasa penukaran.",
+    "converting": "Menukar...",
+    "submit": "Tukar kepada Imej",
+    "formatLabel": "Format Output"
+  },
+  "PdfToWordPage": {
+    "title": "PDF kepada Word",
+    "description": "Tukar PDF menjadi dokumen Word yang boleh disunting (.docx).",
+    "warning": "PDF dengan susun atur kompleks mungkin mempunyai pemformatan yang sedikit berbeza selepas penukaran.",
+    "submit": "Tukar kepada Word"
+  },
+  "WordToPdfPage": {
+    "title": "Word kepada PDF",
+    "description": "Tukar dokumen Word (.docx, .doc) menjadi PDF.",
+    "submit": "Tukar kepada PDF"
+  },
+  "PdfToPptPage": {
+    "title": "PDF kepada PowerPoint",
+    "description": "Tukar setiap halaman PDF menjadi slaid PowerPoint (.pptx).",
+    "warning": "Susun atur slaid mungkin berbeza bergantung pada kedudukan teks/imej dalam PDF asal.",
+    "submit": "Tukar kepada PowerPoint"
+  },
+  "PptToPdfPage": {
+    "title": "PowerPoint kepada PDF",
+    "description": "Tukar dokumen PowerPoint (.pptx, .ppt) menjadi PDF.",
+    "submit": "Tukar kepada PDF"
+  },
+  "PdfToExcelPage": {
+    "title": "PDF kepada Excel",
+    "description": "Mengesan data jadual dalam PDF dan menukarnya menjadi fail Excel (.xlsx).",
+    "warning": "Paling tepat untuk jadual mudah dalam PDF berasaskan teks. Jadual yang diimbas atau bersusun atur kompleks mungkin mempunyai sel yang tidak sejajar dengan betul.",
+    "submit": "Tukar kepada Excel"
+  },
+  "ExcelToPdfPage": {
+    "title": "Excel kepada PDF",
+    "description": "Tukar fail Excel (.xlsx, .xls, .csv) menjadi PDF.",
+    "submit": "Tukar kepada PDF"
+  },
+  "PdfToHtmlPage": {
+    "title": "PDF kepada HTML",
+    "description": "Tukar PDF menjadi halaman web HTML.",
+    "warning": "PDF yang mengandungi imej akan disediakan sebagai fail ZIP (HTML + imej).",
+    "submit": "Tukar kepada HTML"
+  },
+  "HtmlToPdfPage": {
+    "title": "HTML kepada PDF",
+    "description": "Tukar fail HTML menjadi PDF.",
+    "submit": "Tukar kepada PDF"
+  },
+  "RotatePage": {
+    "title": "Putar PDF",
+    "description": "Putar semua halaman dalam PDF mengikut atau melawan arah jam.",
+    "selectFile": "Pilih fail PDF untuk diputar.",
+    "error": "Ralat berlaku semasa memutar.",
+    "rotating": "Memutar...",
+    "submit": "Putar PDF",
+    "directionLabel": "Putaran",
+    "right90": "90° kanan",
+    "left90": "90° kiri",
+    "rotate180": "180°"
+  },
+  "PageNumbersPage": {
+    "title": "Tambah Nombor Halaman",
+    "description": "Tambah nombor halaman pada semua halaman PDF.",
+    "selectFile": "Pilih fail PDF.",
+    "error": "Ralat berlaku semasa menambah nombor halaman.",
+    "applying": "Menerapkan...",
+    "submit": "Tambah Nombor Halaman",
+    "positionLabel": "Kedudukan",
+    "positionBottomCenter": "Bawah Tengah",
+    "positionBottomRight": "Bawah Kanan",
+    "positionTopCenter": "Atas Tengah",
+    "startNumberLabel": "Nombor Permulaan",
+    "fontSizeLabel": "Saiz Fon"
+  },
+  "OrganizePage": {
+    "title": "Susun PDF",
+    "description": "Susun semula atau buang halaman dan simpan sebagai PDF baharu.",
+    "selectFile": "Pilih fail PDF untuk disusun.",
+    "loadingThumbnails": "Memuatkan halaman...",
+    "error": "Ralat berlaku.",
+    "saving": "Menyimpan...",
+    "submit": "Simpan PDF",
+    "needAtLeastOnePage": "Kekalkan sekurang-kurangnya satu halaman.",
+    "removePage": "Buang Halaman",
+    "pageLabel": "Halaman {number}"
+  },
+  "LanguageSwitcher": {
+    "label": "Bahasa"
+  },
+  "FAQ": {
+    "heading": "Soalan Lazim",
+    "items": [
+      { "q": "Adakah alat PDF ini percuma digunakan?", "a": "Ya, kesemua 18 alat adalah percuma sepenuhnya dan tidak memerlukan pendaftaran." },
+      { "q": "Adakah saya perlu mencipta akaun?", "a": "Tidak, anda boleh terus menggunakan semua alat tanpa mendaftar." },
+      { "q": "Apakah yang berlaku kepada fail yang saya muat naik?", "a": "Fail diproses di pelayan dan dipadam secara automatik sejurus selepas itu — tiada apa yang disimpan." },
+      { "q": "Bahasa apakah yang disokong?", "a": "Korea, Inggeris, Jepun, Cina (ringkas dan tradisional), Sepanyol, Perancis, Jerman, Portugis, Rusia, Itali, Belanda, Poland, Sweden, Turki, Ukraine, Vietnam, Thai, Indonesia, Melayu, Hindi, Bulgaria, Catalan, Yunani, Swahili dan Arab." },
+      { "q": "Bolehkah saya gabungkan beberapa fail PDF menjadi satu?", "a": "Ya, susun fail anda mengikut susunan yang dikehendaki pada halaman Gabung PDF dan gabungkan menjadi satu." },
+      { "q": "Bolehkah saya menukar PDF kepada Word atau Excel?", "a": "Ya, penukaran PDF kepada Word, PDF kepada Excel dan PDF kepada PowerPoint (dan sebaliknya) semuanya disokong." }
+    ]
+  }
+}

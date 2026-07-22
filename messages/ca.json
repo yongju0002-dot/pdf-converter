@@ -1,0 +1,238 @@
+{
+  "Metadata": {
+    "title": "Eines PDF | Fusiona, divideix i comprimeix PDF gratis",
+    "description": "Fusioneu, dividiu, comprimiu i convertiu fitxers PDF gratuïtament — sense necessitat de registre."
+  },
+  "Header": {
+    "brand": "Eines PDF",
+    "allTools": "Totes les eines",
+    "pdfConvert": "Converteix PDF",
+    "freeBadge": "Gratis, sense registre",
+    "quickMerge": "Fusiona PDF",
+    "quickSplit": "Divideix PDF",
+    "quickCompress": "Comprimeix PDF"
+  },
+  "Footer": {
+    "notice": "Els fitxers pujats s'eliminen automàticament després del processament."
+  },
+  "Categories": {
+    "edit": "Edició i seguretat",
+    "image": "Conversió d'imatges",
+    "office": "Conversió de documents d'Office",
+    "web": "Conversió web",
+    "fromPdf": "Converteix des de PDF",
+    "toPdf": "Converteix a PDF"
+  },
+  "Home": {
+    "badge": "✨ {count} eines, totes gratuïtes",
+    "title": "Totes les tasques PDF en un sol lloc",
+    "subtitle": "Fusioneu, dividiu, comprimiu i convertiu — gratis, sense registre."
+  },
+  "Common": {
+    "dropzonePlaceholder": "Arrossegueu i deixeu anar un fitxer aquí, o feu clic per seleccionar",
+    "dropzoneChangeHint": "Feu clic per seleccionar un altre fitxer",
+    "comingSoon": "Properament",
+    "moveUp": "Mou amunt",
+    "moveDown": "Mou avall",
+    "remove": "Elimina",
+    "converting": "Convertint...",
+    "genericError": "S'ha produït un error durant la conversió.",
+    "selectFile": "Seleccioneu un fitxer per convertir."
+  },
+  "Tools": {
+    "merge_pdf": { "name": "Fusiona PDF", "description": "Combineu diversos fitxers PDF en un de sol" },
+    "split_pdf": { "name": "Divideix PDF", "description": "Dividiu un PDF per pàgina o extraieu un interval de pàgines" },
+    "compress_pdf": { "name": "Comprimeix PDF", "description": "Redueix la mida del fitxer mantenint la qualitat" },
+    "watermark_pdf": { "name": "Afegeix marca d'aigua", "description": "Insereix una marca d'aigua de text o imatge" },
+    "protect_pdf": { "name": "Protegeix / desbloqueja PDF", "description": "Afegeix o elimina una contrasenya d'un PDF" },
+    "pdf_to_image": { "name": "PDF a imatge", "description": "Converteix cada pàgina del PDF en una imatge PNG/JPG" },
+    "image_to_pdf": { "name": "Imatge a PDF", "description": "Combina imatges JPG o PNG en un sol PDF" },
+    "pdf_to_word": { "name": "PDF a Word", "description": "Converteix un PDF en un document Word editable" },
+    "word_to_pdf": { "name": "Word a PDF", "description": "Converteix un document Word en PDF" },
+    "pdf_to_ppt": { "name": "PDF a PowerPoint", "description": "Converteix cada pàgina del PDF en una diapositiva de PowerPoint" },
+    "ppt_to_pdf": { "name": "PowerPoint a PDF", "description": "Converteix un document de PowerPoint en PDF" },
+    "pdf_to_excel": { "name": "PDF a Excel", "description": "Converteix taules d'un PDF en un fitxer Excel" },
+    "excel_to_pdf": { "name": "Excel a PDF", "description": "Converteix un fitxer Excel en PDF" },
+    "pdf_to_html": { "name": "PDF a HTML", "description": "Converteix un PDF en una pàgina web HTML" },
+    "html_to_pdf": { "name": "HTML a PDF", "description": "Converteix un fitxer HTML en PDF" },
+    "rotate_pdf": { "name": "Gira PDF", "description": "Gira totes les pàgines d'un PDF" },
+    "page_numbers_pdf": { "name": "Afegeix números de pàgina", "description": "Afegeix números de pàgina a totes les pàgines d'un PDF" },
+    "organize_pdf": { "name": "Organitza PDF", "description": "Reordena o elimina pàgines d'un PDF" }
+  },
+  "MergePage": {
+    "title": "Fusiona PDF",
+    "description": "Organitzeu diversos fitxers PDF en l'ordre que vulgueu i fusioneu-los en un de sol.",
+    "dropzonePlaceholder": "Arrossegueu i deixeu anar fitxers PDF aquí, o feu clic per seleccionar",
+    "needTwoFiles": "Necessiteu almenys 2 fitxers PDF per fusionar.",
+    "error": "S'ha produït un error en fusionar.",
+    "merging": "Fusionant...",
+    "submit": "Fusiona {count} fitxers PDF"
+  },
+  "SplitPage": {
+    "title": "Divideix PDF",
+    "description": "Dividiu un PDF en pàgines individuals o extraieu només les pàgines que necessiteu.",
+    "selectFile": "Seleccioneu un fitxer PDF per dividir.",
+    "enterRange": "Introduïu l'interval de pàgines a extreure. Ex: 1-3, 5, 8-10",
+    "error": "S'ha produït un error en dividir.",
+    "splitting": "Dividint...",
+    "submit": "Divideix PDF",
+    "modeAll": "Divideix cada pàgina per separat",
+    "modeRange": "Extreu pàgines específiques",
+    "rangePlaceholder": "Ex: 1-3, 5, 8-10",
+    "rangeHint": "Introduïu números de pàgina o intervals separats per comes."
+  },
+  "WatermarkPage": {
+    "title": "Afegeix marca d'aigua",
+    "description": "Insereix una marca d'aigua de text diagonal a cada pàgina.",
+    "selectFile": "Seleccioneu un fitxer PDF per afegir-hi una marca d'aigua.",
+    "enterText": "Introduïu el text de la marca d'aigua.",
+    "error": "S'ha produït un error en afegir la marca d'aigua.",
+    "applying": "Aplicant...",
+    "submit": "Afegeix marca d'aigua",
+    "textLabel": "Text de la marca d'aigua",
+    "opacityLabel": "Opacitat",
+    "fontSizeLabel": "Mida de la lletra"
+  },
+  "ProtectPage": {
+    "title": "Protegeix / desbloqueja PDF",
+    "description": "Afegeix una contrasenya a un PDF o elimina'n una d'existent.",
+    "selectFile": "Seleccioneu un fitxer PDF.",
+    "enterPassword": "Introduïu una contrasenya.",
+    "error": "S'ha produït un error en processar.",
+    "processing": "Processant...",
+    "actionAdd": "Afegeix contrasenya",
+    "actionRemove": "Elimina contrasenya",
+    "submitAdd": "Afegeix contrasenya",
+    "submitRemove": "Elimina contrasenya",
+    "passwordLabelAdd": "Contrasenya a establir",
+    "passwordLabelRemove": "Contrasenya actual",
+    "passwordPlaceholder": "Introduïu la contrasenya"
+  },
+  "CompressPage": {
+    "title": "Comprimeix PDF",
+    "description": "Cada pàgina es torna a comprimir com una imatge per reduir la mida del fitxer.",
+    "warning": "Més eficaç en PDF escanejats o amb moltes imatges. Després de comprimir, el text ja no es podrà seleccionar ni copiar.",
+    "selectFile": "Seleccioneu un fitxer PDF per comprimir.",
+    "error": "S'ha produït un error en comprimir.",
+    "compressing": "Comprimint...",
+    "submit": "Comprimeix PDF",
+    "qualityLabel": "Qualitat de compressió",
+    "qualityHint": "Valors més baixos donen fitxers més petits però de qualitat inferior.",
+    "result": "{originalSize} MB → {compressedSize} MB ({percent}% més petit)"
+  },
+  "ImageToPdfPage": {
+    "title": "Imatge a PDF",
+    "description": "Organitzeu imatges JPG o PNG en l'ordre que vulgueu i combineu-les en un sol PDF.",
+    "dropzonePlaceholder": "Arrossegueu i deixeu anar imatges aquí, o feu clic per seleccionar",
+    "selectAtLeastOne": "Seleccioneu almenys un fitxer d'imatge.",
+    "error": "S'ha produït un error durant la conversió.",
+    "converting": "Convertint...",
+    "submit": "Crea PDF ({count} pàgines)",
+    "summary": "{count} imatges · total {size} MB"
+  },
+  "PdfToImagePage": {
+    "title": "PDF a imatge",
+    "description": "Converteix cada pàgina del PDF en una imatge. Si hi ha diverses pàgines, el resultat es descarrega com un fitxer ZIP.",
+    "selectFile": "Seleccioneu un fitxer PDF per convertir.",
+    "error": "S'ha produït un error durant la conversió.",
+    "converting": "Convertint...",
+    "submit": "Converteix a imatge",
+    "formatLabel": "Format de sortida"
+  },
+  "PdfToWordPage": {
+    "title": "PDF a Word",
+    "description": "Converteix un PDF en un document Word editable (.docx).",
+    "warning": "Els PDF amb dissenys complexos poden tenir un format lleugerament diferent després de la conversió.",
+    "submit": "Converteix a Word"
+  },
+  "WordToPdfPage": {
+    "title": "Word a PDF",
+    "description": "Converteix un document Word (.docx, .doc) en PDF.",
+    "submit": "Converteix a PDF"
+  },
+  "PdfToPptPage": {
+    "title": "PDF a PowerPoint",
+    "description": "Converteix cada pàgina del PDF en una diapositiva de PowerPoint (.pptx).",
+    "warning": "El disseny de les diapositives pot variar segons la posició del text/les imatges al PDF original.",
+    "submit": "Converteix a PowerPoint"
+  },
+  "PptToPdfPage": {
+    "title": "PowerPoint a PDF",
+    "description": "Converteix un document de PowerPoint (.pptx, .ppt) en PDF.",
+    "submit": "Converteix a PDF"
+  },
+  "PdfToExcelPage": {
+    "title": "PDF a Excel",
+    "description": "Detecta dades de taules en un PDF i les converteix en un fitxer Excel (.xlsx).",
+    "warning": "Més precís per a taules senzilles en PDF basats en text. Les taules escanejades o amb disseny complex poden tenir cel·les mal alineades.",
+    "submit": "Converteix a Excel"
+  },
+  "ExcelToPdfPage": {
+    "title": "Excel a PDF",
+    "description": "Converteix un fitxer Excel (.xlsx, .xls, .csv) en PDF.",
+    "submit": "Converteix a PDF"
+  },
+  "PdfToHtmlPage": {
+    "title": "PDF a HTML",
+    "description": "Converteix un PDF en una pàgina web HTML.",
+    "warning": "Els PDF amb imatges es lliuraran com un fitxer ZIP (HTML + imatges).",
+    "submit": "Converteix a HTML"
+  },
+  "HtmlToPdfPage": {
+    "title": "HTML a PDF",
+    "description": "Converteix un fitxer HTML en PDF.",
+    "submit": "Converteix a PDF"
+  },
+  "RotatePage": {
+    "title": "Gira PDF",
+    "description": "Gira totes les pàgines d'un PDF en el sentit horari o antihorari.",
+    "selectFile": "Seleccioneu un fitxer PDF per girar.",
+    "error": "S'ha produït un error en girar.",
+    "rotating": "Girant...",
+    "submit": "Gira PDF",
+    "directionLabel": "Rotació",
+    "right90": "90° a la dreta",
+    "left90": "90° a l'esquerra",
+    "rotate180": "180°"
+  },
+  "PageNumbersPage": {
+    "title": "Afegeix números de pàgina",
+    "description": "Afegeix números de pàgina a totes les pàgines d'un PDF.",
+    "selectFile": "Seleccioneu un fitxer PDF.",
+    "error": "S'ha produït un error en afegir els números de pàgina.",
+    "applying": "Aplicant...",
+    "submit": "Afegeix números de pàgina",
+    "positionLabel": "Posició",
+    "positionBottomCenter": "Inferior al centre",
+    "positionBottomRight": "Inferior dreta",
+    "positionTopCenter": "Superior al centre",
+    "startNumberLabel": "Número inicial",
+    "fontSizeLabel": "Mida de la lletra"
+  },
+  "OrganizePage": {
+    "title": "Organitza PDF",
+    "description": "Reordena o elimina pàgines i desa-ho com un PDF nou.",
+    "selectFile": "Seleccioneu un fitxer PDF per organitzar.",
+    "loadingThumbnails": "Carregant pàgines...",
+    "error": "S'ha produït un error.",
+    "saving": "Desant...",
+    "submit": "Desa PDF",
+    "needAtLeastOnePage": "Cal deixar almenys una pàgina.",
+    "removePage": "Elimina pàgina",
+    "pageLabel": "Pàgina {number}"
+  },
+  "LanguageSwitcher": {
+    "label": "Idioma"
+  },
+  "FAQ": {
+    "heading": "Preguntes freqüents",
+    "items": [
+      { "q": "Són gratuïtes les eines PDF?", "a": "Sí, les 18 eines són totalment gratuïtes i no requereixen registre." },
+      { "q": "Cal que creï un compte?", "a": "No, podeu utilitzar totes les eines directament sense registrar-vos." },
+      { "q": "Què passa amb els fitxers que pujo?", "a": "Els fitxers es processen al servidor i s'eliminen automàticament immediatament després — no es desa res." },
+      { "q": "Quins idiomes s'admeten?", "a": "Coreà, anglès, japonès, xinès (simplificat i tradicional), espanyol, francès, alemany, portuguès, rus, italià, neerlandès, polonès, suec, turc, ucraïnès, vietnamita, tailandès, indonesi, malai, hindi, búlgar, català, grec, suahili i àrab." },
+      { "q": "Puc fusionar diversos fitxers PDF en un de sol?", "a": "Sí, organitzeu els vostres fitxers en l'ordre que vulgueu a la pàgina Fusiona PDF i fusioneu-los en un de sol." },
+      { "q": "Puc convertir un PDF a Word o Excel?", "a": "Sí, s'admeten totes les conversions de PDF a Word, PDF a Excel i PDF a PowerPoint (i viceversa)." }
+    ]
+  }
+}

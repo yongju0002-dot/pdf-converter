@@ -1,0 +1,238 @@
+{
+  "Metadata": {
+    "title": "PDF-verktyg | Slå ihop, dela och komprimera PDF gratis",
+    "description": "Slå ihop, dela, komprimera och konvertera PDF-filer gratis — utan registrering."
+  },
+  "Header": {
+    "brand": "PDF-verktyg",
+    "allTools": "Alla verktyg",
+    "pdfConvert": "Konvertera PDF",
+    "freeBadge": "Gratis, ingen registrering",
+    "quickMerge": "Slå ihop PDF",
+    "quickSplit": "Dela PDF",
+    "quickCompress": "Komprimera PDF"
+  },
+  "Footer": {
+    "notice": "Uppladdade filer raderas automatiskt efter bearbetning."
+  },
+  "Categories": {
+    "edit": "Redigering och säkerhet",
+    "image": "Bildkonvertering",
+    "office": "Konvertering av Office-dokument",
+    "web": "Webbkonvertering",
+    "fromPdf": "Konvertera från PDF",
+    "toPdf": "Konvertera till PDF"
+  },
+  "Home": {
+    "badge": "✨ {count} verktyg, alla gratis",
+    "title": "Alla PDF-uppgifter på ett ställe",
+    "subtitle": "Slå ihop, dela, komprimera och konvertera — gratis, utan registrering."
+  },
+  "Common": {
+    "dropzonePlaceholder": "Dra och släpp en fil här, eller klicka för att välja",
+    "dropzoneChangeHint": "Klicka för att välja en annan fil",
+    "comingSoon": "Kommer snart",
+    "moveUp": "Flytta upp",
+    "moveDown": "Flytta ner",
+    "remove": "Ta bort",
+    "converting": "Konverterar...",
+    "genericError": "Ett fel uppstod under konverteringen.",
+    "selectFile": "Välj en fil att konvertera."
+  },
+  "Tools": {
+    "merge_pdf": { "name": "Slå ihop PDF", "description": "Kombinera flera PDF-filer till en" },
+    "split_pdf": { "name": "Dela PDF", "description": "Dela en PDF efter sida eller extrahera ett sidintervall" },
+    "compress_pdf": { "name": "Komprimera PDF", "description": "Minska filstorleken samtidigt som kvaliteten bibehålls" },
+    "watermark_pdf": { "name": "Lägg till vattenstämpel", "description": "Infoga en text- eller bildvattenstämpel" },
+    "protect_pdf": { "name": "Skydda / lås upp PDF", "description": "Lägg till eller ta bort ett lösenord på en PDF" },
+    "pdf_to_image": { "name": "PDF till bild", "description": "Konvertera varje PDF-sida till en PNG/JPG-bild" },
+    "image_to_pdf": { "name": "Bild till PDF", "description": "Kombinera JPG- eller PNG-bilder till en enda PDF" },
+    "pdf_to_word": { "name": "PDF till Word", "description": "Konvertera en PDF till ett redigerbart Word-dokument" },
+    "word_to_pdf": { "name": "Word till PDF", "description": "Konvertera ett Word-dokument till PDF" },
+    "pdf_to_ppt": { "name": "PDF till PowerPoint", "description": "Konvertera varje PDF-sida till en PowerPoint-bild" },
+    "ppt_to_pdf": { "name": "PowerPoint till PDF", "description": "Konvertera ett PowerPoint-dokument till PDF" },
+    "pdf_to_excel": { "name": "PDF till Excel", "description": "Konvertera tabeller från en PDF till en Excel-fil" },
+    "excel_to_pdf": { "name": "Excel till PDF", "description": "Konvertera en Excel-fil till PDF" },
+    "pdf_to_html": { "name": "PDF till HTML", "description": "Konvertera en PDF till en HTML-webbsida" },
+    "html_to_pdf": { "name": "HTML till PDF", "description": "Konvertera en HTML-fil till PDF" },
+    "rotate_pdf": { "name": "Rotera PDF", "description": "Rotera alla sidor i en PDF" },
+    "page_numbers_pdf": { "name": "Lägg till sidnummer", "description": "Lägg till sidnummer på alla sidor i en PDF" },
+    "organize_pdf": { "name": "Organisera PDF", "description": "Ändra ordning på eller ta bort sidor i en PDF" }
+  },
+  "MergePage": {
+    "title": "Slå ihop PDF",
+    "description": "Ordna flera PDF-filer i valfri ordning och slå ihop dem till en.",
+    "dropzonePlaceholder": "Dra och släpp PDF-filer här, eller klicka för att välja",
+    "needTwoFiles": "Du behöver minst 2 PDF-filer för att slå ihop.",
+    "error": "Ett fel uppstod vid sammanslagning.",
+    "merging": "Slår ihop...",
+    "submit": "Slå ihop {count} PDF-filer"
+  },
+  "SplitPage": {
+    "title": "Dela PDF",
+    "description": "Dela en PDF i enskilda sidor eller extrahera bara de sidor du behöver.",
+    "selectFile": "Välj en PDF-fil att dela.",
+    "enterRange": "Ange sidintervallet som ska extraheras. T.ex.: 1-3, 5, 8-10",
+    "error": "Ett fel uppstod vid delning.",
+    "splitting": "Delar...",
+    "submit": "Dela PDF",
+    "modeAll": "Dela varje sida separat",
+    "modeRange": "Extrahera specifika sidor",
+    "rangePlaceholder": "T.ex.: 1-3, 5, 8-10",
+    "rangeHint": "Ange sidnummer eller intervall separerade med kommatecken."
+  },
+  "WatermarkPage": {
+    "title": "Lägg till vattenstämpel",
+    "description": "Infoga en diagonal textvattenstämpel på varje sida.",
+    "selectFile": "Välj en PDF-fil att lägga till en vattenstämpel på.",
+    "enterText": "Ange vattenstämpelns text.",
+    "error": "Ett fel uppstod när vattenstämpeln skulle läggas till.",
+    "applying": "Tillämpar...",
+    "submit": "Lägg till vattenstämpel",
+    "textLabel": "Vattenstämpeltext",
+    "opacityLabel": "Opacitet",
+    "fontSizeLabel": "Teckenstorlek"
+  },
+  "ProtectPage": {
+    "title": "Skydda / lås upp PDF",
+    "description": "Lägg till ett lösenord på en PDF eller ta bort ett befintligt.",
+    "selectFile": "Välj en PDF-fil.",
+    "enterPassword": "Ange ett lösenord.",
+    "error": "Ett fel uppstod vid bearbetningen.",
+    "processing": "Bearbetar...",
+    "actionAdd": "Lägg till lösenord",
+    "actionRemove": "Ta bort lösenord",
+    "submitAdd": "Lägg till lösenord",
+    "submitRemove": "Ta bort lösenord",
+    "passwordLabelAdd": "Lösenord att ange",
+    "passwordLabelRemove": "Nuvarande lösenord",
+    "passwordPlaceholder": "Ange lösenord"
+  },
+  "CompressPage": {
+    "title": "Komprimera PDF",
+    "description": "Varje sida komprimeras om som en bild för att minska filstorleken.",
+    "warning": "Mest effektivt på skannade eller bildtunga PDF-filer. Efter komprimering går texten inte längre att markera eller kopiera.",
+    "selectFile": "Välj en PDF-fil att komprimera.",
+    "error": "Ett fel uppstod vid komprimering.",
+    "compressing": "Komprimerar...",
+    "submit": "Komprimera PDF",
+    "qualityLabel": "Komprimeringskvalitet",
+    "qualityHint": "Lägre värden ger mindre filer men lägre kvalitet.",
+    "result": "{originalSize} MB → {compressedSize} MB ({percent}% mindre)"
+  },
+  "ImageToPdfPage": {
+    "title": "Bild till PDF",
+    "description": "Ordna JPG- eller PNG-bilder i valfri ordning och kombinera dem till en enda PDF.",
+    "dropzonePlaceholder": "Dra och släpp bilder här, eller klicka för att välja",
+    "selectAtLeastOne": "Välj minst en bildfil.",
+    "error": "Ett fel uppstod under konverteringen.",
+    "converting": "Konverterar...",
+    "submit": "Skapa PDF ({count} sidor)",
+    "summary": "{count} bilder · totalt {size} MB"
+  },
+  "PdfToImagePage": {
+    "title": "PDF till bild",
+    "description": "Konverterar varje PDF-sida till en bild. Om det finns flera sidor laddas resultatet ner som en ZIP-fil.",
+    "selectFile": "Välj en PDF-fil att konvertera.",
+    "error": "Ett fel uppstod under konverteringen.",
+    "converting": "Konverterar...",
+    "submit": "Konvertera till bild",
+    "formatLabel": "Utdataformat"
+  },
+  "PdfToWordPage": {
+    "title": "PDF till Word",
+    "description": "Konvertera en PDF till ett redigerbart Word-dokument (.docx).",
+    "warning": "PDF-filer med komplexa layouter kan få något annorlunda formatering efter konvertering.",
+    "submit": "Konvertera till Word"
+  },
+  "WordToPdfPage": {
+    "title": "Word till PDF",
+    "description": "Konvertera ett Word-dokument (.docx, .doc) till PDF.",
+    "submit": "Konvertera till PDF"
+  },
+  "PdfToPptPage": {
+    "title": "PDF till PowerPoint",
+    "description": "Konvertera varje PDF-sida till en PowerPoint-bild (.pptx).",
+    "warning": "Bildlayouten kan variera beroende på placeringen av text/bilder i den ursprungliga PDF-filen.",
+    "submit": "Konvertera till PowerPoint"
+  },
+  "PptToPdfPage": {
+    "title": "PowerPoint till PDF",
+    "description": "Konvertera ett PowerPoint-dokument (.pptx, .ppt) till PDF.",
+    "submit": "Konvertera till PDF"
+  },
+  "PdfToExcelPage": {
+    "title": "PDF till Excel",
+    "description": "Upptäcker tabelldata i en PDF och konverterar dem till en Excel-fil (.xlsx).",
+    "warning": "Mest exakt för enkla tabeller i textbaserade PDF-filer. Skannade eller komplext utformade tabeller kan få felaktigt justerade celler.",
+    "submit": "Konvertera till Excel"
+  },
+  "ExcelToPdfPage": {
+    "title": "Excel till PDF",
+    "description": "Konvertera en Excel-fil (.xlsx, .xls, .csv) till PDF.",
+    "submit": "Konvertera till PDF"
+  },
+  "PdfToHtmlPage": {
+    "title": "PDF till HTML",
+    "description": "Konvertera en PDF till en HTML-webbsida.",
+    "warning": "PDF-filer med bilder levereras som en ZIP-fil (HTML + bilder).",
+    "submit": "Konvertera till HTML"
+  },
+  "HtmlToPdfPage": {
+    "title": "HTML till PDF",
+    "description": "Konvertera en HTML-fil till PDF.",
+    "submit": "Konvertera till PDF"
+  },
+  "RotatePage": {
+    "title": "Rotera PDF",
+    "description": "Rotera alla sidor i en PDF medurs eller moturs.",
+    "selectFile": "Välj en PDF-fil att rotera.",
+    "error": "Ett fel uppstod vid rotering.",
+    "rotating": "Roterar...",
+    "submit": "Rotera PDF",
+    "directionLabel": "Rotation",
+    "right90": "90° höger",
+    "left90": "90° vänster",
+    "rotate180": "180°"
+  },
+  "PageNumbersPage": {
+    "title": "Lägg till sidnummer",
+    "description": "Lägg till sidnummer på alla sidor i en PDF.",
+    "selectFile": "Välj en PDF-fil.",
+    "error": "Ett fel uppstod när sidnummer skulle läggas till.",
+    "applying": "Tillämpar...",
+    "submit": "Lägg till sidnummer",
+    "positionLabel": "Position",
+    "positionBottomCenter": "Nederkant mitten",
+    "positionBottomRight": "Nederkant höger",
+    "positionTopCenter": "Överkant mitten",
+    "startNumberLabel": "Startnummer",
+    "fontSizeLabel": "Teckenstorlek"
+  },
+  "OrganizePage": {
+    "title": "Organisera PDF",
+    "description": "Ändra ordning på eller ta bort sidor och spara som en ny PDF.",
+    "selectFile": "Välj en PDF-fil att organisera.",
+    "loadingThumbnails": "Laddar sidor...",
+    "error": "Ett fel uppstod.",
+    "saving": "Sparar...",
+    "submit": "Spara PDF",
+    "needAtLeastOnePage": "Behåll minst en sida.",
+    "removePage": "Ta bort sida",
+    "pageLabel": "Sida {number}"
+  },
+  "LanguageSwitcher": {
+    "label": "Språk"
+  },
+  "FAQ": {
+    "heading": "Vanliga frågor",
+    "items": [
+      { "q": "Är PDF-verktygen gratis att använda?", "a": "Ja, alla 18 verktyg är helt gratis och kräver ingen registrering." },
+      { "q": "Behöver jag skapa ett konto?", "a": "Nej, du kan använda alla verktyg direkt utan att registrera dig." },
+      { "q": "Vad händer med mina uppladdade filer?", "a": "Filerna bearbetas på servern och raderas automatiskt direkt efteråt — inget sparas." },
+      { "q": "Vilka språk stöds?", "a": "Koreanska, engelska, japanska, kinesiska (förenklad och traditionell), spanska, franska, tyska, portugisiska, ryska, italienska, nederländska, polska, svenska, turkiska, ukrainska, vietnamesiska, thailändska, indonesiska, malajiska, hindi, bulgariska, katalanska, grekiska, swahili och arabiska." },
+      { "q": "Kan jag slå ihop flera PDF-filer till en?", "a": "Ja, ordna dina filer i valfri ordning på sidan Slå ihop PDF och slå ihop dem till en." },
+      { "q": "Kan jag konvertera en PDF till Word eller Excel?", "a": "Ja, konverteringar från PDF till Word, PDF till Excel och PDF till PowerPoint (och omvänt) stöds alla." }
+    ]
+  }
+}

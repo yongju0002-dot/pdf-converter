@@ -1,0 +1,238 @@
+{
+  "Metadata": {
+    "title": "Strumenti PDF | Unisci, dividi e comprimi PDF gratis",
+    "description": "Unisci, dividi, comprimi e converti PDF gratuitamente, senza registrazione."
+  },
+  "Header": {
+    "brand": "Strumenti PDF",
+    "allTools": "Tutti gli strumenti",
+    "pdfConvert": "Converti PDF",
+    "freeBadge": "Gratis, senza registrazione",
+    "quickMerge": "Unisci PDF",
+    "quickSplit": "Dividi PDF",
+    "quickCompress": "Comprimi PDF"
+  },
+  "Footer": {
+    "notice": "I file caricati vengono eliminati automaticamente dopo l'elaborazione."
+  },
+  "Categories": {
+    "edit": "Modifica e sicurezza",
+    "image": "Conversione immagini",
+    "office": "Conversione documenti Office",
+    "web": "Conversione web",
+    "fromPdf": "Converti da PDF",
+    "toPdf": "Converti in PDF"
+  },
+  "Home": {
+    "badge": "✨ {count} strumenti, tutti gratuiti",
+    "title": "Tutte le attività PDF in un unico posto",
+    "subtitle": "Unisci, dividi, comprimi e converti — gratis, senza registrazione."
+  },
+  "Common": {
+    "dropzonePlaceholder": "Trascina qui un file, oppure clicca per selezionarlo",
+    "dropzoneChangeHint": "Clicca per scegliere un altro file",
+    "comingSoon": "Prossimamente",
+    "moveUp": "Sposta su",
+    "moveDown": "Sposta giù",
+    "remove": "Rimuovi",
+    "converting": "Conversione in corso...",
+    "genericError": "Si è verificato un errore durante la conversione.",
+    "selectFile": "Seleziona un file da convertire."
+  },
+  "Tools": {
+    "merge_pdf": { "name": "Unisci PDF", "description": "Combina più file PDF in uno solo" },
+    "split_pdf": { "name": "Dividi PDF", "description": "Dividi un PDF per pagina o estrai un intervallo di pagine" },
+    "compress_pdf": { "name": "Comprimi PDF", "description": "Riduci la dimensione del file mantenendo la qualità" },
+    "watermark_pdf": { "name": "Aggiungi filigrana", "description": "Inserisci una filigrana di testo o immagine" },
+    "protect_pdf": { "name": "Proteggi / Sblocca PDF", "description": "Aggiungi o rimuovi una password da un PDF" },
+    "pdf_to_image": { "name": "PDF in immagine", "description": "Converti ogni pagina del PDF in un'immagine PNG/JPG" },
+    "image_to_pdf": { "name": "Immagine in PDF", "description": "Combina immagini JPG o PNG in un unico PDF" },
+    "pdf_to_word": { "name": "PDF in Word", "description": "Converti un PDF in un documento Word modificabile" },
+    "word_to_pdf": { "name": "Word in PDF", "description": "Converti un documento Word in PDF" },
+    "pdf_to_ppt": { "name": "PDF in PowerPoint", "description": "Converti ogni pagina del PDF in una diapositiva PowerPoint" },
+    "ppt_to_pdf": { "name": "PowerPoint in PDF", "description": "Converti un documento PowerPoint in PDF" },
+    "pdf_to_excel": { "name": "PDF in Excel", "description": "Converti le tabelle di un PDF in un file Excel" },
+    "excel_to_pdf": { "name": "Excel in PDF", "description": "Converti un file Excel in PDF" },
+    "pdf_to_html": { "name": "PDF in HTML", "description": "Converti un PDF in una pagina web HTML" },
+    "html_to_pdf": { "name": "HTML in PDF", "description": "Converti un file HTML in PDF" },
+    "rotate_pdf": { "name": "Ruota PDF", "description": "Ruota tutte le pagine di un PDF" },
+    "page_numbers_pdf": { "name": "Aggiungi numeri di pagina", "description": "Aggiungi numeri di pagina a tutte le pagine di un PDF" },
+    "organize_pdf": { "name": "Organizza PDF", "description": "Riordina o rimuovi pagine da un PDF" }
+  },
+  "MergePage": {
+    "title": "Unisci PDF",
+    "description": "Disponi più file PDF nell'ordine desiderato e combinali in uno solo.",
+    "dropzonePlaceholder": "Trascina qui i file PDF, oppure clicca per selezionarli",
+    "needTwoFiles": "Servono almeno 2 file PDF per unire.",
+    "error": "Si è verificato un errore durante l'unione.",
+    "merging": "Unione in corso...",
+    "submit": "Unisci {count} PDF"
+  },
+  "SplitPage": {
+    "title": "Dividi PDF",
+    "description": "Dividi un PDF in singole pagine oppure estrai solo le pagine che ti servono.",
+    "selectFile": "Seleziona un file PDF da dividere.",
+    "enterRange": "Inserisci l'intervallo di pagine da estrarre. Es: 1-3, 5, 8-10",
+    "error": "Si è verificato un errore durante la divisione.",
+    "splitting": "Divisione in corso...",
+    "submit": "Dividi PDF",
+    "modeAll": "Dividi ogni pagina separatamente",
+    "modeRange": "Estrai pagine specifiche",
+    "rangePlaceholder": "Es: 1-3, 5, 8-10",
+    "rangeHint": "Inserisci numeri di pagina o intervalli separati da virgole."
+  },
+  "WatermarkPage": {
+    "title": "Aggiungi filigrana",
+    "description": "Inserisci una filigrana di testo diagonale su ogni pagina.",
+    "selectFile": "Seleziona un file PDF a cui aggiungere una filigrana.",
+    "enterText": "Inserisci il testo della filigrana.",
+    "error": "Si è verificato un errore durante l'aggiunta della filigrana.",
+    "applying": "Applicazione in corso...",
+    "submit": "Aggiungi filigrana",
+    "textLabel": "Testo della filigrana",
+    "opacityLabel": "Opacità",
+    "fontSizeLabel": "Dimensione carattere"
+  },
+  "ProtectPage": {
+    "title": "Proteggi / Sblocca PDF",
+    "description": "Aggiungi una password a un PDF o rimuovine una esistente.",
+    "selectFile": "Seleziona un file PDF.",
+    "enterPassword": "Inserisci una password.",
+    "error": "Si è verificato un errore durante l'elaborazione.",
+    "processing": "Elaborazione in corso...",
+    "actionAdd": "Aggiungi password",
+    "actionRemove": "Rimuovi password",
+    "submitAdd": "Aggiungi password",
+    "submitRemove": "Rimuovi password",
+    "passwordLabelAdd": "Password da impostare",
+    "passwordLabelRemove": "Password attuale",
+    "passwordPlaceholder": "Inserisci la password"
+  },
+  "CompressPage": {
+    "title": "Comprimi PDF",
+    "description": "Ricomprimi ogni pagina come immagine per ridurre la dimensione del file.",
+    "warning": "Più efficace su PDF scansionati o con molte immagini. Dopo la compressione il testo non potrà più essere selezionato o copiato.",
+    "selectFile": "Seleziona un file PDF da comprimere.",
+    "error": "Si è verificato un errore durante la compressione.",
+    "compressing": "Compressione in corso...",
+    "submit": "Comprimi PDF",
+    "qualityLabel": "Qualità di compressione",
+    "qualityHint": "Valori più bassi producono file più piccoli ma di qualità inferiore.",
+    "result": "{originalSize} MB → {compressedSize} MB (riduzione del {percent}%)"
+  },
+  "ImageToPdfPage": {
+    "title": "Immagine in PDF",
+    "description": "Disponi immagini JPG o PNG nell'ordine desiderato e combinale in un unico PDF.",
+    "dropzonePlaceholder": "Trascina qui le immagini, oppure clicca per selezionarle",
+    "selectAtLeastOne": "Seleziona almeno un file immagine.",
+    "error": "Si è verificato un errore durante la conversione.",
+    "converting": "Conversione in corso...",
+    "submit": "Crea PDF ({count} pagine)",
+    "summary": "{count} immagini · {size} MB totali"
+  },
+  "PdfToImagePage": {
+    "title": "PDF in immagine",
+    "description": "Converte ogni pagina del PDF in un'immagine. Se ci sono più pagine, il risultato viene scaricato come ZIP.",
+    "selectFile": "Seleziona un file PDF da convertire.",
+    "error": "Si è verificato un errore durante la conversione.",
+    "converting": "Conversione in corso...",
+    "submit": "Converti in immagine",
+    "formatLabel": "Formato di output"
+  },
+  "PdfToWordPage": {
+    "title": "PDF in Word",
+    "description": "Converti un PDF in un documento Word (.docx) modificabile.",
+    "warning": "I PDF con layout complessi potrebbero avere una formattazione leggermente diversa dopo la conversione.",
+    "submit": "Converti in Word"
+  },
+  "WordToPdfPage": {
+    "title": "Word in PDF",
+    "description": "Converti un documento Word (.docx, .doc) in PDF.",
+    "submit": "Converti in PDF"
+  },
+  "PdfToPptPage": {
+    "title": "PDF in PowerPoint",
+    "description": "Converti ogni pagina del PDF in una diapositiva PowerPoint (.pptx).",
+    "warning": "Il layout delle diapositive può variare in base alla disposizione di testo/immagini nel PDF originale.",
+    "submit": "Converti in PowerPoint"
+  },
+  "PptToPdfPage": {
+    "title": "PowerPoint in PDF",
+    "description": "Converti un documento PowerPoint (.pptx, .ppt) in PDF.",
+    "submit": "Converti in PDF"
+  },
+  "PdfToExcelPage": {
+    "title": "PDF in Excel",
+    "description": "Rileva i dati tabellari all'interno di un PDF e li converte in un file Excel (.xlsx).",
+    "warning": "Più accurato con tabelle semplici in PDF basati su testo. Tabelle scansionate o con layout complesso potrebbero avere celle disallineate.",
+    "submit": "Converti in Excel"
+  },
+  "ExcelToPdfPage": {
+    "title": "Excel in PDF",
+    "description": "Converti un file Excel (.xlsx, .xls, .csv) in PDF.",
+    "submit": "Converti in PDF"
+  },
+  "PdfToHtmlPage": {
+    "title": "PDF in HTML",
+    "description": "Converti un PDF in una pagina web HTML.",
+    "warning": "I PDF con immagini vengono forniti come file ZIP (HTML + immagini).",
+    "submit": "Converti in HTML"
+  },
+  "HtmlToPdfPage": {
+    "title": "HTML in PDF",
+    "description": "Converti un file HTML in PDF.",
+    "submit": "Converti in PDF"
+  },
+  "RotatePage": {
+    "title": "Ruota PDF",
+    "description": "Ruota tutte le pagine di un PDF in senso orario o antiorario.",
+    "selectFile": "Seleziona un file PDF da ruotare.",
+    "error": "Si è verificato un errore durante la rotazione.",
+    "rotating": "Rotazione in corso...",
+    "submit": "Ruota PDF",
+    "directionLabel": "Rotazione",
+    "right90": "90° a destra",
+    "left90": "90° a sinistra",
+    "rotate180": "180°"
+  },
+  "PageNumbersPage": {
+    "title": "Aggiungi numeri di pagina",
+    "description": "Aggiungi numeri di pagina a tutte le pagine di un PDF.",
+    "selectFile": "Seleziona un file PDF.",
+    "error": "Si è verificato un errore durante l'aggiunta dei numeri di pagina.",
+    "applying": "Applicazione in corso...",
+    "submit": "Aggiungi numeri di pagina",
+    "positionLabel": "Posizione",
+    "positionBottomCenter": "In basso al centro",
+    "positionBottomRight": "In basso a destra",
+    "positionTopCenter": "In alto al centro",
+    "startNumberLabel": "Numero iniziale",
+    "fontSizeLabel": "Dimensione carattere"
+  },
+  "OrganizePage": {
+    "title": "Organizza PDF",
+    "description": "Riordina o rimuovi pagine, quindi salva come nuovo PDF.",
+    "selectFile": "Seleziona un file PDF da organizzare.",
+    "loadingThumbnails": "Caricamento pagine...",
+    "error": "Si è verificato un errore.",
+    "saving": "Salvataggio in corso...",
+    "submit": "Salva PDF",
+    "needAtLeastOnePage": "Mantieni almeno una pagina.",
+    "removePage": "Rimuovi pagina",
+    "pageLabel": "Pagina {number}"
+  },
+  "LanguageSwitcher": {
+    "label": "Lingua"
+  },
+  "FAQ": {
+    "heading": "Domande frequenti",
+    "items": [
+      { "q": "Gli Strumenti PDF sono gratuiti?", "a": "Sì, tutti i 18 strumenti sono completamente gratuiti e non richiedono registrazione." },
+      { "q": "Devo creare un account?", "a": "No, puoi usare tutti gli strumenti immediatamente senza registrarti." },
+      { "q": "Cosa succede ai miei file caricati?", "a": "I file vengono elaborati sul server ed eliminati automaticamente subito dopo — non viene conservato nulla." },
+      { "q": "Quali lingue sono supportate?", "a": "Coreano, inglese, giapponese, cinese (semplificato e tradizionale), spagnolo, francese, tedesco, portoghese, russo, italiano, olandese, polacco, svedese, turco, ucraino, vietnamita, tailandese, indonesiano, malese, hindi, bulgaro, catalano, greco, swahili e arabo." },
+      { "q": "Posso unire più file PDF in uno solo?", "a": "Sì, disponi i tuoi file nell'ordine desiderato nella pagina Unisci PDF e combinali in uno solo." },
+      { "q": "Posso convertire un PDF in Word o Excel?", "a": "Sì, sono supportate le conversioni da PDF a Word, PDF a Excel e PDF a PowerPoint (e viceversa)." }
+    ]
+  }
+}

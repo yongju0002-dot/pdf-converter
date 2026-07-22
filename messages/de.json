@@ -230,7 +230,7 @@
       { "q": "Ist die Nutzung von PDF Tools kostenlos?", "a": "Ja, alle 18 Tools sind völlig kostenlos und erfordern keine Anmeldung." },
       { "q": "Muss ich ein Konto erstellen?", "a": "Nein, Sie können alle Tools sofort ohne Anmeldung nutzen." },
       { "q": "Was passiert mit meinen hochgeladenen Dateien?", "a": "Die Dateien werden auf dem Server verarbeitet und unmittelbar danach automatisch gelöscht — es wird nichts gespeichert." },
-      { "q": "Welche Sprachen werden unterstützt?", "a": "Koreanisch, Englisch, Japanisch, Chinesisch (vereinfacht und traditionell), Spanisch, Französisch, Deutsch, Portugiesisch und Russisch." },
+      { "q": "Welche Sprachen werden unterstützt?", "a": "Koreanisch, Englisch, Japanisch, Chinesisch (vereinfacht und traditionell), Spanisch, Französisch, Deutsch, Portugiesisch, Russisch, Italienisch, Niederländisch, Polnisch, Schwedisch, Türkisch, Ukrainisch, Vietnamesisch, Thailändisch, Indonesisch, Malaiisch, Hindi, Bulgarisch, Katalanisch, Griechisch, Suaheli und Arabisch." },
       { "q": "Kann ich mehrere PDF-Dateien zu einer zusammenführen?", "a": "Ja, ordnen Sie Ihre Dateien auf der Seite „PDF zusammenführen“ in beliebiger Reihenfolge an und führen Sie sie zu einer zusammen." },
       { "q": "Kann ich ein PDF in Word oder Excel umwandeln?", "a": "Ja, die Konvertierungen von PDF zu Word, PDF zu Excel und PDF zu PowerPoint (und umgekehrt) werden alle unterstützt." }
     ]

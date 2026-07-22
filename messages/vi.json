@@ -1,0 +1,238 @@
+{
+  "Metadata": {
+    "title": "Công cụ PDF | Ghép, Tách và Nén PDF miễn phí",
+    "description": "Ghép, tách, nén và chuyển đổi file PDF miễn phí — không cần đăng ký."
+  },
+  "Header": {
+    "brand": "Công cụ PDF",
+    "allTools": "Tất cả công cụ",
+    "pdfConvert": "Chuyển đổi PDF",
+    "freeBadge": "Miễn phí, không cần đăng ký",
+    "quickMerge": "Ghép PDF",
+    "quickSplit": "Tách PDF",
+    "quickCompress": "Nén PDF"
+  },
+  "Footer": {
+    "notice": "Các tệp đã tải lên sẽ tự động bị xóa sau khi xử lý."
+  },
+  "Categories": {
+    "edit": "Chỉnh sửa và Bảo mật",
+    "image": "Chuyển đổi hình ảnh",
+    "office": "Chuyển đổi tài liệu Office",
+    "web": "Chuyển đổi Web",
+    "fromPdf": "Chuyển đổi từ PDF",
+    "toPdf": "Chuyển đổi sang PDF"
+  },
+  "Home": {
+    "badge": "✨ {count} công cụ, tất cả miễn phí",
+    "title": "Mọi tác vụ PDF ở một nơi",
+    "subtitle": "Ghép, tách, nén và chuyển đổi — miễn phí, không cần đăng ký."
+  },
+  "Common": {
+    "dropzonePlaceholder": "Kéo và thả tệp vào đây, hoặc nhấp để chọn",
+    "dropzoneChangeHint": "Nhấp để chọn tệp khác",
+    "comingSoon": "Sắp ra mắt",
+    "moveUp": "Di chuyển lên",
+    "moveDown": "Di chuyển xuống",
+    "remove": "Xóa",
+    "converting": "Đang chuyển đổi...",
+    "genericError": "Đã xảy ra lỗi trong quá trình chuyển đổi.",
+    "selectFile": "Chọn một tệp để chuyển đổi."
+  },
+  "Tools": {
+    "merge_pdf": { "name": "Ghép PDF", "description": "Kết hợp nhiều tệp PDF thành một" },
+    "split_pdf": { "name": "Tách PDF", "description": "Tách PDF theo trang hoặc trích xuất một khoảng trang" },
+    "compress_pdf": { "name": "Nén PDF", "description": "Giảm dung lượng tệp trong khi vẫn giữ chất lượng" },
+    "watermark_pdf": { "name": "Thêm hình mờ", "description": "Chèn hình mờ dạng văn bản hoặc hình ảnh" },
+    "protect_pdf": { "name": "Bảo vệ / Mở khóa PDF", "description": "Thêm hoặc xóa mật khẩu cho PDF" },
+    "pdf_to_image": { "name": "PDF sang hình ảnh", "description": "Chuyển đổi mỗi trang PDF thành hình ảnh PNG/JPG" },
+    "image_to_pdf": { "name": "Hình ảnh sang PDF", "description": "Kết hợp hình ảnh JPG hoặc PNG thành một PDF duy nhất" },
+    "pdf_to_word": { "name": "PDF sang Word", "description": "Chuyển đổi PDF thành tài liệu Word có thể chỉnh sửa" },
+    "word_to_pdf": { "name": "Word sang PDF", "description": "Chuyển đổi tài liệu Word thành PDF" },
+    "pdf_to_ppt": { "name": "PDF sang PowerPoint", "description": "Chuyển đổi mỗi trang PDF thành một slide PowerPoint" },
+    "ppt_to_pdf": { "name": "PowerPoint sang PDF", "description": "Chuyển đổi tài liệu PowerPoint thành PDF" },
+    "pdf_to_excel": { "name": "PDF sang Excel", "description": "Chuyển đổi bảng biểu từ PDF thành tệp Excel" },
+    "excel_to_pdf": { "name": "Excel sang PDF", "description": "Chuyển đổi tệp Excel thành PDF" },
+    "pdf_to_html": { "name": "PDF sang HTML", "description": "Chuyển đổi PDF thành trang web HTML" },
+    "html_to_pdf": { "name": "HTML sang PDF", "description": "Chuyển đổi tệp HTML thành PDF" },
+    "rotate_pdf": { "name": "Xoay PDF", "description": "Xoay tất cả các trang trong một PDF" },
+    "page_numbers_pdf": { "name": "Thêm số trang", "description": "Thêm số trang vào tất cả các trang của PDF" },
+    "organize_pdf": { "name": "Sắp xếp PDF", "description": "Sắp xếp lại hoặc xóa các trang trong PDF" }
+  },
+  "MergePage": {
+    "title": "Ghép PDF",
+    "description": "Sắp xếp nhiều tệp PDF theo thứ tự bạn muốn và ghép chúng thành một.",
+    "dropzonePlaceholder": "Kéo và thả tệp PDF vào đây, hoặc nhấp để chọn",
+    "needTwoFiles": "Bạn cần ít nhất 2 tệp PDF để ghép.",
+    "error": "Đã xảy ra lỗi khi ghép.",
+    "merging": "Đang ghép...",
+    "submit": "Ghép {count} tệp PDF"
+  },
+  "SplitPage": {
+    "title": "Tách PDF",
+    "description": "Tách PDF thành các trang riêng lẻ hoặc chỉ trích xuất các trang bạn cần.",
+    "selectFile": "Chọn một tệp PDF để tách.",
+    "enterRange": "Nhập khoảng trang cần trích xuất. VD: 1-3, 5, 8-10",
+    "error": "Đã xảy ra lỗi khi tách.",
+    "splitting": "Đang tách...",
+    "submit": "Tách PDF",
+    "modeAll": "Tách riêng từng trang",
+    "modeRange": "Trích xuất các trang cụ thể",
+    "rangePlaceholder": "VD: 1-3, 5, 8-10",
+    "rangeHint": "Nhập số trang hoặc khoảng trang, cách nhau bằng dấu phẩy."
+  },
+  "WatermarkPage": {
+    "title": "Thêm hình mờ",
+    "description": "Chèn một hình mờ văn bản theo đường chéo vào mỗi trang.",
+    "selectFile": "Chọn một tệp PDF để thêm hình mờ.",
+    "enterText": "Nhập nội dung hình mờ.",
+    "error": "Đã xảy ra lỗi khi thêm hình mờ.",
+    "applying": "Đang áp dụng...",
+    "submit": "Thêm hình mờ",
+    "textLabel": "Nội dung hình mờ",
+    "opacityLabel": "Độ mờ",
+    "fontSizeLabel": "Cỡ chữ"
+  },
+  "ProtectPage": {
+    "title": "Bảo vệ / Mở khóa PDF",
+    "description": "Thêm mật khẩu cho PDF hoặc xóa mật khẩu hiện có.",
+    "selectFile": "Chọn một tệp PDF.",
+    "enterPassword": "Nhập mật khẩu.",
+    "error": "Đã xảy ra lỗi khi xử lý.",
+    "processing": "Đang xử lý...",
+    "actionAdd": "Thêm mật khẩu",
+    "actionRemove": "Xóa mật khẩu",
+    "submitAdd": "Thêm mật khẩu",
+    "submitRemove": "Xóa mật khẩu",
+    "passwordLabelAdd": "Mật khẩu cần đặt",
+    "passwordLabelRemove": "Mật khẩu hiện tại",
+    "passwordPlaceholder": "Nhập mật khẩu"
+  },
+  "CompressPage": {
+    "title": "Nén PDF",
+    "description": "Mỗi trang được nén lại dưới dạng hình ảnh để giảm dung lượng tệp.",
+    "warning": "Hiệu quả nhất với các PDF được quét hoặc chứa nhiều hình ảnh. Sau khi nén, văn bản sẽ không thể chọn hoặc sao chép được nữa.",
+    "selectFile": "Chọn một tệp PDF để nén.",
+    "error": "Đã xảy ra lỗi khi nén.",
+    "compressing": "Đang nén...",
+    "submit": "Nén PDF",
+    "qualityLabel": "Chất lượng nén",
+    "qualityHint": "Giá trị thấp hơn cho tệp nhỏ hơn nhưng chất lượng thấp hơn.",
+    "result": "{originalSize} MB → {compressedSize} MB (nhỏ hơn {percent}%)"
+  },
+  "ImageToPdfPage": {
+    "title": "Hình ảnh sang PDF",
+    "description": "Sắp xếp hình ảnh JPG hoặc PNG theo thứ tự bạn muốn và kết hợp chúng thành một PDF duy nhất.",
+    "dropzonePlaceholder": "Kéo và thả hình ảnh vào đây, hoặc nhấp để chọn",
+    "selectAtLeastOne": "Chọn ít nhất một tệp hình ảnh.",
+    "error": "Đã xảy ra lỗi trong quá trình chuyển đổi.",
+    "converting": "Đang chuyển đổi...",
+    "submit": "Tạo PDF ({count} trang)",
+    "summary": "{count} hình ảnh · tổng {size} MB"
+  },
+  "PdfToImagePage": {
+    "title": "PDF sang hình ảnh",
+    "description": "Chuyển đổi mỗi trang PDF thành một hình ảnh. Nếu có nhiều trang, kết quả sẽ được tải xuống dưới dạng tệp ZIP.",
+    "selectFile": "Chọn một tệp PDF để chuyển đổi.",
+    "error": "Đã xảy ra lỗi trong quá trình chuyển đổi.",
+    "converting": "Đang chuyển đổi...",
+    "submit": "Chuyển đổi sang hình ảnh",
+    "formatLabel": "Định dạng đầu ra"
+  },
+  "PdfToWordPage": {
+    "title": "PDF sang Word",
+    "description": "Chuyển đổi PDF thành tài liệu Word có thể chỉnh sửa (.docx).",
+    "warning": "Các PDF có bố cục phức tạp có thể có định dạng hơi khác sau khi chuyển đổi.",
+    "submit": "Chuyển đổi sang Word"
+  },
+  "WordToPdfPage": {
+    "title": "Word sang PDF",
+    "description": "Chuyển đổi tài liệu Word (.docx, .doc) thành PDF.",
+    "submit": "Chuyển đổi sang PDF"
+  },
+  "PdfToPptPage": {
+    "title": "PDF sang PowerPoint",
+    "description": "Chuyển đổi mỗi trang PDF thành một slide PowerPoint (.pptx).",
+    "warning": "Bố cục slide có thể khác nhau tùy theo vị trí văn bản/hình ảnh trong PDF gốc.",
+    "submit": "Chuyển đổi sang PowerPoint"
+  },
+  "PptToPdfPage": {
+    "title": "PowerPoint sang PDF",
+    "description": "Chuyển đổi tài liệu PowerPoint (.pptx, .ppt) thành PDF.",
+    "submit": "Chuyển đổi sang PDF"
+  },
+  "PdfToExcelPage": {
+    "title": "PDF sang Excel",
+    "description": "Phát hiện dữ liệu bảng trong PDF và chuyển đổi thành tệp Excel (.xlsx).",
+    "warning": "Chính xác nhất với các bảng đơn giản trong PDF dạng văn bản. Các bảng được quét hoặc có bố cục phức tạp có thể bị lệch ô.",
+    "submit": "Chuyển đổi sang Excel"
+  },
+  "ExcelToPdfPage": {
+    "title": "Excel sang PDF",
+    "description": "Chuyển đổi tệp Excel (.xlsx, .xls, .csv) thành PDF.",
+    "submit": "Chuyển đổi sang PDF"
+  },
+  "PdfToHtmlPage": {
+    "title": "PDF sang HTML",
+    "description": "Chuyển đổi PDF thành trang web HTML.",
+    "warning": "Các PDF có hình ảnh sẽ được cung cấp dưới dạng tệp ZIP (HTML + hình ảnh).",
+    "submit": "Chuyển đổi sang HTML"
+  },
+  "HtmlToPdfPage": {
+    "title": "HTML sang PDF",
+    "description": "Chuyển đổi tệp HTML thành PDF.",
+    "submit": "Chuyển đổi sang PDF"
+  },
+  "RotatePage": {
+    "title": "Xoay PDF",
+    "description": "Xoay tất cả các trang trong PDF theo chiều kim đồng hồ hoặc ngược chiều kim đồng hồ.",
+    "selectFile": "Chọn một tệp PDF để xoay.",
+    "error": "Đã xảy ra lỗi khi xoay.",
+    "rotating": "Đang xoay...",
+    "submit": "Xoay PDF",
+    "directionLabel": "Xoay",
+    "right90": "90° sang phải",
+    "left90": "90° sang trái",
+    "rotate180": "180°"
+  },
+  "PageNumbersPage": {
+    "title": "Thêm số trang",
+    "description": "Thêm số trang vào tất cả các trang của PDF.",
+    "selectFile": "Chọn một tệp PDF.",
+    "error": "Đã xảy ra lỗi khi thêm số trang.",
+    "applying": "Đang áp dụng...",
+    "submit": "Thêm số trang",
+    "positionLabel": "Vị trí",
+    "positionBottomCenter": "Giữa dưới",
+    "positionBottomRight": "Phải dưới",
+    "positionTopCenter": "Giữa trên",
+    "startNumberLabel": "Số bắt đầu",
+    "fontSizeLabel": "Cỡ chữ"
+  },
+  "OrganizePage": {
+    "title": "Sắp xếp PDF",
+    "description": "Sắp xếp lại hoặc xóa các trang và lưu thành một PDF mới.",
+    "selectFile": "Chọn một tệp PDF để sắp xếp.",
+    "loadingThumbnails": "Đang tải các trang...",
+    "error": "Đã xảy ra lỗi.",
+    "saving": "Đang lưu...",
+    "submit": "Lưu PDF",
+    "needAtLeastOnePage": "Phải giữ lại ít nhất một trang.",
+    "removePage": "Xóa trang",
+    "pageLabel": "Trang {number}"
+  },
+  "LanguageSwitcher": {
+    "label": "Ngôn ngữ"
+  },
+  "FAQ": {
+    "heading": "Câu hỏi thường gặp",
+    "items": [
+      { "q": "Các công cụ PDF có miễn phí sử dụng không?", "a": "Có, tất cả 18 công cụ đều hoàn toàn miễn phí và không yêu cầu đăng ký." },
+      { "q": "Tôi có cần tạo tài khoản không?", "a": "Không, bạn có thể sử dụng tất cả các công cụ ngay lập tức mà không cần đăng ký." },
+      { "q": "Điều gì xảy ra với các tệp tôi đã tải lên?", "a": "Các tệp được xử lý trên máy chủ và tự động bị xóa ngay sau đó — không có gì được lưu trữ." },
+      { "q": "Những ngôn ngữ nào được hỗ trợ?", "a": "Tiếng Hàn, tiếng Anh, tiếng Nhật, tiếng Trung (giản thể và phồn thể), tiếng Tây Ban Nha, tiếng Pháp, tiếng Đức, tiếng Bồ Đào Nha, tiếng Nga, tiếng Ý, tiếng Hà Lan, tiếng Ba Lan, tiếng Thụy Điển, tiếng Thổ Nhĩ Kỳ, tiếng Ukraina, tiếng Việt, tiếng Thái, tiếng Indonesia, tiếng Mã Lai, tiếng Hindi, tiếng Bulgaria, tiếng Catalan, tiếng Hy Lạp, tiếng Swahili và tiếng Ả Rập." },
+      { "q": "Tôi có thể ghép nhiều tệp PDF thành một không?", "a": "Có, hãy sắp xếp các tệp của bạn theo thứ tự bạn muốn trên trang Ghép PDF và ghép chúng thành một." },
+      { "q": "Tôi có thể chuyển đổi PDF sang Word hoặc Excel không?", "a": "Có, tất cả các chuyển đổi PDF sang Word, PDF sang Excel và PDF sang PowerPoint (và ngược lại) đều được hỗ trợ." }
+    ]
+  }
+}

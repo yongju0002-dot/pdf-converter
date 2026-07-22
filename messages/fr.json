@@ -230,7 +230,7 @@
       { "q": "Les outils PDF sont-ils gratuits ?", "a": "Oui, les 18 outils sont entièrement gratuits et ne nécessitent aucune inscription." },
       { "q": "Dois-je créer un compte ?", "a": "Non, vous pouvez utiliser tous les outils immédiatement sans vous inscrire." },
       { "q": "Que deviennent mes fichiers téléchargés ?", "a": "Les fichiers sont traités sur le serveur puis supprimés automatiquement juste après — rien n'est conservé." },
-      { "q": "Quelles langues sont prises en charge ?", "a": "Coréen, anglais, japonais, chinois (simplifié et traditionnel), espagnol, français, allemand, portugais et russe." },
+      { "q": "Quelles langues sont prises en charge ?", "a": "Coréen, anglais, japonais, chinois (simplifié et traditionnel), espagnol, français, allemand, portugais, russe, italien, néerlandais, polonais, suédois, turc, ukrainien, vietnamien, thaï, indonésien, malais, hindi, bulgare, catalan, grec, swahili et arabe." },
       { "q": "Puis-je combiner plusieurs fichiers PDF en un seul ?", "a": "Oui, organisez vos fichiers dans l'ordre souhaité sur la page Fusionner un PDF et combinez-les en un seul." },
       { "q": "Puis-je convertir un PDF en Word ou en Excel ?", "a": "Oui, les conversions PDF vers Word, PDF vers Excel et PDF vers PowerPoint (et leurs inverses) sont toutes prises en charge." }
     ]

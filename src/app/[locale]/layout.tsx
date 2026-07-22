@@ -38,7 +38,25 @@ const ogLocales: Record<string, string> = {
   pt: "pt_PT",
   ru: "ru_RU",
   "zh-TW": "zh_TW",
+  it: "it_IT",
+  nl: "nl_NL",
+  pl: "pl_PL",
+  sv: "sv_SE",
+  tr: "tr_TR",
+  uk: "uk_UA",
+  vi: "vi_VN",
+  th: "th_TH",
+  id: "id_ID",
+  ms: "ms_MY",
+  hi: "hi_IN",
+  bg: "bg_BG",
+  ca: "ca_ES",
+  el: "el_GR",
+  sw: "sw_KE",
+  ar: "ar_SA",
 };
+
+const rtlLocales = new Set(["ar"]);
 
 export async function generateMetadata({
   params,
@@ -95,6 +113,7 @@ export default async function RootLayout({
   return (
     <html
       lang={locale}
+      dir={rtlLocales.has(locale) ? "rtl" : "ltr"}
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>

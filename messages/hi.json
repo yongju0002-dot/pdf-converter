@@ -1,0 +1,238 @@
+{
+  "Metadata": {
+    "title": "PDF टूल्स | PDF मुफ़्त में मर्ज, स्प्लिट और कंप्रेस करें",
+    "description": "PDF फ़ाइलों को मुफ़्त में मर्ज, स्प्लिट, कंप्रेस और कन्वर्ट करें — बिना रजिस्ट्रेशन के।"
+  },
+  "Header": {
+    "brand": "PDF टूल्स",
+    "allTools": "सभी टूल्स",
+    "pdfConvert": "PDF कन्वर्ट करें",
+    "freeBadge": "मुफ़्त, बिना रजिस्ट्रेशन",
+    "quickMerge": "PDF मर्ज करें",
+    "quickSplit": "PDF स्प्लिट करें",
+    "quickCompress": "PDF कंप्रेस करें"
+  },
+  "Footer": {
+    "notice": "अपलोड की गई फ़ाइलें प्रोसेसिंग के बाद अपने आप हटा दी जाती हैं।"
+  },
+  "Categories": {
+    "edit": "संपादन और सुरक्षा",
+    "image": "इमेज कन्वर्ज़न",
+    "office": "ऑफिस दस्तावेज़ कन्वर्ज़न",
+    "web": "वेब कन्वर्ज़न",
+    "fromPdf": "PDF से कन्वर्ट करें",
+    "toPdf": "PDF में कन्वर्ट करें"
+  },
+  "Home": {
+    "badge": "✨ {count} टूल्स, सभी मुफ़्त",
+    "title": "सभी PDF कार्य एक ही जगह",
+    "subtitle": "मर्ज, स्प्लिट, कंप्रेस और कन्वर्ट करें — मुफ़्त, बिना रजिस्ट्रेशन।"
+  },
+  "Common": {
+    "dropzonePlaceholder": "फ़ाइल यहाँ खींचकर छोड़ें, या चुनने के लिए क्लिक करें",
+    "dropzoneChangeHint": "कोई दूसरी फ़ाइल चुनने के लिए क्लिक करें",
+    "comingSoon": "जल्द आ रहा है",
+    "moveUp": "ऊपर ले जाएँ",
+    "moveDown": "नीचे ले जाएँ",
+    "remove": "हटाएँ",
+    "converting": "कन्वर्ट हो रहा है...",
+    "genericError": "कन्वर्ज़न के दौरान एक त्रुटि हुई।",
+    "selectFile": "कन्वर्ट करने के लिए एक फ़ाइल चुनें।"
+  },
+  "Tools": {
+    "merge_pdf": { "name": "PDF मर्ज करें", "description": "कई PDF फ़ाइलों को एक में मिलाएँ" },
+    "split_pdf": { "name": "PDF स्प्लिट करें", "description": "PDF को पेज के अनुसार विभाजित करें या पेज रेंज निकालें" },
+    "compress_pdf": { "name": "PDF कंप्रेस करें", "description": "गुणवत्ता बनाए रखते हुए फ़ाइल का आकार घटाएँ" },
+    "watermark_pdf": { "name": "वॉटरमार्क जोड़ें", "description": "टेक्स्ट या इमेज वॉटरमार्क डालें" },
+    "protect_pdf": { "name": "PDF सुरक्षित करें / अनलॉक करें", "description": "PDF में पासवर्ड जोड़ें या हटाएँ" },
+    "pdf_to_image": { "name": "PDF से इमेज", "description": "हर PDF पेज को PNG/JPG इमेज में बदलें" },
+    "image_to_pdf": { "name": "इमेज से PDF", "description": "JPG या PNG इमेज को एक PDF में मिलाएँ" },
+    "pdf_to_word": { "name": "PDF से Word", "description": "PDF को संपादन योग्य Word दस्तावेज़ में बदलें" },
+    "word_to_pdf": { "name": "Word से PDF", "description": "Word दस्तावेज़ को PDF में बदलें" },
+    "pdf_to_ppt": { "name": "PDF से PowerPoint", "description": "हर PDF पेज को PowerPoint स्लाइड में बदलें" },
+    "ppt_to_pdf": { "name": "PowerPoint से PDF", "description": "PowerPoint दस्तावेज़ को PDF में बदलें" },
+    "pdf_to_excel": { "name": "PDF से Excel", "description": "PDF से तालिकाओं को Excel फ़ाइल में बदलें" },
+    "excel_to_pdf": { "name": "Excel से PDF", "description": "Excel फ़ाइल को PDF में बदलें" },
+    "pdf_to_html": { "name": "PDF से HTML", "description": "PDF को HTML वेब पेज में बदलें" },
+    "html_to_pdf": { "name": "HTML से PDF", "description": "HTML फ़ाइल को PDF में बदलें" },
+    "rotate_pdf": { "name": "PDF घुमाएँ", "description": "PDF के सभी पेज घुमाएँ" },
+    "page_numbers_pdf": { "name": "पेज नंबर जोड़ें", "description": "PDF के सभी पेजों पर पेज नंबर जोड़ें" },
+    "organize_pdf": { "name": "PDF व्यवस्थित करें", "description": "PDF में पेजों को पुनर्व्यवस्थित करें या हटाएँ" }
+  },
+  "MergePage": {
+    "title": "PDF मर्ज करें",
+    "description": "कई PDF फ़ाइलों को अपनी इच्छानुसार क्रम में व्यवस्थित करें और उन्हें एक में मिलाएँ।",
+    "dropzonePlaceholder": "PDF फ़ाइलें यहाँ खींचकर छोड़ें, या चुनने के लिए क्लिक करें",
+    "needTwoFiles": "मर्ज करने के लिए आपको कम से कम 2 PDF फ़ाइलों की आवश्यकता है।",
+    "error": "मर्ज करते समय एक त्रुटि हुई।",
+    "merging": "मर्ज हो रहा है...",
+    "submit": "{count} PDF फ़ाइलें मर्ज करें"
+  },
+  "SplitPage": {
+    "title": "PDF स्प्लिट करें",
+    "description": "PDF को अलग-अलग पेजों में विभाजित करें या केवल आवश्यक पेज निकालें।",
+    "selectFile": "विभाजित करने के लिए एक PDF फ़ाइल चुनें।",
+    "enterRange": "निकालने के लिए पेज रेंज दर्ज करें। उदा: 1-3, 5, 8-10",
+    "error": "विभाजन के दौरान एक त्रुटि हुई।",
+    "splitting": "विभाजित हो रहा है...",
+    "submit": "PDF स्प्लिट करें",
+    "modeAll": "हर पेज को अलग-अलग विभाजित करें",
+    "modeRange": "विशिष्ट पेज निकालें",
+    "rangePlaceholder": "उदा: 1-3, 5, 8-10",
+    "rangeHint": "पेज नंबर या रेंज कॉमा से अलग करके दर्ज करें।"
+  },
+  "WatermarkPage": {
+    "title": "वॉटरमार्क जोड़ें",
+    "description": "हर पेज पर एक तिरछा टेक्स्ट वॉटरमार्क डालें।",
+    "selectFile": "वॉटरमार्क जोड़ने के लिए एक PDF फ़ाइल चुनें।",
+    "enterText": "वॉटरमार्क टेक्स्ट दर्ज करें।",
+    "error": "वॉटरमार्क जोड़ते समय एक त्रुटि हुई।",
+    "applying": "लागू हो रहा है...",
+    "submit": "वॉटरमार्क जोड़ें",
+    "textLabel": "वॉटरमार्क टेक्स्ट",
+    "opacityLabel": "अपारदर्शिता",
+    "fontSizeLabel": "फ़ॉन्ट आकार"
+  },
+  "ProtectPage": {
+    "title": "PDF सुरक्षित करें / अनलॉक करें",
+    "description": "PDF में पासवर्ड जोड़ें या मौजूदा पासवर्ड हटाएँ।",
+    "selectFile": "एक PDF फ़ाइल चुनें।",
+    "enterPassword": "एक पासवर्ड दर्ज करें।",
+    "error": "प्रोसेसिंग के दौरान एक त्रुटि हुई।",
+    "processing": "प्रोसेस हो रहा है...",
+    "actionAdd": "पासवर्ड जोड़ें",
+    "actionRemove": "पासवर्ड हटाएँ",
+    "submitAdd": "पासवर्ड जोड़ें",
+    "submitRemove": "पासवर्ड हटाएँ",
+    "passwordLabelAdd": "सेट किया जाने वाला पासवर्ड",
+    "passwordLabelRemove": "मौजूदा पासवर्ड",
+    "passwordPlaceholder": "पासवर्ड दर्ज करें"
+  },
+  "CompressPage": {
+    "title": "PDF कंप्रेस करें",
+    "description": "फ़ाइल का आकार घटाने के लिए हर पेज को इमेज के रूप में फिर से कंप्रेस किया जाता है।",
+    "warning": "स्कैन की गई या इमेज-भारी PDF पर सबसे प्रभावी। कंप्रेस करने के बाद टेक्स्ट को चुना या कॉपी नहीं किया जा सकता।",
+    "selectFile": "कंप्रेस करने के लिए एक PDF फ़ाइल चुनें।",
+    "error": "कंप्रेस करते समय एक त्रुटि हुई।",
+    "compressing": "कंप्रेस हो रहा है...",
+    "submit": "PDF कंप्रेस करें",
+    "qualityLabel": "कंप्रेशन गुणवत्ता",
+    "qualityHint": "कम मान छोटी लेकिन कम गुणवत्ता वाली फ़ाइलें देते हैं।",
+    "result": "{originalSize} MB → {compressedSize} MB ({percent}% छोटा)"
+  },
+  "ImageToPdfPage": {
+    "title": "इमेज से PDF",
+    "description": "JPG या PNG इमेज को अपनी इच्छानुसार क्रम में व्यवस्थित करें और एक ही PDF में मिलाएँ।",
+    "dropzonePlaceholder": "इमेज यहाँ खींचकर छोड़ें, या चुनने के लिए क्लिक करें",
+    "selectAtLeastOne": "कम से कम एक इमेज फ़ाइल चुनें।",
+    "error": "कन्वर्ज़न के दौरान एक त्रुटि हुई।",
+    "converting": "कन्वर्ट हो रहा है...",
+    "submit": "PDF बनाएँ ({count} पेज)",
+    "summary": "{count} इमेज · कुल {size} MB"
+  },
+  "PdfToImagePage": {
+    "title": "PDF से इमेज",
+    "description": "हर PDF पेज को एक इमेज में बदलता है। यदि कई पेज हैं, तो परिणाम एक ZIP फ़ाइल के रूप में डाउनलोड होगा।",
+    "selectFile": "कन्वर्ट करने के लिए एक PDF फ़ाइल चुनें।",
+    "error": "कन्वर्ज़न के दौरान एक त्रुटि हुई।",
+    "converting": "कन्वर्ट हो रहा है...",
+    "submit": "इमेज में कन्वर्ट करें",
+    "formatLabel": "आउटपुट फॉर्मैट"
+  },
+  "PdfToWordPage": {
+    "title": "PDF से Word",
+    "description": "PDF को संपादन योग्य Word दस्तावेज़ (.docx) में बदलें।",
+    "warning": "जटिल लेआउट वाली PDF में कन्वर्ज़न के बाद थोड़ी अलग फ़ॉर्मेटिंग हो सकती है।",
+    "submit": "Word में कन्वर्ट करें"
+  },
+  "WordToPdfPage": {
+    "title": "Word से PDF",
+    "description": "Word दस्तावेज़ (.docx, .doc) को PDF में बदलें।",
+    "submit": "PDF में कन्वर्ट करें"
+  },
+  "PdfToPptPage": {
+    "title": "PDF से PowerPoint",
+    "description": "हर PDF पेज को PowerPoint स्लाइड (.pptx) में बदलें।",
+    "warning": "स्लाइड लेआउट मूल PDF में टेक्स्ट/इमेज की स्थिति के आधार पर भिन्न हो सकता है।",
+    "submit": "PowerPoint में कन्वर्ट करें"
+  },
+  "PptToPdfPage": {
+    "title": "PowerPoint से PDF",
+    "description": "PowerPoint दस्तावेज़ (.pptx, .ppt) को PDF में बदलें।",
+    "submit": "PDF में कन्वर्ट करें"
+  },
+  "PdfToExcelPage": {
+    "title": "PDF से Excel",
+    "description": "PDF में तालिका डेटा का पता लगाता है और इसे Excel फ़ाइल (.xlsx) में बदलता है।",
+    "warning": "टेक्स्ट-आधारित PDF में सरल तालिकाओं के लिए सबसे सटीक। स्कैन की गई या जटिल लेआउट वाली तालिकाओं में सेल गलत तरीके से संरेखित हो सकते हैं।",
+    "submit": "Excel में कन्वर्ट करें"
+  },
+  "ExcelToPdfPage": {
+    "title": "Excel से PDF",
+    "description": "Excel फ़ाइल (.xlsx, .xls, .csv) को PDF में बदलें।",
+    "submit": "PDF में कन्वर्ट करें"
+  },
+  "PdfToHtmlPage": {
+    "title": "PDF से HTML",
+    "description": "PDF को HTML वेब पेज में बदलें।",
+    "warning": "इमेज वाली PDF एक ZIP फ़ाइल (HTML + इमेज) के रूप में दी जाएगी।",
+    "submit": "HTML में कन्वर्ट करें"
+  },
+  "HtmlToPdfPage": {
+    "title": "HTML से PDF",
+    "description": "HTML फ़ाइल को PDF में बदलें।",
+    "submit": "PDF में कन्वर्ट करें"
+  },
+  "RotatePage": {
+    "title": "PDF घुमाएँ",
+    "description": "PDF के सभी पेजों को दक्षिणावर्त या वामावर्त घुमाएँ।",
+    "selectFile": "घुमाने के लिए एक PDF फ़ाइल चुनें।",
+    "error": "घुमाते समय एक त्रुटि हुई।",
+    "rotating": "घूम रहा है...",
+    "submit": "PDF घुमाएँ",
+    "directionLabel": "घूर्णन",
+    "right90": "90° दाएँ",
+    "left90": "90° बाएँ",
+    "rotate180": "180°"
+  },
+  "PageNumbersPage": {
+    "title": "पेज नंबर जोड़ें",
+    "description": "PDF के सभी पेजों पर पेज नंबर जोड़ें।",
+    "selectFile": "एक PDF फ़ाइल चुनें।",
+    "error": "पेज नंबर जोड़ते समय एक त्रुटि हुई।",
+    "applying": "लागू हो रहा है...",
+    "submit": "पेज नंबर जोड़ें",
+    "positionLabel": "स्थिति",
+    "positionBottomCenter": "नीचे मध्य",
+    "positionBottomRight": "नीचे दाएँ",
+    "positionTopCenter": "ऊपर मध्य",
+    "startNumberLabel": "प्रारंभिक संख्या",
+    "fontSizeLabel": "फ़ॉन्ट आकार"
+  },
+  "OrganizePage": {
+    "title": "PDF व्यवस्थित करें",
+    "description": "पेजों को पुनर्व्यवस्थित करें या हटाएँ और नई PDF के रूप में सहेजें।",
+    "selectFile": "व्यवस्थित करने के लिए एक PDF फ़ाइल चुनें।",
+    "loadingThumbnails": "पेज लोड हो रहे हैं...",
+    "error": "एक त्रुटि हुई।",
+    "saving": "सहेजा जा रहा है...",
+    "submit": "PDF सहेजें",
+    "needAtLeastOnePage": "कम से कम एक पेज रखें।",
+    "removePage": "पेज हटाएँ",
+    "pageLabel": "पेज {number}"
+  },
+  "LanguageSwitcher": {
+    "label": "भाषा"
+  },
+  "FAQ": {
+    "heading": "अक्सर पूछे जाने वाले प्रश्न",
+    "items": [
+      { "q": "क्या PDF टूल्स इस्तेमाल करना मुफ़्त है?", "a": "हाँ, सभी 18 टूल्स पूरी तरह से मुफ़्त हैं और इनके लिए किसी रजिस्ट्रेशन की आवश्यकता नहीं है।" },
+      { "q": "क्या मुझे खाता बनाना होगा?", "a": "नहीं, आप बिना रजिस्ट्रेशन किए सीधे सभी टूल्स का उपयोग कर सकते हैं।" },
+      { "q": "मेरी अपलोड की गई फ़ाइलों का क्या होता है?", "a": "फ़ाइलें सर्वर पर प्रोसेस की जाती हैं और तुरंत बाद अपने आप हटा दी जाती हैं — कुछ भी सहेजा नहीं जाता।" },
+      { "q": "कौन सी भाषाएँ समर्थित हैं?", "a": "कोरियाई, अंग्रेज़ी, जापानी, चीनी (सरलीकृत और पारंपरिक), स्पेनिश, फ़्रेंच, जर्मन, पुर्तगाली, रूसी, इतालवी, डच, पोलिश, स्वीडिश, तुर्की, यूक्रेनी, वियतनामी, थाई, इंडोनेशियाई, मलय, हिंदी, बल्गेरियाई, कातालान, ग्रीक, स्वाहिली और अरबी।" },
+      { "q": "क्या मैं कई PDF फ़ाइलों को एक में मिला सकता हूँ?", "a": "हाँ, PDF मर्ज पेज पर अपनी फ़ाइलों को इच्छानुसार क्रम में व्यवस्थित करें और उन्हें एक में मिलाएँ।" },
+      { "q": "क्या मैं PDF को Word या Excel में बदल सकता हूँ?", "a": "हाँ, PDF से Word, PDF से Excel और PDF से PowerPoint (और इसके विपरीत) सभी कन्वर्ज़न समर्थित हैं।" }
+    ]
+  }
+}

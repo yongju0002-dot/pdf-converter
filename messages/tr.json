@@ -1,0 +1,238 @@
+{
+  "Metadata": {
+    "title": "PDF Araçları | PDF Birleştir, Böl ve Sıkıştır Ücretsiz",
+    "description": "PDF dosyalarını ücretsiz birleştirin, bölün, sıkıştırın ve dönüştürün — kayıt gerekmez."
+  },
+  "Header": {
+    "brand": "PDF Araçları",
+    "allTools": "Tüm Araçlar",
+    "pdfConvert": "PDF Dönüştür",
+    "freeBadge": "Ücretsiz, kayıt gerekmez",
+    "quickMerge": "PDF Birleştir",
+    "quickSplit": "PDF Böl",
+    "quickCompress": "PDF Sıkıştır"
+  },
+  "Footer": {
+    "notice": "Yüklenen dosyalar işlendikten sonra otomatik olarak silinir."
+  },
+  "Categories": {
+    "edit": "Düzenleme ve Güvenlik",
+    "image": "Görsel Dönüştürme",
+    "office": "Office Belgesi Dönüştürme",
+    "web": "Web Dönüştürme",
+    "fromPdf": "PDF'den Dönüştür",
+    "toPdf": "PDF'e Dönüştür"
+  },
+  "Home": {
+    "badge": "✨ {count} araç, hepsi ücretsiz",
+    "title": "Tüm PDF İşlemleri Tek Yerde",
+    "subtitle": "Birleştirin, bölün, sıkıştırın ve dönüştürün — ücretsiz, kayıt gerekmez."
+  },
+  "Common": {
+    "dropzonePlaceholder": "Dosyayı buraya sürükleyip bırakın veya seçmek için tıklayın",
+    "dropzoneChangeHint": "Farklı bir dosya seçmek için tıklayın",
+    "comingSoon": "Yakında",
+    "moveUp": "Yukarı taşı",
+    "moveDown": "Aşağı taşı",
+    "remove": "Kaldır",
+    "converting": "Dönüştürülüyor...",
+    "genericError": "Dönüştürme sırasında bir hata oluştu.",
+    "selectFile": "Dönüştürülecek bir dosya seçin."
+  },
+  "Tools": {
+    "merge_pdf": { "name": "PDF Birleştir", "description": "Birden fazla PDF dosyasını tek bir dosyada birleştirin" },
+    "split_pdf": { "name": "PDF Böl", "description": "Bir PDF'i sayfaya göre bölün veya sayfa aralığı çıkarın" },
+    "compress_pdf": { "name": "PDF Sıkıştır", "description": "Kaliteyi korurken dosya boyutunu küçültün" },
+    "watermark_pdf": { "name": "Filigran Ekle", "description": "Metin veya görsel filigran ekleyin" },
+    "protect_pdf": { "name": "PDF Koru / Kilidini Aç", "description": "Bir PDF'e parola ekleyin veya kaldırın" },
+    "pdf_to_image": { "name": "PDF'den Görsele", "description": "Her PDF sayfasını PNG/JPG görseline dönüştürün" },
+    "image_to_pdf": { "name": "Görselden PDF'e", "description": "JPG veya PNG görsellerini tek bir PDF'te birleştirin" },
+    "pdf_to_word": { "name": "PDF'den Word'e", "description": "Bir PDF'i düzenlenebilir bir Word belgesine dönüştürün" },
+    "word_to_pdf": { "name": "Word'den PDF'e", "description": "Bir Word belgesini PDF'e dönüştürün" },
+    "pdf_to_ppt": { "name": "PDF'den PowerPoint'e", "description": "Her PDF sayfasını bir PowerPoint slaydına dönüştürün" },
+    "ppt_to_pdf": { "name": "PowerPoint'ten PDF'e", "description": "Bir PowerPoint belgesini PDF'e dönüştürün" },
+    "pdf_to_excel": { "name": "PDF'den Excel'e", "description": "Bir PDF'teki tabloları bir Excel dosyasına dönüştürün" },
+    "excel_to_pdf": { "name": "Excel'den PDF'e", "description": "Bir Excel dosyasını PDF'e dönüştürün" },
+    "pdf_to_html": { "name": "PDF'den HTML'e", "description": "Bir PDF'i bir HTML web sayfasına dönüştürün" },
+    "html_to_pdf": { "name": "HTML'den PDF'e", "description": "Bir HTML dosyasını PDF'e dönüştürün" },
+    "rotate_pdf": { "name": "PDF Döndür", "description": "Bir PDF'teki tüm sayfaları döndürün" },
+    "page_numbers_pdf": { "name": "Sayfa Numarası Ekle", "description": "Bir PDF'in tüm sayfalarına sayfa numarası ekleyin" },
+    "organize_pdf": { "name": "PDF Düzenle", "description": "Bir PDF'teki sayfaları yeniden sıralayın veya kaldırın" }
+  },
+  "MergePage": {
+    "title": "PDF Birleştir",
+    "description": "Birden fazla PDF dosyasını istediğiniz sırada düzenleyin ve tek bir dosyada birleştirin.",
+    "dropzonePlaceholder": "PDF dosyalarını buraya sürükleyip bırakın veya seçmek için tıklayın",
+    "needTwoFiles": "Birleştirmek için en az 2 PDF dosyasına ihtiyacınız var.",
+    "error": "Birleştirme sırasında bir hata oluştu.",
+    "merging": "Birleştiriliyor...",
+    "submit": "{count} PDF Dosyasını Birleştir"
+  },
+  "SplitPage": {
+    "title": "PDF Böl",
+    "description": "Bir PDF'i tek tek sayfalara bölün veya yalnızca ihtiyacınız olan sayfaları çıkarın.",
+    "selectFile": "Bölünecek bir PDF dosyası seçin.",
+    "enterRange": "Çıkarılacak sayfa aralığını girin. Örn: 1-3, 5, 8-10",
+    "error": "Bölme sırasında bir hata oluştu.",
+    "splitting": "Bölünüyor...",
+    "submit": "PDF'i Böl",
+    "modeAll": "Her sayfayı ayrı ayrı böl",
+    "modeRange": "Belirli sayfaları çıkar",
+    "rangePlaceholder": "Örn: 1-3, 5, 8-10",
+    "rangeHint": "Sayfa numaralarını veya aralıklarını virgülle ayırarak girin."
+  },
+  "WatermarkPage": {
+    "title": "Filigran Ekle",
+    "description": "Her sayfaya çapraz bir metin filigranı ekleyin.",
+    "selectFile": "Filigran eklenecek bir PDF dosyası seçin.",
+    "enterText": "Filigran metnini girin.",
+    "error": "Filigran eklenirken bir hata oluştu.",
+    "applying": "Uygulanıyor...",
+    "submit": "Filigran Ekle",
+    "textLabel": "Filigran Metni",
+    "opacityLabel": "Opaklık",
+    "fontSizeLabel": "Yazı Boyutu"
+  },
+  "ProtectPage": {
+    "title": "PDF Koru / Kilidini Aç",
+    "description": "Bir PDF'e parola ekleyin veya mevcut parolayı kaldırın.",
+    "selectFile": "Bir PDF dosyası seçin.",
+    "enterPassword": "Bir parola girin.",
+    "error": "İşlem sırasında bir hata oluştu.",
+    "processing": "İşleniyor...",
+    "actionAdd": "Parola Ekle",
+    "actionRemove": "Parolayı Kaldır",
+    "submitAdd": "Parola Ekle",
+    "submitRemove": "Parolayı Kaldır",
+    "passwordLabelAdd": "Belirlenecek Parola",
+    "passwordLabelRemove": "Mevcut Parola",
+    "passwordPlaceholder": "Parolayı girin"
+  },
+  "CompressPage": {
+    "title": "PDF Sıkıştır",
+    "description": "Dosya boyutunu küçültmek için her sayfa görsel olarak yeniden sıkıştırılır.",
+    "warning": "Taranmış veya görsel ağırlıklı PDF'lerde en etkilidir. Sıkıştırmadan sonra metin artık seçilemez veya kopyalanamaz.",
+    "selectFile": "Sıkıştırılacak bir PDF dosyası seçin.",
+    "error": "Sıkıştırma sırasında bir hata oluştu.",
+    "compressing": "Sıkıştırılıyor...",
+    "submit": "PDF'i Sıkıştır",
+    "qualityLabel": "Sıkıştırma Kalitesi",
+    "qualityHint": "Daha düşük değerler daha küçük ancak daha düşük kaliteli dosyalar üretir.",
+    "result": "{originalSize} MB → {compressedSize} MB (%{percent} daha küçük)"
+  },
+  "ImageToPdfPage": {
+    "title": "Görselden PDF'e",
+    "description": "JPG veya PNG görsellerini istediğiniz sırada düzenleyin ve tek bir PDF'te birleştirin.",
+    "dropzonePlaceholder": "Görselleri buraya sürükleyip bırakın veya seçmek için tıklayın",
+    "selectAtLeastOne": "En az bir görsel dosyası seçin.",
+    "error": "Dönüştürme sırasında bir hata oluştu.",
+    "converting": "Dönüştürülüyor...",
+    "submit": "PDF Oluştur ({count} sayfa)",
+    "summary": "{count} görsel · toplam {size} MB"
+  },
+  "PdfToImagePage": {
+    "title": "PDF'den Görsele",
+    "description": "Her PDF sayfasını bir görsele dönüştürür. Birden fazla sayfa varsa sonuç bir ZIP dosyası olarak indirilir.",
+    "selectFile": "Dönüştürülecek bir PDF dosyası seçin.",
+    "error": "Dönüştürme sırasında bir hata oluştu.",
+    "converting": "Dönüştürülüyor...",
+    "submit": "Görsele Dönüştür",
+    "formatLabel": "Çıktı Formatı"
+  },
+  "PdfToWordPage": {
+    "title": "PDF'den Word'e",
+    "description": "Bir PDF'i düzenlenebilir bir Word belgesine (.docx) dönüştürün.",
+    "warning": "Karmaşık düzenlere sahip PDF'ler dönüştürme sonrasında biraz farklı biçimlendirilebilir.",
+    "submit": "Word'e Dönüştür"
+  },
+  "WordToPdfPage": {
+    "title": "Word'den PDF'e",
+    "description": "Bir Word belgesini (.docx, .doc) PDF'e dönüştürün.",
+    "submit": "PDF'e Dönüştür"
+  },
+  "PdfToPptPage": {
+    "title": "PDF'den PowerPoint'e",
+    "description": "Her PDF sayfasını bir PowerPoint slaydına (.pptx) dönüştürün.",
+    "warning": "Slayt düzeni, orijinal PDF'teki metin/görsel yerleşimine göre değişebilir.",
+    "submit": "PowerPoint'e Dönüştür"
+  },
+  "PptToPdfPage": {
+    "title": "PowerPoint'ten PDF'e",
+    "description": "Bir PowerPoint belgesini (.pptx, .ppt) PDF'e dönüştürün.",
+    "submit": "PDF'e Dönüştür"
+  },
+  "PdfToExcelPage": {
+    "title": "PDF'den Excel'e",
+    "description": "Bir PDF'teki tablo verilerini tespit eder ve bir Excel dosyasına (.xlsx) dönüştürür.",
+    "warning": "Metin tabanlı PDF'lerdeki basit tablolar için en doğru sonucu verir. Taranmış veya karmaşık düzenli tablolarda hücreler yanlış hizalanabilir.",
+    "submit": "Excel'e Dönüştür"
+  },
+  "ExcelToPdfPage": {
+    "title": "Excel'den PDF'e",
+    "description": "Bir Excel dosyasını (.xlsx, .xls, .csv) PDF'e dönüştürün.",
+    "submit": "PDF'e Dönüştür"
+  },
+  "PdfToHtmlPage": {
+    "title": "PDF'den HTML'e",
+    "description": "Bir PDF'i bir HTML web sayfasına dönüştürün.",
+    "warning": "Görsel içeren PDF'ler bir ZIP dosyası (HTML + görseller) olarak sunulur.",
+    "submit": "HTML'e Dönüştür"
+  },
+  "HtmlToPdfPage": {
+    "title": "HTML'den PDF'e",
+    "description": "Bir HTML dosyasını PDF'e dönüştürün.",
+    "submit": "PDF'e Dönüştür"
+  },
+  "RotatePage": {
+    "title": "PDF Döndür",
+    "description": "Bir PDF'teki tüm sayfaları saat yönünde veya saat yönünün tersine döndürün.",
+    "selectFile": "Döndürülecek bir PDF dosyası seçin.",
+    "error": "Döndürme sırasında bir hata oluştu.",
+    "rotating": "Döndürülüyor...",
+    "submit": "PDF'i Döndür",
+    "directionLabel": "Döndürme",
+    "right90": "90° sağa",
+    "left90": "90° sola",
+    "rotate180": "180°"
+  },
+  "PageNumbersPage": {
+    "title": "Sayfa Numarası Ekle",
+    "description": "Bir PDF'in tüm sayfalarına sayfa numarası ekleyin.",
+    "selectFile": "Bir PDF dosyası seçin.",
+    "error": "Sayfa numarası eklenirken bir hata oluştu.",
+    "applying": "Uygulanıyor...",
+    "submit": "Sayfa Numarası Ekle",
+    "positionLabel": "Konum",
+    "positionBottomCenter": "Alt Orta",
+    "positionBottomRight": "Alt Sağ",
+    "positionTopCenter": "Üst Orta",
+    "startNumberLabel": "Başlangıç Numarası",
+    "fontSizeLabel": "Yazı Boyutu"
+  },
+  "OrganizePage": {
+    "title": "PDF Düzenle",
+    "description": "Sayfaları yeniden sıralayın veya kaldırın ve yeni bir PDF olarak kaydedin.",
+    "selectFile": "Düzenlenecek bir PDF dosyası seçin.",
+    "loadingThumbnails": "Sayfalar yükleniyor...",
+    "error": "Bir hata oluştu.",
+    "saving": "Kaydediliyor...",
+    "submit": "PDF'i Kaydet",
+    "needAtLeastOnePage": "En az bir sayfa kalmalı.",
+    "removePage": "Sayfayı Kaldır",
+    "pageLabel": "Sayfa {number}"
+  },
+  "LanguageSwitcher": {
+    "label": "Dil"
+  },
+  "FAQ": {
+    "heading": "Sıkça Sorulan Sorular",
+    "items": [
+      { "q": "PDF araçlarını kullanmak ücretsiz mi?", "a": "Evet, 18 aracın tamamı tamamen ücretsizdir ve kayıt gerektirmez." },
+      { "q": "Bir hesap oluşturmam gerekiyor mu?", "a": "Hayır, kayıt olmadan tüm araçları doğrudan kullanabilirsiniz." },
+      { "q": "Yüklediğim dosyalara ne olur?", "a": "Dosyalar sunucuda işlenir ve hemen ardından otomatik olarak silinir — hiçbir şey saklanmaz." },
+      { "q": "Hangi diller destekleniyor?", "a": "Korece, İngilizce, Japonca, Çince (basitleştirilmiş ve geleneksel), İspanyolca, Fransızca, Almanca, Portekizce, Rusça, İtalyanca, Felemenkçe, Lehçe, İsveççe, Türkçe, Ukraynaca, Vietnamca, Tayca, Endonezce, Malayca, Hintçe, Bulgarca, Katalanca, Yunanca, Svahili ve Arapça." },
+      { "q": "Birden fazla PDF dosyasını tek bir dosyada birleştirebilir miyim?", "a": "Evet, PDF Birleştir sayfasında dosyalarınızı istediğiniz sırada düzenleyip tek bir dosyada birleştirebilirsiniz." },
+      { "q": "Bir PDF'i Word veya Excel'e dönüştürebilir miyim?", "a": "Evet, PDF'den Word'e, PDF'den Excel'e ve PDF'den PowerPoint'e (ve tersi) dönüşümlerin tümü desteklenir." }
+    ]
+  }
+}

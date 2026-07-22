@@ -1,0 +1,238 @@
+{
+  "Metadata": {
+    "title": "أدوات PDF | دمج وتقسيم وضغط PDF مجانًا",
+    "description": "ادمج وقسّم واضغط وحوّل ملفات PDF مجانًا — دون الحاجة للتسجيل."
+  },
+  "Header": {
+    "brand": "أدوات PDF",
+    "allTools": "جميع الأدوات",
+    "pdfConvert": "تحويل PDF",
+    "freeBadge": "مجاني، بدون تسجيل",
+    "quickMerge": "دمج PDF",
+    "quickSplit": "تقسيم PDF",
+    "quickCompress": "ضغط PDF"
+  },
+  "Footer": {
+    "notice": "يتم حذف الملفات المرفوعة تلقائيًا بعد المعالجة."
+  },
+  "Categories": {
+    "edit": "التحرير والأمان",
+    "image": "تحويل الصور",
+    "office": "تحويل مستندات Office",
+    "web": "تحويل الويب",
+    "fromPdf": "التحويل من PDF",
+    "toPdf": "التحويل إلى PDF"
+  },
+  "Home": {
+    "badge": "✨ {count} أداة، جميعها مجانية",
+    "title": "جميع مهام PDF في مكان واحد",
+    "subtitle": "ادمج وقسّم واضغط وحوّل — مجانًا، بدون تسجيل."
+  },
+  "Common": {
+    "dropzonePlaceholder": "اسحب وأفلت ملفًا هنا، أو انقر للاختيار",
+    "dropzoneChangeHint": "انقر لاختيار ملف آخر",
+    "comingSoon": "قريبًا",
+    "moveUp": "تحريك لأعلى",
+    "moveDown": "تحريك لأسفل",
+    "remove": "إزالة",
+    "converting": "جارٍ التحويل...",
+    "genericError": "حدث خطأ أثناء التحويل.",
+    "selectFile": "اختر ملفًا للتحويل."
+  },
+  "Tools": {
+    "merge_pdf": { "name": "دمج PDF", "description": "ادمج عدة ملفات PDF في ملف واحد" },
+    "split_pdf": { "name": "تقسيم PDF", "description": "قسّم ملف PDF حسب الصفحة أو استخرج نطاقًا من الصفحات" },
+    "compress_pdf": { "name": "ضغط PDF", "description": "قلّل حجم الملف مع الحفاظ على الجودة" },
+    "watermark_pdf": { "name": "إضافة علامة مائية", "description": "أدرج علامة مائية نصية أو صورة" },
+    "protect_pdf": { "name": "حماية / فك قفل PDF", "description": "أضف أو أزل كلمة مرور من ملف PDF" },
+    "pdf_to_image": { "name": "PDF إلى صورة", "description": "حوّل كل صفحة من PDF إلى صورة PNG/JPG" },
+    "image_to_pdf": { "name": "صورة إلى PDF", "description": "ادمج صور JPG أو PNG في ملف PDF واحد" },
+    "pdf_to_word": { "name": "PDF إلى Word", "description": "حوّل PDF إلى مستند Word قابل للتحرير" },
+    "word_to_pdf": { "name": "Word إلى PDF", "description": "حوّل مستند Word إلى PDF" },
+    "pdf_to_ppt": { "name": "PDF إلى PowerPoint", "description": "حوّل كل صفحة من PDF إلى شريحة PowerPoint" },
+    "ppt_to_pdf": { "name": "PowerPoint إلى PDF", "description": "حوّل مستند PowerPoint إلى PDF" },
+    "pdf_to_excel": { "name": "PDF إلى Excel", "description": "حوّل الجداول من PDF إلى ملف Excel" },
+    "excel_to_pdf": { "name": "Excel إلى PDF", "description": "حوّل ملف Excel إلى PDF" },
+    "pdf_to_html": { "name": "PDF إلى HTML", "description": "حوّل PDF إلى صفحة ويب HTML" },
+    "html_to_pdf": { "name": "HTML إلى PDF", "description": "حوّل ملف HTML إلى PDF" },
+    "rotate_pdf": { "name": "تدوير PDF", "description": "قم بتدوير جميع صفحات ملف PDF" },
+    "page_numbers_pdf": { "name": "إضافة أرقام الصفحات", "description": "أضف أرقام الصفحات إلى جميع صفحات PDF" },
+    "organize_pdf": { "name": "تنظيم PDF", "description": "أعد ترتيب أو احذف صفحات في ملف PDF" }
+  },
+  "MergePage": {
+    "title": "دمج PDF",
+    "description": "رتّب عدة ملفات PDF بالترتيب الذي تريده وادمجها في ملف واحد.",
+    "dropzonePlaceholder": "اسحب وأفلت ملفات PDF هنا، أو انقر للاختيار",
+    "needTwoFiles": "تحتاج إلى ملفي PDF على الأقل للدمج.",
+    "error": "حدث خطأ أثناء الدمج.",
+    "merging": "جارٍ الدمج...",
+    "submit": "دمج {count} ملفات PDF"
+  },
+  "SplitPage": {
+    "title": "تقسيم PDF",
+    "description": "قسّم ملف PDF إلى صفحات منفصلة أو استخرج فقط الصفحات التي تحتاجها.",
+    "selectFile": "اختر ملف PDF لتقسيمه.",
+    "enterRange": "أدخل نطاق الصفحات المراد استخراجها. مثال: 1-3, 5, 8-10",
+    "error": "حدث خطأ أثناء التقسيم.",
+    "splitting": "جارٍ التقسيم...",
+    "submit": "تقسيم PDF",
+    "modeAll": "تقسيم كل صفحة على حدة",
+    "modeRange": "استخراج صفحات محددة",
+    "rangePlaceholder": "مثال: 1-3, 5, 8-10",
+    "rangeHint": "أدخل أرقام الصفحات أو النطاقات مفصولة بفواصل."
+  },
+  "WatermarkPage": {
+    "title": "إضافة علامة مائية",
+    "description": "أدرج علامة مائية نصية قطرية على كل صفحة.",
+    "selectFile": "اختر ملف PDF لإضافة علامة مائية إليه.",
+    "enterText": "أدخل نص العلامة المائية.",
+    "error": "حدث خطأ أثناء إضافة العلامة المائية.",
+    "applying": "جارٍ التطبيق...",
+    "submit": "إضافة علامة مائية",
+    "textLabel": "نص العلامة المائية",
+    "opacityLabel": "الشفافية",
+    "fontSizeLabel": "حجم الخط"
+  },
+  "ProtectPage": {
+    "title": "حماية / فك قفل PDF",
+    "description": "أضف كلمة مرور إلى PDF أو أزل كلمة مرور موجودة.",
+    "selectFile": "اختر ملف PDF.",
+    "enterPassword": "أدخل كلمة مرور.",
+    "error": "حدث خطأ أثناء المعالجة.",
+    "processing": "جارٍ المعالجة...",
+    "actionAdd": "إضافة كلمة مرور",
+    "actionRemove": "إزالة كلمة مرور",
+    "submitAdd": "إضافة كلمة مرور",
+    "submitRemove": "إزالة كلمة مرور",
+    "passwordLabelAdd": "كلمة المرور المراد تعيينها",
+    "passwordLabelRemove": "كلمة المرور الحالية",
+    "passwordPlaceholder": "أدخل كلمة المرور"
+  },
+  "CompressPage": {
+    "title": "ضغط PDF",
+    "description": "يتم إعادة ضغط كل صفحة كصورة لتقليل حجم الملف.",
+    "warning": "الأكثر فعالية مع ملفات PDF الممسوحة ضوئيًا أو التي تحتوي على الكثير من الصور. بعد الضغط، لن يمكن تحديد النص أو نسخه.",
+    "selectFile": "اختر ملف PDF لضغطه.",
+    "error": "حدث خطأ أثناء الضغط.",
+    "compressing": "جارٍ الضغط...",
+    "submit": "ضغط PDF",
+    "qualityLabel": "جودة الضغط",
+    "qualityHint": "القيم الأقل تعطي ملفات أصغر لكن بجودة أقل.",
+    "result": "{originalSize} ميجابايت ← {compressedSize} ميجابايت (أصغر بنسبة {percent}%)"
+  },
+  "ImageToPdfPage": {
+    "title": "صورة إلى PDF",
+    "description": "رتّب صور JPG أو PNG بالترتيب الذي تريده وادمجها في ملف PDF واحد.",
+    "dropzonePlaceholder": "اسحب وأفلت الصور هنا، أو انقر للاختيار",
+    "selectAtLeastOne": "اختر ملف صورة واحدًا على الأقل.",
+    "error": "حدث خطأ أثناء التحويل.",
+    "converting": "جارٍ التحويل...",
+    "submit": "إنشاء PDF ({count} صفحة)",
+    "summary": "{count} صورة · المجموع {size} ميجابايت"
+  },
+  "PdfToImagePage": {
+    "title": "PDF إلى صورة",
+    "description": "يحوّل كل صفحة من PDF إلى صورة. في حال وجود عدة صفحات، سيتم تنزيل النتيجة كملف ZIP.",
+    "selectFile": "اختر ملف PDF لتحويله.",
+    "error": "حدث خطأ أثناء التحويل.",
+    "converting": "جارٍ التحويل...",
+    "submit": "تحويل إلى صورة",
+    "formatLabel": "صيغة الإخراج"
+  },
+  "PdfToWordPage": {
+    "title": "PDF إلى Word",
+    "description": "حوّل PDF إلى مستند Word قابل للتحرير (.docx).",
+    "warning": "قد تحتوي ملفات PDF ذات التخطيطات المعقدة على تنسيق مختلف قليلًا بعد التحويل.",
+    "submit": "تحويل إلى Word"
+  },
+  "WordToPdfPage": {
+    "title": "Word إلى PDF",
+    "description": "حوّل مستند Word (.docx, .doc) إلى PDF.",
+    "submit": "تحويل إلى PDF"
+  },
+  "PdfToPptPage": {
+    "title": "PDF إلى PowerPoint",
+    "description": "حوّل كل صفحة من PDF إلى شريحة PowerPoint (.pptx).",
+    "warning": "قد يختلف تخطيط الشرائح حسب موضع النص/الصور في ملف PDF الأصلي.",
+    "submit": "تحويل إلى PowerPoint"
+  },
+  "PptToPdfPage": {
+    "title": "PowerPoint إلى PDF",
+    "description": "حوّل مستند PowerPoint (.pptx, .ppt) إلى PDF.",
+    "submit": "تحويل إلى PDF"
+  },
+  "PdfToExcelPage": {
+    "title": "PDF إلى Excel",
+    "description": "يكتشف بيانات الجداول في PDF ويحوّلها إلى ملف Excel (.xlsx).",
+    "warning": "الأكثر دقة للجداول البسيطة في ملفات PDF النصية. قد تحتوي الجداول الممسوحة ضوئيًا أو ذات التخطيط المعقد على خلايا غير محاذاة بشكل صحيح.",
+    "submit": "تحويل إلى Excel"
+  },
+  "ExcelToPdfPage": {
+    "title": "Excel إلى PDF",
+    "description": "حوّل ملف Excel (.xlsx, .xls, .csv) إلى PDF.",
+    "submit": "تحويل إلى PDF"
+  },
+  "PdfToHtmlPage": {
+    "title": "PDF إلى HTML",
+    "description": "حوّل PDF إلى صفحة ويب HTML.",
+    "warning": "سيتم تقديم ملفات PDF التي تحتوي على صور كملف ZIP (HTML + صور).",
+    "submit": "تحويل إلى HTML"
+  },
+  "HtmlToPdfPage": {
+    "title": "HTML إلى PDF",
+    "description": "حوّل ملف HTML إلى PDF.",
+    "submit": "تحويل إلى PDF"
+  },
+  "RotatePage": {
+    "title": "تدوير PDF",
+    "description": "قم بتدوير جميع صفحات PDF باتجاه عقارب الساعة أو عكسها.",
+    "selectFile": "اختر ملف PDF لتدويره.",
+    "error": "حدث خطأ أثناء التدوير.",
+    "rotating": "جارٍ التدوير...",
+    "submit": "تدوير PDF",
+    "directionLabel": "الدوران",
+    "right90": "90° يمينًا",
+    "left90": "90° يسارًا",
+    "rotate180": "180°"
+  },
+  "PageNumbersPage": {
+    "title": "إضافة أرقام الصفحات",
+    "description": "أضف أرقام الصفحات إلى جميع صفحات PDF.",
+    "selectFile": "اختر ملف PDF.",
+    "error": "حدث خطأ أثناء إضافة أرقام الصفحات.",
+    "applying": "جارٍ التطبيق...",
+    "submit": "إضافة أرقام الصفحات",
+    "positionLabel": "الموضع",
+    "positionBottomCenter": "أسفل الوسط",
+    "positionBottomRight": "أسفل اليمين",
+    "positionTopCenter": "أعلى الوسط",
+    "startNumberLabel": "رقم البداية",
+    "fontSizeLabel": "حجم الخط"
+  },
+  "OrganizePage": {
+    "title": "تنظيم PDF",
+    "description": "أعد ترتيب أو احذف الصفحات واحفظها كملف PDF جديد.",
+    "selectFile": "اختر ملف PDF لتنظيمه.",
+    "loadingThumbnails": "جارٍ تحميل الصفحات...",
+    "error": "حدث خطأ.",
+    "saving": "جارٍ الحفظ...",
+    "submit": "حفظ PDF",
+    "needAtLeastOnePage": "احتفظ بصفحة واحدة على الأقل.",
+    "removePage": "حذف الصفحة",
+    "pageLabel": "صفحة {number}"
+  },
+  "LanguageSwitcher": {
+    "label": "اللغة"
+  },
+  "FAQ": {
+    "heading": "الأسئلة الشائعة",
+    "items": [
+      { "q": "هل استخدام أدوات PDF مجاني؟", "a": "نعم، جميع الأدوات الـ 18 مجانية بالكامل ولا تتطلب التسجيل." },
+      { "q": "هل أحتاج إلى إنشاء حساب؟", "a": "لا، يمكنك استخدام جميع الأدوات مباشرةً دون التسجيل." },
+      { "q": "ماذا يحدث للملفات التي أرفعها؟", "a": "تتم معالجة الملفات على الخادم وحذفها تلقائيًا فور ذلك — لا يتم تخزين أي شيء." },
+      { "q": "ما هي اللغات المدعومة؟", "a": "الكورية والإنجليزية واليابانية والصينية (المبسطة والتقليدية) والإسبانية والفرنسية والألمانية والبرتغالية والروسية والإيطالية والهولندية والبولندية والسويدية والتركية والأوكرانية والفيتنامية والتايلاندية والإندونيسية والماليزية والهندية والبلغارية والكتالانية واليونانية والسواحيلية والعربية." },
+      { "q": "هل يمكنني دمج عدة ملفات PDF في ملف واحد؟", "a": "نعم، رتّب ملفاتك بالترتيب الذي تريده في صفحة دمج PDF وادمجها في ملف واحد." },
+      { "q": "هل يمكنني تحويل PDF إلى Word أو Excel؟", "a": "نعم، جميع تحويلات PDF إلى Word وPDF إلى Excel وPDF إلى PowerPoint (والعكس) مدعومة." }
+    ]
+  }
+}

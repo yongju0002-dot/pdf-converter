@@ -230,7 +230,7 @@
       { "q": "As Ferramentas PDF são gratuitas?", "a": "Sim, todas as 18 ferramentas são totalmente gratuitas e não exigem cadastro." },
       { "q": "Preciso criar uma conta?", "a": "Não, você pode usar todas as ferramentas imediatamente, sem se cadastrar." },
       { "q": "O que acontece com meus arquivos enviados?", "a": "Os arquivos são processados no servidor e excluídos automaticamente logo depois — nada é armazenado." },
-      { "q": "Quais idiomas são suportados?", "a": "Coreano, inglês, japonês, chinês (simplificado e tradicional), espanhol, francês, alemão, português e russo." },
+      { "q": "Quais idiomas são suportados?", "a": "Coreano, inglês, japonês, chinês (simplificado e tradicional), espanhol, francês, alemão, português, russo, italiano, neerlandês, polonês, sueco, turco, ucraniano, vietnamita, tailandês, indonésio, malaio, hindi, búlgaro, catalão, grego, suaíli e árabe." },
       { "q": "Posso combinar vários arquivos PDF em um só?", "a": "Sim, organize seus arquivos na ordem desejada na página Unir PDF e combine-os em um só." },
       { "q": "Posso converter um PDF para Word ou Excel?", "a": "Sim, as conversões de PDF para Word, PDF para Excel e PDF para PowerPoint (e o inverso) são todas suportadas." }
     ]

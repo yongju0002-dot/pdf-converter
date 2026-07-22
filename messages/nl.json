@@ -1,0 +1,238 @@
+{
+  "Metadata": {
+    "title": "PDF-tools | PDF gratis samenvoegen, splitsen en comprimeren",
+    "description": "Voeg PDF's gratis samen, splits, comprimeer en converteer ze — zonder registratie."
+  },
+  "Header": {
+    "brand": "PDF-tools",
+    "allTools": "Alle tools",
+    "pdfConvert": "PDF converteren",
+    "freeBadge": "Gratis, geen registratie",
+    "quickMerge": "PDF samenvoegen",
+    "quickSplit": "PDF splitsen",
+    "quickCompress": "PDF comprimeren"
+  },
+  "Footer": {
+    "notice": "Geüploade bestanden worden na verwerking automatisch verwijderd."
+  },
+  "Categories": {
+    "edit": "Bewerken & beveiliging",
+    "image": "Afbeeldingsconversie",
+    "office": "Conversie van Office-documenten",
+    "web": "Webconversie",
+    "fromPdf": "Converteren vanuit PDF",
+    "toPdf": "Converteren naar PDF"
+  },
+  "Home": {
+    "badge": "✨ {count} tools, allemaal gratis",
+    "title": "Alle PDF-taken op één plek",
+    "subtitle": "Samenvoegen, splitsen, comprimeren en converteren — gratis, zonder registratie."
+  },
+  "Common": {
+    "dropzonePlaceholder": "Sleep een bestand hierheen of klik om te selecteren",
+    "dropzoneChangeHint": "Klik om een ander bestand te kiezen",
+    "comingSoon": "Binnenkort beschikbaar",
+    "moveUp": "Omhoog verplaatsen",
+    "moveDown": "Omlaag verplaatsen",
+    "remove": "Verwijderen",
+    "converting": "Bezig met converteren...",
+    "genericError": "Er is een fout opgetreden tijdens het converteren.",
+    "selectFile": "Selecteer een bestand om te converteren."
+  },
+  "Tools": {
+    "merge_pdf": { "name": "PDF samenvoegen", "description": "Combineer meerdere PDF-bestanden tot één" },
+    "split_pdf": { "name": "PDF splitsen", "description": "Splits een PDF per pagina of extraheer een paginabereik" },
+    "compress_pdf": { "name": "PDF comprimeren", "description": "Verklein de bestandsgrootte met behoud van kwaliteit" },
+    "watermark_pdf": { "name": "Watermerk toevoegen", "description": "Voeg een tekst- of afbeeldingswatermerk toe" },
+    "protect_pdf": { "name": "PDF beveiligen / ontgrendelen", "description": "Voeg een wachtwoord toe aan een PDF of verwijder het" },
+    "pdf_to_image": { "name": "PDF naar afbeelding", "description": "Converteer elke PDF-pagina naar een PNG/JPG-afbeelding" },
+    "image_to_pdf": { "name": "Afbeelding naar PDF", "description": "Combineer JPG- of PNG-afbeeldingen tot één PDF" },
+    "pdf_to_word": { "name": "PDF naar Word", "description": "Converteer een PDF naar een bewerkbaar Word-document" },
+    "word_to_pdf": { "name": "Word naar PDF", "description": "Converteer een Word-document naar PDF" },
+    "pdf_to_ppt": { "name": "PDF naar PowerPoint", "description": "Converteer elke PDF-pagina naar een PowerPoint-dia" },
+    "ppt_to_pdf": { "name": "PowerPoint naar PDF", "description": "Converteer een PowerPoint-document naar PDF" },
+    "pdf_to_excel": { "name": "PDF naar Excel", "description": "Converteer tabellen uit een PDF naar een Excel-bestand" },
+    "excel_to_pdf": { "name": "Excel naar PDF", "description": "Converteer een Excel-bestand naar PDF" },
+    "pdf_to_html": { "name": "PDF naar HTML", "description": "Converteer een PDF naar een HTML-webpagina" },
+    "html_to_pdf": { "name": "HTML naar PDF", "description": "Converteer een HTML-bestand naar PDF" },
+    "rotate_pdf": { "name": "PDF roteren", "description": "Roteer alle pagina's van een PDF" },
+    "page_numbers_pdf": { "name": "Paginanummers toevoegen", "description": "Voeg paginanummers toe aan alle pagina's van een PDF" },
+    "organize_pdf": { "name": "PDF organiseren", "description": "Herschik of verwijder pagina's in een PDF" }
+  },
+  "MergePage": {
+    "title": "PDF samenvoegen",
+    "description": "Rangschik meerdere PDF-bestanden in de gewenste volgorde en voeg ze samen tot één.",
+    "dropzonePlaceholder": "Sleep PDF-bestanden hierheen of klik om te selecteren",
+    "needTwoFiles": "Je hebt minimaal 2 PDF-bestanden nodig om samen te voegen.",
+    "error": "Er is een fout opgetreden tijdens het samenvoegen.",
+    "merging": "Bezig met samenvoegen...",
+    "submit": "{count} PDF's samenvoegen"
+  },
+  "SplitPage": {
+    "title": "PDF splitsen",
+    "description": "Splits een PDF in afzonderlijke pagina's of extraheer alleen de pagina's die je nodig hebt.",
+    "selectFile": "Selecteer een PDF-bestand om te splitsen.",
+    "enterRange": "Voer het paginabereik in dat u wilt extraheren. Bijv.: 1-3, 5, 8-10",
+    "error": "Er is een fout opgetreden tijdens het splitsen.",
+    "splitting": "Bezig met splitsen...",
+    "submit": "PDF splitsen",
+    "modeAll": "Elke pagina afzonderlijk splitsen",
+    "modeRange": "Specifieke pagina's extraheren",
+    "rangePlaceholder": "Bijv.: 1-3, 5, 8-10",
+    "rangeHint": "Voer paginanummers of bereiken in, gescheiden door komma's."
+  },
+  "WatermarkPage": {
+    "title": "Watermerk toevoegen",
+    "description": "Voeg op elke pagina een diagonaal tekstwatermerk toe.",
+    "selectFile": "Selecteer een PDF-bestand om een watermerk aan toe te voegen.",
+    "enterText": "Voer de watermerktekst in.",
+    "error": "Er is een fout opgetreden bij het toevoegen van het watermerk.",
+    "applying": "Bezig met toepassen...",
+    "submit": "Watermerk toevoegen",
+    "textLabel": "Watermerktekst",
+    "opacityLabel": "Dekking",
+    "fontSizeLabel": "Lettergrootte"
+  },
+  "ProtectPage": {
+    "title": "PDF beveiligen / ontgrendelen",
+    "description": "Voeg een wachtwoord toe aan een PDF of verwijder een bestaand wachtwoord.",
+    "selectFile": "Selecteer een PDF-bestand.",
+    "enterPassword": "Voer een wachtwoord in.",
+    "error": "Er is een fout opgetreden tijdens de verwerking.",
+    "processing": "Bezig met verwerken...",
+    "actionAdd": "Wachtwoord toevoegen",
+    "actionRemove": "Wachtwoord verwijderen",
+    "submitAdd": "Wachtwoord toevoegen",
+    "submitRemove": "Wachtwoord verwijderen",
+    "passwordLabelAdd": "In te stellen wachtwoord",
+    "passwordLabelRemove": "Huidig wachtwoord",
+    "passwordPlaceholder": "Voer wachtwoord in"
+  },
+  "CompressPage": {
+    "title": "PDF comprimeren",
+    "description": "Elke pagina wordt opnieuw gecomprimeerd als afbeelding om de bestandsgrootte te verkleinen.",
+    "warning": "Het meest effectief bij gescande of afbeeldingsrijke PDF's. Na compressie kan tekst niet meer worden geselecteerd of gekopieerd.",
+    "selectFile": "Selecteer een PDF-bestand om te comprimeren.",
+    "error": "Er is een fout opgetreden tijdens het comprimeren.",
+    "compressing": "Bezig met comprimeren...",
+    "submit": "PDF comprimeren",
+    "qualityLabel": "Compressiekwaliteit",
+    "qualityHint": "Lagere waarden leveren kleinere bestanden op, maar met lagere kwaliteit.",
+    "result": "{originalSize} MB → {compressedSize} MB ({percent}% kleiner)"
+  },
+  "ImageToPdfPage": {
+    "title": "Afbeelding naar PDF",
+    "description": "Rangschik JPG- of PNG-afbeeldingen in de gewenste volgorde en combineer ze tot één PDF.",
+    "dropzonePlaceholder": "Sleep afbeeldingen hierheen of klik om te selecteren",
+    "selectAtLeastOne": "Selecteer minstens één afbeeldingsbestand.",
+    "error": "Er is een fout opgetreden tijdens het converteren.",
+    "converting": "Bezig met converteren...",
+    "submit": "PDF maken ({count} pagina's)",
+    "summary": "{count} afbeeldingen · {size} MB totaal"
+  },
+  "PdfToImagePage": {
+    "title": "PDF naar afbeelding",
+    "description": "Converteert elke PDF-pagina naar een afbeelding. Bij meerdere pagina's wordt het resultaat als ZIP gedownload.",
+    "selectFile": "Selecteer een PDF-bestand om te converteren.",
+    "error": "Er is een fout opgetreden tijdens het converteren.",
+    "converting": "Bezig met converteren...",
+    "submit": "Converteren naar afbeelding",
+    "formatLabel": "Uitvoerformaat"
+  },
+  "PdfToWordPage": {
+    "title": "PDF naar Word",
+    "description": "Converteer een PDF naar een bewerkbaar Word-document (.docx).",
+    "warning": "PDF's met complexe lay-outs kunnen na conversie een iets andere opmaak hebben.",
+    "submit": "Converteren naar Word"
+  },
+  "WordToPdfPage": {
+    "title": "Word naar PDF",
+    "description": "Converteer een Word-document (.docx, .doc) naar PDF.",
+    "submit": "Converteren naar PDF"
+  },
+  "PdfToPptPage": {
+    "title": "PDF naar PowerPoint",
+    "description": "Converteer elke PDF-pagina naar een PowerPoint-dia (.pptx).",
+    "warning": "De dia-indeling kan variëren afhankelijk van de tekst-/afbeeldingsplaatsing in de originele PDF.",
+    "submit": "Converteren naar PowerPoint"
+  },
+  "PptToPdfPage": {
+    "title": "PowerPoint naar PDF",
+    "description": "Converteer een PowerPoint-document (.pptx, .ppt) naar PDF.",
+    "submit": "Converteren naar PDF"
+  },
+  "PdfToExcelPage": {
+    "title": "PDF naar Excel",
+    "description": "Detecteert tabelgegevens in een PDF en converteert ze naar een Excel-bestand (.xlsx).",
+    "warning": "Het meest nauwkeurig bij eenvoudige tabellen in tekstgebaseerde PDF's. Gescande of complex opgemaakte tabellen kunnen verkeerd uitgelijnde cellen hebben.",
+    "submit": "Converteren naar Excel"
+  },
+  "ExcelToPdfPage": {
+    "title": "Excel naar PDF",
+    "description": "Converteer een Excel-bestand (.xlsx, .xls, .csv) naar PDF.",
+    "submit": "Converteren naar PDF"
+  },
+  "PdfToHtmlPage": {
+    "title": "PDF naar HTML",
+    "description": "Converteer een PDF naar een HTML-webpagina.",
+    "warning": "PDF's met afbeeldingen worden geleverd als een ZIP-bestand (HTML + afbeeldingen).",
+    "submit": "Converteren naar HTML"
+  },
+  "HtmlToPdfPage": {
+    "title": "HTML naar PDF",
+    "description": "Converteer een HTML-bestand naar PDF.",
+    "submit": "Converteren naar PDF"
+  },
+  "RotatePage": {
+    "title": "PDF roteren",
+    "description": "Roteer alle pagina's van een PDF met de klok mee of tegen de klok in.",
+    "selectFile": "Selecteer een PDF-bestand om te roteren.",
+    "error": "Er is een fout opgetreden tijdens het roteren.",
+    "rotating": "Bezig met roteren...",
+    "submit": "PDF roteren",
+    "directionLabel": "Rotatie",
+    "right90": "90° rechts",
+    "left90": "90° links",
+    "rotate180": "180°"
+  },
+  "PageNumbersPage": {
+    "title": "Paginanummers toevoegen",
+    "description": "Voeg paginanummers toe aan alle pagina's van een PDF.",
+    "selectFile": "Selecteer een PDF-bestand.",
+    "error": "Er is een fout opgetreden bij het toevoegen van paginanummers.",
+    "applying": "Bezig met toepassen...",
+    "submit": "Paginanummers toevoegen",
+    "positionLabel": "Positie",
+    "positionBottomCenter": "Onder midden",
+    "positionBottomRight": "Onder rechts",
+    "positionTopCenter": "Boven midden",
+    "startNumberLabel": "Startnummer",
+    "fontSizeLabel": "Lettergrootte"
+  },
+  "OrganizePage": {
+    "title": "PDF organiseren",
+    "description": "Herschik of verwijder pagina's en sla op als een nieuwe PDF.",
+    "selectFile": "Selecteer een PDF-bestand om te organiseren.",
+    "loadingThumbnails": "Pagina's laden...",
+    "error": "Er is een fout opgetreden.",
+    "saving": "Bezig met opslaan...",
+    "submit": "PDF opslaan",
+    "needAtLeastOnePage": "Houd minimaal één pagina over.",
+    "removePage": "Pagina verwijderen",
+    "pageLabel": "Pagina {number}"
+  },
+  "LanguageSwitcher": {
+    "label": "Taal"
+  },
+  "FAQ": {
+    "heading": "Veelgestelde vragen",
+    "items": [
+      { "q": "Zijn de PDF-tools gratis te gebruiken?", "a": "Ja, alle 18 tools zijn volledig gratis en vereisen geen registratie." },
+      { "q": "Moet ik een account aanmaken?", "a": "Nee, je kunt alle tools direct gebruiken zonder registratie." },
+      { "q": "Wat gebeurt er met mijn geüploade bestanden?", "a": "Bestanden worden op de server verwerkt en direct daarna automatisch verwijderd — er wordt niets opgeslagen." },
+      { "q": "Welke talen worden ondersteund?", "a": "Koreaans, Engels, Japans, Chinees (vereenvoudigd en traditioneel), Spaans, Frans, Duits, Portugees, Russisch, Italiaans, Nederlands, Pools, Zweeds, Turks, Oekraïens, Vietnamees, Thais, Indonesisch, Maleis, Hindi, Bulgaars, Catalaans, Grieks, Swahili en Arabisch." },
+      { "q": "Kan ik meerdere PDF-bestanden samenvoegen tot één?", "a": "Ja, rangschik je bestanden in de gewenste volgorde op de pagina PDF samenvoegen en combineer ze tot één." },
+      { "q": "Kan ik een PDF converteren naar Word of Excel?", "a": "Ja, conversies van PDF naar Word, PDF naar Excel en PDF naar PowerPoint (en omgekeerd) worden allemaal ondersteund." }
+    ]
+  }
+}

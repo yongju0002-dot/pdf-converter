@@ -1,0 +1,238 @@
+{
+  "Metadata": {
+    "title": "เครื่องมือ PDF | รวม แยก และบีบอัด PDF ฟรี",
+    "description": "รวม แยก บีบอัด และแปลงไฟล์ PDF ฟรี — ไม่ต้องสมัครสมาชิก"
+  },
+  "Header": {
+    "brand": "เครื่องมือ PDF",
+    "allTools": "เครื่องมือทั้งหมด",
+    "pdfConvert": "แปลง PDF",
+    "freeBadge": "ฟรี ไม่ต้องสมัครสมาชิก",
+    "quickMerge": "รวม PDF",
+    "quickSplit": "แยก PDF",
+    "quickCompress": "บีบอัด PDF"
+  },
+  "Footer": {
+    "notice": "ไฟล์ที่อัปโหลดจะถูกลบโดยอัตโนมัติหลังการประมวลผล"
+  },
+  "Categories": {
+    "edit": "แก้ไขและความปลอดภัย",
+    "image": "แปลงรูปภาพ",
+    "office": "แปลงเอกสาร Office",
+    "web": "แปลงเว็บ",
+    "fromPdf": "แปลงจาก PDF",
+    "toPdf": "แปลงเป็น PDF"
+  },
+  "Home": {
+    "badge": "✨ {count} เครื่องมือ ฟรีทั้งหมด",
+    "title": "ทุกงาน PDF ในที่เดียว",
+    "subtitle": "รวม แยก บีบอัด และแปลง — ฟรี ไม่ต้องสมัครสมาชิก"
+  },
+  "Common": {
+    "dropzonePlaceholder": "ลากและวางไฟล์ที่นี่ หรือคลิกเพื่อเลือก",
+    "dropzoneChangeHint": "คลิกเพื่อเลือกไฟล์อื่น",
+    "comingSoon": "เร็วๆ นี้",
+    "moveUp": "เลื่อนขึ้น",
+    "moveDown": "เลื่อนลง",
+    "remove": "ลบ",
+    "converting": "กำลังแปลง...",
+    "genericError": "เกิดข้อผิดพลาดระหว่างการแปลง",
+    "selectFile": "เลือกไฟล์ที่ต้องการแปลง"
+  },
+  "Tools": {
+    "merge_pdf": { "name": "รวม PDF", "description": "รวมไฟล์ PDF หลายไฟล์เป็นไฟล์เดียว" },
+    "split_pdf": { "name": "แยก PDF", "description": "แยก PDF ตามหน้าหรือดึงช่วงหน้าที่ต้องการ" },
+    "compress_pdf": { "name": "บีบอัด PDF", "description": "ลดขนาดไฟล์ในขณะที่ยังคงคุณภาพ" },
+    "watermark_pdf": { "name": "เพิ่มลายน้ำ", "description": "ใส่ลายน้ำแบบข้อความหรือรูปภาพ" },
+    "protect_pdf": { "name": "ป้องกัน / ปลดล็อก PDF", "description": "เพิ่มหรือลบรหัสผ่านของ PDF" },
+    "pdf_to_image": { "name": "PDF เป็นรูปภาพ", "description": "แปลงแต่ละหน้าของ PDF เป็นรูปภาพ PNG/JPG" },
+    "image_to_pdf": { "name": "รูปภาพเป็น PDF", "description": "รวมรูปภาพ JPG หรือ PNG เป็น PDF เดียว" },
+    "pdf_to_word": { "name": "PDF เป็น Word", "description": "แปลง PDF เป็นเอกสาร Word ที่แก้ไขได้" },
+    "word_to_pdf": { "name": "Word เป็น PDF", "description": "แปลงเอกสาร Word เป็น PDF" },
+    "pdf_to_ppt": { "name": "PDF เป็น PowerPoint", "description": "แปลงแต่ละหน้าของ PDF เป็นสไลด์ PowerPoint" },
+    "ppt_to_pdf": { "name": "PowerPoint เป็น PDF", "description": "แปลงเอกสาร PowerPoint เป็น PDF" },
+    "pdf_to_excel": { "name": "PDF เป็น Excel", "description": "แปลงตารางจาก PDF เป็นไฟล์ Excel" },
+    "excel_to_pdf": { "name": "Excel เป็น PDF", "description": "แปลงไฟล์ Excel เป็น PDF" },
+    "pdf_to_html": { "name": "PDF เป็น HTML", "description": "แปลง PDF เป็นหน้าเว็บ HTML" },
+    "html_to_pdf": { "name": "HTML เป็น PDF", "description": "แปลงไฟล์ HTML เป็น PDF" },
+    "rotate_pdf": { "name": "หมุน PDF", "description": "หมุนทุกหน้าของ PDF" },
+    "page_numbers_pdf": { "name": "เพิ่มเลขหน้า", "description": "เพิ่มเลขหน้าให้ทุกหน้าของ PDF" },
+    "organize_pdf": { "name": "จัดระเบียบ PDF", "description": "จัดเรียงใหม่หรือลบหน้าของ PDF" }
+  },
+  "MergePage": {
+    "title": "รวม PDF",
+    "description": "จัดเรียงไฟล์ PDF หลายไฟล์ตามลำดับที่ต้องการแล้วรวมเป็นไฟล์เดียว",
+    "dropzonePlaceholder": "ลากและวางไฟล์ PDF ที่นี่ หรือคลิกเพื่อเลือก",
+    "needTwoFiles": "คุณต้องมีไฟล์ PDF อย่างน้อย 2 ไฟล์เพื่อรวม",
+    "error": "เกิดข้อผิดพลาดระหว่างการรวมไฟล์",
+    "merging": "กำลังรวม...",
+    "submit": "รวมไฟล์ PDF {count} ไฟล์"
+  },
+  "SplitPage": {
+    "title": "แยก PDF",
+    "description": "แยก PDF เป็นหน้าแต่ละหน้า หรือดึงเฉพาะหน้าที่คุณต้องการ",
+    "selectFile": "เลือกไฟล์ PDF ที่ต้องการแยก",
+    "enterRange": "ป้อนช่วงหน้าที่ต้องการดึง เช่น: 1-3, 5, 8-10",
+    "error": "เกิดข้อผิดพลาดระหว่างการแยกไฟล์",
+    "splitting": "กำลังแยก...",
+    "submit": "แยก PDF",
+    "modeAll": "แยกทุกหน้าแยกกัน",
+    "modeRange": "ดึงเฉพาะหน้าที่ระบุ",
+    "rangePlaceholder": "เช่น: 1-3, 5, 8-10",
+    "rangeHint": "ป้อนหมายเลขหน้าหรือช่วงหน้า คั่นด้วยเครื่องหมายจุลภาค"
+  },
+  "WatermarkPage": {
+    "title": "เพิ่มลายน้ำ",
+    "description": "ใส่ลายน้ำข้อความแนวทแยงในทุกหน้า",
+    "selectFile": "เลือกไฟล์ PDF ที่ต้องการเพิ่มลายน้ำ",
+    "enterText": "ป้อนข้อความลายน้ำ",
+    "error": "เกิดข้อผิดพลาดระหว่างการเพิ่มลายน้ำ",
+    "applying": "กำลังใช้งาน...",
+    "submit": "เพิ่มลายน้ำ",
+    "textLabel": "ข้อความลายน้ำ",
+    "opacityLabel": "ความทึบแสง",
+    "fontSizeLabel": "ขนาดตัวอักษร"
+  },
+  "ProtectPage": {
+    "title": "ป้องกัน / ปลดล็อก PDF",
+    "description": "เพิ่มรหัสผ่านให้ PDF หรือลบรหัสผ่านที่มีอยู่",
+    "selectFile": "เลือกไฟล์ PDF",
+    "enterPassword": "ป้อนรหัสผ่าน",
+    "error": "เกิดข้อผิดพลาดระหว่างการประมวลผล",
+    "processing": "กำลังประมวลผล...",
+    "actionAdd": "เพิ่มรหัสผ่าน",
+    "actionRemove": "ลบรหัสผ่าน",
+    "submitAdd": "เพิ่มรหัสผ่าน",
+    "submitRemove": "ลบรหัสผ่าน",
+    "passwordLabelAdd": "รหัสผ่านที่จะตั้ง",
+    "passwordLabelRemove": "รหัสผ่านปัจจุบัน",
+    "passwordPlaceholder": "ป้อนรหัสผ่าน"
+  },
+  "CompressPage": {
+    "title": "บีบอัด PDF",
+    "description": "แต่ละหน้าจะถูกบีบอัดใหม่เป็นรูปภาพเพื่อลดขนาดไฟล์",
+    "warning": "ได้ผลดีที่สุดกับ PDF ที่สแกนหรือมีรูปภาพจำนวนมาก หลังบีบอัดแล้วจะไม่สามารถเลือกหรือคัดลอกข้อความได้",
+    "selectFile": "เลือกไฟล์ PDF ที่ต้องการบีบอัด",
+    "error": "เกิดข้อผิดพลาดระหว่างการบีบอัด",
+    "compressing": "กำลังบีบอัด...",
+    "submit": "บีบอัด PDF",
+    "qualityLabel": "คุณภาพการบีบอัด",
+    "qualityHint": "ค่าที่ต่ำกว่าจะให้ไฟล์ที่เล็กลงแต่คุณภาพต่ำลง",
+    "result": "{originalSize} MB → {compressedSize} MB (เล็กลง {percent}%)"
+  },
+  "ImageToPdfPage": {
+    "title": "รูปภาพเป็น PDF",
+    "description": "จัดเรียงรูปภาพ JPG หรือ PNG ตามลำดับที่ต้องการแล้วรวมเป็น PDF เดียว",
+    "dropzonePlaceholder": "ลากและวางรูปภาพที่นี่ หรือคลิกเพื่อเลือก",
+    "selectAtLeastOne": "เลือกไฟล์รูปภาพอย่างน้อยหนึ่งไฟล์",
+    "error": "เกิดข้อผิดพลาดระหว่างการแปลง",
+    "converting": "กำลังแปลง...",
+    "submit": "สร้าง PDF ({count} หน้า)",
+    "summary": "{count} รูปภาพ · รวม {size} MB"
+  },
+  "PdfToImagePage": {
+    "title": "PDF เป็นรูปภาพ",
+    "description": "แปลงแต่ละหน้าของ PDF เป็นรูปภาพ หากมีหลายหน้า ผลลัพธ์จะดาวน์โหลดเป็นไฟล์ ZIP",
+    "selectFile": "เลือกไฟล์ PDF ที่ต้องการแปลง",
+    "error": "เกิดข้อผิดพลาดระหว่างการแปลง",
+    "converting": "กำลังแปลง...",
+    "submit": "แปลงเป็นรูปภาพ",
+    "formatLabel": "รูปแบบผลลัพธ์"
+  },
+  "PdfToWordPage": {
+    "title": "PDF เป็น Word",
+    "description": "แปลง PDF เป็นเอกสาร Word ที่แก้ไขได้ (.docx)",
+    "warning": "ไฟล์ PDF ที่มีเลย์เอาต์ซับซ้อนอาจมีการจัดรูปแบบที่แตกต่างเล็กน้อยหลังการแปลง",
+    "submit": "แปลงเป็น Word"
+  },
+  "WordToPdfPage": {
+    "title": "Word เป็น PDF",
+    "description": "แปลงเอกสาร Word (.docx, .doc) เป็น PDF",
+    "submit": "แปลงเป็น PDF"
+  },
+  "PdfToPptPage": {
+    "title": "PDF เป็น PowerPoint",
+    "description": "แปลงแต่ละหน้าของ PDF เป็นสไลด์ PowerPoint (.pptx)",
+    "warning": "เลย์เอาต์ของสไลด์อาจแตกต่างกันไปตามตำแหน่งข้อความ/รูปภาพในไฟล์ PDF ต้นฉบับ",
+    "submit": "แปลงเป็น PowerPoint"
+  },
+  "PptToPdfPage": {
+    "title": "PowerPoint เป็น PDF",
+    "description": "แปลงเอกสาร PowerPoint (.pptx, .ppt) เป็น PDF",
+    "submit": "แปลงเป็น PDF"
+  },
+  "PdfToExcelPage": {
+    "title": "PDF เป็น Excel",
+    "description": "ตรวจจับข้อมูลตารางใน PDF และแปลงเป็นไฟล์ Excel (.xlsx)",
+    "warning": "แม่นยำที่สุดสำหรับตารางง่ายๆ ในไฟล์ PDF ที่เป็นข้อความ ตารางที่สแกนหรือมีเลย์เอาต์ซับซ้อนอาจมีเซลล์ที่จัดตำแหน่งไม่ถูกต้อง",
+    "submit": "แปลงเป็น Excel"
+  },
+  "ExcelToPdfPage": {
+    "title": "Excel เป็น PDF",
+    "description": "แปลงไฟล์ Excel (.xlsx, .xls, .csv) เป็น PDF",
+    "submit": "แปลงเป็น PDF"
+  },
+  "PdfToHtmlPage": {
+    "title": "PDF เป็น HTML",
+    "description": "แปลง PDF เป็นหน้าเว็บ HTML",
+    "warning": "PDF ที่มีรูปภาพจะถูกส่งมอบเป็นไฟล์ ZIP (HTML + รูปภาพ)",
+    "submit": "แปลงเป็น HTML"
+  },
+  "HtmlToPdfPage": {
+    "title": "HTML เป็น PDF",
+    "description": "แปลงไฟล์ HTML เป็น PDF",
+    "submit": "แปลงเป็น PDF"
+  },
+  "RotatePage": {
+    "title": "หมุน PDF",
+    "description": "หมุนทุกหน้าของ PDF ตามเข็มนาฬิกาหรือทวนเข็มนาฬิกา",
+    "selectFile": "เลือกไฟล์ PDF ที่ต้องการหมุน",
+    "error": "เกิดข้อผิดพลาดระหว่างการหมุน",
+    "rotating": "กำลังหมุน...",
+    "submit": "หมุน PDF",
+    "directionLabel": "การหมุน",
+    "right90": "90° ขวา",
+    "left90": "90° ซ้าย",
+    "rotate180": "180°"
+  },
+  "PageNumbersPage": {
+    "title": "เพิ่มเลขหน้า",
+    "description": "เพิ่มเลขหน้าให้ทุกหน้าของ PDF",
+    "selectFile": "เลือกไฟล์ PDF",
+    "error": "เกิดข้อผิดพลาดระหว่างการเพิ่มเลขหน้า",
+    "applying": "กำลังใช้งาน...",
+    "submit": "เพิ่มเลขหน้า",
+    "positionLabel": "ตำแหน่ง",
+    "positionBottomCenter": "กึ่งกลางล่าง",
+    "positionBottomRight": "ล่างขวา",
+    "positionTopCenter": "กึ่งกลางบน",
+    "startNumberLabel": "เลขเริ่มต้น",
+    "fontSizeLabel": "ขนาดตัวอักษร"
+  },
+  "OrganizePage": {
+    "title": "จัดระเบียบ PDF",
+    "description": "จัดเรียงใหม่หรือลบหน้าแล้วบันทึกเป็น PDF ใหม่",
+    "selectFile": "เลือกไฟล์ PDF ที่ต้องการจัดระเบียบ",
+    "loadingThumbnails": "กำลังโหลดหน้า...",
+    "error": "เกิดข้อผิดพลาด",
+    "saving": "กำลังบันทึก...",
+    "submit": "บันทึก PDF",
+    "needAtLeastOnePage": "ต้องเหลืออย่างน้อยหนึ่งหน้า",
+    "removePage": "ลบหน้า",
+    "pageLabel": "หน้า {number}"
+  },
+  "LanguageSwitcher": {
+    "label": "ภาษา"
+  },
+  "FAQ": {
+    "heading": "คำถามที่พบบ่อย",
+    "items": [
+      { "q": "เครื่องมือ PDF ใช้ฟรีหรือไม่?", "a": "ใช่ เครื่องมือทั้ง 18 รายการฟรีอย่างสมบูรณ์และไม่ต้องสมัครสมาชิก" },
+      { "q": "ฉันต้องสร้างบัญชีหรือไม่?", "a": "ไม่ต้อง คุณสามารถใช้เครื่องมือทั้งหมดได้ทันทีโดยไม่ต้องสมัครสมาชิก" },
+      { "q": "ไฟล์ที่อัปโหลดของฉันจะเป็นอย่างไร?", "a": "ไฟล์จะถูกประมวลผลบนเซิร์ฟเวอร์และลบโดยอัตโนมัติทันทีหลังจากนั้น — ไม่มีการเก็บข้อมูลใดๆ ไว้" },
+      { "q": "รองรับภาษาใดบ้าง?", "a": "เกาหลี อังกฤษ ญี่ปุ่น จีน (ตัวย่อและตัวเต็ม) สเปน ฝรั่งเศส เยอรมัน โปรตุเกส รัสเซีย อิตาลี ดัตช์ โปแลนด์ สวีเดน ตุรกี ยูเครน เวียดนาม ไทย อินโดนีเซีย มลายู ฮินดี บัลแกเรีย กาตาลัน กรีก สวาฮีลี และอาหรับ" },
+      { "q": "ฉันสามารถรวมไฟล์ PDF หลายไฟล์เป็นไฟล์เดียวได้หรือไม่?", "a": "ได้ จัดเรียงไฟล์ของคุณตามลำดับที่ต้องการในหน้ารวม PDF แล้วรวมเป็นไฟล์เดียว" },
+      { "q": "ฉันสามารถแปลง PDF เป็น Word หรือ Excel ได้หรือไม่?", "a": "ได้ รองรับการแปลง PDF เป็น Word, PDF เป็น Excel และ PDF เป็น PowerPoint (และย้อนกลับ) ทั้งหมด" }
+    ]
+  }
+}

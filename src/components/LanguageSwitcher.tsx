@@ -16,6 +16,22 @@ const localeLabels: Record<(typeof routing.locales)[number], string> = {
   pt: "Português",
   ru: "Русский",
   "zh-TW": "繁體中文",
+  it: "Italiano",
+  nl: "Nederlands",
+  pl: "Polski",
+  sv: "Svenska",
+  tr: "Türkçe",
+  uk: "Українська",
+  vi: "Tiếng Việt",
+  th: "ภาษาไทย",
+  id: "Bahasa Indonesia",
+  ms: "Bahasa Melayu",
+  hi: "हिन्दी",
+  bg: "Български",
+  ca: "Català",
+  el: "Ελληνικά",
+  sw: "Kiswahili",
+  ar: "العربية",
 };
 
 export function LanguageSwitcher() {
