@@ -54,7 +54,10 @@
     "pdf_to_excel": { "name": "PDF转Excel", "description": "将PDF中的表格数据转换为Excel文件" },
     "excel_to_pdf": { "name": "Excel转PDF", "description": "将Excel文件转换为PDF" },
     "pdf_to_html": { "name": "PDF转HTML", "description": "将PDF转换为HTML网页" },
-    "html_to_pdf": { "name": "HTML转PDF", "description": "将HTML文件转换为PDF" }
+    "html_to_pdf": { "name": "HTML转PDF", "description": "将HTML文件转换为PDF" },
+    "rotate_pdf": { "name": "旋转PDF", "description": "旋转PDF的所有页面" },
+    "page_numbers_pdf": { "name": "添加页码", "description": "为PDF的所有页面添加页码" },
+    "organize_pdf": { "name": "整理PDF", "description": "调整或删除PDF中的页面" }
   },
   "MergePage": {
     "title": "合并PDF",
@@ -179,6 +182,44 @@
     "title": "HTML转PDF",
     "description": "将HTML文件转换为PDF。",
     "submit": "转换为PDF"
+  },
+  "RotatePage": {
+    "title": "旋转PDF",
+    "description": "顺时针或逆时针旋转PDF的所有页面。",
+    "selectFile": "请选择要旋转的PDF文件。",
+    "error": "旋转过程中发生错误。",
+    "rotating": "旋转中...",
+    "submit": "旋转PDF",
+    "directionLabel": "旋转方向",
+    "right90": "向右90°",
+    "left90": "向左90°",
+    "rotate180": "180°"
+  },
+  "PageNumbersPage": {
+    "title": "添加页码",
+    "description": "为PDF的所有页面添加页码。",
+    "selectFile": "请选择PDF文件。",
+    "error": "添加页码时发生错误。",
+    "applying": "应用中...",
+    "submit": "添加页码",
+    "positionLabel": "位置",
+    "positionBottomCenter": "底部居中",
+    "positionBottomRight": "右下角",
+    "positionTopCenter": "顶部居中",
+    "startNumberLabel": "起始页码",
+    "fontSizeLabel": "字体大小"
+  },
+  "OrganizePage": {
+    "title": "整理PDF",
+    "description": "调整或删除页面后，另存为新的PDF。",
+    "selectFile": "请选择要整理的PDF文件。",
+    "loadingThumbnails": "正在加载页面...",
+    "error": "发生错误。",
+    "saving": "保存中...",
+    "submit": "保存PDF",
+    "needAtLeastOnePage": "至少需要保留一页。",
+    "removePage": "删除页面",
+    "pageLabel": "第{number}页"
   },
   "LanguageSwitcher": {
     "label": "语言"

@@ -54,7 +54,10 @@
     "pdf_to_excel": { "name": "PDF to Excel", "description": "Convert tables in a PDF into an Excel file" },
     "excel_to_pdf": { "name": "Excel to PDF", "description": "Convert an Excel file to PDF" },
     "pdf_to_html": { "name": "PDF to HTML", "description": "Convert a PDF into an HTML web page" },
-    "html_to_pdf": { "name": "HTML to PDF", "description": "Convert an HTML file to PDF" }
+    "html_to_pdf": { "name": "HTML to PDF", "description": "Convert an HTML file to PDF" },
+    "rotate_pdf": { "name": "Rotate PDF", "description": "Rotate every page of a PDF" },
+    "page_numbers_pdf": { "name": "Add Page Numbers", "description": "Add page numbers to every page of a PDF" },
+    "organize_pdf": { "name": "Organize PDF", "description": "Reorder or remove pages in a PDF" }
   },
   "MergePage": {
     "title": "Merge PDF",
@@ -179,6 +182,44 @@
     "title": "HTML to PDF",
     "description": "Convert an HTML file to PDF.",
     "submit": "Convert to PDF"
+  },
+  "RotatePage": {
+    "title": "Rotate PDF",
+    "description": "Rotate every page of a PDF clockwise or counterclockwise.",
+    "selectFile": "Please select a PDF file to rotate.",
+    "error": "An error occurred while rotating.",
+    "rotating": "Rotating...",
+    "submit": "Rotate PDF",
+    "directionLabel": "Rotation",
+    "right90": "90° Right",
+    "left90": "90° Left",
+    "rotate180": "180°"
+  },
+  "PageNumbersPage": {
+    "title": "Add Page Numbers",
+    "description": "Add page numbers to every page of a PDF.",
+    "selectFile": "Please select a PDF file.",
+    "error": "An error occurred while adding page numbers.",
+    "applying": "Applying...",
+    "submit": "Add Page Numbers",
+    "positionLabel": "Position",
+    "positionBottomCenter": "Bottom Center",
+    "positionBottomRight": "Bottom Right",
+    "positionTopCenter": "Top Center",
+    "startNumberLabel": "Start number",
+    "fontSizeLabel": "Font size"
+  },
+  "OrganizePage": {
+    "title": "Organize PDF",
+    "description": "Reorder or remove pages, then save as a new PDF.",
+    "selectFile": "Please select a PDF file to organize.",
+    "loadingThumbnails": "Loading pages...",
+    "error": "An error occurred.",
+    "saving": "Saving...",
+    "submit": "Save PDF",
+    "needAtLeastOnePage": "Keep at least one page.",
+    "removePage": "Remove page",
+    "pageLabel": "Page {number}"
   },
   "LanguageSwitcher": {
     "label": "Language"

@@ -16,6 +16,7 @@ const nextConfig: NextConfig = {
     "/api/pdf-to-image": ["./node_modules/pdfjs-dist/**/*"],
     "/api/compress": ["./node_modules/pdfjs-dist/**/*"],
     "/api/pdf-to-excel": ["./node_modules/pdfjs-dist/**/*"],
+    "/api/organize/thumbnails": ["./node_modules/pdfjs-dist/**/*"],
   },
   async redirects() {
     // Tool slugs went through 2 renames for SEO (each old form may have been

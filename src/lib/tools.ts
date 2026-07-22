@@ -1,4 +1,5 @@
 import {
+  ArrowUpDown,
   Combine,
   Droplets,
   FileCode,
@@ -7,10 +8,12 @@ import {
   FileSpreadsheet,
   FileText,
   Globe,
+  Hash,
   ImagePlus,
   Lock,
   MonitorPlay,
   Presentation,
+  RotateCw,
   Scissors,
   Shrink,
   type LucideIcon,
@@ -118,4 +121,17 @@ export const tools: Tool[] = [
   },
   { slug: "pdf_to_html", icon: FileCode, available: true, category: "web" },
   { slug: "html_to_pdf", icon: Globe, available: true, category: "web" },
+  { slug: "rotate_pdf", icon: RotateCw, available: true, category: "edit" },
+  {
+    slug: "page_numbers_pdf",
+    icon: Hash,
+    available: true,
+    category: "edit",
+  },
+  {
+    slug: "organize_pdf",
+    icon: ArrowUpDown,
+    available: true,
+    category: "edit",
+  },
 ];

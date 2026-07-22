@@ -54,7 +54,10 @@
     "pdf_to_excel": { "name": "PDF → Excel", "description": "PDF의 표 형태 데이터를 Excel로 변환합니다" },
     "excel_to_pdf": { "name": "Excel → PDF", "description": "Excel 파일을 PDF로 변환합니다" },
     "pdf_to_html": { "name": "PDF → HTML", "description": "PDF를 HTML 웹페이지로 변환합니다" },
-    "html_to_pdf": { "name": "HTML → PDF", "description": "HTML 파일을 PDF로 변환합니다" }
+    "html_to_pdf": { "name": "HTML → PDF", "description": "HTML 파일을 PDF로 변환합니다" },
+    "rotate_pdf": { "name": "PDF 회전", "description": "PDF의 모든 페이지를 회전합니다" },
+    "page_numbers_pdf": { "name": "페이지 번호 추가", "description": "PDF의 모든 페이지에 페이지 번호를 추가합니다" },
+    "organize_pdf": { "name": "PDF 구성", "description": "PDF의 페이지 순서를 바꾸거나 삭제합니다" }
   },
   "MergePage": {
     "title": "PDF 병합",
@@ -179,6 +182,44 @@
     "title": "HTML → PDF",
     "description": "HTML 파일을 PDF로 변환합니다.",
     "submit": "PDF로 변환하기"
+  },
+  "RotatePage": {
+    "title": "PDF 회전",
+    "description": "PDF의 모든 페이지를 시계 방향 또는 반시계 방향으로 회전합니다.",
+    "selectFile": "회전할 PDF 파일을 선택해주세요.",
+    "error": "회전 중 오류가 발생했습니다.",
+    "rotating": "회전 중...",
+    "submit": "PDF 회전하기",
+    "directionLabel": "회전 방향",
+    "right90": "오른쪽 90°",
+    "left90": "왼쪽 90°",
+    "rotate180": "180°"
+  },
+  "PageNumbersPage": {
+    "title": "페이지 번호 추가",
+    "description": "PDF의 모든 페이지에 페이지 번호를 추가합니다.",
+    "selectFile": "PDF 파일을 선택해주세요.",
+    "error": "페이지 번호 추가 중 오류가 발생했습니다.",
+    "applying": "적용 중...",
+    "submit": "페이지 번호 추가하기",
+    "positionLabel": "위치",
+    "positionBottomCenter": "하단 중앙",
+    "positionBottomRight": "하단 오른쪽",
+    "positionTopCenter": "상단 중앙",
+    "startNumberLabel": "시작 번호",
+    "fontSizeLabel": "글자 크기"
+  },
+  "OrganizePage": {
+    "title": "PDF 구성",
+    "description": "페이지 순서를 바꾸거나 삭제한 후 새 PDF로 저장합니다.",
+    "selectFile": "구성할 PDF 파일을 선택해주세요.",
+    "loadingThumbnails": "페이지를 불러오는 중...",
+    "error": "오류가 발생했습니다.",
+    "saving": "저장 중...",
+    "submit": "PDF 저장하기",
+    "needAtLeastOnePage": "최소 한 페이지는 남겨야 합니다.",
+    "removePage": "페이지 삭제",
+    "pageLabel": "{number}페이지"
   },
   "LanguageSwitcher": {
     "label": "언어"
