@@ -66,11 +66,11 @@ export const categoryMeta: Record<ToolCategory, CategoryMeta> = {
 };
 
 export const tools: Tool[] = [
+  // Homepage grid order: merge/split/compress first, then every
+  // conversion tool, then the remaining edit/security tools.
   { slug: "merge_pdf", icon: Combine, available: true, category: "edit" },
   { slug: "split_pdf", icon: Scissors, available: true, category: "edit" },
   { slug: "compress_pdf", icon: Shrink, available: true, category: "edit" },
-  { slug: "watermark_pdf", icon: Droplets, available: true, category: "edit" },
-  { slug: "protect_pdf", icon: Lock, available: true, category: "edit" },
   {
     slug: "pdf_to_image",
     icon: FileImage,
@@ -121,6 +121,8 @@ export const tools: Tool[] = [
   },
   { slug: "pdf_to_html", icon: FileCode, available: true, category: "web" },
   { slug: "html_to_pdf", icon: Globe, available: true, category: "web" },
+  { slug: "watermark_pdf", icon: Droplets, available: true, category: "edit" },
+  { slug: "protect_pdf", icon: Lock, available: true, category: "edit" },
   { slug: "rotate_pdf", icon: RotateCw, available: true, category: "edit" },
   {
     slug: "page_numbers_pdf",
