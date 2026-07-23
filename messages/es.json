@@ -57,7 +57,9 @@
     "html_to_pdf": { "name": "HTML a PDF", "description": "Convierte un archivo HTML a PDF" },
     "rotate_pdf": { "name": "Rotar PDF", "description": "Rota todas las páginas de un PDF" },
     "page_numbers_pdf": { "name": "Añadir números de página", "description": "Añade números de página a todas las páginas de un PDF" },
-    "organize_pdf": { "name": "Organizar PDF", "description": "Reordena o elimina páginas de un PDF" }
+    "organize_pdf": { "name": "Organizar PDF", "description": "Reordena o elimina páginas de un PDF" },
+    "crop_pdf": { "name": "Recortar PDF", "description": "Recorta márgenes o selecciona un área para recortar de las páginas del PDF" },
+    "signature_maker": { "name": "Creador de firmas", "description": "Convierte una foto de tu firma manuscrita en un PNG con fondo transparente" }
   },
   "MergePage": {
     "title": "Fusionar PDF",
@@ -221,13 +223,37 @@
     "removePage": "Eliminar página",
     "pageLabel": "Página {number}"
   },
+  "CropPage": {
+    "title": "Recortar PDF",
+    "description": "Arrastra para seleccionar el área que quieres conservar y aplícala a una página o a todo el documento.",
+    "selectFile": "Selecciona un archivo PDF para recortar.",
+    "loadingPreview": "Cargando páginas...",
+    "error": "Se produjo un error al recortar.",
+    "cropping": "Recortando...",
+    "submit": "Recortar PDF",
+    "applyAllPages": "Aplicar a todas las páginas",
+    "applyCurrentPage": "Aplicar solo a esta página",
+    "pageIndicator": "Página {current} de {total}",
+    "instructionHint": "Arrastra el recuadro o sus esquinas para seleccionar el área de recorte."
+  },
+  "SignatureMakerPage": {
+    "title": "Creador de firmas",
+    "description": "Sube una foto de tu firma y eliminaremos el fondo para crear un PNG transparente.",
+    "selectFile": "Selecciona una foto de tu firma.",
+    "error": "Se produjo un error al procesar la imagen.",
+    "processing": "Procesando...",
+    "submit": "Crear firma",
+    "sensitivityLabel": "Sensibilidad de eliminación de fondo",
+    "sensitivityHint": "Valores más altos eliminan más fondo, pero también pueden borrar trazos tenues.",
+    "resultAlt": "Firma con el fondo eliminado"
+  },
   "LanguageSwitcher": {
     "label": "Idioma"
   },
   "FAQ": {
     "heading": "Preguntas frecuentes",
     "items": [
-      { "q": "¿Es gratis usar PDF Tools?", "a": "Sí, las 18 herramientas son completamente gratuitas y no requieren registro." },
+      { "q": "¿Es gratis usar PDF Tools?", "a": "Sí, las 20 herramientas son completamente gratuitas y no requieren registro." },
       { "q": "¿Necesito crear una cuenta?", "a": "No, puedes usar todas las herramientas de inmediato sin registrarte." },
       { "q": "¿Qué pasa con mis archivos subidos?", "a": "Los archivos se procesan en el servidor y se eliminan automáticamente justo después — no se guarda nada." },
       { "q": "¿Qué idiomas se admiten?", "a": "Coreano, inglés, japonés, chino (simplificado y tradicional), español, francés, alemán, portugués, ruso, italiano, neerlandés, polaco, sueco, turco, ucraniano, vietnamita, tailandés, indonesio, malayo, hindi, búlgaro, catalán, griego, suajili y árabe." },

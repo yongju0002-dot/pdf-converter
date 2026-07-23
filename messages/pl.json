@@ -57,7 +57,9 @@
     "html_to_pdf": { "name": "HTML na PDF", "description": "Konwertuj plik HTML na PDF" },
     "rotate_pdf": { "name": "Obróć PDF", "description": "Obróć wszystkie strony pliku PDF" },
     "page_numbers_pdf": { "name": "Dodaj numery stron", "description": "Dodaj numery stron do wszystkich stron pliku PDF" },
-    "organize_pdf": { "name": "Uporządkuj PDF", "description": "Zmień kolejność lub usuń strony w pliku PDF" }
+    "organize_pdf": { "name": "Uporządkuj PDF", "description": "Zmień kolejność lub usuń strony w pliku PDF" },
+    "crop_pdf": { "name": "Przytnij PDF", "description": "Przytnij marginesy lub wybierz obszar do przycięcia na stronach PDF" },
+    "signature_maker": { "name": "Generator podpisu", "description": "Zamień zdjęcie odręcznego podpisu w plik PNG z przezroczystym tłem" }
   },
   "MergePage": {
     "title": "Połącz PDF",
@@ -221,13 +223,37 @@
     "removePage": "Usuń stronę",
     "pageLabel": "Strona {number}"
   },
+  "CropPage": {
+    "title": "Przytnij PDF",
+    "description": "Przeciągnij, aby zaznaczyć obszar, który chcesz zachować, a następnie zastosuj go do jednej strony lub całego dokumentu.",
+    "selectFile": "Wybierz plik PDF do przycięcia.",
+    "loadingPreview": "Wczytywanie stron...",
+    "error": "Wystąpił błąd podczas przycinania.",
+    "cropping": "Przycinanie...",
+    "submit": "Przytnij PDF",
+    "applyAllPages": "Zastosuj do wszystkich stron",
+    "applyCurrentPage": "Zastosuj tylko do tej strony",
+    "pageIndicator": "Strona {current} z {total}",
+    "instructionHint": "Przeciągnij ramkę lub jej narożniki, aby wybrać obszar przycięcia."
+  },
+  "SignatureMakerPage": {
+    "title": "Generator podpisu",
+    "description": "Prześlij zdjęcie swojego podpisu, a my usuniemy tło, aby utworzyć przezroczysty plik PNG.",
+    "selectFile": "Wybierz zdjęcie swojego podpisu.",
+    "error": "Wystąpił błąd podczas przetwarzania obrazu.",
+    "processing": "Przetwarzanie...",
+    "submit": "Utwórz podpis",
+    "sensitivityLabel": "Czułość usuwania tła",
+    "sensitivityHint": "Wyższe wartości usuwają więcej tła, ale mogą też usunąć słabo widoczne kreski.",
+    "resultAlt": "Podpis z usuniętym tłem"
+  },
   "LanguageSwitcher": {
     "label": "Język"
   },
   "FAQ": {
     "heading": "Najczęściej zadawane pytania",
     "items": [
-      { "q": "Czy narzędzia PDF są bezpłatne?", "a": "Tak, wszystkie 18 narzędzi jest całkowicie bezpłatnych i nie wymaga rejestracji." },
+      { "q": "Czy narzędzia PDF są bezpłatne?", "a": "Tak, wszystkie 20 narzędzi jest całkowicie bezpłatnych i nie wymaga rejestracji." },
       { "q": "Czy muszę założyć konto?", "a": "Nie, możesz od razu korzystać ze wszystkich narzędzi bez rejestracji." },
       { "q": "Co się dzieje z przesłanymi plikami?", "a": "Pliki są przetwarzane na serwerze i automatycznie usuwane zaraz potem — nic nie jest przechowywane." },
       { "q": "Jakie języki są obsługiwane?", "a": "Koreański, angielski, japoński, chiński (uproszczony i tradycyjny), hiszpański, francuski, niemiecki, portugalski, rosyjski, włoski, niderlandzki, polski, szwedzki, turecki, ukraiński, wietnamski, tajski, indonezyjski, malajski, hindi, bułgarski, kataloński, grecki, suahili i arabski." },

@@ -57,7 +57,9 @@
     "html_to_pdf": { "name": "HTML naar PDF", "description": "Converteer een HTML-bestand naar PDF" },
     "rotate_pdf": { "name": "PDF roteren", "description": "Roteer alle pagina's van een PDF" },
     "page_numbers_pdf": { "name": "Paginanummers toevoegen", "description": "Voeg paginanummers toe aan alle pagina's van een PDF" },
-    "organize_pdf": { "name": "PDF organiseren", "description": "Herschik of verwijder pagina's in een PDF" }
+    "organize_pdf": { "name": "PDF organiseren", "description": "Herschik of verwijder pagina's in een PDF" },
+    "crop_pdf": { "name": "PDF bijsnijden", "description": "Marges bijsnijden of een gebied selecteren om uit PDF-pagina's te knippen" },
+    "signature_maker": { "name": "Handtekeningmaker", "description": "Zet een foto van je handgeschreven handtekening om in een PNG met transparante achtergrond" }
   },
   "MergePage": {
     "title": "PDF samenvoegen",
@@ -221,13 +223,37 @@
     "removePage": "Pagina verwijderen",
     "pageLabel": "Pagina {number}"
   },
+  "CropPage": {
+    "title": "PDF bijsnijden",
+    "description": "Sleep om het gebied te selecteren dat je wilt behouden en pas het toe op één pagina of het hele document.",
+    "selectFile": "Selecteer een PDF-bestand om bij te snijden.",
+    "loadingPreview": "Pagina's laden...",
+    "error": "Er is een fout opgetreden tijdens het bijsnijden.",
+    "cropping": "Bezig met bijsnijden...",
+    "submit": "PDF bijsnijden",
+    "applyAllPages": "Toepassen op alle pagina's",
+    "applyCurrentPage": "Alleen toepassen op deze pagina",
+    "pageIndicator": "Pagina {current} van {total}",
+    "instructionHint": "Sleep het vak of de hoeken ervan om het bijsnijdgebied te selecteren."
+  },
+  "SignatureMakerPage": {
+    "title": "Handtekeningmaker",
+    "description": "Upload een foto van je handtekening en wij verwijderen de achtergrond om een transparante PNG te maken.",
+    "selectFile": "Selecteer een foto van je handtekening.",
+    "error": "Er is een fout opgetreden bij het verwerken van de afbeelding.",
+    "processing": "Bezig met verwerken...",
+    "submit": "Handtekening maken",
+    "sensitivityLabel": "Gevoeligheid voor achtergrondverwijdering",
+    "sensitivityHint": "Hogere waarden verwijderen meer van de achtergrond, maar kunnen ook vage lijnen wegvagen.",
+    "resultAlt": "Handtekening met verwijderde achtergrond"
+  },
   "LanguageSwitcher": {
     "label": "Taal"
   },
   "FAQ": {
     "heading": "Veelgestelde vragen",
     "items": [
-      { "q": "Zijn de PDF-tools gratis te gebruiken?", "a": "Ja, alle 18 tools zijn volledig gratis en vereisen geen registratie." },
+      { "q": "Zijn de PDF-tools gratis te gebruiken?", "a": "Ja, alle 20 tools zijn volledig gratis en vereisen geen registratie." },
       { "q": "Moet ik een account aanmaken?", "a": "Nee, je kunt alle tools direct gebruiken zonder registratie." },
       { "q": "Wat gebeurt er met mijn geüploade bestanden?", "a": "Bestanden worden op de server verwerkt en direct daarna automatisch verwijderd — er wordt niets opgeslagen." },
       { "q": "Welke talen worden ondersteund?", "a": "Koreaans, Engels, Japans, Chinees (vereenvoudigd en traditioneel), Spaans, Frans, Duits, Portugees, Russisch, Italiaans, Nederlands, Pools, Zweeds, Turks, Oekraïens, Vietnamees, Thais, Indonesisch, Maleis, Hindi, Bulgaars, Catalaans, Grieks, Swahili en Arabisch." },

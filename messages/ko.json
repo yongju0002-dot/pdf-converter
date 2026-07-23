@@ -57,7 +57,9 @@
     "html_to_pdf": { "name": "HTML → PDF", "description": "HTML 파일을 PDF로 변환합니다" },
     "rotate_pdf": { "name": "PDF 회전", "description": "PDF의 모든 페이지를 회전합니다" },
     "page_numbers_pdf": { "name": "페이지 번호 추가", "description": "PDF의 모든 페이지에 페이지 번호를 추가합니다" },
-    "organize_pdf": { "name": "PDF 구성", "description": "PDF의 페이지 순서를 바꾸거나 삭제합니다" }
+    "organize_pdf": { "name": "PDF 구성", "description": "PDF의 페이지 순서를 바꾸거나 삭제합니다" },
+    "crop_pdf": { "name": "PDF 자르기", "description": "PDF 페이지의 여백을 자르거나 원하는 영역만 선택해서 잘라냅니다" },
+    "signature_maker": { "name": "서명 이미지 생성기", "description": "손글씨 서명 사진을 배경이 투명한 PNG로 만들어줍니다" }
   },
   "MergePage": {
     "title": "PDF 병합",
@@ -221,13 +223,37 @@
     "removePage": "페이지 삭제",
     "pageLabel": "{number}페이지"
   },
+  "CropPage": {
+    "title": "PDF 자르기",
+    "description": "남길 영역을 드래그로 선택한 후, 한 페이지 또는 문서 전체에 적용하세요.",
+    "selectFile": "자를 PDF 파일을 선택해주세요.",
+    "loadingPreview": "페이지를 불러오는 중...",
+    "error": "자르는 중 오류가 발생했습니다.",
+    "cropping": "자르는 중...",
+    "submit": "PDF 자르기",
+    "applyAllPages": "모든 페이지에 적용",
+    "applyCurrentPage": "현재 페이지만 적용",
+    "pageIndicator": "{total}페이지 중 {current}페이지",
+    "instructionHint": "박스나 모서리를 드래그해서 자를 영역을 선택하세요."
+  },
+  "SignatureMakerPage": {
+    "title": "서명 이미지 생성기",
+    "description": "서명 사진을 올리면 배경을 제거해서 투명한 PNG로 만들어드립니다.",
+    "selectFile": "서명 사진을 선택해주세요.",
+    "error": "이미지를 처리하는 중 오류가 발생했습니다.",
+    "processing": "처리하는 중...",
+    "submit": "서명 만들기",
+    "sensitivityLabel": "배경 제거 민감도",
+    "sensitivityHint": "값이 높을수록 배경을 더 많이 제거하지만, 흐린 필체는 함께 지워질 수 있습니다.",
+    "resultAlt": "배경이 제거된 서명"
+  },
   "LanguageSwitcher": {
     "label": "언어"
   },
   "FAQ": {
     "heading": "자주 묻는 질문",
     "items": [
-      { "q": "PDF도구는 무료인가요?", "a": "네, 18개 도구 모두 완전히 무료이며 회원가입도 필요 없습니다." },
+      { "q": "PDF도구는 무료인가요?", "a": "네, 20개 도구 모두 완전히 무료이며 회원가입도 필요 없습니다." },
       { "q": "회원가입이 필요한가요?", "a": "아니요, 가입 없이 바로 모든 기능을 이용할 수 있습니다." },
       { "q": "업로드한 파일은 어떻게 되나요?", "a": "서버에서 처리 후 자동으로 즉시 삭제되며, 별도로 저장되지 않습니다." },
       { "q": "어떤 언어를 지원하나요?", "a": "한국어, 영어, 일본어, 중국어(간체/번체), 스페인어, 프랑스어, 독일어, 포르투갈어, 러시아어, 이탈리아어, 네덜란드어, 폴란드어, 스웨덴어, 튀르키예어, 우크라이나어, 베트남어, 태국어, 인도네시아어, 말레이어, 힌디어, 불가리아어, 카탈로니아어, 그리스어, 스와힐리어, 아랍어를 지원합니다." },

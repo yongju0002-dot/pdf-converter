@@ -1,6 +1,7 @@
 import {
   ArrowUpDown,
   Combine,
+  Crop,
   Droplets,
   FileCode,
   FileImage,
@@ -16,6 +17,7 @@ import {
   RotateCw,
   Scissors,
   Shrink,
+  Signature,
   type LucideIcon,
 } from "lucide-react";
 
@@ -133,6 +135,13 @@ export const tools: Tool[] = [
   {
     slug: "organize_pdf",
     icon: ArrowUpDown,
+    available: true,
+    category: "edit",
+  },
+  { slug: "crop_pdf", icon: Crop, available: true, category: "edit" },
+  {
+    slug: "signature_maker",
+    icon: Signature,
     available: true,
     category: "edit",
   },

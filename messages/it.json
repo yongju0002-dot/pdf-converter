@@ -57,7 +57,9 @@
     "html_to_pdf": { "name": "HTML in PDF", "description": "Converti un file HTML in PDF" },
     "rotate_pdf": { "name": "Ruota PDF", "description": "Ruota tutte le pagine di un PDF" },
     "page_numbers_pdf": { "name": "Aggiungi numeri di pagina", "description": "Aggiungi numeri di pagina a tutte le pagine di un PDF" },
-    "organize_pdf": { "name": "Organizza PDF", "description": "Riordina o rimuovi pagine da un PDF" }
+    "organize_pdf": { "name": "Organizza PDF", "description": "Riordina o rimuovi pagine da un PDF" },
+    "crop_pdf": { "name": "Ritaglia PDF", "description": "Ritaglia i margini o seleziona un'area da ritagliare dalle pagine del PDF" },
+    "signature_maker": { "name": "Creatore di firme", "description": "Trasforma una foto della tua firma scritta a mano in un PNG con sfondo trasparente" }
   },
   "MergePage": {
     "title": "Unisci PDF",
@@ -221,13 +223,37 @@
     "removePage": "Rimuovi pagina",
     "pageLabel": "Pagina {number}"
   },
+  "CropPage": {
+    "title": "Ritaglia PDF",
+    "description": "Trascina per selezionare l'area da mantenere, quindi applicala a una pagina o all'intero documento.",
+    "selectFile": "Seleziona un file PDF da ritagliare.",
+    "loadingPreview": "Caricamento delle pagine...",
+    "error": "Si è verificato un errore durante il ritaglio.",
+    "cropping": "Ritaglio in corso...",
+    "submit": "Ritaglia PDF",
+    "applyAllPages": "Applica a tutte le pagine",
+    "applyCurrentPage": "Applica solo a questa pagina",
+    "pageIndicator": "Pagina {current} di {total}",
+    "instructionHint": "Trascina il riquadro o i suoi angoli per selezionare l'area di ritaglio."
+  },
+  "SignatureMakerPage": {
+    "title": "Creatore di firme",
+    "description": "Carica una foto della tua firma e rimuoveremo lo sfondo per creare un PNG trasparente.",
+    "selectFile": "Seleziona una foto della tua firma.",
+    "error": "Si è verificato un errore durante l'elaborazione dell'immagine.",
+    "processing": "Elaborazione in corso...",
+    "submit": "Crea firma",
+    "sensitivityLabel": "Sensibilità di rimozione dello sfondo",
+    "sensitivityHint": "Valori più alti rimuovono più sfondo, ma possono anche cancellare tratti tenui.",
+    "resultAlt": "Firma con sfondo rimosso"
+  },
   "LanguageSwitcher": {
     "label": "Lingua"
   },
   "FAQ": {
     "heading": "Domande frequenti",
     "items": [
-      { "q": "Gli Strumenti PDF sono gratuiti?", "a": "Sì, tutti i 18 strumenti sono completamente gratuiti e non richiedono registrazione." },
+      { "q": "Gli Strumenti PDF sono gratuiti?", "a": "Sì, tutti i 20 strumenti sono completamente gratuiti e non richiedono registrazione." },
       { "q": "Devo creare un account?", "a": "No, puoi usare tutti gli strumenti immediatamente senza registrarti." },
       { "q": "Cosa succede ai miei file caricati?", "a": "I file vengono elaborati sul server ed eliminati automaticamente subito dopo — non viene conservato nulla." },
       { "q": "Quali lingue sono supportate?", "a": "Coreano, inglese, giapponese, cinese (semplificato e tradizionale), spagnolo, francese, tedesco, portoghese, russo, italiano, olandese, polacco, svedese, turco, ucraino, vietnamita, tailandese, indonesiano, malese, hindi, bulgaro, catalano, greco, swahili e arabo." },

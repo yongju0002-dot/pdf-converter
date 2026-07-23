@@ -57,7 +57,9 @@
     "html_to_pdf": { "name": "HTML'den PDF'e", "description": "Bir HTML dosyasını PDF'e dönüştürün" },
     "rotate_pdf": { "name": "PDF Döndür", "description": "Bir PDF'teki tüm sayfaları döndürün" },
     "page_numbers_pdf": { "name": "Sayfa Numarası Ekle", "description": "Bir PDF'in tüm sayfalarına sayfa numarası ekleyin" },
-    "organize_pdf": { "name": "PDF Düzenle", "description": "Bir PDF'teki sayfaları yeniden sıralayın veya kaldırın" }
+    "organize_pdf": { "name": "PDF Düzenle", "description": "Bir PDF'teki sayfaları yeniden sıralayın veya kaldırın" },
+    "crop_pdf": { "name": "PDF Kırp", "description": "PDF sayfalarının kenar boşluklarını kırpın veya kırpılacak bir alan seçin" },
+    "signature_maker": { "name": "İmza Oluşturucu", "description": "El yazısı imzanızın fotoğrafını şeffaf arka planlı bir PNG'ye dönüştürün" }
   },
   "MergePage": {
     "title": "PDF Birleştir",
@@ -221,13 +223,37 @@
     "removePage": "Sayfayı Kaldır",
     "pageLabel": "Sayfa {number}"
   },
+  "CropPage": {
+    "title": "PDF Kırp",
+    "description": "Korumak istediğiniz alanı sürükleyerek seçin, ardından tek bir sayfaya veya tüm belgeye uygulayın.",
+    "selectFile": "Kırpılacak bir PDF dosyası seçin.",
+    "loadingPreview": "Sayfalar yükleniyor...",
+    "error": "Kırpma sırasında bir hata oluştu.",
+    "cropping": "Kırpılıyor...",
+    "submit": "PDF'i Kırp",
+    "applyAllPages": "Tüm sayfalara uygula",
+    "applyCurrentPage": "Yalnızca bu sayfaya uygula",
+    "pageIndicator": "{total} sayfadan {current}. sayfa",
+    "instructionHint": "Kırpma alanını seçmek için kutuyu veya köşelerini sürükleyin."
+  },
+  "SignatureMakerPage": {
+    "title": "İmza Oluşturucu",
+    "description": "İmzanızın bir fotoğrafını yükleyin, arka planı kaldırıp şeffaf bir PNG oluşturalım.",
+    "selectFile": "İmzanızın bir fotoğrafını seçin.",
+    "error": "Görsel işlenirken bir hata oluştu.",
+    "processing": "İşleniyor...",
+    "submit": "İmza Oluştur",
+    "sensitivityLabel": "Arka plan kaldırma hassasiyeti",
+    "sensitivityHint": "Daha yüksek değerler arka planın daha fazlasını kaldırır, ancak soluk çizgileri de silebilir.",
+    "resultAlt": "Arka planı kaldırılmış imza"
+  },
   "LanguageSwitcher": {
     "label": "Dil"
   },
   "FAQ": {
     "heading": "Sıkça Sorulan Sorular",
     "items": [
-      { "q": "PDF araçlarını kullanmak ücretsiz mi?", "a": "Evet, 18 aracın tamamı tamamen ücretsizdir ve kayıt gerektirmez." },
+      { "q": "PDF araçlarını kullanmak ücretsiz mi?", "a": "Evet, 20 aracın tamamı tamamen ücretsizdir ve kayıt gerektirmez." },
       { "q": "Bir hesap oluşturmam gerekiyor mu?", "a": "Hayır, kayıt olmadan tüm araçları doğrudan kullanabilirsiniz." },
       { "q": "Yüklediğim dosyalara ne olur?", "a": "Dosyalar sunucuda işlenir ve hemen ardından otomatik olarak silinir — hiçbir şey saklanmaz." },
       { "q": "Hangi diller destekleniyor?", "a": "Korece, İngilizce, Japonca, Çince (basitleştirilmiş ve geleneksel), İspanyolca, Fransızca, Almanca, Portekizce, Rusça, İtalyanca, Felemenkçe, Lehçe, İsveççe, Türkçe, Ukraynaca, Vietnamca, Tayca, Endonezce, Malayca, Hintçe, Bulgarca, Katalanca, Yunanca, Svahili ve Arapça." },

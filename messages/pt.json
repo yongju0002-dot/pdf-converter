@@ -57,7 +57,9 @@
     "html_to_pdf": { "name": "HTML para PDF", "description": "Converta um arquivo HTML em PDF" },
     "rotate_pdf": { "name": "Girar PDF", "description": "Gire todas as páginas de um PDF" },
     "page_numbers_pdf": { "name": "Adicionar números de página", "description": "Adicione números de página a todas as páginas de um PDF" },
-    "organize_pdf": { "name": "Organizar PDF", "description": "Reordene ou remova páginas de um PDF" }
+    "organize_pdf": { "name": "Organizar PDF", "description": "Reordene ou remova páginas de um PDF" },
+    "crop_pdf": { "name": "Cortar PDF", "description": "Corte as margens ou selecione uma área para recortar das páginas do PDF" },
+    "signature_maker": { "name": "Criador de assinatura", "description": "Transforme uma foto da sua assinatura manuscrita em um PNG com fundo transparente" }
   },
   "MergePage": {
     "title": "Unir PDF",
@@ -221,13 +223,37 @@
     "removePage": "Remover página",
     "pageLabel": "Página {number}"
   },
+  "CropPage": {
+    "title": "Cortar PDF",
+    "description": "Arraste para selecionar a área que deseja manter e aplique-a a uma página ou a todo o documento.",
+    "selectFile": "Selecione um arquivo PDF para cortar.",
+    "loadingPreview": "Carregando páginas...",
+    "error": "Ocorreu um erro ao cortar.",
+    "cropping": "Cortando...",
+    "submit": "Cortar PDF",
+    "applyAllPages": "Aplicar a todas as páginas",
+    "applyCurrentPage": "Aplicar somente a esta página",
+    "pageIndicator": "Página {current} de {total}",
+    "instructionHint": "Arraste a caixa ou seus cantos para selecionar a área de corte."
+  },
+  "SignatureMakerPage": {
+    "title": "Criador de assinatura",
+    "description": "Envie uma foto da sua assinatura e removeremos o fundo para criar um PNG transparente.",
+    "selectFile": "Selecione uma foto da sua assinatura.",
+    "error": "Ocorreu um erro ao processar a imagem.",
+    "processing": "Processando...",
+    "submit": "Criar assinatura",
+    "sensitivityLabel": "Sensibilidade de remoção de fundo",
+    "sensitivityHint": "Valores mais altos removem mais o fundo, mas também podem apagar traços fracos.",
+    "resultAlt": "Assinatura com o fundo removido"
+  },
   "LanguageSwitcher": {
     "label": "Idioma"
   },
   "FAQ": {
     "heading": "Perguntas frequentes",
     "items": [
-      { "q": "As Ferramentas PDF são gratuitas?", "a": "Sim, todas as 18 ferramentas são totalmente gratuitas e não exigem cadastro." },
+      { "q": "As Ferramentas PDF são gratuitas?", "a": "Sim, todas as 20 ferramentas são totalmente gratuitas e não exigem cadastro." },
       { "q": "Preciso criar uma conta?", "a": "Não, você pode usar todas as ferramentas imediatamente, sem se cadastrar." },
       { "q": "O que acontece com meus arquivos enviados?", "a": "Os arquivos são processados no servidor e excluídos automaticamente logo depois — nada é armazenado." },
       { "q": "Quais idiomas são suportados?", "a": "Coreano, inglês, japonês, chinês (simplificado e tradicional), espanhol, francês, alemão, português, russo, italiano, neerlandês, polonês, sueco, turco, ucraniano, vietnamita, tailandês, indonésio, malaio, hindi, búlgaro, catalão, grego, suaíli e árabe." },

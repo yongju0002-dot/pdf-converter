@@ -57,7 +57,9 @@
     "html_to_pdf": { "name": "HTML en PDF", "description": "Convertissez un fichier HTML en PDF" },
     "rotate_pdf": { "name": "Faire pivoter un PDF", "description": "Faites pivoter toutes les pages d'un PDF" },
     "page_numbers_pdf": { "name": "Ajouter des numéros de page", "description": "Ajoutez des numéros de page à toutes les pages d'un PDF" },
-    "organize_pdf": { "name": "Organiser un PDF", "description": "Réorganisez ou supprimez des pages d'un PDF" }
+    "organize_pdf": { "name": "Organiser un PDF", "description": "Réorganisez ou supprimez des pages d'un PDF" },
+    "crop_pdf": { "name": "Rogner PDF", "description": "Rognez les marges ou sélectionnez une zone à découper sur les pages du PDF" },
+    "signature_maker": { "name": "Créateur de signature", "description": "Transformez une photo de votre signature manuscrite en PNG à fond transparent" }
   },
   "MergePage": {
     "title": "Fusionner un PDF",
@@ -221,13 +223,37 @@
     "removePage": "Supprimer la page",
     "pageLabel": "Page {number}"
   },
+  "CropPage": {
+    "title": "Rogner PDF",
+    "description": "Faites glisser pour sélectionner la zone à conserver, puis appliquez-la à une page ou à tout le document.",
+    "selectFile": "Sélectionnez un fichier PDF à rogner.",
+    "loadingPreview": "Chargement des pages...",
+    "error": "Une erreur s'est produite lors du rognage.",
+    "cropping": "Rognage en cours...",
+    "submit": "Rogner le PDF",
+    "applyAllPages": "Appliquer à toutes les pages",
+    "applyCurrentPage": "Appliquer à cette page uniquement",
+    "pageIndicator": "Page {current} sur {total}",
+    "instructionHint": "Faites glisser le cadre ou ses coins pour sélectionner la zone de rognage."
+  },
+  "SignatureMakerPage": {
+    "title": "Créateur de signature",
+    "description": "Téléchargez une photo de votre signature et nous supprimerons le fond pour créer un PNG transparent.",
+    "selectFile": "Sélectionnez une photo de votre signature.",
+    "error": "Une erreur s'est produite lors du traitement de l'image.",
+    "processing": "Traitement en cours...",
+    "submit": "Créer la signature",
+    "sensitivityLabel": "Sensibilité de suppression du fond",
+    "sensitivityHint": "Des valeurs plus élevées suppriment davantage le fond, mais peuvent aussi effacer les traits légers.",
+    "resultAlt": "Signature avec fond supprimé"
+  },
   "LanguageSwitcher": {
     "label": "Langue"
   },
   "FAQ": {
     "heading": "Questions fréquentes",
     "items": [
-      { "q": "Les outils PDF sont-ils gratuits ?", "a": "Oui, les 18 outils sont entièrement gratuits et ne nécessitent aucune inscription." },
+      { "q": "Les outils PDF sont-ils gratuits ?", "a": "Oui, les 20 outils sont entièrement gratuits et ne nécessitent aucune inscription." },
       { "q": "Dois-je créer un compte ?", "a": "Non, vous pouvez utiliser tous les outils immédiatement sans vous inscrire." },
       { "q": "Que deviennent mes fichiers téléchargés ?", "a": "Les fichiers sont traités sur le serveur puis supprimés automatiquement juste après — rien n'est conservé." },
       { "q": "Quelles langues sont prises en charge ?", "a": "Coréen, anglais, japonais, chinois (simplifié et traditionnel), espagnol, français, allemand, portugais, russe, italien, néerlandais, polonais, suédois, turc, ukrainien, vietnamien, thaï, indonésien, malais, hindi, bulgare, catalan, grec, swahili et arabe." },

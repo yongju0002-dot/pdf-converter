@@ -57,7 +57,9 @@
     "html_to_pdf": { "name": "HTML kwenda PDF", "description": "Badilisha faili ya HTML kuwa PDF" },
     "rotate_pdf": { "name": "Zungusha PDF", "description": "Zungusha kurasa zote za PDF" },
     "page_numbers_pdf": { "name": "Ongeza Nambari za Ukurasa", "description": "Ongeza nambari za ukurasa kwenye kurasa zote za PDF" },
-    "organize_pdf": { "name": "Panga PDF", "description": "Panga upya au ondoa kurasa kwenye PDF" }
+    "organize_pdf": { "name": "Panga PDF", "description": "Panga upya au ondoa kurasa kwenye PDF" },
+    "crop_pdf": { "name": "Punguza PDF", "description": "Punguza pambizo au chagua eneo la kupunguza kutoka kwenye kurasa za PDF" },
+    "signature_maker": { "name": "Kitengenezea Sahihi", "description": "Badilisha picha ya sahihi yako ya mkono kuwa PNG yenye mandharinyuma ya wazi" }
   },
   "MergePage": {
     "title": "Unganisha PDF",
@@ -221,13 +223,37 @@
     "removePage": "Ondoa Ukurasa",
     "pageLabel": "Ukurasa {number}"
   },
+  "CropPage": {
+    "title": "Punguza PDF",
+    "description": "Buruta ili kuchagua eneo unalotaka kubaki, kisha litumie kwa ukurasa mmoja au hati nzima.",
+    "selectFile": "Chagua faili ya PDF ya kupunguza.",
+    "loadingPreview": "Inapakia kurasa...",
+    "error": "Hitilafu ilitokea wakati wa kupunguza.",
+    "cropping": "Inapunguza...",
+    "submit": "Punguza PDF",
+    "applyAllPages": "Tumia kwa kurasa zote",
+    "applyCurrentPage": "Tumia kwa ukurasa huu tu",
+    "pageIndicator": "Ukurasa {current} kati ya {total}",
+    "instructionHint": "Buruta kisanduku au pembe zake kuchagua eneo la kupunguza."
+  },
+  "SignatureMakerPage": {
+    "title": "Kitengenezea Sahihi",
+    "description": "Pakia picha ya sahihi yako na tutaondoa mandharinyuma ili kutengeneza PNG ya wazi.",
+    "selectFile": "Chagua picha ya sahihi yako.",
+    "error": "Hitilafu ilitokea wakati wa kusindika picha.",
+    "processing": "Inasindika...",
+    "submit": "Tengeneza Sahihi",
+    "sensitivityLabel": "Usikivu wa kuondoa mandharinyuma",
+    "sensitivityHint": "Thamani za juu huondoa mandharinyuma zaidi, lakini pia zinaweza kufuta michoro hafifu.",
+    "resultAlt": "Sahihi yenye mandharinyuma yaliyoondolewa"
+  },
   "LanguageSwitcher": {
     "label": "Lugha"
   },
   "FAQ": {
     "heading": "Maswali Yanayoulizwa Mara kwa Mara",
     "items": [
-      { "q": "Je, zana za PDF ni bure kutumia?", "a": "Ndiyo, zana zote 18 ni bure kabisa na hazihitaji usajili." },
+      { "q": "Je, zana za PDF ni bure kutumia?", "a": "Ndiyo, zana zote 20 ni bure kabisa na hazihitaji usajili." },
       { "q": "Je, ninahitaji kuunda akaunti?", "a": "Hapana, unaweza kutumia zana zote moja kwa moja bila kujisajili." },
       { "q": "Nini kinatokea kwa faili nilizopakia?", "a": "Faili zinasindikwa kwenye seva na kufutwa kiotomatiki mara baada ya hapo — hakuna kinachohifadhiwa." },
       { "q": "Ni lugha zipi zinazotumika?", "a": "Kikorea, Kiingereza, Kijapani, Kichina (rahisi na cha jadi), Kihispania, Kifaransa, Kijerumani, Kireno, Kirusi, Kiitaliano, Kiholanzi, Kipolandi, Kiswidi, Kituruki, Kiukreni, Kivietinamu, Kithai, Kiindonesia, Kimalesia, Kihindi, Kibulgaria, Kikatalani, Kigiriki, Kiswahili na Kiarabu." },

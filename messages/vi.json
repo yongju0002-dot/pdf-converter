@@ -57,7 +57,9 @@
     "html_to_pdf": { "name": "HTML sang PDF", "description": "Chuyển đổi tệp HTML thành PDF" },
     "rotate_pdf": { "name": "Xoay PDF", "description": "Xoay tất cả các trang trong một PDF" },
     "page_numbers_pdf": { "name": "Thêm số trang", "description": "Thêm số trang vào tất cả các trang của PDF" },
-    "organize_pdf": { "name": "Sắp xếp PDF", "description": "Sắp xếp lại hoặc xóa các trang trong PDF" }
+    "organize_pdf": { "name": "Sắp xếp PDF", "description": "Sắp xếp lại hoặc xóa các trang trong PDF" },
+    "crop_pdf": { "name": "Cắt PDF", "description": "Cắt lề hoặc chọn một vùng để cắt từ các trang PDF" },
+    "signature_maker": { "name": "Tạo chữ ký", "description": "Biến ảnh chụp chữ ký viết tay của bạn thành PNG có nền trong suốt" }
   },
   "MergePage": {
     "title": "Ghép PDF",
@@ -221,13 +223,37 @@
     "removePage": "Xóa trang",
     "pageLabel": "Trang {number}"
   },
+  "CropPage": {
+    "title": "Cắt PDF",
+    "description": "Kéo để chọn vùng bạn muốn giữ lại, sau đó áp dụng cho một trang hoặc toàn bộ tài liệu.",
+    "selectFile": "Chọn một tệp PDF để cắt.",
+    "loadingPreview": "Đang tải các trang...",
+    "error": "Đã xảy ra lỗi khi cắt.",
+    "cropping": "Đang cắt...",
+    "submit": "Cắt PDF",
+    "applyAllPages": "Áp dụng cho tất cả các trang",
+    "applyCurrentPage": "Chỉ áp dụng cho trang này",
+    "pageIndicator": "Trang {current} / {total}",
+    "instructionHint": "Kéo khung hoặc các góc của khung để chọn vùng cắt."
+  },
+  "SignatureMakerPage": {
+    "title": "Tạo chữ ký",
+    "description": "Tải lên ảnh chữ ký của bạn, chúng tôi sẽ xóa nền để tạo tệp PNG trong suốt.",
+    "selectFile": "Chọn ảnh chữ ký của bạn.",
+    "error": "Đã xảy ra lỗi khi xử lý hình ảnh.",
+    "processing": "Đang xử lý...",
+    "submit": "Tạo chữ ký",
+    "sensitivityLabel": "Độ nhạy xóa nền",
+    "sensitivityHint": "Giá trị càng cao thì càng xóa nhiều nền, nhưng cũng có thể xóa mất các nét mờ.",
+    "resultAlt": "Chữ ký đã xóa nền"
+  },
   "LanguageSwitcher": {
     "label": "Ngôn ngữ"
   },
   "FAQ": {
     "heading": "Câu hỏi thường gặp",
     "items": [
-      { "q": "Các công cụ PDF có miễn phí sử dụng không?", "a": "Có, tất cả 18 công cụ đều hoàn toàn miễn phí và không yêu cầu đăng ký." },
+      { "q": "Các công cụ PDF có miễn phí sử dụng không?", "a": "Có, tất cả 20 công cụ đều hoàn toàn miễn phí và không yêu cầu đăng ký." },
       { "q": "Tôi có cần tạo tài khoản không?", "a": "Không, bạn có thể sử dụng tất cả các công cụ ngay lập tức mà không cần đăng ký." },
       { "q": "Điều gì xảy ra với các tệp tôi đã tải lên?", "a": "Các tệp được xử lý trên máy chủ và tự động bị xóa ngay sau đó — không có gì được lưu trữ." },
       { "q": "Những ngôn ngữ nào được hỗ trợ?", "a": "Tiếng Hàn, tiếng Anh, tiếng Nhật, tiếng Trung (giản thể và phồn thể), tiếng Tây Ban Nha, tiếng Pháp, tiếng Đức, tiếng Bồ Đào Nha, tiếng Nga, tiếng Ý, tiếng Hà Lan, tiếng Ba Lan, tiếng Thụy Điển, tiếng Thổ Nhĩ Kỳ, tiếng Ukraina, tiếng Việt, tiếng Thái, tiếng Indonesia, tiếng Mã Lai, tiếng Hindi, tiếng Bulgaria, tiếng Catalan, tiếng Hy Lạp, tiếng Swahili và tiếng Ả Rập." },

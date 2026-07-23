@@ -57,7 +57,9 @@
     "html_to_pdf": { "name": "HTML to PDF", "description": "Convert an HTML file to PDF" },
     "rotate_pdf": { "name": "Rotate PDF", "description": "Rotate every page of a PDF" },
     "page_numbers_pdf": { "name": "Add Page Numbers", "description": "Add page numbers to every page of a PDF" },
-    "organize_pdf": { "name": "Organize PDF", "description": "Reorder or remove pages in a PDF" }
+    "organize_pdf": { "name": "Organize PDF", "description": "Reorder or remove pages in a PDF" },
+    "crop_pdf": { "name": "Crop PDF", "description": "Trim margins or select an area to crop from PDF pages" },
+    "signature_maker": { "name": "Signature Maker", "description": "Turn a photo of your handwritten signature into a transparent PNG" }
   },
   "MergePage": {
     "title": "Merge PDF",
@@ -221,13 +223,37 @@
     "removePage": "Remove page",
     "pageLabel": "Page {number}"
   },
+  "CropPage": {
+    "title": "Crop PDF",
+    "description": "Drag to select the area you want to keep, then apply it to one page or the whole document.",
+    "selectFile": "Select a PDF file to crop.",
+    "loadingPreview": "Loading pages...",
+    "error": "An error occurred while cropping.",
+    "cropping": "Cropping...",
+    "submit": "Crop PDF",
+    "applyAllPages": "Apply to all pages",
+    "applyCurrentPage": "Apply to this page only",
+    "pageIndicator": "Page {current} of {total}",
+    "instructionHint": "Drag the box or its corners to select the crop area."
+  },
+  "SignatureMakerPage": {
+    "title": "Signature Maker",
+    "description": "Upload a photo of your signature and we'll remove the background to create a transparent PNG.",
+    "selectFile": "Select a photo of your signature.",
+    "error": "An error occurred while processing the image.",
+    "processing": "Processing...",
+    "submit": "Create Signature",
+    "sensitivityLabel": "Background removal sensitivity",
+    "sensitivityHint": "Higher values remove more of the background, but may also erase faint strokes.",
+    "resultAlt": "Signature with background removed"
+  },
   "LanguageSwitcher": {
     "label": "Language"
   },
   "FAQ": {
     "heading": "Frequently Asked Questions",
     "items": [
-      { "q": "Is PDF Tools free to use?", "a": "Yes, all 18 tools are completely free with no sign-up required." },
+      { "q": "Is PDF Tools free to use?", "a": "Yes, all 20 tools are completely free with no sign-up required." },
       { "q": "Do I need to create an account?", "a": "No, you can use every tool right away without signing up." },
       { "q": "What happens to my uploaded files?", "a": "Files are processed on the server and deleted automatically right afterward — nothing is stored." },
       { "q": "What languages are supported?", "a": "Korean, English, Japanese, Chinese (Simplified & Traditional), Spanish, French, German, Portuguese, Russian, Italian, Dutch, Polish, Swedish, Turkish, Ukrainian, Vietnamese, Thai, Indonesian, Malay, Hindi, Bulgarian, Catalan, Greek, Swahili, and Arabic." },

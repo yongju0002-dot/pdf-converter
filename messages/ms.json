@@ -57,7 +57,9 @@
     "html_to_pdf": { "name": "HTML kepada PDF", "description": "Tukar fail HTML menjadi PDF" },
     "rotate_pdf": { "name": "Putar PDF", "description": "Putar semua halaman dalam PDF" },
     "page_numbers_pdf": { "name": "Tambah Nombor Halaman", "description": "Tambah nombor halaman pada semua halaman PDF" },
-    "organize_pdf": { "name": "Susun PDF", "description": "Susun semula atau buang halaman dalam PDF" }
+    "organize_pdf": { "name": "Susun PDF", "description": "Susun semula atau buang halaman dalam PDF" },
+    "crop_pdf": { "name": "Pangkas PDF", "description": "Pangkas jidar atau pilih kawasan untuk dipangkas daripada halaman PDF" },
+    "signature_maker": { "name": "Penjana Tandatangan", "description": "Tukar foto tandatangan tulisan tangan anda kepada PNG berlatar belakang lut sinar" }
   },
   "MergePage": {
     "title": "Gabung PDF",
@@ -221,13 +223,37 @@
     "removePage": "Buang Halaman",
     "pageLabel": "Halaman {number}"
   },
+  "CropPage": {
+    "title": "Pangkas PDF",
+    "description": "Seret untuk memilih kawasan yang ingin dikekalkan, kemudian gunakannya pada satu halaman atau keseluruhan dokumen.",
+    "selectFile": "Pilih fail PDF untuk dipangkas.",
+    "loadingPreview": "Memuatkan halaman...",
+    "error": "Ralat berlaku semasa memangkas.",
+    "cropping": "Memangkas...",
+    "submit": "Pangkas PDF",
+    "applyAllPages": "Guna pada semua halaman",
+    "applyCurrentPage": "Guna pada halaman ini sahaja",
+    "pageIndicator": "Halaman {current} daripada {total}",
+    "instructionHint": "Seret kotak atau sudutnya untuk memilih kawasan pangkasan."
+  },
+  "SignatureMakerPage": {
+    "title": "Penjana Tandatangan",
+    "description": "Muat naik foto tandatangan anda dan kami akan membuang latar belakang untuk menghasilkan PNG lut sinar.",
+    "selectFile": "Pilih foto tandatangan anda.",
+    "error": "Ralat berlaku semasa memproses imej.",
+    "processing": "Memproses...",
+    "submit": "Jana Tandatangan",
+    "sensitivityLabel": "Kepekaan penyingkiran latar belakang",
+    "sensitivityHint": "Nilai yang lebih tinggi membuang lebih banyak latar belakang, tetapi juga mungkin memadam kesan tulisan yang pudar.",
+    "resultAlt": "Tandatangan dengan latar belakang dibuang"
+  },
   "LanguageSwitcher": {
     "label": "Bahasa"
   },
   "FAQ": {
     "heading": "Soalan Lazim",
     "items": [
-      { "q": "Adakah alat PDF ini percuma digunakan?", "a": "Ya, kesemua 18 alat adalah percuma sepenuhnya dan tidak memerlukan pendaftaran." },
+      { "q": "Adakah alat PDF ini percuma digunakan?", "a": "Ya, kesemua 20 alat adalah percuma sepenuhnya dan tidak memerlukan pendaftaran." },
       { "q": "Adakah saya perlu mencipta akaun?", "a": "Tidak, anda boleh terus menggunakan semua alat tanpa mendaftar." },
       { "q": "Apakah yang berlaku kepada fail yang saya muat naik?", "a": "Fail diproses di pelayan dan dipadam secara automatik sejurus selepas itu — tiada apa yang disimpan." },
       { "q": "Bahasa apakah yang disokong?", "a": "Korea, Inggeris, Jepun, Cina (ringkas dan tradisional), Sepanyol, Perancis, Jerman, Portugis, Rusia, Itali, Belanda, Poland, Sweden, Turki, Ukraine, Vietnam, Thai, Indonesia, Melayu, Hindi, Bulgaria, Catalan, Yunani, Swahili dan Arab." },

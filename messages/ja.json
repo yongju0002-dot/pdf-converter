@@ -57,7 +57,9 @@
     "html_to_pdf": { "name": "HTML → PDF", "description": "HTMLファイルをPDFに変換します" },
     "rotate_pdf": { "name": "PDF回転", "description": "PDFのすべてのページを回転します" },
     "page_numbers_pdf": { "name": "ページ番号を追加", "description": "PDFのすべてのページにページ番号を追加します" },
-    "organize_pdf": { "name": "PDF構成", "description": "PDFのページの順序を変更したり削除したりします" }
+    "organize_pdf": { "name": "PDF構成", "description": "PDFのページの順序を変更したり削除したりします" },
+    "crop_pdf": { "name": "PDFトリミング", "description": "PDFページの余白を切り取ったり、指定した範囲だけを切り抜きます" },
+    "signature_maker": { "name": "署名画像メーカー", "description": "手書き署名の写真を背景透明のPNG画像に変換します" }
   },
   "MergePage": {
     "title": "PDF結合",
@@ -221,13 +223,37 @@
     "removePage": "ページを削除",
     "pageLabel": "{number}ページ目"
   },
+  "CropPage": {
+    "title": "PDFトリミング",
+    "description": "残したい範囲をドラッグで選択し、1ページまたは文書全体に適用してください。",
+    "selectFile": "トリミングするPDFファイルを選択してください。",
+    "loadingPreview": "ページを読み込んでいます...",
+    "error": "トリミング中にエラーが発生しました。",
+    "cropping": "トリミング中...",
+    "submit": "PDFをトリミング",
+    "applyAllPages": "すべてのページに適用",
+    "applyCurrentPage": "このページのみに適用",
+    "pageIndicator": "{total}ページ中{current}ページ目",
+    "instructionHint": "ボックスや角をドラッグして切り取る範囲を選択してください。"
+  },
+  "SignatureMakerPage": {
+    "title": "署名画像メーカー",
+    "description": "署名の写真をアップロードすると、背景を除去して透明なPNG画像を作成します。",
+    "selectFile": "署名の写真を選択してください。",
+    "error": "画像の処理中にエラーが発生しました。",
+    "processing": "処理中...",
+    "submit": "署名を作成",
+    "sensitivityLabel": "背景除去の感度",
+    "sensitivityHint": "値を高くすると背景をより多く除去しますが、薄い筆跡も消える場合があります。",
+    "resultAlt": "背景を除去した署名"
+  },
   "LanguageSwitcher": {
     "label": "言語"
   },
   "FAQ": {
     "heading": "よくある質問",
     "items": [
-      { "q": "PDFツールは無料で使えますか？", "a": "はい、18個すべてのツールが完全無料で、登録も不要です。" },
+      { "q": "PDFツールは無料で使えますか？", "a": "はい、20個すべてのツールが完全無料で、登録も不要です。" },
       { "q": "アカウント登録は必要ですか？", "a": "いいえ、登録なしですぐにすべての機能を利用できます。" },
       { "q": "アップロードしたファイルはどうなりますか？", "a": "サーバーで処理後、自動的にすぐ削除され、保存されることはありません。" },
       { "q": "どの言語に対応していますか？", "a": "韓国語、英語、日本語、中国語（簡体字・繁体字）、スペイン語、フランス語、ドイツ語、ポルトガル語、ロシア語、イタリア語、オランダ語、ポーランド語、スウェーデン語、トルコ語、ウクライナ語、ベトナム語、タイ語、インドネシア語、マレー語、ヒンディー語、ブルガリア語、カタルーニャ語、ギリシャ語、スワヒリ語、アラビア語に対応しています。" },

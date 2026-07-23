@@ -57,7 +57,9 @@
     "html_to_pdf": { "name": "HTML till PDF", "description": "Konvertera en HTML-fil till PDF" },
     "rotate_pdf": { "name": "Rotera PDF", "description": "Rotera alla sidor i en PDF" },
     "page_numbers_pdf": { "name": "Lägg till sidnummer", "description": "Lägg till sidnummer på alla sidor i en PDF" },
-    "organize_pdf": { "name": "Organisera PDF", "description": "Ändra ordning på eller ta bort sidor i en PDF" }
+    "organize_pdf": { "name": "Organisera PDF", "description": "Ändra ordning på eller ta bort sidor i en PDF" },
+    "crop_pdf": { "name": "Beskär PDF", "description": "Beskär marginaler eller markera ett område att beskära från PDF-sidor" },
+    "signature_maker": { "name": "Signaturskapare", "description": "Gör om ett foto av din handskrivna signatur till en PNG med transparent bakgrund" }
   },
   "MergePage": {
     "title": "Slå ihop PDF",
@@ -221,13 +223,37 @@
     "removePage": "Ta bort sida",
     "pageLabel": "Sida {number}"
   },
+  "CropPage": {
+    "title": "Beskär PDF",
+    "description": "Dra för att markera området du vill behålla och tillämpa det på en sida eller hela dokumentet.",
+    "selectFile": "Välj en PDF-fil att beskära.",
+    "loadingPreview": "Laddar sidor...",
+    "error": "Ett fel uppstod vid beskärning.",
+    "cropping": "Beskär...",
+    "submit": "Beskär PDF",
+    "applyAllPages": "Tillämpa på alla sidor",
+    "applyCurrentPage": "Tillämpa endast på denna sida",
+    "pageIndicator": "Sida {current} av {total}",
+    "instructionHint": "Dra rutan eller dess hörn för att markera beskärningsområdet."
+  },
+  "SignatureMakerPage": {
+    "title": "Signaturskapare",
+    "description": "Ladda upp ett foto av din signatur så tar vi bort bakgrunden och skapar en transparent PNG.",
+    "selectFile": "Välj ett foto av din signatur.",
+    "error": "Ett fel uppstod vid bearbetning av bilden.",
+    "processing": "Bearbetar...",
+    "submit": "Skapa signatur",
+    "sensitivityLabel": "Känslighet för bakgrundsborttagning",
+    "sensitivityHint": "Högre värden tar bort mer av bakgrunden, men kan även radera svaga penndrag.",
+    "resultAlt": "Signatur med borttagen bakgrund"
+  },
   "LanguageSwitcher": {
     "label": "Språk"
   },
   "FAQ": {
     "heading": "Vanliga frågor",
     "items": [
-      { "q": "Är PDF-verktygen gratis att använda?", "a": "Ja, alla 18 verktyg är helt gratis och kräver ingen registrering." },
+      { "q": "Är PDF-verktygen gratis att använda?", "a": "Ja, alla 20 verktyg är helt gratis och kräver ingen registrering." },
       { "q": "Behöver jag skapa ett konto?", "a": "Nej, du kan använda alla verktyg direkt utan att registrera dig." },
       { "q": "Vad händer med mina uppladdade filer?", "a": "Filerna bearbetas på servern och raderas automatiskt direkt efteråt — inget sparas." },
       { "q": "Vilka språk stöds?", "a": "Koreanska, engelska, japanska, kinesiska (förenklad och traditionell), spanska, franska, tyska, portugisiska, ryska, italienska, nederländska, polska, svenska, turkiska, ukrainska, vietnamesiska, thailändska, indonesiska, malajiska, hindi, bulgariska, katalanska, grekiska, swahili och arabiska." },

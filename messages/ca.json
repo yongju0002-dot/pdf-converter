@@ -57,7 +57,9 @@
     "html_to_pdf": { "name": "HTML a PDF", "description": "Converteix un fitxer HTML en PDF" },
     "rotate_pdf": { "name": "Gira PDF", "description": "Gira totes les pàgines d'un PDF" },
     "page_numbers_pdf": { "name": "Afegeix números de pàgina", "description": "Afegeix números de pàgina a totes les pàgines d'un PDF" },
-    "organize_pdf": { "name": "Organitza PDF", "description": "Reordena o elimina pàgines d'un PDF" }
+    "organize_pdf": { "name": "Organitza PDF", "description": "Reordena o elimina pàgines d'un PDF" },
+    "crop_pdf": { "name": "Retalla PDF", "description": "Retalla els marges o selecciona una àrea per retallar de les pàgines del PDF" },
+    "signature_maker": { "name": "Creador de signatures", "description": "Converteix una foto de la teva signatura manuscrita en un PNG amb fons transparent" }
   },
   "MergePage": {
     "title": "Fusiona PDF",
@@ -221,13 +223,37 @@
     "removePage": "Elimina pàgina",
     "pageLabel": "Pàgina {number}"
   },
+  "CropPage": {
+    "title": "Retalla PDF",
+    "description": "Arrossega per seleccionar l'àrea que vols conservar i aplica-la a una pàgina o a tot el document.",
+    "selectFile": "Seleccioneu un fitxer PDF per retallar.",
+    "loadingPreview": "Carregant pàgines...",
+    "error": "S'ha produït un error en retallar.",
+    "cropping": "Retallant...",
+    "submit": "Retalla PDF",
+    "applyAllPages": "Aplica a totes les pàgines",
+    "applyCurrentPage": "Aplica només a aquesta pàgina",
+    "pageIndicator": "Pàgina {current} de {total}",
+    "instructionHint": "Arrossega el quadre o les seves cantonades per seleccionar l'àrea de retallada."
+  },
+  "SignatureMakerPage": {
+    "title": "Creador de signatures",
+    "description": "Pugeu una foto de la vostra signatura i eliminarem el fons per crear un PNG transparent.",
+    "selectFile": "Seleccioneu una foto de la vostra signatura.",
+    "error": "S'ha produït un error en processar la imatge.",
+    "processing": "Processant...",
+    "submit": "Crea la signatura",
+    "sensitivityLabel": "Sensibilitat d'eliminació del fons",
+    "sensitivityHint": "Valors més alts eliminen més fons, però també poden esborrar traços tènues.",
+    "resultAlt": "Signatura amb el fons eliminat"
+  },
   "LanguageSwitcher": {
     "label": "Idioma"
   },
   "FAQ": {
     "heading": "Preguntes freqüents",
     "items": [
-      { "q": "Són gratuïtes les eines PDF?", "a": "Sí, les 18 eines són totalment gratuïtes i no requereixen registre." },
+      { "q": "Són gratuïtes les eines PDF?", "a": "Sí, les 20 eines són totalment gratuïtes i no requereixen registre." },
       { "q": "Cal que creï un compte?", "a": "No, podeu utilitzar totes les eines directament sense registrar-vos." },
       { "q": "Què passa amb els fitxers que pujo?", "a": "Els fitxers es processen al servidor i s'eliminen automàticament immediatament després — no es desa res." },
       { "q": "Quins idiomes s'admeten?", "a": "Coreà, anglès, japonès, xinès (simplificat i tradicional), espanyol, francès, alemany, portuguès, rus, italià, neerlandès, polonès, suec, turc, ucraïnès, vietnamita, tailandès, indonesi, malai, hindi, búlgar, català, grec, suahili i àrab." },

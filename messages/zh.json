@@ -57,7 +57,9 @@
     "html_to_pdf": { "name": "HTML转PDF", "description": "将HTML文件转换为PDF" },
     "rotate_pdf": { "name": "旋转PDF", "description": "旋转PDF的所有页面" },
     "page_numbers_pdf": { "name": "添加页码", "description": "为PDF的所有页面添加页码" },
-    "organize_pdf": { "name": "整理PDF", "description": "调整或删除PDF中的页面" }
+    "organize_pdf": { "name": "整理PDF", "description": "调整或删除PDF中的页面" },
+    "crop_pdf": { "name": "裁剪PDF", "description": "裁剪PDF页面的页边距，或选择指定区域进行裁剪" },
+    "signature_maker": { "name": "签名图片生成器", "description": "将手写签名照片转换为背景透明的PNG图片" }
   },
   "MergePage": {
     "title": "合并PDF",
@@ -221,13 +223,37 @@
     "removePage": "删除页面",
     "pageLabel": "第{number}页"
   },
+  "CropPage": {
+    "title": "裁剪PDF",
+    "description": "拖动选择要保留的区域，然后应用到单页或整个文档。",
+    "selectFile": "请选择要裁剪的PDF文件。",
+    "loadingPreview": "正在加载页面...",
+    "error": "裁剪时发生错误。",
+    "cropping": "裁剪中...",
+    "submit": "裁剪PDF",
+    "applyAllPages": "应用于所有页面",
+    "applyCurrentPage": "仅应用于当前页面",
+    "pageIndicator": "第{current}页，共{total}页",
+    "instructionHint": "拖动方框或角点来选择裁剪区域。"
+  },
+  "SignatureMakerPage": {
+    "title": "签名图片生成器",
+    "description": "上传签名照片，我们会去除背景并生成透明PNG图片。",
+    "selectFile": "请选择签名照片。",
+    "error": "处理图片时发生错误。",
+    "processing": "处理中...",
+    "submit": "生成签名",
+    "sensitivityLabel": "背景去除灵敏度",
+    "sensitivityHint": "数值越高，去除的背景越多，但也可能连带擦除较浅的笔迹。",
+    "resultAlt": "已去除背景的签名"
+  },
   "LanguageSwitcher": {
     "label": "语言"
   },
   "FAQ": {
     "heading": "常见问题",
     "items": [
-      { "q": "PDF工具是免费使用的吗？", "a": "是的，全部18款工具完全免费，无需注册。" },
+      { "q": "PDF工具是免费使用的吗？", "a": "是的，全部20款工具完全免费，无需注册。" },
       { "q": "需要注册账号吗？", "a": "不需要，无需注册即可立即使用所有功能。" },
       { "q": "上传的文件会怎么处理？", "a": "文件在服务器处理后会立即自动删除，不会被保存。" },
       { "q": "支持哪些语言？", "a": "支持韩语、英语、日语、中文（简体和繁体）、西班牙语、法语、德语、葡萄牙语、俄语、意大利语、荷兰语、波兰语、瑞典语、土耳其语、乌克兰语、越南语、泰语、印尼语、马来语、印地语、保加利亚语、加泰罗尼亚语、希腊语、斯瓦希里语和阿拉伯语。" },

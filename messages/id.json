@@ -57,7 +57,9 @@
     "html_to_pdf": { "name": "HTML ke PDF", "description": "Konversi file HTML menjadi PDF" },
     "rotate_pdf": { "name": "Putar PDF", "description": "Putar semua halaman dalam PDF" },
     "page_numbers_pdf": { "name": "Tambah Nomor Halaman", "description": "Tambahkan nomor halaman ke semua halaman PDF" },
-    "organize_pdf": { "name": "Atur PDF", "description": "Susun ulang atau hapus halaman dalam PDF" }
+    "organize_pdf": { "name": "Atur PDF", "description": "Susun ulang atau hapus halaman dalam PDF" },
+    "crop_pdf": { "name": "Potong PDF", "description": "Potong margin atau pilih area untuk dipotong dari halaman PDF" },
+    "signature_maker": { "name": "Pembuat Tanda Tangan", "description": "Ubah foto tanda tangan tulisan tangan Anda menjadi PNG berlatar belakang transparan" }
   },
   "MergePage": {
     "title": "Gabung PDF",
@@ -221,13 +223,37 @@
     "removePage": "Hapus Halaman",
     "pageLabel": "Halaman {number}"
   },
+  "CropPage": {
+    "title": "Potong PDF",
+    "description": "Seret untuk memilih area yang ingin dipertahankan, lalu terapkan ke satu halaman atau seluruh dokumen.",
+    "selectFile": "Pilih file PDF untuk dipotong.",
+    "loadingPreview": "Memuat halaman...",
+    "error": "Terjadi kesalahan saat memotong.",
+    "cropping": "Memotong...",
+    "submit": "Potong PDF",
+    "applyAllPages": "Terapkan ke semua halaman",
+    "applyCurrentPage": "Terapkan hanya ke halaman ini",
+    "pageIndicator": "Halaman {current} dari {total}",
+    "instructionHint": "Seret kotak atau sudutnya untuk memilih area pemotongan."
+  },
+  "SignatureMakerPage": {
+    "title": "Pembuat Tanda Tangan",
+    "description": "Unggah foto tanda tangan Anda dan kami akan menghapus latar belakangnya untuk membuat PNG transparan.",
+    "selectFile": "Pilih foto tanda tangan Anda.",
+    "error": "Terjadi kesalahan saat memproses gambar.",
+    "processing": "Memproses...",
+    "submit": "Buat Tanda Tangan",
+    "sensitivityLabel": "Sensitivitas penghapusan latar belakang",
+    "sensitivityHint": "Nilai yang lebih tinggi menghapus lebih banyak latar belakang, tetapi juga dapat menghapus goresan yang samar.",
+    "resultAlt": "Tanda tangan dengan latar belakang terhapus"
+  },
   "LanguageSwitcher": {
     "label": "Bahasa"
   },
   "FAQ": {
     "heading": "Pertanyaan yang Sering Diajukan",
     "items": [
-      { "q": "Apakah alat PDF ini gratis digunakan?", "a": "Ya, semua 18 alat sepenuhnya gratis dan tidak memerlukan pendaftaran." },
+      { "q": "Apakah alat PDF ini gratis digunakan?", "a": "Ya, semua 20 alat sepenuhnya gratis dan tidak memerlukan pendaftaran." },
       { "q": "Apakah saya perlu membuat akun?", "a": "Tidak, Anda dapat langsung menggunakan semua alat tanpa mendaftar." },
       { "q": "Apa yang terjadi pada file yang saya unggah?", "a": "File diproses di server dan otomatis dihapus segera setelahnya — tidak ada yang disimpan." },
       { "q": "Bahasa apa saja yang didukung?", "a": "Korea, Inggris, Jepang, Tionghoa (sederhana dan tradisional), Spanyol, Prancis, Jerman, Portugis, Rusia, Italia, Belanda, Polandia, Swedia, Turki, Ukraina, Vietnam, Thai, Indonesia, Melayu, Hindi, Bulgaria, Katalan, Yunani, Swahili, dan Arab." },

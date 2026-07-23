@@ -57,7 +57,9 @@
     "html_to_pdf": { "name": "HTML in PDF", "description": "HTML-Datei in PDF umwandeln" },
     "rotate_pdf": { "name": "PDF drehen", "description": "Alle Seiten eines PDFs drehen" },
     "page_numbers_pdf": { "name": "Seitenzahlen hinzufügen", "description": "Seitenzahlen zu allen Seiten eines PDFs hinzufügen" },
-    "organize_pdf": { "name": "PDF organisieren", "description": "Seiten eines PDFs neu anordnen oder entfernen" }
+    "organize_pdf": { "name": "PDF organisieren", "description": "Seiten eines PDFs neu anordnen oder entfernen" },
+    "crop_pdf": { "name": "PDF zuschneiden", "description": "Ränder zuschneiden oder einen Bereich der PDF-Seiten zum Zuschneiden auswählen" },
+    "signature_maker": { "name": "Unterschriften-Generator", "description": "Verwandelt ein Foto Ihrer handschriftlichen Unterschrift in ein PNG mit transparentem Hintergrund" }
   },
   "MergePage": {
     "title": "PDF zusammenführen",
@@ -221,13 +223,37 @@
     "removePage": "Seite entfernen",
     "pageLabel": "Seite {number}"
   },
+  "CropPage": {
+    "title": "PDF zuschneiden",
+    "description": "Ziehen Sie, um den gewünschten Bereich auszuwählen, und wenden Sie ihn auf eine Seite oder das gesamte Dokument an.",
+    "selectFile": "Wählen Sie eine PDF-Datei zum Zuschneiden aus.",
+    "loadingPreview": "Seiten werden geladen...",
+    "error": "Beim Zuschneiden ist ein Fehler aufgetreten.",
+    "cropping": "Wird zugeschnitten...",
+    "submit": "PDF zuschneiden",
+    "applyAllPages": "Auf alle Seiten anwenden",
+    "applyCurrentPage": "Nur auf diese Seite anwenden",
+    "pageIndicator": "Seite {current} von {total}",
+    "instructionHint": "Ziehen Sie den Rahmen oder seine Ecken, um den Zuschnittbereich auszuwählen."
+  },
+  "SignatureMakerPage": {
+    "title": "Unterschriften-Generator",
+    "description": "Laden Sie ein Foto Ihrer Unterschrift hoch, und wir entfernen den Hintergrund, um ein transparentes PNG zu erstellen.",
+    "selectFile": "Wählen Sie ein Foto Ihrer Unterschrift aus.",
+    "error": "Bei der Bildverarbeitung ist ein Fehler aufgetreten.",
+    "processing": "Wird verarbeitet...",
+    "submit": "Unterschrift erstellen",
+    "sensitivityLabel": "Empfindlichkeit der Hintergrundentfernung",
+    "sensitivityHint": "Höhere Werte entfernen mehr vom Hintergrund, können aber auch schwache Linien löschen.",
+    "resultAlt": "Unterschrift mit entferntem Hintergrund"
+  },
   "LanguageSwitcher": {
     "label": "Sprache"
   },
   "FAQ": {
     "heading": "Häufig gestellte Fragen",
     "items": [
-      { "q": "Ist die Nutzung von PDF Tools kostenlos?", "a": "Ja, alle 18 Tools sind völlig kostenlos und erfordern keine Anmeldung." },
+      { "q": "Ist die Nutzung von PDF Tools kostenlos?", "a": "Ja, alle 20 Tools sind völlig kostenlos und erfordern keine Anmeldung." },
       { "q": "Muss ich ein Konto erstellen?", "a": "Nein, Sie können alle Tools sofort ohne Anmeldung nutzen." },
       { "q": "Was passiert mit meinen hochgeladenen Dateien?", "a": "Die Dateien werden auf dem Server verarbeitet und unmittelbar danach automatisch gelöscht — es wird nichts gespeichert." },
       { "q": "Welche Sprachen werden unterstützt?", "a": "Koreanisch, Englisch, Japanisch, Chinesisch (vereinfacht und traditionell), Spanisch, Französisch, Deutsch, Portugiesisch, Russisch, Italienisch, Niederländisch, Polnisch, Schwedisch, Türkisch, Ukrainisch, Vietnamesisch, Thailändisch, Indonesisch, Malaiisch, Hindi, Bulgarisch, Katalanisch, Griechisch, Suaheli und Arabisch." },
