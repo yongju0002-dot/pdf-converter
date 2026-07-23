@@ -129,19 +129,21 @@ export default async function RootLayout({
           <header className="sticky top-0 z-10 border-b border-zinc-200/70 bg-white/80 backdrop-blur-md dark:border-zinc-800/70 dark:bg-zinc-950/80">
             <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-6 py-3">
               <div className="flex items-center gap-1">
-                <Link href="/" className="mr-2 flex items-center">
+                <Link href="/" className="mr-2 flex shrink-0 items-center">
                   <Image
                     src="/logo.png"
                     alt={t("brand")}
-                    width={152}
-                    height={64}
+                    width={565}
+                    height={271}
                     priority
-                    className="h-8 w-auto"
+                    className="h-12 w-auto"
                   />
                 </Link>
 
-                <NavMenu />
-                <PdfConvertMenu />
+                <div className="hidden items-center gap-1 md:flex">
+                  <NavMenu />
+                  <PdfConvertMenu />
+                </div>
 
                 <nav className="hidden items-center gap-1 md:flex">
                   {quickLinks.map((link) => (
