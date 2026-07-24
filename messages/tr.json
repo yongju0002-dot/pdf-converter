@@ -250,6 +250,11 @@
   "LanguageSwitcher": {
     "label": "Dil"
   },
+  "SiteMenu": {
+    "otherSitesHeading": "Diğer araçlar",
+    "sisterSiteLabel": "Görsel düzenleme araçları (mylifeimg.com)",
+    "languageHeading": "Dil"
+  },
   "FAQ": {
     "heading": "Sıkça Sorulan Sorular",
     "items": [

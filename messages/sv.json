@@ -250,6 +250,11 @@
   "LanguageSwitcher": {
     "label": "Språk"
   },
+  "SiteMenu": {
+    "otherSitesHeading": "Andra verktyg",
+    "sisterSiteLabel": "Bildredigeringsverktyg (mylifeimg.com)",
+    "languageHeading": "Språk"
+  },
   "FAQ": {
     "heading": "Vanliga frågor",
     "items": [

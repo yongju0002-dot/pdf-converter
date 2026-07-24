@@ -250,6 +250,11 @@
   "LanguageSwitcher": {
     "label": "Γλώσσα"
   },
+  "SiteMenu": {
+    "otherSitesHeading": "Άλλα εργαλεία",
+    "sisterSiteLabel": "Εργαλεία επεξεργασίας εικόνων (mylifeimg.com)",
+    "languageHeading": "Γλώσσα"
+  },
   "FAQ": {
     "heading": "Συχνές ερωτήσεις",
     "items": [

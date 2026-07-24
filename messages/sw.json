@@ -250,6 +250,11 @@
   "LanguageSwitcher": {
     "label": "Lugha"
   },
+  "SiteMenu": {
+    "otherSitesHeading": "Zana zingine",
+    "sisterSiteLabel": "Zana za kuhariri picha (mylifeimg.com)",
+    "languageHeading": "Lugha"
+  },
   "FAQ": {
     "heading": "Maswali Yanayoulizwa Mara kwa Mara",
     "items": [

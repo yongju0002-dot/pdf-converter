@@ -250,6 +250,11 @@
   "LanguageSwitcher": {
     "label": "भाषा"
   },
+  "SiteMenu": {
+    "otherSitesHeading": "अन्य टूल्स",
+    "sisterSiteLabel": "इमेज एडिटिंग टूल्स (mylifeimg.com)",
+    "languageHeading": "भाषा"
+  },
   "FAQ": {
     "heading": "अक्सर पूछे जाने वाले प्रश्न",
     "items": [

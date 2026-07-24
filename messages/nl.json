@@ -250,6 +250,11 @@
   "LanguageSwitcher": {
     "label": "Taal"
   },
+  "SiteMenu": {
+    "otherSitesHeading": "Andere tools",
+    "sisterSiteLabel": "Afbeeldingsbewerkingstools (mylifeimg.com)",
+    "languageHeading": "Taal"
+  },
   "FAQ": {
     "heading": "Veelgestelde vragen",
     "items": [

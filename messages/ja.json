@@ -250,6 +250,11 @@
   "LanguageSwitcher": {
     "label": "言語"
   },
+  "SiteMenu": {
+    "otherSitesHeading": "その他のツール",
+    "sisterSiteLabel": "画像編集ツール (mylifeimg.com)",
+    "languageHeading": "言語"
+  },
   "FAQ": {
     "heading": "よくある質問",
     "items": [

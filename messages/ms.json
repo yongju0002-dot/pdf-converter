@@ -250,6 +250,11 @@
   "LanguageSwitcher": {
     "label": "Bahasa"
   },
+  "SiteMenu": {
+    "otherSitesHeading": "Alat lain",
+    "sisterSiteLabel": "Alat penyuntingan imej (mylifeimg.com)",
+    "languageHeading": "Bahasa"
+  },
   "FAQ": {
     "heading": "Soalan Lazim",
     "items": [

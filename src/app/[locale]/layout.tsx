@@ -10,7 +10,7 @@ import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import { NavMenu } from "@/components/NavMenu";
 import { PdfConvertMenu } from "@/components/PdfConvertMenu";
-import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { SiteMenu } from "@/components/SiteMenu";
 import { siteUrl } from "@/lib/seo";
 import "../globals.css";
 
@@ -162,7 +162,7 @@ export default async function RootLayout({
                 <span className="hidden items-center gap-1.5 rounded-full bg-indigo-50 px-3 py-1 text-xs font-medium text-indigo-600 sm:inline-flex dark:bg-indigo-500/10 dark:text-indigo-400">
                   {t("freeBadge")}
                 </span>
-                <LanguageSwitcher />
+                <SiteMenu />
               </div>
             </div>
           </header>

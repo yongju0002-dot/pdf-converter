@@ -250,6 +250,11 @@
   "LanguageSwitcher": {
     "label": "언어"
   },
+  "SiteMenu": {
+    "otherSitesHeading": "다른 도구",
+    "sisterSiteLabel": "이미지 편집 도구 (mylifeimg.com)",
+    "languageHeading": "언어"
+  },
   "FAQ": {
     "heading": "자주 묻는 질문",
     "items": [

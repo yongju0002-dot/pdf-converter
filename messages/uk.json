@@ -250,6 +250,11 @@
   "LanguageSwitcher": {
     "label": "Мова"
   },
+  "SiteMenu": {
+    "otherSitesHeading": "Інші інструменти",
+    "sisterSiteLabel": "Інструменти для редагування зображень (mylifeimg.com)",
+    "languageHeading": "Мова"
+  },
   "FAQ": {
     "heading": "Часті запитання",
     "items": [

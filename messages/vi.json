@@ -250,6 +250,11 @@
   "LanguageSwitcher": {
     "label": "Ngôn ngữ"
   },
+  "SiteMenu": {
+    "otherSitesHeading": "Công cụ khác",
+    "sisterSiteLabel": "Công cụ chỉnh sửa ảnh (mylifeimg.com)",
+    "languageHeading": "Ngôn ngữ"
+  },
   "FAQ": {
     "heading": "Câu hỏi thường gặp",
     "items": [

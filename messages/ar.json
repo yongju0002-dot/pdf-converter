@@ -250,6 +250,11 @@
   "LanguageSwitcher": {
     "label": "اللغة"
   },
+  "SiteMenu": {
+    "otherSitesHeading": "أدوات أخرى",
+    "sisterSiteLabel": "أدوات تحرير الصور (mylifeimg.com)",
+    "languageHeading": "اللغة"
+  },
   "FAQ": {
     "heading": "الأسئلة الشائعة",
     "items": [
