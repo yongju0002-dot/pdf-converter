@@ -4,13 +4,20 @@ import { useEffect, useRef, useState, type ReactNode } from "react";
 import { ChevronDown } from "lucide-react";
 
 type Props = {
-  label: string;
+  label?: string;
+  ariaLabel?: string;
   icon: ReactNode;
   panelClassName?: string;
   children: (close: () => void) => ReactNode;
 };
 
-export function HoverDropdown({ label, icon, panelClassName = "", children }: Props) {
+export function HoverDropdown({
+  label,
+  ariaLabel,
+  icon,
+  panelClassName = "",
+  children,
+}: Props) {
   const [open, setOpen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -70,13 +77,22 @@ export function HoverDropdown({ label, icon, panelClassName = "", children }: Pr
         type="button"
         onClick={openNow}
         aria-expanded={open}
-        className="flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-zinc-600 transition-colors hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50"
+        aria-label={ariaLabel}
+        className={
+          label
+            ? "flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-zinc-600 transition-colors hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50"
+            : "flex items-center justify-center rounded-lg p-2 text-zinc-600 transition-colors hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50"
+        }
       >
         {icon}
-        {label}
-        <ChevronDown
-          className={`h-3.5 w-3.5 transition-transform duration-150 ${open ? "rotate-180" : ""}`}
-        />
+        {label && (
+          <>
+            {label}
+            <ChevronDown
+              className={`h-3.5 w-3.5 transition-transform duration-150 ${open ? "rotate-180" : ""}`}
+            />
+          </>
+        )}
       </button>
 
       {open && (

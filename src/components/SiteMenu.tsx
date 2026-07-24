@@ -1,6 +1,6 @@
 "use client";
 
-import { ExternalLink, Globe } from "lucide-react";
+import { Ellipsis, ExternalLink } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
@@ -45,8 +45,8 @@ export function SiteMenu() {
 
   return (
     <HoverDropdown
-      label={localeLabels[locale as (typeof routing.locales)[number]]}
-      icon={<Globe className="h-4 w-4" strokeWidth={1.75} />}
+      ariaLabel={t("languageHeading")}
+      icon={<Ellipsis className="h-5 w-5" strokeWidth={1.75} />}
       panelClassName="sm:w-80"
     >
       {(close) => (
